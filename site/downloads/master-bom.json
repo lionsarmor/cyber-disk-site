@@ -1,7 +1,7 @@
 {
-  "revision": "sourcing-r1",
+  "revision": "external-r0",
   "checked": "2026-11-07",
-  "scope": "Current R4 disks, R0 controller, R1 contact board and R4 drive mechanism. Prototype inventory, not a production-ready shopping cart.",
+  "scope": "Current R4 disks, R0 controller, R1 contact board and R4 drive mechanism. Prototype inventory, not a production-ready shopping cart. External dock R0 adds provisional candidates; inlet, harnesses and mains integration are unfinished.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
   "rows": [
     {
@@ -1116,6 +1116,566 @@
       "notes": "Tools and consumables are not counted as fitted parts. A stencil is optional for paste assembly; PCBWay can quote stencils.",
       "alternative": "",
       "evidence": "Assembly requirement; not a sourced SKU"
+    },
+    {
+      "id": "DX01",
+      "supplier": "Mouser",
+      "part": "Pico 2 / panel USB-C cable",
+      "mpn": "SC1632",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 A1",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=SC1632",
+      "alternative": "",
+      "notes": "Provisional candidate; Module:RaspberryPi_Pico_Common_THT. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX02",
+      "supplier": "Mouser",
+      "part": "SN74LVC245AN",
+      "mpn": "SN74LVC245AN",
+      "quantity": {
+        "dock": 3
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 U1, U4, U5",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=SN74LVC245AN",
+      "alternative": "",
+      "notes": "Provisional candidate; Package_DIP:DIP-20_W7.62mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX03",
+      "supplier": "Mouser",
+      "part": "SN74LS06N / IEC sink only",
+      "mpn": "SN74LS06N",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 U2",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=SN74LS06N",
+      "alternative": "",
+      "notes": "Provisional candidate; Package_DIP:DIP-14_W7.62mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX04",
+      "supplier": "Mouser",
+      "part": "MAX232N / 5V RS232",
+      "mpn": "MAX232N",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 U3",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MAX232N",
+      "alternative": "",
+      "notes": "Provisional candidate; Package_DIP:DIP-16_W7.62mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX05",
+      "supplier": "Mouser",
+      "part": "SN74AHCT125N / 5V LED data",
+      "mpn": "SN74AHCT125N",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 U6",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=SN74AHCT125N",
+      "alternative": "",
+      "notes": "Provisional candidate; Package_DIP:DIP-14_W7.62mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX06",
+      "supplier": "Mouser",
+      "part": "6-pin DIN IEC harness",
+      "mpn": "TSW-106-07-G-S",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J1",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=TSW-106-07-G-S",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX07",
+      "supplier": "Mouser",
+      "part": "DE9 DCE harness",
+      "mpn": "TSW-105-07-G-S",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J2",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=TSW-105-07-G-S",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX08",
+      "supplier": "Mouser",
+      "part": "ACCESSORY SPI / 3V3 SIGNALS / NO POWER",
+      "mpn": "3020-20-0100-00",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J3",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=3020-20-0100-00",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX09",
+      "supplier": "Mouser",
+      "part": "CORE J4 / SIGNALS ONLY",
+      "mpn": "3020-10-0100-00",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J4",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=3020-10-0100-00",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX10",
+      "supplier": "Mouser",
+      "part": "5V PSU OUTPUT ONLY",
+      "mpn": "",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J5",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX11",
+      "supplier": "Mouser",
+      "part": "CORE BERG 5V / 12V NC",
+      "mpn": "",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J6",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX12",
+      "supplier": "Mouser",
+      "part": "LED STRIP 5V",
+      "mpn": "",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J7",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX13",
+      "supplier": "Mouser",
+      "part": "AUDIO LOGIC / FUTURE AMP",
+      "mpn": "",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 J8",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Provisional candidate; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX14",
+      "supplier": "Mouser",
+      "part": "MF-R050",
+      "mpn": "MF-R050",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 F1",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MF-R050",
+      "alternative": "",
+      "notes": "Provisional candidate; Dock:PTC_P5.1. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX15",
+      "supplier": "Mouser",
+      "part": "MF-R110",
+      "mpn": "MF-R110",
+      "quantity": {
+        "dock": 2
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 F2, F3",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MF-R110",
+      "alternative": "",
+      "notes": "Provisional candidate; Dock:PTC_P5.1. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX16",
+      "supplier": "Mouser",
+      "part": "1N5819 / VSYS feed only",
+      "mpn": "1N5819-E3/54",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 D1",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=1N5819-E3/54",
+      "alternative": "",
+      "notes": "Provisional candidate; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX17",
+      "supplier": "Mouser",
+      "part": "1uF 50V nonpolar",
+      "mpn": "C330C105K5R5TA",
+      "quantity": {
+        "dock": 4
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 C1, C2, C3, C4",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/ProductDetail/KEMET/C330C105K5R5TA?qs=PVt%252BP5hdn9n73Iko4yS9Qw%3D%3D",
+      "alternative": "",
+      "notes": "C1\u2013C4: 1uF 50V X7R nonpolar, 5.08mm lead pitch. Local footprint/maximum body envelope follow KEMET specsheet. Circuit behavior and effective capacitance still need validation.",
+      "evidence": "https://search.kemet.com/component-documentation/download/specsheet/C330C105K5R5TA"
+    },
+    {
+      "id": "DX18",
+      "supplier": "Mouser",
+      "part": "100nF 50V",
+      "mpn": "C315C104M5U5TA",
+      "quantity": {
+        "dock": 7
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 C5, C6, C7, C8, C9, C10, C11",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=C315C104M5U5TA",
+      "alternative": "",
+      "notes": "Provisional candidate; Dock:C315_P2.54. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX19",
+      "supplier": "Mouser",
+      "part": "100uF 16V",
+      "mpn": "EEU-FR1C101",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 C12",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=EEU-FR1C101",
+      "alternative": "",
+      "notes": "Provisional candidate; Capacitor_THT:CP_Radial_D6.3mm_P2.50mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX20",
+      "supplier": "Mouser",
+      "part": "1000uF 10V LED bulk",
+      "mpn": "EEU-FR1A102",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 C13",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=EEU-FR1A102",
+      "alternative": "",
+      "notes": "Provisional candidate; Capacitor_THT:CP_Radial_D10.0mm_P5.00mm. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX21",
+      "supplier": "Mouser",
+      "part": "5 x 4k7 IEC pullups",
+      "mpn": "4606X-101-472LF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 RN1",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=4606X-101-472LF",
+      "alternative": "",
+      "notes": "Provisional candidate; Resistor_THT:R_Array_SIP6. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX22",
+      "supplier": "Mouser",
+      "part": "3 x 1k LS06 boot pulldown",
+      "mpn": "4604X-101-102LF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 RN2",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=4604X-101-102LF",
+      "alternative": "",
+      "notes": "Provisional candidate; Resistor_THT:R_Array_SIP4. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX23",
+      "supplier": "Mouser",
+      "part": "10k",
+      "mpn": "MFR-25FBF52-10k",
+      "quantity": {
+        "dock": 3
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 R1, R2, R3",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MFR-25FBF52-10k",
+      "alternative": "",
+      "notes": "Provisional candidate; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX24",
+      "supplier": "Mouser",
+      "part": "330",
+      "mpn": "MFR-25FBF52-330",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 R4",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MFR-25FBF52-330",
+      "alternative": "",
+      "notes": "Provisional candidate; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX25",
+      "supplier": "Mouser",
+      "part": "100k",
+      "mpn": "MFR-25FBF52-100k",
+      "quantity": {
+        "dock": 2
+      },
+      "unit": "each",
+      "assembly": "External daughterboard \u00b7 R5, R6",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/c/?q=MFR-25FBF52-100k",
+      "alternative": "",
+      "notes": "Provisional candidate; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Exact land pattern, ratings and current availability must be rechecked. Carrier is through-hole; Pico module contains factory-soldered SMD parts.",
+      "evidence": "Candidate design allocation; not a verified shopping cart."
+    },
+    {
+      "id": "DX80",
+      "supplier": "Mouser",
+      "part": "Internal isolated 5V 5A supply",
+      "mpn": "RS-25-5",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/en/ProductDetail/MEAN-WELL/RS-25-5?qs=pqZ7J9Gt%2FmqXHOzlkOY2rg%3D%3D",
+      "alternative": "",
+      "notes": "78 \u00d7 51 \u00d7 28 mm manufacturer envelope. Terminal guard, mounting, PE bonding and thermal checks pending.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX81",
+      "supplier": "Mouser",
+      "part": "USB-C panel cable to Pico micro-B",
+      "mpn": "Adafruit 4056",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Fit pending",
+      "url": "https://eu.mouser.com/en/ProductDetail/Adafruit/4056?qs=unwgFEO1A6tul0dTJZgnuw%3D%3D",
+      "alternative": "",
+      "notes": "Replaceable panel extension; final flange cutout and strain relief must follow supplier drawing.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX82",
+      "supplier": "Mouser",
+      "part": "Switched/fused C14 power entry",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Space reserved only. Final inlet, mains fuse and wire/terminal selection pending power integration review.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX83",
+      "supplier": "Mouser",
+      "part": "6-pin DIN IEC panel socket",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Select standard Commodore IEC arrangement, solder terminals and positive panel retention.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX84",
+      "supplier": "Mouser",
+      "part": "DE9 female panel socket",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "DCE pinout: 2 TX out, 3 RX in, 5 GND, 7 RTS in, 8 CTS out.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX85",
+      "supplier": "Mouser",
+      "part": "Keyed 20-pin accessory panel socket",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Custom 3.3 V SPI pinout, no exported supply; active Next adapter is a separate design.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX86",
+      "supplier": "Mouser",
+      "part": "5V addressable LED strip",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Current limit and strip pitch to be selected. 218 mm reserved behind opal diffuser.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX87",
+      "supplier": "Hardware supplier / fabrication",
+      "part": "Metal power compartment and guard",
+      "mpn": "CUSTOM",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "set",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "Folded metal allocation; not a 3D-printed electrical safety barrier. Qualified mains integration required.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX88",
+      "supplier": "Common hardware store",
+      "part": "M3 screws, inserts and feet",
+      "mpn": "FINAL LENGTHS PENDING",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "set",
+      "assembly": "External enclosure",
+      "status": "Unselected",
+      "url": "",
+      "alternative": "",
+      "notes": "CAD fastener allocations only; complete hardware quantities await prototype fit.",
+      "evidence": "R0 mechanical allocation; not production qualified."
+    },
+    {
+      "id": "DX89",
+      "supplier": "Print at home",
+      "part": "External shell, carriers, accent and diffuser",
+      "mpn": "External dock R0",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "set",
+      "assembly": "External enclosure",
+      "status": "Fit pending",
+      "url": "index.html?model=external%2Fclosed",
+      "alternative": "",
+      "notes": "Front/rear split fits nominal 256 mm bed. Print fit and retention tests pending; power panel is provisional.",
+      "evidence": "R0 mechanical allocation; not production qualified."
     }
   ]
 }

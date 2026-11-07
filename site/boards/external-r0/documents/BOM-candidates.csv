@@ -1,0 +1,41 @@
+Reference,Value,Manufacturer part,Mouser SKU,Footprint,Status
+A1,Pico 2 / panel USB-C cable,SC1632,358-SC1632,Module:RaspberryPi_Pico_Common_THT,Provisional; exact supplier package and stock recheck required
+U1,SN74LVC245AN,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Provisional; exact supplier package and stock recheck required
+U4,SN74LVC245AN,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Provisional; exact supplier package and stock recheck required
+U5,SN74LVC245AN,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Provisional; exact supplier package and stock recheck required
+U2,SN74LS06N / IEC sink only,SN74LS06N,595-SN74LS06N,Package_DIP:DIP-14_W7.62mm,Provisional; exact supplier package and stock recheck required
+U3,MAX232N / 5V RS232,MAX232N,595-MAX232N,Package_DIP:DIP-16_W7.62mm,Provisional; exact supplier package and stock recheck required
+U6,SN74AHCT125N / 5V LED data,SN74AHCT125N,595-SN74AHCT125N,Package_DIP:DIP-14_W7.62mm,Provisional; exact supplier package and stock recheck required
+J1,6-pin DIN IEC harness,TSW-106-07-G-S,200-TSW10607GS,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J2,DE9 DCE harness,TSW-105-07-G-S,200-TSW10507GS,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J3,ACCESSORY SPI / 3V3 SIGNALS / NO POWER,3020-20-0100-00,571-302020010000,Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J4,CORE J4 / SIGNALS ONLY,3020-10-0100-00,571-302010010000,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J5,5V PSU OUTPUT ONLY,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J6,CORE BERG 5V / 12V NC,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J7,LED STRIP 5V,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J8,AUDIO LOGIC / FUTURE AMP,,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+F1,MF-R050,MF-R050,652-MFR050,Dock:PTC_P5.1,Provisional; exact supplier package and stock recheck required
+F2,MF-R110,MF-R110,652-MFR110,Dock:PTC_P5.1,Provisional; exact supplier package and stock recheck required
+F3,MF-R110,MF-R110,652-MFR110,Dock:PTC_P5.1,Provisional; exact supplier package and stock recheck required
+D1,1N5819 / VSYS feed only,1N5819-E3/54,625-1N5819-E3,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Provisional; exact supplier package and stock recheck required
+C1,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
+C2,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
+C3,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
+C4,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
+C5,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C6,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C7,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C8,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C9,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C10,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C11,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Dock:C315_P2.54,Provisional; exact supplier package and stock recheck required
+C12,100uF 16V,EEU-FR1C101,667-EEU-FR1C101,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Provisional; exact supplier package and stock recheck required
+C13,1000uF 10V LED bulk,EEU-FR1A102,667-EEU-FR1A102,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Provisional; exact supplier package and stock recheck required
+RN1,5 x 4k7 IEC pullups,4606X-101-472LF,652-4606X-1LF-4.7K,Resistor_THT:R_Array_SIP6,Provisional; exact supplier package and stock recheck required
+RN2,3 x 1k LS06 boot pulldown,4604X-101-102LF,652-4604X-1LF-1K,Resistor_THT:R_Array_SIP4,Provisional; exact supplier package and stock recheck required
+R1,10k,MFR-25FBF52-10k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R2,10k,MFR-25FBF52-10k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R3,10k,MFR-25FBF52-10k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R4,330,MFR-25FBF52-330,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R5,100k,MFR-25FBF52-100k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R6,100k,MFR-25FBF52-100k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required

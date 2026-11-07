@@ -3,5 +3,5 @@ Routed prototype
 Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit a520ed938ce6272acb13bfbb5a1457f614545281
+Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
 PCB SHA256 4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552

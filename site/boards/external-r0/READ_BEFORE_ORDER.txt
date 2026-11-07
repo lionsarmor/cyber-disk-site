@@ -1,0 +1,7 @@
+External daughterboard · R0
+Unrouted · do not fabricate
+40-position low-voltage interface study. No mains on PCB. Routing, protection, firmware, port harnesses and powered-off host behavior unfinished. Passive pin-map symbols: ERC does not establish electrical correctness.
+
+KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
+Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
+PCB SHA256 e476dcb08cda0bcaa11498dcb137fabda928b220b7110c10e021cc5ee35e5ae0
