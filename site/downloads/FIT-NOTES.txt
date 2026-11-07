@@ -1,0 +1,26 @@
+CYBER DISK SLEEVE R1 — first-pass solid CAD, dimensions in mm
+
+Disk reference: original unified-r12/recessed/ab assembled shell STL meshes.
+Disk nominal envelope 92 x 96 x 8.5. Pocket 93 x 101 (open mouth) x 9.4 high.
+Body envelope 98 x 102 x 15. Including male rails: 99.2 x 102 x 16.2.
+Female top/left, male bottom/right. All dovetails run along Y.
+Female tracks open at both ends so a grid can assemble along a common Y axis.
+Male projection 1.2; neck 2.2; head 3.2. Female depth 1.65; neck 2.9; head 4.0.
+Joined body-face gap 0.2. Array pitch X 98.2, Z 15.2.
+Single valid CAD solid. Zero nominal solid overlap with disk envelope or seated side/stack mates.
+These are nominal geometry checks, NOT a physical printing or full motion test.
+No retaining detent or disk retention feature yet. No Sega case snap-tab adapter yet.
+R1 has matching top/bottom finger scoops and 0.2 mm fillets on track cross-sections and ends.
+Female tracks open at both ends. Nominal sliding interference checked at 14 sampled positions.
+STL is a geometry prototype, not an approved support-free FDM production print.
+White label in preview is a plain geometric proxy; no invented artwork.
+
+SEGA CASE FIT
+The cited Sega Genesis case seller confirms an outer artwork sleeve and manual tabs,
+but does not provide cartridge recess, retention-tab or closed internal height dimensions:
+https://stoneagegamer.com/sega-genesis-game-case.html
+Do not infer internal recess fit from the outside box dimensions.
+Direct snap-in requires a physical sample and measured tab spacing, lip height, undercut,
+clear opening between internal ribs, and closed lid/manual clearance.
+Required unobstructed sleeve envelope is at least 99.2 x 102 x 16.2 BEFORE fit allowance.
+A separate clip-in cradle may be necessary; no compatibility claim at R0.
