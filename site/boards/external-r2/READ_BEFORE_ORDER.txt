@@ -1,0 +1,7 @@
+External daughterboard · R2
+Board-mounted ports · unrouted
+Board-mounted through-hole rear ports, USB-B and internal USB jumper. Zero routed tracks, 177 unconnected items. Reference files only; NOT FOR MANUFACTURE. Passive-symbol ERC is not functional validation.
+
+KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
+Source commit e6c0cfc63dfdee1e89afd8bf14ff5cc0208004ff
+PCB SHA256 85f1fe8d25d8df1f192938d9962a2311f9a9836968210143288c114d81f12b27

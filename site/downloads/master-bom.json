@@ -1,7 +1,7 @@
 {
-  "revision": "external-r2-basic",
+  "revision": "external-r3-board-ports",
   "checked": "2026-11-07",
-  "scope": "Current R4 disks, R0 controller, R1 contact board and drive mechanism. External dock R2 case with R1 daughterboard uses a 5V barrel adapter, not internal mains. Daughterboard is unrouted and not order-ready; candidate lines are not a released purchasing BOM.",
+  "scope": "R4 disks, R0 controller, R1 contact board and drive mechanism. External R3 case and R2 daughterboard with board-mounted THT rear ports. Daughterboard is unrouted; these are provisional sourcing candidates, not a released purchasing BOM.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
   "rows": [
     {
@@ -1120,18 +1120,18 @@
     {
       "id": "DX01",
       "supplier": "Mouser",
-      "part": "Pico 2 / panel USB-C cable",
+      "part": "Pico 2 / internal USB jumper",
       "mpn": "SC1632",
       "quantity": {
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=SC1632",
-      "notes": "Refs A1. 358-SC1632. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Ref A1; Mouser 358-SC1632. THT board mount. See EXTERNAL-DOCK-R3.md.",
       "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
+      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
     },
     {
       "id": "DX02",
@@ -1142,10 +1142,10 @@
         "dock": 3
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=SN74LVC245AN",
-      "notes": "Refs U1, U4, U5. 595-SN74LVC245AN. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs U1, U4, U5. 595-SN74LVC245AN. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1158,10 +1158,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=SN74LS06N",
-      "notes": "Refs U2. 595-SN74LS06N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs U2. 595-SN74LS06N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1174,10 +1174,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=MAX232N",
-      "notes": "Refs U3. 595-MAX232N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs U3. 595-MAX232N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1190,60 +1190,60 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=SN74AHCT125N",
-      "notes": "Refs U6. 595-SN74AHCT125N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs U6. 595-SN74AHCT125N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
     {
       "id": "DX06",
       "supplier": "Mouser",
-      "part": "6-pin DIN IEC harness",
-      "mpn": "TSW-106-07-G-S",
+      "part": "IEC / Switchcraft sequential pin numbers",
+      "mpn": "61PC6F",
       "quantity": {
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=TSW-106-07-G-S",
-      "notes": "Refs J1. 200-TSW10607GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "url": "https://www.mouser.com/c/?q=61PC6F",
+      "notes": "Ref J1; Mouser 502-61PC6F. THT board mount. See EXTERNAL-DOCK-R3.md.",
       "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
+      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
     },
     {
       "id": "DX07",
       "supplier": "Mouser",
-      "part": "DE9 DCE harness",
-      "mpn": "TSW-105-07-G-S",
+      "part": "DE9 female DCE",
+      "mpn": "09661527612",
       "quantity": {
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=TSW-105-07-G-S",
-      "notes": "Refs J2. 200-TSW10507GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "url": "https://www.mouser.com/c/?q=09661527612",
+      "notes": "Ref J2; Mouser 617-09-66-152-7612. THT board mount. See EXTERNAL-DOCK-R3.md.",
       "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
+      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
     },
     {
       "id": "DX08",
       "supplier": "Mouser",
       "part": "ACCESSORY SPI / 3V3 SIGNALS / NO POWER",
-      "mpn": "61202021621",
+      "mpn": "61202021721",
       "quantity": {
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=61202021621",
-      "notes": "Refs J3. 710-61202021621. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase. 710-61202021621",
+      "url": "https://www.mouser.com/c/?q=61202021721",
+      "notes": "Ref J3; Mouser 710-61202021721. THT board mount. See EXTERNAL-DOCK-R3.md.",
       "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
+      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
     },
     {
       "id": "DX09",
@@ -1254,10 +1254,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=61201021621",
-      "notes": "Refs J4. 710-61201021621. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase. 710-61201021621",
+      "notes": "Refs J4. 710-61201021621. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 710-61201021621",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1270,10 +1270,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=PJ-102AH",
-      "notes": "Refs J5. 490-PJ-102AH. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs J5. 490-PJ-102AH. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1286,10 +1286,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=0251002.MXL",
-      "notes": "Refs F1. 576-0251002.MXL. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs F1. 576-0251002.MXL. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1302,10 +1302,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=SUP53P06-20-E3",
-      "notes": "Refs Q1. 781-SUP53P06-20-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs Q1. 781-SUP53P06-20-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1318,10 +1318,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=TSW-102-07-G-S",
-      "notes": "Refs J6. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs J6. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1334,10 +1334,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=TSW-103-07-G-S",
-      "notes": "Refs J7. 200-TSW10307GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs J7. 200-TSW10307GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1350,10 +1350,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=TSW-102-07-G-S",
-      "notes": "Refs J8. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs J8. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1366,10 +1366,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=1N5819-E3/54",
-      "notes": "Refs D1. 625-1N5819-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs D1. 625-1N5819-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1382,10 +1382,10 @@
         "dock": 4
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=C330C105K5R5TA",
-      "notes": "Refs C1, C2, C3, C4. 80-C330C105K5R. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs C1, C2, C3, C4. 80-C330C105K5R. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1398,10 +1398,10 @@
         "dock": 7
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=C315C104M5U5TA",
-      "notes": "Refs C5, C6, C7, C8, C9, C10, C11. 80-C315C104M5U. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs C5, C6, C7, C8, C9, C10, C11. 80-C315C104M5U. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1414,10 +1414,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=EEU-FR1C101",
-      "notes": "Refs C12. 667-EEU-FR1C101. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs C12. 667-EEU-FR1C101. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1430,10 +1430,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=EEU-FR1A102",
-      "notes": "Refs C13. 667-EEU-FR1A102. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs C13. 667-EEU-FR1A102. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1446,10 +1446,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=4606X-101-472LF",
-      "notes": "Refs RN1. 652-4606X-1LF-4.7K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs RN1. 652-4606X-1LF-4.7K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1462,10 +1462,10 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=4604X-101-102LF",
-      "notes": "Refs RN2. 652-4604X-1LF-1K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase.",
+      "notes": "Refs RN2. 652-4604X-1LF-1K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1478,10 +1478,10 @@
         "dock": 5
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=MFR-25FBF52-10K",
-      "notes": "Refs R1, R2, R3, R5, R6. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase. 603-MFR-25FBF52-10K",
+      "notes": "Refs R1, R2, R3, R5, R6. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 603-MFR-25FBF52-10K",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
@@ -1494,76 +1494,28 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External daughterboard R1",
+      "assembly": "External daughterboard R2",
       "status": "Candidate; board not order-ready",
       "url": "https://www.mouser.com/c/?q=MFR-25FBF52-330R",
-      "notes": "Refs R4. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R1.md before purchase. 603-MFR-25FBF52-330R",
+      "notes": "Refs R4. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 603-MFR-25FBF52-330R",
       "alternative": "",
       "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
     },
     {
       "id": "DX81",
       "supplier": "Mouser",
-      "part": "USB-C panel cable to Pico micro-B",
-      "mpn": "Adafruit 4056",
+      "part": "Internal USB-A to micro-B jumper, 6.5 inch",
+      "mpn": "Adafruit 898",
       "quantity": {
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External dock R1",
+      "assembly": "External dock R3",
       "status": "Fit pending",
-      "url": "https://eu.mouser.com/en/ProductDetail/Adafruit/4056?qs=unwgFEO1A6tul0dTJZgnuw%3D%3D",
+      "url": "https://www.mouser.com/ProductDetail/Adafruit/898",
       "alternative": "",
-      "notes": "Replaceable panel extension; final flange cutout and strain relief must follow supplier drawing.",
-      "evidence": "R0 mechanical allocation; not production qualified."
-    },
-    {
-      "id": "DX83",
-      "supplier": "Mouser",
-      "part": "6-pin DIN IEC panel socket",
-      "mpn": "UNSELECTED",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External dock R1",
-      "status": "Unselected",
-      "url": "",
-      "alternative": "",
-      "notes": "Select standard Commodore IEC arrangement, solder terminals and positive panel retention.",
-      "evidence": "R0 mechanical allocation; not production qualified."
-    },
-    {
-      "id": "DX84",
-      "supplier": "Mouser",
-      "part": "DE9 female panel socket",
-      "mpn": "UNSELECTED",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External dock R1",
-      "status": "Unselected",
-      "url": "",
-      "alternative": "",
-      "notes": "DCE pinout: 2 TX out, 3 RX in, 5 GND, 7 RTS in, 8 CTS out.",
-      "evidence": "R0 mechanical allocation; not production qualified."
-    },
-    {
-      "id": "DX85",
-      "supplier": "Mouser",
-      "part": "Keyed 20-pin accessory panel socket",
-      "mpn": "UNSELECTED",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External dock R1",
-      "status": "Unselected",
-      "url": "",
-      "alternative": "",
-      "notes": "Custom 3.3 V SPI pinout, no exported supply; active Next adapter is a separate design.",
-      "evidence": "R0 mechanical allocation; not production qualified."
+      "notes": "485-898. Plugs into J10 and Pico micro-B; no test-pad soldering. Cable envelope needs physical fit test.",
+      "evidence": "Mouser listing and Adafruit specification reviewed 2026-11-07"
     },
     {
       "id": "DX86",
@@ -1574,11 +1526,11 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External dock R1",
+      "assembly": "External dock R3",
       "status": "Unselected",
       "url": "",
       "alternative": "",
-      "notes": "Current limit and strip pitch to be selected. 218 mm reserved behind opal diffuser.",
+      "notes": "134 mm strip envelope behind front diffuser; 0.6 A allocation. Exact strip and connector remain unselected.",
       "evidence": "R0 mechanical allocation; not production qualified."
     },
     {
@@ -1590,7 +1542,7 @@
         "dock": 1
       },
       "unit": "each",
-      "assembly": "External dock R1",
+      "assembly": "External dock R3",
       "status": "Listed in stock; electrical qualification pending",
       "url": "https://www.mouser.com/en/ProductDetail/Triad-Magnetics/WSU050-2000?qs=B4sXYbYweUrLCvb6OyMLMA%3D%3D",
       "notes": "553-WSU050-2000. 5.5 x 2.1 x 11 mm plug. About $7.62 each when checked. Verify loaded board voltage including cable/ripple; not an internal supply.",
@@ -1606,10 +1558,10 @@
         "dock": 1
       },
       "unit": "hardware set",
-      "assembly": "External dock R1",
+      "assembly": "External dock R3",
       "status": "Mechanical prototype allocation",
       "url": "",
-      "notes": "Six M2 countersunk lid screws + inserts; four M3x8 countersunk chassis screws + four M3 nuts; four M3 side mounting screws plus carrier/tray retention hardware and four feet. Verify fit and lengths before buying.",
+      "notes": "Six M2 countersunk lid screws + inserts; four M3x8 countersunk chassis screws + four M3 nuts; four M3 side mounting screws plus carrier/tray retention hardware and four feet. Verify fit and lengths before buying. Six PCB mounting screws, including two added rear supports. Insert/pilot holes need print testing.",
       "alternative": "",
       "evidence": "R1 CAD nominal geometry"
     },
@@ -1617,17 +1569,49 @@
       "id": "DX89",
       "supplier": "Home FDM / PCBWay",
       "part": "Basic rounded shell, slide carriers and wraparound opal diffuser",
-      "mpn": "External dock R2",
+      "mpn": "External dock R3",
       "quantity": {
         "dock": 1
       },
       "unit": "print set",
-      "assembly": "External dock R2",
+      "assembly": "External dock R3",
       "status": "CAD fit study; physical test pending",
-      "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r2-basic",
-      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed shell-matched adhesive label. No separate shoulder parts. Physical fit and light uniformity pending.",
+      "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r3-board-ports",
+      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed shell-matched adhesive label. No separate shoulder parts. Physical fit and light uniformity pending. Rear tray now follows board-mounted ports.",
       "alternative": "",
       "evidence": "Actual parametric CAD; no photoreal mockup"
+    },
+    {
+      "id": "DX25",
+      "supplier": "Mouser",
+      "part": "USB-B / HOST INPUT",
+      "mpn": "61729-0010BLF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard R2",
+      "status": "Selected footprint; prototype validation pending",
+      "url": "https://www.mouser.com/c/?q=61729-0010BLF",
+      "alternative": "",
+      "notes": "Ref J9; Mouser 649-61729-0010BLF. Through-hole. J10 is INTERNAL ONLY, not a host port.",
+      "evidence": "Manufacturer drawing and Mouser listing reviewed 2026-11-07"
+    },
+    {
+      "id": "DX26",
+      "supplier": "Mouser",
+      "part": "INTERNAL ONLY / TO PICO",
+      "mpn": "67643-0910",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "External daughterboard R2",
+      "status": "Selected footprint; prototype validation pending",
+      "url": "https://www.mouser.com/c/?q=67643-0910",
+      "alternative": "",
+      "notes": "Ref J10; Mouser 538-67643-0910. Through-hole. J10 is INTERNAL ONLY, not a host port.",
+      "evidence": "Manufacturer drawing and Mouser listing reviewed 2026-11-07"
     }
   ]
 }

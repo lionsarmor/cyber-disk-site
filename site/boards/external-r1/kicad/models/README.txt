@@ -1,1 +1,0 @@
-C330C105K5R5TA maximum body envelope, modeled locally from KEMET specsheet: https://search.kemet.com/component-documentation/download/specsheet/C330C105K5R5TA ; 7.11 x 4.07 x 10.16 mm, pitch5.08mm. Lead standoff/shape simplified. Not manufacturer CAD.

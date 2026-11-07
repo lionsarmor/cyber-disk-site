@@ -1,0 +1,852 @@
+{
+  "components": [
+    {
+      "ref": "A1",
+      "value": "Pico 2 / internal USB jumper",
+      "fp": "Module:RaspberryPi_Pico_Common_THT",
+      "pins": {
+        "1": "CORE_TX",
+        "2": "CORE_RX",
+        "4": "IEC_ATN_S",
+        "5": "IEC_CLK_S",
+        "6": "IEC_DATA_S",
+        "7": "IEC_SRQ_S",
+        "9": "IEC_RESET_S",
+        "10": "ASSERT_CLK",
+        "11": "SERIAL_TX",
+        "12": "SERIAL_RX",
+        "14": "SERIAL_CTS",
+        "15": "SERIAL_RTS",
+        "16": "ASSERT_DATA",
+        "17": "ASSERT_SRQ",
+        "19": "CORE_BUSY",
+        "20": "ACC_DETECT_S",
+        "21": "ACC_MOSI_S",
+        "22": "ACC_CS_S",
+        "24": "ACC_SCK_S",
+        "25": "ACC_MISO_DRV",
+        "26": "ACC_READY_DRV",
+        "27": "ACC_OE_N",
+        "29": "LED_DATA",
+        "31": "AUDIO_PWM",
+        "32": "CORE_LED_S",
+        "34": "POWER_SENSE",
+        "3": "GND",
+        "8": "GND",
+        "13": "GND",
+        "18": "GND",
+        "23": "GND",
+        "28": "GND",
+        "33": "GND",
+        "38": "GND",
+        "30": null,
+        "35": null,
+        "36": "V3V3",
+        "37": null,
+        "39": "VSYS",
+        "40": null
+      },
+      "x": 28,
+      "y": 56,
+      "rot": 90,
+      "mpn": "SC1632",
+      "mouser": "358-SC1632"
+    },
+    {
+      "ref": "U1",
+      "value": "SN74LVC245AN",
+      "fp": "Package_DIP:DIP-20_W7.62mm",
+      "pins": {
+        "1": "V3V3",
+        "19": "GND",
+        "20": "V3V3",
+        "10": "GND",
+        "2": "IEC_ATN",
+        "18": "IEC_ATN_S",
+        "3": "IEC_CLK",
+        "17": "IEC_CLK_S",
+        "4": "IEC_DATA",
+        "16": "IEC_DATA_S",
+        "5": "IEC_SRQ",
+        "15": "IEC_SRQ_S",
+        "6": "IEC_RESET",
+        "14": "IEC_RESET_S",
+        "7": "RS_RX_5V",
+        "13": "SERIAL_RX",
+        "8": "RS_CTS_5V",
+        "12": "SERIAL_CTS",
+        "9": "GND",
+        "11": null
+      },
+      "x": 82,
+      "y": 31,
+      "rot": 90,
+      "mpn": "SN74LVC245AN",
+      "mouser": "595-SN74LVC245AN"
+    },
+    {
+      "ref": "U4",
+      "value": "SN74LVC245AN",
+      "fp": "Package_DIP:DIP-20_W7.62mm",
+      "pins": {
+        "1": "V3V3",
+        "19": "GND",
+        "20": "V3V3",
+        "10": "GND",
+        "2": "ACC_SCK",
+        "18": "ACC_SCK_S",
+        "3": "ACC_MOSI",
+        "17": "ACC_MOSI_S",
+        "4": "ACC_CS_N",
+        "16": "ACC_CS_S",
+        "5": "ACC_DETECT_N",
+        "15": "ACC_DETECT_S",
+        "6": "CORE_RX_RAW",
+        "14": "CORE_RX",
+        "7": "CORE_BUSY_RAW",
+        "13": "CORE_BUSY",
+        "8": "CORE_LED_RAW",
+        "12": "CORE_LED_S",
+        "9": "GND",
+        "11": null
+      },
+      "x": 82,
+      "y": 45,
+      "rot": 90,
+      "mpn": "SN74LVC245AN",
+      "mouser": "595-SN74LVC245AN"
+    },
+    {
+      "ref": "U5",
+      "value": "SN74LVC245AN",
+      "fp": "Package_DIP:DIP-20_W7.62mm",
+      "pins": {
+        "1": "V3V3",
+        "19": "ACC_OE_N",
+        "20": "V3V3",
+        "10": "GND",
+        "2": "ACC_MISO_DRV",
+        "18": "ACC_MISO",
+        "3": "ACC_READY_DRV",
+        "17": "ACC_READY",
+        "4": "GND",
+        "16": null,
+        "5": "GND",
+        "15": null,
+        "6": "GND",
+        "14": null,
+        "7": "GND",
+        "13": null,
+        "8": "GND",
+        "12": null,
+        "9": "GND",
+        "11": null
+      },
+      "x": 82,
+      "y": 59,
+      "rot": 90,
+      "mpn": "SN74LVC245AN",
+      "mouser": "595-SN74LVC245AN"
+    },
+    {
+      "ref": "U2",
+      "value": "SN74LS06N / IEC sink only",
+      "fp": "Package_DIP:DIP-14_W7.62mm",
+      "pins": {
+        "1": "ASSERT_CLK",
+        "2": "IEC_CLK",
+        "3": "ASSERT_DATA",
+        "4": "IEC_DATA",
+        "5": "ASSERT_SRQ",
+        "6": "IEC_SRQ",
+        "7": "GND",
+        "8": null,
+        "9": "GND",
+        "10": null,
+        "11": "GND",
+        "12": null,
+        "13": "GND",
+        "14": "V5"
+      },
+      "x": 113,
+      "y": 30,
+      "rot": 90,
+      "mpn": "SN74LS06N",
+      "mouser": "595-SN74LS06N"
+    },
+    {
+      "ref": "U3",
+      "value": "MAX232N / 5V RS232",
+      "fp": "Package_DIP:DIP-16_W7.62mm",
+      "pins": {
+        "1": "CP1P",
+        "2": "RS_VPLUS",
+        "3": "CP1N",
+        "4": "CP2P",
+        "5": "CP2N",
+        "6": "RS_VMINUS",
+        "7": "RS_CTS_OUT",
+        "8": "RS_RTS_IN",
+        "9": "RS_CTS_5V",
+        "10": "SERIAL_RTS_5V",
+        "11": "SERIAL_TX_5V",
+        "12": "RS_RX_5V",
+        "13": "RS_RX_IN",
+        "14": "RS_TX_OUT",
+        "15": "GND",
+        "16": "V5"
+      },
+      "x": 113,
+      "y": 44,
+      "rot": 90,
+      "mpn": "MAX232N",
+      "mouser": "595-MAX232N"
+    },
+    {
+      "ref": "U6",
+      "value": "SN74AHCT125N / LED + serial TX",
+      "fp": "Package_DIP:DIP-14_W7.62mm",
+      "pins": {
+        "1": "GND",
+        "2": "LED_DATA",
+        "3": "LED_OUT_RAW",
+        "4": "GND",
+        "5": "SERIAL_TX",
+        "6": "SERIAL_TX_5V",
+        "7": "GND",
+        "8": "SERIAL_RTS_5V",
+        "9": "SERIAL_RTS",
+        "10": "GND",
+        "11": null,
+        "12": "GND",
+        "13": "V5",
+        "14": "V5"
+      },
+      "x": 113,
+      "y": 59,
+      "rot": 90,
+      "mpn": "SN74AHCT125N",
+      "mouser": "595-SN74AHCT125N"
+    },
+    {
+      "ref": "J1",
+      "value": "IEC / Switchcraft sequential pin numbers",
+      "fp": "Dock:DIN_61PC6F",
+      "pins": {
+        "1": "IEC_SRQ",
+        "2": "IEC_CLK",
+        "3": "GND",
+        "4": "IEC_DATA",
+        "5": "IEC_ATN",
+        "6": "IEC_RESET",
+        "SH": "GND"
+      },
+      "x": 82,
+      "y": -0.7,
+      "rot": 0,
+      "mpn": "61PC6F",
+      "mouser": "502-61PC6F"
+    },
+    {
+      "ref": "J2",
+      "value": "DE9 female DCE",
+      "fp": "Dock:DE9_09661527612",
+      "pins": {
+        "1": null,
+        "2": "RS_TX_OUT",
+        "3": "RS_RX_IN",
+        "4": null,
+        "5": "GND",
+        "6": null,
+        "7": "RS_RTS_IN",
+        "8": "RS_CTS_OUT",
+        "9": null,
+        "SH": "GND"
+      },
+      "x": 47,
+      "y": -4.7,
+      "rot": 0,
+      "mpn": "09661527612",
+      "mouser": "617-09-66-152-7612"
+    },
+    {
+      "ref": "J3",
+      "value": "ACCESSORY SPI / 3V3 SIGNALS / NO POWER",
+      "fp": "Dock:WR_BHD_61202021721",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "ACC_SCK",
+        "4": "GND",
+        "5": "ACC_MOSI",
+        "6": "GND",
+        "7": "ACC_MISO",
+        "8": "GND",
+        "9": "ACC_CS_N",
+        "10": "GND",
+        "11": "ACC_READY",
+        "12": "GND",
+        "13": "ACC_DETECT_N",
+        "14": "GND",
+        "15": null,
+        "16": "GND",
+        "17": null,
+        "18": "GND",
+        "19": null,
+        "20": "GND"
+      },
+      "x": 100.57,
+      "y": 8.58,
+      "rot": 90,
+      "mpn": "61202021721",
+      "mouser": "710-61202021721"
+    },
+    {
+      "ref": "J9",
+      "value": "USB-B / HOST INPUT",
+      "fp": "Dock:USB_B_61729",
+      "pins": {
+        "1": "USB_VBUS",
+        "2": "USB_DM",
+        "3": "USB_DP",
+        "4": "GND",
+        "SH": "GND"
+      },
+      "x": 18,
+      "y": -4.7,
+      "rot": 0,
+      "mpn": "61729-0010BLF",
+      "mouser": "649-61729-0010BLF"
+    },
+    {
+      "ref": "J10",
+      "value": "INTERNAL ONLY / TO PICO",
+      "fp": "Connector_USB:USB_A_Molex_67643_Horizontal",
+      "pins": {
+        "1": "USB_VBUS",
+        "2": "USB_DM",
+        "3": "USB_DP",
+        "4": "GND",
+        "SH": "GND"
+      },
+      "x": 16,
+      "y": 25,
+      "rot": 90,
+      "mpn": "67643-0910",
+      "mouser": "538-67643-0910"
+    },
+    {
+      "ref": "J4",
+      "value": "CORE J4 / SIGNALS ONLY",
+      "fp": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": null,
+        "3": "CORE_RX_RAW",
+        "4": "CORE_TX",
+        "5": "CORE_BUSY_RAW",
+        "6": "CORE_LED_RAW",
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": null
+      },
+      "x": 53,
+      "y": 22,
+      "rot": 90,
+      "mpn": "61201021621",
+      "mouser": "710-61201021621"
+    },
+    {
+      "ref": "J5",
+      "value": "5V ONLY / CENTRE +",
+      "fp": "Dock:BarrelJack_PJ102AH_2024",
+      "pins": {
+        "1": "V5_RAW",
+        "2": "GND",
+        "3": null
+      },
+      "x": 144,
+      "y": 9,
+      "rot": 180,
+      "mpn": "PJ-102AH",
+      "mouser": "490-PJ-102AH"
+    },
+    {
+      "ref": "F1",
+      "value": "2A fast / input",
+      "fp": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal",
+      "pins": {
+        "1": "V5_RAW",
+        "2": "V5_FUSED"
+      },
+      "x": 144,
+      "y": 18,
+      "rot": 270,
+      "mpn": "0251002.MXL",
+      "mouser": "576-0251002.MXL"
+    },
+    {
+      "ref": "Q1",
+      "value": "SUP53P06-20-E3 / reverse polarity",
+      "fp": "Package_TO_SOT_THT:TO-220-3_Vertical",
+      "pins": {
+        "1": "GND",
+        "2": "V5_FUSED",
+        "3": "V5"
+      },
+      "x": 144,
+      "y": 38,
+      "rot": 0,
+      "mpn": "SUP53P06-20-E3",
+      "mouser": "781-SUP53P06-20-E3"
+    },
+    {
+      "ref": "J6",
+      "value": "CORE BERG 5V / 12V NC",
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 144,
+      "y": 44,
+      "rot": 0,
+      "mpn": "TSW-102-07-G-S",
+      "mouser": "200-TSW10207GS"
+    },
+    {
+      "ref": "J7",
+      "value": "LED STRIP 5V / 0.6A MAX",
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "V5",
+        "2": "LED_OUT",
+        "3": "GND"
+      },
+      "x": 151,
+      "y": 44,
+      "rot": 0,
+      "mpn": "TSW-103-07-G-S",
+      "mouser": "200-TSW10307GS"
+    },
+    {
+      "ref": "J8",
+      "value": "AUDIO LOGIC / FUTURE AMP",
+      "fp": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pins": {
+        "1": "AUDIO_PWM",
+        "2": "GND"
+      },
+      "x": 66,
+      "y": 63,
+      "rot": 90,
+      "mpn": "TSW-102-07-G-S",
+      "mouser": "200-TSW10207GS"
+    },
+    {
+      "ref": "D1",
+      "value": "1N5819 / VSYS feed only",
+      "fp": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+      "pins": {
+        "1": "VSYS",
+        "2": "V5"
+      },
+      "x": 9,
+      "y": 60,
+      "rot": 0,
+      "mpn": "1N5819-E3/54",
+      "mouser": "625-1N5819-E3"
+    },
+    {
+      "ref": "C1",
+      "value": "1uF 50V nonpolar",
+      "fp": "Dock:C330_P5.08",
+      "pins": {
+        "1": "CP1P",
+        "2": "CP1N"
+      },
+      "x": 137,
+      "y": 30,
+      "rot": 90,
+      "mpn": "C330C105K5R5TA",
+      "mouser": "80-C330C105K5R"
+    },
+    {
+      "ref": "C2",
+      "value": "1uF 50V nonpolar",
+      "fp": "Dock:C330_P5.08",
+      "pins": {
+        "1": "CP2P",
+        "2": "CP2N"
+      },
+      "x": 137,
+      "y": 38.5,
+      "rot": 90,
+      "mpn": "C330C105K5R5TA",
+      "mouser": "80-C330C105K5R"
+    },
+    {
+      "ref": "C3",
+      "value": "1uF 50V nonpolar",
+      "fp": "Dock:C330_P5.08",
+      "pins": {
+        "1": "RS_VPLUS",
+        "2": "GND"
+      },
+      "x": 137,
+      "y": 47,
+      "rot": 90,
+      "mpn": "C330C105K5R5TA",
+      "mouser": "80-C330C105K5R"
+    },
+    {
+      "ref": "C4",
+      "value": "1uF 50V nonpolar",
+      "fp": "Dock:C330_P5.08",
+      "pins": {
+        "1": "GND",
+        "2": "RS_VMINUS"
+      },
+      "x": 137,
+      "y": 55.5,
+      "rot": 90,
+      "mpn": "C330C105K5R5TA",
+      "mouser": "80-C330C105K5R"
+    },
+    {
+      "ref": "C5",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "x": 78,
+      "y": 25,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C6",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 109,
+      "y": 25,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C7",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 109,
+      "y": 39,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C8",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "x": 78,
+      "y": 33,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C9",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "x": 78,
+      "y": 63,
+      "rot": 0,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C10",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 109,
+      "y": 54,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C11",
+      "value": "100nF 50V",
+      "fp": "Dock:C315_P2.54",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "x": 23,
+      "y": 39,
+      "rot": 90,
+      "mpn": "C315C104M5U5TA",
+      "mouser": "80-C315C104M5U"
+    },
+    {
+      "ref": "C12",
+      "value": "100uF 16V",
+      "fp": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 6,
+      "y": 20,
+      "rot": 0,
+      "mpn": "EEU-FR1C101",
+      "mouser": "667-EEU-FR1C101"
+    },
+    {
+      "ref": "C13",
+      "value": "1000uF 10V LED bulk",
+      "fp": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "pins": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "x": 144,
+      "y": 56,
+      "rot": 0,
+      "mpn": "EEU-FR1A102",
+      "mouser": "667-EEU-FR1A102"
+    },
+    {
+      "ref": "RN1",
+      "value": "5 x 4k7 IEC pullups",
+      "fp": "Resistor_THT:R_Array_SIP6",
+      "pins": {
+        "1": "V5",
+        "2": "IEC_ATN",
+        "3": "IEC_CLK",
+        "4": "IEC_DATA",
+        "5": "IEC_SRQ",
+        "6": "IEC_RESET"
+      },
+      "x": 35,
+      "y": 32,
+      "rot": 0,
+      "mpn": "4606X-101-472LF",
+      "mouser": "652-4606X-1LF-4.7K"
+    },
+    {
+      "ref": "RN2",
+      "value": "3 x 1k LS06 boot pulldown",
+      "fp": "Resistor_THT:R_Array_SIP4",
+      "pins": {
+        "1": "GND",
+        "2": "ASSERT_CLK",
+        "3": "ASSERT_DATA",
+        "4": "ASSERT_SRQ"
+      },
+      "x": 53,
+      "y": 32,
+      "rot": 0,
+      "mpn": "4604X-101-102LF",
+      "mouser": "652-4604X-1LF-1K"
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "ACC_OE_N",
+        "2": "V3V3"
+      },
+      "x": 110,
+      "y": 64,
+      "rot": 0,
+      "mpn": "MFR-25FBF52-10K",
+      "mouser": "603-MFR-25FBF52-10K"
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "ACC_CS_N",
+        "2": "V3V3"
+      },
+      "x": 40,
+      "y": 63,
+      "rot": 0,
+      "mpn": "MFR-25FBF52-10K",
+      "mouser": "603-MFR-25FBF52-10K"
+    },
+    {
+      "ref": "R3",
+      "value": "10k",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "ACC_DETECT_N",
+        "2": "V3V3"
+      },
+      "x": 51,
+      "y": 63,
+      "rot": 0,
+      "mpn": "MFR-25FBF52-10K",
+      "mouser": "603-MFR-25FBF52-10K"
+    },
+    {
+      "ref": "R4",
+      "value": "330",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "LED_OUT_RAW",
+        "2": "LED_OUT"
+      },
+      "x": 123,
+      "y": 64,
+      "rot": 0,
+      "mpn": "MFR-25FBF52-330R",
+      "mouser": "603-MFR-25FBF52-330R"
+    },
+    {
+      "ref": "R5",
+      "value": "10k",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "V5",
+        "2": "POWER_SENSE"
+      },
+      "x": 25,
+      "y": 63,
+      "rot": 0,
+      "mpn": "MFR-25FBF52-10K",
+      "mouser": "603-MFR-25FBF52-10K"
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pins": {
+        "1": "POWER_SENSE",
+        "2": "GND"
+      },
+      "x": 9,
+      "y": 39,
+      "rot": 90,
+      "mpn": "MFR-25FBF52-10K",
+      "mouser": "603-MFR-25FBF52-10K"
+    }
+  ],
+  "gpio": {
+    "0": "CORE_TX",
+    "1": "CORE_RX",
+    "2": "IEC_ATN_S",
+    "3": "IEC_CLK_S",
+    "4": "IEC_DATA_S",
+    "5": "IEC_SRQ_S",
+    "6": "IEC_RESET_S",
+    "7": "ASSERT_CLK",
+    "8": "SERIAL_TX",
+    "9": "SERIAL_RX",
+    "10": "SERIAL_CTS",
+    "11": "SERIAL_RTS",
+    "12": "ASSERT_DATA",
+    "13": "ASSERT_SRQ",
+    "14": "CORE_BUSY",
+    "15": "ACC_DETECT_S",
+    "16": "ACC_MOSI_S",
+    "17": "ACC_CS_S",
+    "18": "ACC_SCK_S",
+    "19": "ACC_MISO_DRV",
+    "20": "ACC_READY_DRV",
+    "21": "ACC_OE_N",
+    "22": "LED_DATA",
+    "26": "AUDIO_PWM",
+    "27": "CORE_LED_S",
+    "28": "POWER_SENSE"
+  },
+  "accessory": {
+    "1": "GND",
+    "2": "GND",
+    "3": "ACC_SCK",
+    "4": "GND",
+    "5": "ACC_MOSI",
+    "6": "GND",
+    "7": "ACC_MISO",
+    "8": "GND",
+    "9": "ACC_CS_N",
+    "10": "GND",
+    "11": "ACC_READY",
+    "12": "GND",
+    "13": "ACC_DETECT_N",
+    "14": "GND",
+    "15": null,
+    "16": "GND",
+    "17": null,
+    "18": "GND",
+    "19": null,
+    "20": "GND"
+  },
+  "mounts": [
+    [
+      4,
+      4
+    ],
+    [
+      152,
+      16
+    ],
+    [
+      4,
+      64
+    ],
+    [
+      152,
+      64
+    ],
+    [
+      67,
+      4
+    ],
+    [
+      134,
+      4
+    ]
+  ],
+  "pcb": {
+    "size": [
+      156,
+      68,
+      1.6
+    ],
+    "corner_radius": 3,
+    "assembly_origin": [
+      6,
+      206,
+      7.2
+    ]
+  },
+  "status": "UNROUTED / NOT FOR FABRICATION"
+}

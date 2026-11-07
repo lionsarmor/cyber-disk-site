@@ -1,7 +1,0 @@
-External daughterboard · R1 barrel power
-Power revision · unrouted
-5V barrel input, 2A fuse and reverse-polarity MOSFET. Passive pin-map schematic only; routing, power-state/ESD review, supplier package checks and firmware unfinished. Do not order these reference Gerbers.
-
-KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 329ff6ff1db6fb5f866837dafecd1f9f7fb5f826
-PCB SHA256 1cd0cb60dece3f25377d52bdd3ffe42313a232efeb1594f640bb1785af4308b0

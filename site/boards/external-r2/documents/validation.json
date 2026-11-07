@@ -1,0 +1,15 @@
+{
+  "connected_pin_assignments_checked": 238,
+  "pcb_and_schematic_agree": true,
+  "tracks": 0,
+  "unrouted_items": 177,
+  "drc_geometry_errors": 0,
+  "drc_warnings": {
+    "silk_edge_clearance": 4,
+    "text_height": 1,
+    "silk_overlap": 14,
+    "silk_over_copper": 6
+  },
+  "erc_scope": "Passive pin-map symbols only; no electrical functional validation",
+  "fabrication_ready": false
+}

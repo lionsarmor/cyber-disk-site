@@ -1,0 +1,66 @@
+(footprint "C315_P2.54"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9161e190-02b4-44be-ad43-904d09207890")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "C315"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "375118a8-0d21-4324-a5ff-54c95a25c3f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "414c82f2-edc4-43af-a744-6d86befb7ea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c792486b-ff09-4a67-b444-13f87f908977")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a2285d3-01d3-4314-b673-09431860e70c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "057829d6-3bd8-49cd-a62e-725985887e60")
+	)
+	(embedded_fonts no)
+)
