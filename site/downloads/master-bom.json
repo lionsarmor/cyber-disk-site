@@ -1,7 +1,7 @@
 {
-  "revision": "external-r1",
+  "revision": "external-r2-basic",
   "checked": "2026-11-07",
-  "scope": "Current R4 disks, R0 controller, R1 contact board and drive mechanism. External dock R1 uses a 5V barrel adapter, not internal mains. Daughterboard is unrouted and not order-ready; candidate lines are not a released purchasing BOM.",
+  "scope": "Current R4 disks, R0 controller, R1 contact board and drive mechanism. External dock R2 case with R1 daughterboard uses a 5V barrel adapter, not internal mains. Daughterboard is unrouted and not order-ready; candidate lines are not a released purchasing BOM.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
   "rows": [
     {
@@ -1616,16 +1616,16 @@
     {
       "id": "DX89",
       "supplier": "Home FDM / PCBWay",
-      "part": "Slim shell, slide carriers, orange wrap armor and diffuser",
-      "mpn": "External dock R1",
+      "part": "Basic rounded shell, slide carriers and wraparound opal diffuser",
+      "mpn": "External dock R2",
       "quantity": {
         "dock": 1
       },
       "unit": "print set",
-      "assembly": "External dock R1",
+      "assembly": "External dock R2",
       "status": "CAD fit study; physical test pending",
-      "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r1",
-      "notes": "168 x 280 x 54 mm with feet. No mains bay. Separate accent-color prints share lid fasteners.",
+      "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r2-basic",
+      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed white adhesive label. No separate shoulder parts. Physical fit and light uniformity pending.",
       "alternative": "",
       "evidence": "Actual parametric CAD; no photoreal mockup"
     }
