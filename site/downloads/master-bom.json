@@ -1625,7 +1625,7 @@
       "assembly": "External dock R2",
       "status": "CAD fit study; physical test pending",
       "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r2-basic",
-      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed white adhesive label. No separate shoulder parts. Physical fit and light uniformity pending.",
+      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed shell-matched adhesive label. No separate shoulder parts. Physical fit and light uniformity pending.",
       "alternative": "",
       "evidence": "Actual parametric CAD; no photoreal mockup"
     }
