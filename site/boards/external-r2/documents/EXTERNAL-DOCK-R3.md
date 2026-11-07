@@ -46,3 +46,14 @@ Do not send the reference Gerbers to PCBWay as a finished board. Routing, USB si
 - [Adafruit internal cable](https://www.adafruit.com/product/898)
 
 R1 board and R2 case sources remain archived in the private project. Current public previews and downloads use R2 board / R3 case.
+
+## Internal wiring inspection — 2026-11-07
+
+The inspector's **Drive ↔ dock wiring** view isolates the core controller, daughterboard, blue 10-way signal ribbon and red/black 5V harness. Click either plug or cable for its endpoint note. These are removable cables, not blind-mate connectors. Disconnect both before withdrawing the core.
+
+- Blue ribbon: drive controller J4 to daughterboard J4, straight-through 10 positions. Dock positions 2 and 7 are NC; the ribbon does not power the drive. Pin-1 stripe is orange.
+- Red/black power: daughterboard J6 to main drive J2's standard floppy-power housing, using +5V and GND. The 12V position is unused.
+- Main drive's wide 34-pin floppy header stays **unplugged** inside the external case. It is for the tower installation's floppy-controller cable.
+- The black USB jumper connects daughterboard J10 to that board's Pico; it is a separate cable from these two drive connections.
+
+The old free-floating harness endpoints have been replaced with plugs at the board pin-map positions. A 14.4 × 2.4 mm rounded rear passage above the floppy connector lets the signal ribbon leave the core housing. The download includes **core-base-with-dock-cable-exit.step/.stl**, an external-installation variant of the core base; the original R4 tower base remains archived. Ribbon bends, purchased plug housings, wire gauge, strain relief and physical mating still need qualification. The wiring view hides the housing for clarity; use Lids off to see the assembled route.

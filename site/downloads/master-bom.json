@@ -1,5 +1,5 @@
 {
-  "revision": "external-r3-board-ports",
+  "revision": "external-r3-wiring",
   "checked": "2026-11-07",
   "scope": "R4 disks, R0 controller, R1 contact board and drive mechanism. External R3 case and R2 daughterboard with board-mounted THT rear ports. Daughterboard is unrouted; these are provisional sourcing candidates, not a released purchasing BOM.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
@@ -1612,6 +1612,38 @@
       "alternative": "",
       "notes": "Ref J10; Mouser 538-67643-0910. Through-hole. J10 is INTERNAL ONLY, not a host port.",
       "evidence": "Manufacturer drawing and Mouser listing reviewed 2026-11-07"
+    },
+    {
+      "id": "DX27",
+      "supplier": "Mouser",
+      "part": "10-way internal drive-to-dock signal harness",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "harness",
+      "assembly": "External dock R3",
+      "status": "Mating parts and cable specification pending",
+      "url": "",
+      "alternative": "",
+      "notes": "Drive controller J4 to daughterboard J4; 1:1 10 positions, 2.54mm 2x5 mating sockets and 1.27mm ribbon. Dock pins 2/7 NC. Housing, polarity and ribbon bend radius need qualification.",
+      "evidence": "CAD endpoint/route study; not a qualified purchased cable"
+    },
+    {
+      "id": "DX28",
+      "supplier": "Mouser",
+      "part": "5V internal drive power harness",
+      "mpn": "UNSELECTED",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "harness",
+      "assembly": "External dock R3",
+      "status": "Mating parts and cable specification pending",
+      "url": "",
+      "alternative": "",
+      "notes": "Daughterboard J6 to four-position floppy-power J2. +5V and GND only; 12V position unused. Select wire gauge, keyed mating housings and crimps before assembly.",
+      "evidence": "CAD endpoint/route study; not a qualified purchased cable"
     }
   ]
 }
