@@ -1,0 +1,1121 @@
+{
+  "revision": "sourcing-r1",
+  "checked": "2026-11-07",
+  "scope": "Current R4 disks, R0 controller, R1 contact board and R4 drive mechanism. Prototype inventory, not a production-ready shopping cart.",
+  "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
+  "rows": [
+    {
+      "id": "E01",
+      "supplier": "Mouser",
+      "part": "4 MiB SPI flash",
+      "mpn": "MX25L3233FM2I-08G-TR",
+      "quantity": {
+        "single": 1,
+        "ab": 2
+      },
+      "unit": "each",
+      "assembly": "Disk PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Macronix/MX25L3233FM2I-08G-TR?qs=mELouGlnn3cWHP7slfWMaw%3D%3D",
+      "notes": "95-25L3233FM2I08TR. Replaces EOL W25Q32JVSSIQ. Wide M2 SOP8 only; pinout/land pattern match. Firmware JEDEC/protection handling remains to implement. No larger-capacity alternate qualified.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "E02",
+      "supplier": "Mouser",
+      "part": "100 nF 50 V X7R capacitor \u00b7 0805",
+      "mpn": "C0805C104K5RACTU",
+      "quantity": {
+        "single": 1,
+        "ab": 2
+      },
+      "unit": "each",
+      "assembly": "Disk PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/KEMET/C0805C104K5RACTU?qs=Pc30aiB8zWUISNb2Qeyxfw%3D%3D",
+      "notes": "80-C0805C104K5R. Replaces obsolete GRM21BR71C104KA01L; same capacitance and 0805 footprint.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "E03",
+      "supplier": "Mouser",
+      "part": "10 k\u03a9 1% resistor \u00b7 0805",
+      "mpn": "RC0805FR-0710KL",
+      "quantity": {
+        "single": 3,
+        "ab": 6
+      },
+      "unit": "each",
+      "assembly": "Disk PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/ProductDetail/YAGEO/RC0805FR-0710KL",
+      "notes": "603-RC0805FR-0710KL. Three pullups per independent storage bank.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "E04",
+      "supplier": "Mouser",
+      "part": "34-PIN PC FLOPPY",
+      "mpn": "5103310-7",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/5103310-7?qs=84A%2FDAdkstIwgKqzuSUKzw%3D%3D",
+      "notes": "571-5103310-7. References: J1. Controller remains unrouted. Replaces D2534-5002-AR whose Mouser stock was not confirmed. Same 34-way 2.54mm right-angle interface; generic footprint and rear housing alignment NOT supplier-qualified.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/5103310-7?qs=84A%2FDAdkstIwgKqzuSUKzw%3D%3D"
+    },
+    {
+      "id": "E05",
+      "supplier": "Mouser",
+      "part": "FLOPPY POWER 5V GND GND 12V",
+      "mpn": "171826-4",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/171826-4?qs=4hg9R9g9MDt3qYFe2l2pbA%3D%3D",
+      "notes": "571-1718264. References: J2. Controller remains unrouted. Small floppy power connector; 2.50mm pitch. Exact housing/drill/polarity qualification pending.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/171826-4?qs=4hg9R9g9MDt3qYFe2l2pbA%3D%3D"
+    },
+    {
+      "id": "E06",
+      "supplier": "Mouser",
+      "part": "PICO 2 SC1632 SOCKETED",
+      "mpn": "SC1632",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/ProductDetail/Raspberry-Pi/SC1632",
+      "notes": "358-SC1632. References: A1. Controller remains unrouted. Factory-assembled Pico 2 H with headers. Carrier can be hand soldered; module itself contains SMD parts.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/c/embedded-solutions/?m=Raspberry+Pi&series=Pico+2"
+    },
+    {
+      "id": "E07",
+      "supplier": "Mouser",
+      "part": "SN74LVC245AN / 5V-TOL INPUT",
+      "mpn": "SN74LVC245AN",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC245AN?qs=N6WZOzgtpqVHY3EQAIUFKw%3D%3D",
+      "notes": "595-SN74LVC245AN. References: U1, U2. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC245AN?qs=N6WZOzgtpqVHY3EQAIUFKw%3D%3D"
+    },
+    {
+      "id": "E08",
+      "supplier": "Mouser",
+      "part": "SN74LS06N / OPEN COLLECTOR",
+      "mpn": "SN74LS06N",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LS06N?qs=SL3LIuy2dWxveuP53QjSSQ%3D%3D",
+      "notes": "595-SN74LS06N. References: U3. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LS06N?qs=SL3LIuy2dWxveuP53QjSSQ%3D%3D"
+    },
+    {
+      "id": "E09",
+      "supplier": "Mouser",
+      "part": "8x10k BUSSED / COMMON PIN1",
+      "mpn": "4609X-101-103LF",
+      "quantity": {
+        "drive": 3
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D",
+      "notes": "652-4609X-1LF-10K. References: RN1, RN2, RN3. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D"
+    },
+    {
+      "id": "E10",
+      "supplier": "Mouser",
+      "part": "500mA RESETTABLE",
+      "mpn": "MF-R050",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://eu.mouser.com/en/ProductDetail/Bourns/MF-R050?qs=sGAEpiMZZMt8Ji9PfVTQzPdc3ZvXXp64deBzu%2FHMu5c%3D",
+      "notes": "652-MFR050. References: F1. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://eu.mouser.com/en/ProductDetail/Bourns/MF-R050?qs=sGAEpiMZZMt8Ji9PfVTQzPdc3ZvXXp64deBzu%2FHMu5c%3D"
+    },
+    {
+      "id": "E11",
+      "supplier": "Mouser",
+      "part": "1N5819 / USB BACKFEED BLOCK",
+      "mpn": "1N5819-E3/54",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Vishay-Semiconductors/1N5819-E3-54?qs=7w0fSgRKp93guDuu%252B5hJ0Q%3D%3D",
+      "notes": "625-1N5819-E3. References: D1. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/Vishay-Semiconductors/1N5819-E3-54?qs=7w0fSgRKp93guDuu%252B5hJ0Q%3D%3D"
+    },
+    {
+      "id": "E12",
+      "supplier": "Mouser",
+      "part": "47uF 16V",
+      "mpn": "EEU-FC1C470",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FC1C470?qs=Z88QC5Cy1kxTpxWH9aPmRw%3D%3D",
+      "notes": "667-EEU-FC1C470. References: C1. Controller remains unrouted. Replaces EOL UPW1C470MDD. 5mm diameter, 11mm body, 2mm pitch; 1000h at 105\u00b0C endurance versus old 2000h. Verify ripple/temperature against target service life.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FC1C470?qs=Z88QC5Cy1kxTpxWH9aPmRw%3D%3D"
+    },
+    {
+      "id": "E13",
+      "supplier": "Mouser",
+      "part": "100nF 50V",
+      "mpn": "C315C104M5U5TA",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D",
+      "notes": "80-C315C104M5U. References: C2, C3, C4, C5. Controller remains unrouted. Retained stocked Z5U decoupler; corrected four footprints from 5.00mm to nominal 2.54mm. Body/lead dimensions from KEMET sheet.",
+      "alternative": "",
+      "evidence": "https://www.mouser.com/en/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
+    },
+    {
+      "id": "E14",
+      "supplier": "Mouser",
+      "part": "MEDIA CARRIER / NOT DIRECT CONTACTS",
+      "mpn": "TSW-105-07-G-D",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/ProductDetail/Samtec/TSW-105-07-G-D",
+      "notes": "200-TSW10507GD. References: J3, J4. Controller remains unrouted. Listing evidence from Mouser category. Exact unsuffixed part only. J3 is NOT wired for direct sliding contacts.",
+      "alternative": "",
+      "evidence": "https://hu.mouser.com/c/connectors/headers-wire-housings/?number+of+positions=10+Position&number+of+rows=2+Row&product=Headers&termination+style=Solder+Pin&type=Pin+Strip"
+    },
+    {
+      "id": "E15",
+      "supplier": "Mouser",
+      "part": "10k SEATED PULLUP",
+      "mpn": "MFR-25FBF52-10K",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://eu.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D",
+      "notes": "603-MFR-25FBF52-10K. References: R1, R2. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://eu.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
+    },
+    {
+      "id": "E16",
+      "supplier": "Mouser",
+      "part": "100k ARM PULLDOWN",
+      "mpn": "MFR-25FBF52-100K",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Listed in stock",
+      "url": "https://lv.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-100K?qs=sGAEpiMZZMsPqMdJzcrNwvki5I7GwxKebxN7cdCr7kk%3D",
+      "notes": "603-MFR-25FBF52-100K. References: R3. Controller remains unrouted.",
+      "alternative": "",
+      "evidence": "https://lv.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-100K?qs=sGAEpiMZZMsPqMdJzcrNwvki5I7GwxKebxN7cdCr7kk%3D"
+    },
+    {
+      "id": "E17",
+      "supplier": "Mouser",
+      "part": "20-way Pico socket strips",
+      "mpn": "SSW-120-01-G-S",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller assembly",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/ProductDetail/Samtec/SSW-120-01-G-S?qs=rU5fayqh%252BE3UumXrNKvvXQ%3D%3D",
+      "notes": "200-SSW12001GS. Listed in stock. Added missing assembly items; check actual socket/module stack height.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "E18",
+      "supplier": "Mouser",
+      "part": "Solderable metal spring contacts",
+      "mpn": "S7131-45R",
+      "quantity": {
+        "drive": 7
+      },
+      "unit": "each",
+      "assembly": "Contact PCB",
+      "status": "Listed in stock",
+      "url": "https://www.mouser.com/en/ProductDetail/Harwin/S7131-45R?qs=pffCcXpkxLy98k%2F0F4%2FdwQ%3D%3D",
+      "notes": "855-S7131-45R. Manufacturer drawing controls: 2.0mm free height, 1.0\u20131.4mm working range. Mouser summary dimensions disagree; use Harwin drawing. Solder base only; sliding wear unqualified.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "H01",
+      "supplier": "Mouser",
+      "part": "M3 \u00d7 4 mm brass heat-set inserts",
+      "mpn": "Adafruit 4255 / 485-4255",
+      "quantity": {
+        "drive": 22
+      },
+      "unit": "each",
+      "assembly": "Drive structure",
+      "status": "Fit pending",
+      "url": "https://www.mouser.com/en/ProductDetail/Adafruit/4255?qs=PzGy0jfpSMsebOYs%252BPMJOg%3D%3D",
+      "notes": "14 internal insert allocations + 8 bay-mount bores; 50 per bag. Real OD 4.2mm; existing seats/envelopes are provisional and need print coupons before adopting. Not a validated drop-in.",
+      "alternative": "https://www.adafruit.com/product/4255",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "H02",
+      "supplier": "McMaster-Carr",
+      "part": "M3 screws \u00b7 cassette / guides",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 8
+      },
+      "unit": "each",
+      "assembly": "Drive structure",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "notes": "4 cassette + 4 guide countersunk screws. CAD shank lengths are envelopes; select standard overall lengths and check engagement.",
+      "alternative": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H03",
+      "supplier": "McMaster-Carr",
+      "part": "M3 screws \u00b7 bezel / latch",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 6
+      },
+      "unit": "each",
+      "assembly": "Drive structure",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "notes": "4 bezel + 2 latch screws. Approximately 10mm modeled under-head lengths; check thread engagement and tool access.",
+      "alternative": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H04",
+      "supplier": "Home Depot",
+      "part": "M3 \u00d7 6 mm controller screws",
+      "mpn": "Everbilt 837961 candidate",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Controller mounting",
+      "status": "Fit pending",
+      "url": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
+      "notes": "Candidate under-head length 6mm, nominal head \u00d85.4 x 1.7mm. Check actual head dimensions. Everbilt model 837961 is a store candidate, not yet fit-qualified.",
+      "alternative": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H05",
+      "supplier": "Home Depot",
+      "part": "M3 hex nuts",
+      "mpn": "Everbilt 862798 candidate",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Controller mounting",
+      "status": "Fit pending",
+      "url": "https://www.homedepot.com/b/Hardware-Fasteners-Nuts/M3/Metric/N-5yc1vZc2elZ1z0sc32Z1z0sfzw",
+      "notes": "Nominal 5.5mm across flats and 2.4mm thick; CAD trap has 6.35mm circumscribed hex diameter. Check actual stock.",
+      "alternative": "https://www.mcmaster.com/products/nuts/",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H06",
+      "supplier": "Home Depot",
+      "part": "M3 tower mounting screws",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Tower installation",
+      "status": "Fit pending",
+      "url": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
+      "notes": "Installation quantity assumes four screws; chassis has eight side-hole positions. Length depends on tower sheet and insert engagement. Do not use long screws that enter the mechanism.",
+      "alternative": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H07",
+      "supplier": "McMaster-Carr",
+      "part": "M2 hinge-cap screws",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Flap bearings",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "notes": "Approx. 6mm under-head length; modeled head \u00d83.6 x 1.3mm. Select actual standard part before printing.",
+      "alternative": "https://www.grainger.com/product/Machine-Screw-M2x0-40-Thread-6HU38",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H08",
+      "supplier": "McMaster-Carr",
+      "part": "M2 hex nuts",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Flap bearings",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/nuts/",
+      "notes": "Nominal 4mm across flats and 1.6mm thick. Exact SKU and pocket clearance pending.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H09",
+      "supplier": "McMaster-Carr",
+      "part": "M2 countersunk lid / clamp screws",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 6
+      },
+      "unit": "each",
+      "assembly": "Lid and cable clamp",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
+      "notes": "4 lid + 2 harness clamp. Modeled around 8mm overall; countersink/head and engagement must be checked.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H10",
+      "supplier": "McMaster-Carr",
+      "part": "M2 ultra-low-head contact-board screws",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Contact cartridge",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/socket-head-screws/thread-size~m2/",
+      "notes": "Critical: head at most \u00d83.8mm and 1.0mm high. Modeled under-head length 4.6mm is not a purchase size. Select 4/5mm stock part and adjust insert depth as needed; no selected SKU yet.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H11",
+      "supplier": "McMaster-Carr",
+      "part": "M2 heat-set inserts \u00b7 4mm allocation",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 6
+      },
+      "unit": "each",
+      "assembly": "Lid and contact PCB",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/heat-set-inserts/",
+      "notes": "4 lid + 2 contact PCB. CAD OD2.8mm x4mm is provisional, not a known supplier dimension. Match bosses to an actual insert.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H12",
+      "supplier": "McMaster-Carr",
+      "part": "M2 heat-set inserts \u00b7 3mm allocation",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Cable clamp",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/heat-set-inserts/",
+      "notes": "CAD OD2.8mm x3mm; exact supplier part and thermal insertion holes need qualification.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H13",
+      "supplier": "McMaster-Carr",
+      "part": "Smooth \u00d83mm steel guide rods",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Eject carriage",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/rods/diameter~3-mm/",
+      "notes": "71mm modeled length. Buy precision rod, cut and deburr; verify straightness and sliding clearance. Not threaded rod.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H14",
+      "supplier": "McMaster-Carr",
+      "part": "Matched eject compression springs",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Eject carriage",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/compression-springs/",
+      "notes": "Illustrative OD\u22484.98mm, ID\u22484.22mm; installed lengths 27.6\u201355.6mm over 28mm travel. Rate, free length, preload and solid height are NOT selected. Do not order solely by these dimensions.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H15",
+      "supplier": "McMaster-Carr",
+      "part": "Button return compression spring",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Eject button",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/compression-springs/",
+      "notes": "Illustrative OD6.7mm, installed lengths 9mm to 3mm. Solid height and force need selection; current helix is not a purchasing specification.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H16",
+      "supplier": "McMaster-Carr",
+      "part": "Latch bias compression spring",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Latch",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/compression-springs/",
+      "notes": "Model is an envelope. Select load, travel, preload and solid height after mechanism coupon test.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H17",
+      "supplier": "McMaster-Carr",
+      "part": "Flap torsion spring",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Flap hinge",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/torsion-springs/",
+      "notes": "Modeled 0.5mm wire, 3.7mm coil ID, 3.25mm axial coil envelope. Leg angle, winding hand, preload and torque NOT selected. Three CAD pieces represent ONE spring.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H18",
+      "supplier": "McMaster-Carr",
+      "part": "Flap pivot shafts",
+      "mpn": "Unselected / custom CAD",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Flap hinge",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/rods/diameter~3-mm/",
+      "notes": "\u00d83mm headed pivots; one has D-flat and retainer groove. Current CAD requires custom features: no confirmed off-the-shelf match. Revise retention around stock pins/rod before manufacture.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H19",
+      "supplier": "McMaster-Carr",
+      "part": "\u00d82mm latch / flap follower pins",
+      "mpn": "Unselected / custom CAD",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Actuator and latch",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/rods/diameter~2-mm/",
+      "notes": "1 latch + 1 flap follower, with different lengths and groove/head details. Plain dowel pins are NOT drop-in substitutes for current retained geometry.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H20",
+      "supplier": "McMaster-Carr",
+      "part": "Metal retaining clips",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Actuator and latch",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/retaining-rings/",
+      "notes": "2 latch + 1 flap shaft + 1 actuator clip. Exact groove/ring combinations must be selected as matched pairs.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H21",
+      "supplier": "McMaster-Carr",
+      "part": "\u00d83mm OD wear sleeve",
+      "mpn": "Unselected / custom CAD",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Flap actuator",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/tubing/",
+      "notes": "Modeled ID2.1mm, length4.3mm. Exact stock tubing or bushing not selected; verify strength and end retention.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "H22",
+      "supplier": "McMaster-Carr",
+      "part": "Compliant cable-grip pad",
+      "mpn": "Select exact size",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Cable clamp",
+      "status": "Fit pending",
+      "url": "https://www.mcmaster.com/products/silicone-rubber-sheets/",
+      "notes": "Cut nonconductive silicone/rubber sheet to fit. Thickness and hardness require pull testing; TPU printing is an alternative only after validation.",
+      "alternative": "",
+      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+    },
+    {
+      "id": "E19",
+      "supplier": "Mouser",
+      "part": "Seven-wire contact pigtail",
+      "mpn": "Wire and plug not yet selected",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "set",
+      "assembly": "Contact harness",
+      "status": "Unselected",
+      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/2841-7-BK001",
+      "notes": "Supplier example only: 30AWG stranded PTFE, not a buy recommendation (1000ft spool). Select practical spool/gauge, insulation OD, power drop and mating plug together. 0.8mm PCB holes; no direct connection to R0 J3.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "B01",
+      "supplier": "PCBWay",
+      "part": "Single-bank disk PCB",
+      "mpn": "Custom project PCB",
+      "quantity": {
+        "single": 1
+      },
+      "unit": "each",
+      "assembly": "Disk PCB",
+      "status": "Prototype only",
+      "url": "https://www.pcbway.com/pcb-assembly.html",
+      "notes": "87 x91 x1.6mm R4; 2 layers; verify contact plating and wear. Provisional Gerbers exist. Turnkey assembly is a quote option; components are not included automatically with bare boards.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "B02",
+      "supplier": "PCBWay",
+      "part": "Independent A/B disk PCB",
+      "mpn": "Custom project PCB",
+      "quantity": {
+        "ab": 1
+      },
+      "unit": "each",
+      "assembly": "Disk PCB",
+      "status": "Prototype only",
+      "url": "https://www.pcbway.com/pcb-assembly.html",
+      "notes": "Same outline, two independent banks; both component banks on top for one stencil. Turnkey assembly is a quote option; components are not included automatically with bare boards.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "B03",
+      "supplier": "PCBWay",
+      "part": "Passive contact cartridge PCB",
+      "mpn": "Custom project PCB",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Contact PCB",
+      "status": "Prototype only",
+      "url": "https://www.pcbway.com/pcb-assembly.html",
+      "notes": "18.525 x49 x1.6mm; routed R1; seven soldered spring lands and pigtail pads. Turnkey assembly is a quote option; components are not included automatically with bare boards.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "B04",
+      "supplier": "PCBWay",
+      "part": "Controller PCB",
+      "mpn": "Custom project PCB",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller PCB",
+      "status": "Unselected",
+      "url": "https://www.pcbway.com/pcb-assembly.html",
+      "notes": "136 x65 x1.6mm rounded R0; UNROUTED, no production order files. Isolation and sensors unfinished. Turnkey assembly is a quote option; components are not included automatically with bare boards.",
+      "alternative": "",
+      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+    },
+    {
+      "id": "P01",
+      "supplier": "Print at home",
+      "part": "01 base tray",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P02",
+      "supplier": "Print at home",
+      "part": "02 top cover",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P03",
+      "supplier": "Print at home",
+      "part": "04b left hinge bearing cap",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P04",
+      "supplier": "Print at home",
+      "part": "04b right hinge bearing cap",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P05",
+      "supplier": "Print at home",
+      "part": "03 bezel",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P06",
+      "supplier": "Print at home",
+      "part": "04 door flap",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P07",
+      "supplier": "Print at home",
+      "part": "flap actuator rocker",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P08",
+      "supplier": "Print at home",
+      "part": "05 left guide",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P09",
+      "supplier": "Print at home",
+      "part": "06 right guide",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P10",
+      "supplier": "Print at home",
+      "part": "07b left eject sled",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P11",
+      "supplier": "Print at home",
+      "part": "07 right eject sled and keeper",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P12",
+      "supplier": "Print at home",
+      "part": "08 keyed latch slide",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P13",
+      "supplier": "Print at home",
+      "part": "09 latch guide block",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P14",
+      "supplier": "Print at home",
+      "part": "10 sequenced eject slider",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P15",
+      "supplier": "Print at home",
+      "part": "12 bottom contact cassette",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P16",
+      "supplier": "Print at home",
+      "part": "13 harness strain clamp",
+      "mpn": "Project STL / STEP",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Drive printed parts",
+      "status": "Prototype only",
+      "url": "index.html?model=drive%2Fexploded",
+      "notes": "Print material, orientation and tolerances require prototype testing.",
+      "alternative": "",
+      "evidence": "Current drive R4 parts.json"
+    },
+    {
+      "id": "P30",
+      "supplier": "Print at home",
+      "part": "Upper and lower disk shell",
+      "mpn": "Matching style and single / A/B geometry",
+      "quantity": {
+        "single": 2,
+        "ab": 2
+      },
+      "unit": "halves",
+      "assembly": "Disk shell",
+      "status": "Prototype only",
+      "url": "index.html?model=basic%2Fab",
+      "notes": "Current snap-fit shells; no disk-face screws or nuts. Choose basic, recessed, Cyber Runner or Deep Space. Do not mix archived screw-service shells.",
+      "alternative": "",
+      "evidence": "Current inspector model catalog"
+    },
+    {
+      "id": "P31",
+      "supplier": "Print at home",
+      "part": "Optional Cyber Runner accents / inlays",
+      "mpn": "4 accents + 4 inlay pieces",
+      "quantity": {},
+      "unit": "8 per styled disk",
+      "assembly": "Optional styling",
+      "status": "Prototype only",
+      "url": "index.html?model=cyber-runner%2Fab",
+      "notes": "Per styled disk: 8 optional printed pieces. Excluded from base disk quantity totals.",
+      "alternative": "",
+      "evidence": "Current inspector model catalog"
+    },
+    {
+      "id": "P32",
+      "supplier": "Print at home",
+      "part": "Optional Deep Space accents",
+      "mpn": "4 wrap accents",
+      "quantity": {},
+      "unit": "4 per styled disk",
+      "assembly": "Optional styling",
+      "status": "Prototype only",
+      "url": "index.html?model=deep-space%2Fab",
+      "notes": "Per styled disk: 4 optional accents. Excluded from base disk quantity totals.",
+      "alternative": "",
+      "evidence": "Current inspector model catalog"
+    },
+    {
+      "id": "P33",
+      "supplier": "Print at home",
+      "part": "Modular sleeve",
+      "mpn": "Project sleeve R0",
+      "quantity": {
+        "sleeve": 1
+      },
+      "unit": "each",
+      "assembly": "Sleeve",
+      "status": "Prototype only",
+      "url": "index.html?model=sleeve%2Fempty",
+      "notes": "Optional accessory; slide joints and Sega case fit remain unverified.",
+      "alternative": "",
+      "evidence": "Current inspector model catalog"
+    },
+    {
+      "id": "A01",
+      "supplier": "Local print / office supplier",
+      "part": "White wrap label",
+      "mpn": "Single-sided or full A/B wrap",
+      "quantity": {
+        "single": 1,
+        "ab": 1
+      },
+      "unit": "each",
+      "assembly": "Artwork",
+      "status": "Unselected",
+      "url": "",
+      "notes": "Use the current rounded straight-fold template, white stock and Roddy branding; adhesive/finish and exact stock not selected.",
+      "alternative": "",
+      "evidence": "Project requirement; not a sourced SKU"
+    },
+    {
+      "id": "A02",
+      "supplier": "Not specified yet",
+      "part": "Safe-insertion isolation and seating/eject sensors",
+      "mpn": "Circuit design pending",
+      "quantity": {},
+      "unit": "TBD",
+      "assembly": "Future controller revision",
+      "status": "Unselected",
+      "url": "",
+      "notes": "Needed before powering sliding contacts. No complete circuit or purchasable BOM exists yet.",
+      "alternative": "",
+      "evidence": "Controller R0 design limitation"
+    },
+    {
+      "id": "A03",
+      "supplier": "Not specified yet",
+      "part": "Sound, LEDs, USB-C / IEC dock and platform adapters",
+      "mpn": "Circuit design pending",
+      "quantity": {},
+      "unit": "TBD",
+      "assembly": "Future dock / features",
+      "status": "Unselected",
+      "url": "",
+      "notes": "Requested product features are not fully designed in the present controller. Ports, audio parts, LEDs and related protection cannot be counted as sourced.",
+      "alternative": "",
+      "evidence": "Project roadmap; outside present PCB BOM"
+    },
+    {
+      "id": "A04",
+      "supplier": "Not specified yet",
+      "part": "External cables, power supply and optional Sega case",
+      "mpn": "Platform / enclosure choice pending",
+      "quantity": {},
+      "unit": "As required",
+      "assembly": "Optional accessories",
+      "status": "Unselected",
+      "url": "",
+      "notes": "Computer floppy power/ribbon cables may already exist. External power/cables, artwork booklet and Sega case are separate purchases dependent on chosen build.",
+      "alternative": "",
+      "evidence": "Not yet specified"
+    },
+    {
+      "id": "A05",
+      "supplier": "Local hardware / electronics supplier",
+      "part": "Solder or paste, flux and heat-shrink",
+      "mpn": "Assembly consumables",
+      "quantity": {},
+      "unit": "As required",
+      "assembly": "Assembly supplies",
+      "status": "Unselected",
+      "url": "",
+      "notes": "Tools and consumables are not counted as fitted parts. A stencil is optional for paste assembly; PCBWay can quote stencils.",
+      "alternative": "",
+      "evidence": "Assembly requirement; not a sourced SKU"
+    }
+  ]
+}
