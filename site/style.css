@@ -3,3 +3,5 @@
 .brand{display:flex;align-items:center}.brand-logo{width:112px;height:33px;object-fit:contain;margin-right:6px}@media(max-width:650px){.brand-logo{width:94px;height:30px}}
 
 .color-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.color-options label{display:flex;justify-content:space-between;align-items:center;gap:8px}.color-options input[type=color]{width:38px;height:30px;padding:2px;border:1px solid #bec4c8;border-radius:5px;cursor:pointer}.color-options input:disabled{opacity:.3;cursor:default}#sleeve-controls{font-size:12px;line-height:1.5;margin:14px 0}#sleeve-controls input{width:100%}
+
+.cycle-buttons{display:flex;gap:5px;flex-wrap:wrap;margin:12px 0}.cycle-buttons button{font-size:11px;padding:7px}#cycle-phase{font-size:12px}#cycle-detail{font-variant-numeric:tabular-nums}.stage-bottom #render-status{max-width:52%;text-align:right}
