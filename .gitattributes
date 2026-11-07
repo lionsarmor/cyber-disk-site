@@ -1,0 +1,4 @@
+# Generated CAD keeps native exporter formatting.
+*.step -diff -whitespace
+*.stl binary
+*.bin binary
