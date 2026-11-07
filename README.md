@@ -1,11 +1,11 @@
 # RODDY Cyber Disk inspector
 
-Live website: https://lionsarmor.github.io/cyber-disk-site/
+Website: https://disk.roddy.world/
 
-Intended custom domain: https://disk.roddy.world/ (DNS setup pending).
+GitHub Pages address (redirects to the custom domain): https://lionsarmor.github.io/cyber-disk-site/
 
 Static 3D inspection website and downloadable prototype CAD. The development repository remains private.
 
 GitHub Actions deploys `site/` to GitHub Pages on each push to main.
 
-DNS: CNAME `disk` -> `lionsarmor.github.io`. Configure the custom domain in repository Pages settings.
+DNS: Namecheap CNAME `disk` -> `lionsarmor.github.io`, Automatic TTL. GitHub Pages custom domain is `disk.roddy.world`. All asset URLs are relative so the inspector works at the domain root.
