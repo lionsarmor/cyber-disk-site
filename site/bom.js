@@ -1,7 +1,7 @@
 (async()=>{'use strict';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={drive:'drive',single:'single disk',ab:'A/B disk',sleeve:'sleeve',dock:'external dock'};let shown=[];
-try{const response=await fetch('downloads/master-bom.json?v=external-r0');if(!response.ok)throw Error('BOM unavailable');const data=await response.json();
+try{const response=await fetch('downloads/master-bom.json?v=external-r1');if(!response.ok)throw Error('BOM unavailable');const data=await response.json();
 $('checked').textContent='Sourcing reviewed '+data.checked+' · '+data.revision;
 const suppliers=[...new Set(data.rows.map(r=>r.supplier))];for(const s of suppliers){const o=document.createElement('option');o.value=s;o.textContent=s;$('supplier').append(o)}
 function filtered(){const q=$('search').value.trim().toLowerCase(),b=$('build').value,s=$('supplier').value,t=$('status').value;return data.rows.filter(r=>(b==='all'||(b==='extra'?Object.keys(r.quantity).length===0:r.quantity[b]>0))&&(s==='all'||r.supplier===s)&&(t==='all'||r.status===t)&&(!q||[r.part,r.mpn,r.notes,r.supplier,r.assembly,r.id].join(' ').toLowerCase().includes(q)))}

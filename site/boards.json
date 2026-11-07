@@ -2,7 +2,7 @@
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
   "intro": "Schematics, editable KiCad projects and fabrication files for each Cyber Disk board.",
-  "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
+  "sourceCommit": "329ff6ff1db6fb5f866837dafecd1f9f7fb5f826",
   "boards": [
     {
       "id": "single-r4",
@@ -243,90 +243,85 @@
       "sourceSha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
     },
     {
-      "id": "external-r0",
-      "title": "External daughterboard \u00b7 R0",
-      "status": "Unrouted \u00b7 do not fabricate",
+      "id": "external-r1",
+      "title": "External daughterboard \u00b7 R1 barrel power",
+      "status": "Power revision \u00b7 unrouted",
       "fabrication": "reference",
-      "note": "40-position low-voltage interface study. No mains on PCB. Routing, protection, firmware, port harnesses and powered-off host behavior unfinished. Passive pin-map symbols: ERC does not establish electrical correctness.",
+      "note": "5V barrel input, 2A fuse and reverse-polarity MOSFET. Passive pin-map schematic only; routing, power-state/ESD review, supplier package checks and firmware unfinished. Do not order these reference Gerbers.",
       "model": "pcb/dock",
       "previews": [
         {
           "label": "Schematic",
-          "url": "boards/external-r0/schematic/cyber-external-dock-r0.svg"
+          "url": "boards/external-r1/schematic/cyber-external-dock-r1.svg"
         },
         {
           "label": "PCB front",
-          "url": "boards/external-r0/front.svg"
+          "url": "boards/external-r1/front.svg"
         },
         {
           "label": "PCB back",
-          "url": "boards/external-r0/back.svg"
+          "url": "boards/external-r1/back.svg"
         }
       ],
       "files": [
         {
           "label": "Complete KiCad project + local libraries",
-          "url": "boards/external-r0/external-r0-KICAD.zip",
+          "url": "boards/external-r1/external-r1-KICAD.zip",
           "type": "source"
         },
         {
           "label": "KiCad PCB",
-          "url": "boards/external-r0/kicad/cyber-external-dock-r0.kicad_pcb",
+          "url": "boards/external-r1/kicad/cyber-external-dock-r1.kicad_pcb",
           "type": "source"
         },
         {
           "label": "KiCad schematic",
-          "url": "boards/external-r0/kicad/cyber-external-dock-r0.kicad_sch",
+          "url": "boards/external-r1/kicad/cyber-external-dock-r1.kicad_sch",
           "type": "source"
         },
         {
           "label": "Schematic PDF",
-          "url": "boards/external-r0/schematic.pdf",
+          "url": "boards/external-r1/schematic.pdf",
           "type": "preview"
         },
         {
           "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
-          "url": "boards/external-r0/external-r0-REFERENCE-NOT-FOR-ORDER.zip",
+          "url": "boards/external-r1/external-r1-REFERENCE-NOT-FOR-ORDER.zip",
           "type": "fabrication"
         },
         {
-          "label": "Candidate BOM",
-          "url": "boards/external-r0/documents/BOM-candidates.csv",
+          "label": "Candidate board BOM",
+          "url": "boards/external-r1/documents/BOM-candidates.csv",
           "type": "reference"
         },
         {
-          "label": "Pin map",
-          "url": "boards/external-r0/documents/pin-map.json",
+          "label": "Physical pin map",
+          "url": "boards/external-r1/documents/pin-map.json",
           "type": "reference"
         },
         {
-          "label": "DRC report",
-          "url": "boards/external-r0/documents/drc.json",
+          "label": "Validation boundary",
+          "url": "boards/external-r1/documents/validation.json",
           "type": "reference"
         },
         {
-          "label": "ERC report",
-          "url": "boards/external-r0/documents/erc.txt",
-          "type": "reference"
-        },
-        {
-          "label": "Pin-map validation",
-          "url": "boards/external-r0/documents/validation.json",
+          "label": "Power and assembly review",
+          "url": "boards/external-r1/documents/EXTERNAL-DOCK-R1.md",
           "type": "reference"
         },
         {
           "label": "Read before ordering",
-          "url": "boards/external-r0/READ_BEFORE_ORDER.txt",
+          "url": "boards/external-r1/READ_BEFORE_ORDER.txt",
           "type": "reference"
         },
         {
           "label": "File checksums",
-          "url": "boards/external-r0/SHA256SUMS.txt",
+          "url": "boards/external-r1/SHA256SUMS.txt",
           "type": "reference"
         }
       ],
-      "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
-      "sourceSha256": "e476dcb08cda0bcaa11498dcb137fabda928b220b7110c10e021cc5ee35e5ae0"
+      "sourceCommit": "329ff6ff1db6fb5f866837dafecd1f9f7fb5f826",
+      "sourceSha256": "1cd0cb60dece3f25377d52bdd3ffe42313a232efeb1594f640bb1785af4308b0"
     },
     {
       "id": "controller-r0",
