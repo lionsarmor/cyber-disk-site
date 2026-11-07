@@ -1,6 +1,8 @@
 # RODDY Cyber Disk inspector
 
-Website: https://disk.roddy.world/
+Live website: https://lionsarmor.github.io/cyber-disk-site/
+
+Intended custom domain: https://disk.roddy.world/ (DNS setup pending).
 
 Static 3D inspection website and downloadable prototype CAD. The development repository remains private.
 
