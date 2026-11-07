@@ -1,0 +1,599 @@
+(kicad_sch (version 20230121) (generator eeschema) (uuid d7ffa588-3295-4be4-a01b-9cb0b23af7db) (paper "A4") (title_block (title "Cyber Disk service R4 — independent SPI media") (rev "R4") (comment 1 "NOT FOR PRODUCTION: contact geometry / interlock unqualified")) (lib_symbols (symbol "Roddy:MX25L3233FM2I_08G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -6.35 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX25L3233FM2I_08G"
+			(at 7.62 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8933/MX25L3233F,%203V,%2032Mb,%20v1.7.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.65-3.6V, SOP-8 (200 mil)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flash memory SPI"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MX25L3233FM2I_08G_0_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MX25L3233FM2I_08G_1_1"
+			(pin input line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "DO/IO_{1}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "~{WP}/IO_{2}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "DI/IO_{0}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "~{HOLD}/~{RESET}/IO_{3}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Roddy:Contact7" (pin_names (offset 0.5)) (in_bom yes) (on_board yes) (property "Reference" "X" (at 0 12 0) (effects (font (size 1 1)))) (property "Value" "Contact7" (at 0 -12 0) (effects (font (size 1 1)))) (symbol "Contact7_1_1" (rectangle (start -5.08 10.16) (end 5.08 -10.16) (stroke (width 0.254) (type default)) (fill (type background))) (pin passive line (at -7.62 7.62 0) (length 2.54) (name "GND" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))) )(pin passive line (at -7.62 5.08 0) (length 2.54) (name "VCC" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))) )(pin passive line (at -7.62 2.54 0) (length 2.54) (name "CS" (effects (font (size 1 1)))) (number "3" (effects (font (size 1 1)))) )(pin passive line (at -7.62 0.0 0) (length 2.54) (name "CLK" (effects (font (size 1 1)))) (number "4" (effects (font (size 1 1)))) )(pin passive line (at -7.62 -2.54 0) (length 2.54) (name "MOSI" (effects (font (size 1 1)))) (number "5" (effects (font (size 1 1)))) )(pin passive line (at -7.62 -5.079999999999999 0) (length 2.54) (name "MISO" (effects (font (size 1 1)))) (number "6" (effects (font (size 1 1)))) )(pin passive line (at -7.62 -7.62 0) (length 2.54) (name "RESERVED" (effects (font (size 1 1)))) (number "7" (effects (font (size 1 1)))) )))
+(symbol "Roddy:SupplyFlag" (pin_names (offset 0.5)) (in_bom yes) (on_board yes) (property "Reference" "X" (at 0 12 0) (effects (font (size 1 1)))) (property "Value" "SupplyFlag" (at 0 -12 0) (effects (font (size 1 1)))) (symbol "SupplyFlag_1_1" (rectangle (start -1 1) (end 1 2) (stroke (width 0.254) (type default)) (fill (type background))) (pin power_out line (at 0 0 90) (length 2.54) (name "pwr" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))) ))))
+(symbol (lib_id "Roddy:MX25L3233FM2I_08G") (at 76.2 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 5d81f85a-6bd6-4402-86af-a29338caa5cd) (property "Reference" "U1" (at 79.2 62.2 0) (effects (font (size 1 1)))) (property "Value" "MX25L3233FM2I-08G-TR" (at 79.2 91.2 0) (effects (font (size 1 1)))) (property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm" (at 76.2 76.2 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "U1") (unit 1)))))
+(wire (pts (xy 66.0400 68.5800) (xy 58.4200 68.5800)) (stroke (width 0) (type default)) (uuid d21e04ca-cafe-4df6-807e-ba916a05ce9c))
+(label "A_CS" (at 58.4200 68.5800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2b13b81f-84d5-4bde-bf58-ddf00f21938f))
+(wire (pts (xy 66.0400 76.2000) (xy 58.4200 76.2000)) (stroke (width 0) (type default)) (uuid 12c9e9a9-71b1-45c8-ae2d-51aee28751b2))
+(label "A_MISO" (at 58.4200 76.2000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9115cf76-0cdb-4900-b177-7730e69a4a45))
+(wire (pts (xy 66.0400 78.7400) (xy 58.4200 78.7400)) (stroke (width 0) (type default)) (uuid 2b7adfb5-14f4-4cb7-9ea0-1ce64dba71ae))
+(label "A_WP" (at 58.4200 78.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a2ede603-f057-4e55-b288-2a7b3797fe5c))
+(wire (pts (xy 76.2000 88.9000) (xy 83.8200 88.9000)) (stroke (width 0) (type default)) (uuid d9e0be0f-f653-44af-a53a-c0829a10926d))
+(label "A_GND" (at 83.8200 88.9000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid d681f0f9-b66f-4171-a9b6-8eff2b85f04f))
+(wire (pts (xy 66.0400 73.6600) (xy 58.4200 73.6600)) (stroke (width 0) (type default)) (uuid 08c24cee-6c79-4648-93c0-9f63cc7b32cd))
+(label "A_MOSI" (at 58.4200 73.6600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 73e234bc-062e-47be-8817-01bd03a0aa69))
+(wire (pts (xy 66.0400 71.1200) (xy 58.4200 71.1200)) (stroke (width 0) (type default)) (uuid ed2fdfc9-4b55-4ed0-9d85-9a778ff65a77))
+(label "A_CLK" (at 58.4200 71.1200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 86582f40-b3be-4263-90cc-f3911e97f89b))
+(wire (pts (xy 66.0400 81.2800) (xy 58.4200 81.2800)) (stroke (width 0) (type default)) (uuid 367fdd0a-7401-41c1-b87c-a3147abdaf96))
+(label "A_HOLD" (at 58.4200 81.2800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e5c870fc-1ee6-4e88-9e13-f7caff8d4300))
+(wire (pts (xy 76.2000 63.5000) (xy 83.8200 63.5000)) (stroke (width 0) (type default)) (uuid 2bb664df-5e2f-4bb1-b827-57eabbc2ecc2))
+(label "A_VCC" (at 83.8200 63.5000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 33c551e1-6c72-41f3-8b39-c83afd01d764))
+(symbol (lib_id "Roddy:Contact7") (at 45.72 76.2 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 894309e0-ae1a-4535-b489-e8085518d5de) (property "Reference" "J1" (at 48.72 62.2 0) (effects (font (size 1 1)))) (property "Value" "Seven exposed pads — A" (at 48.72 91.2 0) (effects (font (size 1 1)))) (property "Footprint" "Roddy:Contact7_F" (at 45.72 76.2 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "J1") (unit 1)))))
+(wire (pts (xy 38.1000 68.5800) (xy 33.0200 68.5800)) (stroke (width 0) (type default)) (uuid ac762545-24c1-4d45-85d9-cae93f6ac83c))
+(label "A_GND" (at 33.0200 68.5800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7de26daa-f5e1-4944-9eb1-fe75865a909e))
+(wire (pts (xy 38.1000 71.1200) (xy 33.0200 71.1200)) (stroke (width 0) (type default)) (uuid 21bd1d7a-89e8-484f-8761-4eeb40f35028))
+(label "A_VCC" (at 33.0200 71.1200 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4d658981-adc5-4b0d-be85-da2f976d6413))
+(wire (pts (xy 38.1000 73.6600) (xy 33.0200 73.6600)) (stroke (width 0) (type default)) (uuid 6c391993-127b-43d6-b15a-d6c10e35f3a9))
+(label "A_CS" (at 33.0200 73.6600 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 5fff6673-002d-4130-b9f9-e3b9d1329a8e))
+(wire (pts (xy 38.1000 76.2000) (xy 33.0200 76.2000)) (stroke (width 0) (type default)) (uuid a8828e91-10b8-4084-ba4c-7383b2eaed76))
+(label "A_CLK" (at 33.0200 76.2000 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4370646f-6b89-4620-ae4d-8a4ab64966cb))
+(wire (pts (xy 38.1000 78.7400) (xy 33.0200 78.7400)) (stroke (width 0) (type default)) (uuid 530ed16e-169a-46f2-a142-d8a4ce7907a6))
+(label "A_MOSI" (at 33.0200 78.7400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a841fdb5-03bd-42f8-beb7-7c2d9565c69e))
+(wire (pts (xy 38.1000 81.2800) (xy 33.0200 81.2800)) (stroke (width 0) (type default)) (uuid 3fce294a-58e1-4b53-9ea8-9c0160eea924))
+(label "A_MISO" (at 33.0200 81.2800 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a057486b-3ec5-486c-87b5-c7b9a9b4fd09))
+(no_connect (at 38.1 83.82) (uuid 3905b69e-a3ed-4c98-a18f-bb861d72f215))
+(symbol (lib_id "Device:R") (at 45.72 127 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid c22d5226-c33b-4f4c-b2b2-dd663817d8fd) (property "Reference" "R1" (at 48.72 122 0) (effects (font (size 1 1)))) (property "Value" "10k" (at 48.72 132 0) (effects (font (size 1 1)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.72 127 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "R1") (unit 1)))))
+(wire (pts (xy 45.7200 123.1900) (xy 40.6400 123.1900)) (stroke (width 0) (type default)) (uuid 964f5e30-4fea-4fbc-a544-f6717d8f1eb0))
+(label "A_VCC" (at 40.6400 123.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid c38da8b6-3717-434c-a6a9-f99ac6f48f76))
+(wire (pts (xy 45.7200 130.8100) (xy 40.6400 130.8100)) (stroke (width 0) (type default)) (uuid a35504fd-d806-4040-a003-ab9211937d9f))
+(label "A_CS" (at 40.6400 130.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 02c6ca06-4dd6-40f8-bd61-1f07a317a107))
+(symbol (lib_id "Device:R") (at 64.77 127 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 3fe531c2-76b9-46a5-bad7-bdf6d7d50f50) (property "Reference" "R2" (at 67.77 122 0) (effects (font (size 1 1)))) (property "Value" "10k" (at 67.77 132 0) (effects (font (size 1 1)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 64.77 127 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "R2") (unit 1)))))
+(wire (pts (xy 64.7700 123.1900) (xy 59.6900 123.1900)) (stroke (width 0) (type default)) (uuid 054be9ed-3f19-415d-abca-58c1d74151fc))
+(label "A_VCC" (at 59.6900 123.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 7062d2e9-0d38-4504-90ef-dc8af29931b7))
+(wire (pts (xy 64.7700 130.8100) (xy 59.6900 130.8100)) (stroke (width 0) (type default)) (uuid 411bbecd-4405-4e05-af8f-458430f329c1))
+(label "A_WP" (at 59.6900 130.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid dda8d773-40bd-459a-9d4d-d3e0f90eccaa))
+(symbol (lib_id "Device:R") (at 83.82 127 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 3045edb2-8ce6-452a-8756-b9418fc8a8c7) (property "Reference" "R3" (at 86.82 122 0) (effects (font (size 1 1)))) (property "Value" "10k" (at 86.82 132 0) (effects (font (size 1 1)))) (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 83.82 127 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "R3") (unit 1)))))
+(wire (pts (xy 83.8200 123.1900) (xy 78.7400 123.1900)) (stroke (width 0) (type default)) (uuid 94a37c2c-2f18-478b-87d8-e78a7d556fb7))
+(label "A_VCC" (at 78.7400 123.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 04c60abf-cd10-42a7-9a30-c81d5e9186f0))
+(wire (pts (xy 83.8200 130.8100) (xy 78.7400 130.8100)) (stroke (width 0) (type default)) (uuid 6b212269-4167-4678-917d-f1a06852d50e))
+(label "A_HOLD" (at 78.7400 130.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid cd0c2b36-5ae3-49c2-9207-2a6d975f0187))
+(symbol (lib_id "Device:C") (at 111.76 127 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid bcac08b5-2815-4090-b23c-3e3b186b64e8) (property "Reference" "C1" (at 114.76 122 0) (effects (font (size 1 1)))) (property "Value" "100nF 50V X7R" (at 114.76 132 0) (effects (font (size 1 1)))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 111.76 127 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "C1") (unit 1)))))
+(wire (pts (xy 111.7600 123.1900) (xy 106.6800 123.1900)) (stroke (width 0) (type default)) (uuid d33bfedb-6d21-4f41-8deb-fbc76e2e4ae3))
+(label "A_VCC" (at 106.6800 123.1900 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 390f6db8-f7bd-4fe3-be3b-ec9b2131bbbc))
+(wire (pts (xy 111.7600 130.8100) (xy 106.6800 130.8100)) (stroke (width 0) (type default)) (uuid c55a84e6-a433-4e10-a049-22fd5a51133d))
+(label "A_GND" (at 106.6800 130.8100 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9e0ab94f-a077-4fb7-9138-c032cd4662ca))
+(symbol (lib_id "Roddy:SupplyFlag") (at 45.72 154.94 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid 83514549-3205-471e-816d-ceb53f9da959) (property "Reference" "#FLG1" (at 48.72 149.94 0) (effects (font (size 1 1)))) (property "Value" "Supplied by drive" (at 48.72 159.94 0) (effects (font (size 1 1)))) (property "Footprint" "" (at 45.72 154.94 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "#FLG1") (unit 1)))))
+(wire (pts (xy 45.7200 154.9400) (xy 40.6400 154.9400)) (stroke (width 0) (type default)) (uuid 14188d5e-11a7-4835-b873-924ccd151268))
+(label "A_VCC" (at 40.6400 154.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6181b903-f5e2-40c0-995b-6e6cd1d6102d))
+(symbol (lib_id "Roddy:SupplyFlag") (at 71.12 154.94 0) (unit 1) (in_bom yes) (on_board no) (dnp no) (uuid 466813d9-5cbb-4ac3-b3df-1a9a32b6bea0) (property "Reference" "#FLG2" (at 74.12 149.94 0) (effects (font (size 1 1)))) (property "Value" "Supplied by drive" (at 74.12 159.94 0) (effects (font (size 1 1)))) (property "Footprint" "" (at 71.12 154.94 0) (effects (font (size 1 1)) hide)) (instances (project "cyber-disk-single-r4" (path "/d7ffa588-3295-4be4-a01b-9cb0b23af7db" (reference "#FLG2") (unit 1)))))
+(wire (pts (xy 71.1200 154.9400) (xy 66.0400 154.9400)) (stroke (width 0) (type default)) (uuid 6368a56b-0085-4d5d-9f2a-fa0de746296b))
+(label "A_GND" (at 66.0400 154.9400 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 10a0db84-506e-4cc4-857c-9d443c3f883a))
+(text "SIDE A: electrically independent; no shared power or ground" (at 33.72 40 0) (effects (font (size 1.2 1.2)) (justify left)) (uuid b0315a5f-a3cb-49aa-b145-1c7666f6208d))
+(text "Single-bit SPI only; local pull-ups on CS#, WP#, HOLD#. Reserved pad unconnected.\nDrive must isolate all contacts during movement. Only seated face may be powered.\nAll populated components on F.Cu: one stencil/reflow pass, including A/B media." (at 25 185 0) (effects (font (size 1.1 1.1)) (justify left)) (uuid 2cb3f036-e6ad-4294-9231-399e6ba45329))
+(sheet_instances (path "/" (page "1"))))

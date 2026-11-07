@@ -1,0 +1,11 @@
+Reference,Value,X_mm,Y_mm,Rotation_deg,Side,Coordinate_note
+C1,100nF,49.0,35.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+C2,100nF,95.0,35.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R1,10k,32.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R2,10k,40.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R3,10k,48.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R4,10k,78.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R5,10k,86.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+R6,10k,94.0,48.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+U1,W25Q32JVSSIQ,40.0,38.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation
+U2,W25Q32JVSSIQ,86.0,38.0,0.0,Top,KiCad absolute coordinates; fabricator must check origin/rotation

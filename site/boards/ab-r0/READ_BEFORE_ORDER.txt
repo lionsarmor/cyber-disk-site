@@ -1,0 +1,7 @@
+A/B disk · R0 archive
+Superseded archive
+Historical disk mounting geometry; use R4 for current design work. Archive exports are reference-only.
+
+KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
+Source commit a520ed938ce6272acb13bfbb5a1457f614545281
+PCB SHA256 c1eaa4d622709ea8545144b08b0dd740f838aa6b62ae0e513da503620f90971f

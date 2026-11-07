@@ -1,0 +1,7 @@
+Drive controller · R0
+Unrouted · do not fabricate
+Placement study only: 128 unconnected pads. Do not submit its reference Gerbers for manufacture. Main-board isolation and connector fit remain unfinished.
+
+KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
+Source commit a520ed938ce6272acb13bfbb5a1457f614545281
+PCB SHA256 68e5c9f1f414d515de2504d9c3d234c4d2d1243ed49fb9a0474bccd11c35306a

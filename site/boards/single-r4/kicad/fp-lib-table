@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Roddy") (type "KiCad") (uri "${KIPRJMOD}/Roddy.pretty") (options "") (descr "Provisional Cyber Disk contact pads")))

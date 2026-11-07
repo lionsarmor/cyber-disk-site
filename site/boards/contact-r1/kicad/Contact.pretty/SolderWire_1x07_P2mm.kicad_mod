@@ -1,0 +1,107 @@
+(footprint "SolderWire_1x07_P2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "01aab13c-ad24-4480-878d-f4989982b6ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "7-WIRE PIGTAIL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c3e891b9-6354-4bbc-856e-3d9dbf5b8f2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ebb67f9-d37b-4619-b5de-6d7bcc24ed40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7785f510-cfe7-4b99-bc15-4c7ae856fad1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "f042d5ca-b231-4871-a999-42eaaae34e5f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "d42788f3-da10-47ab-8d64-2d0b6fb41b23")
+	)
+	(pad "3" thru_hole circle
+		(at 0 4)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "d872726f-fb02-4dbf-aa74-58febc7b40fc")
+	)
+	(pad "4" thru_hole circle
+		(at 0 6)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "8a2cc8c5-3d18-4733-9320-230857f697e5")
+	)
+	(pad "5" thru_hole circle
+		(at 0 8)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "2308d8d8-2510-415b-9dd9-42b4f0e469b4")
+	)
+	(pad "6" thru_hole circle
+		(at 0 10)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ecf363d3-57e5-4d59-97c4-1aee66ef5f4d")
+	)
+	(pad "7" thru_hole circle
+		(at 0 12)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "70f1a6c2-d688-435e-9869-f030c2414cf3")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+Reference,Qty,Part,Supplier,Assembly
+SC1-SC7,7,Harwin S7131-45R,https://www.mouser.com/ProductDetail/Harwin/S7131-45R,SMD; 3.30 x 2.80 mm land; hand solder or reflow
+J1,1,"7-wire pigtail, wire OD and gauge to be bench qualified","Wire, not a purchased PCB connector",7 x 0.8 mm PTH; strain relief on cassette
+PCB,1,"18.525 x 49 x 1.6 mm FR4, two layers",PCB fabrication,R1 outline; 2 x 2.2 mm NPTH M2

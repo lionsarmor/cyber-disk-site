@@ -1,0 +1,38 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6+dfsg-1*%
+%TF.CreationDate,2026-11-07T12:12:47-05:00*%
+%TF.ProjectId,cyber-drive-contact-r1,63796265-722d-4647-9269-76652d636f6e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.6+dfsg-1) date 2026-11-07 12:12:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,2.800000X3.300000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,SC3*%
+X73025000Y-76650000D03*
+%TD*%
+%TO.C,SC4*%
+X73025000Y-82650000D03*
+%TD*%
+%TO.C,SC5*%
+X73025000Y-88650000D03*
+%TD*%
+%TO.C,SC7*%
+X73025000Y-100650000D03*
+%TD*%
+%TO.C,SC1*%
+X73025000Y-64650000D03*
+%TD*%
+%TO.C,SC2*%
+X73025000Y-70650000D03*
+%TD*%
+%TO.C,SC6*%
+X73025000Y-94650000D03*
+%TD*%
+M02*

@@ -1,0 +1,4 @@
+References,Quantity,Value,Footprint,Suggested_MPN,Mouser_stock,Notes
+"U1,U2",2,4 MiB 3.3V SPI NOR,SOIC-8 5.3x5.3mm 1.27mm,MX25L3233FM2I-08G-TR,95-25L3233FM2I08TR,Replaces EOL Winbond; wide M2 package; firmware must identify Macronix; larger variants not yet qualified
+"C1,C2",2,100nF 50V X7R,0805,C0805C104K5RACTU,80-C0805C104K5R,Replaces obsolete Murata; same nominal capacitance and land pattern
+"R1,R2,R3,R4,R5,R6",6,10k 1%,0805,RC0805FR-0710KL,603-RC0805FR-0710KL,Three pullups per bank

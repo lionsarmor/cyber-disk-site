@@ -1,0 +1,484 @@
+{
+  "project": "Cyber Disk",
+  "domain": "disk.roddy.world",
+  "intro": "Schematics, editable KiCad projects and fabrication files for each Cyber Disk board.",
+  "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+  "boards": [
+    {
+      "id": "single-r4",
+      "title": "Single-sided disk \u00b7 R4",
+      "status": "Routed prototype",
+      "fabrication": "prototype",
+      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.",
+      "model": "pcb/single",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/single-r4/schematic/cyber-disk-single-r4.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/single-r4/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/single-r4/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/single-r4/single-r4-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/single-r4/kicad/cyber-disk-single-r4.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/single-r4/kicad/cyber-disk-single-r4.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/single-r4/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 PCBWay upload",
+          "url": "boards/single-r4/single-r4-PCBWAY-GERBERS.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Board BOM",
+          "url": "boards/single-r4/documents/cyber-disk-single-r4-bom.csv",
+          "type": "reference"
+        },
+        {
+          "label": "Placement CSV",
+          "url": "boards/single-r4/documents/cyber-disk-single-r4-placement.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/single-r4/documents/cyber-disk-single-r4-drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/single-r4/documents/cyber-disk-single-r4-erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/single-r4/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/single-r4/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba"
+    },
+    {
+      "id": "ab-r4",
+      "title": "Reversible A/B disk \u00b7 R4",
+      "status": "Routed prototype",
+      "fabrication": "prototype",
+      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.",
+      "model": "pcb/ab",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/ab-r4/schematic/cyber-disk-ab-r4.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/ab-r4/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/ab-r4/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/ab-r4/ab-r4-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/ab-r4/kicad/cyber-disk-ab-r4.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/ab-r4/kicad/cyber-disk-ab-r4.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/ab-r4/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 PCBWay upload",
+          "url": "boards/ab-r4/ab-r4-PCBWAY-GERBERS.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Board BOM",
+          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-bom.csv",
+          "type": "reference"
+        },
+        {
+          "label": "Placement CSV",
+          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-placement.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/ab-r4/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/ab-r4/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552"
+    },
+    {
+      "id": "contact-r1",
+      "title": "Leaf-spring contact board \u00b7 R1",
+      "status": "Routed passive prototype",
+      "fabrication": "prototype",
+      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release. Seven soldered Harwin leaves; the controller connection still requires switched/isolation circuitry.",
+      "model": "pcb/contact",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/contact-r1/schematic/cyber-drive-contact-r1.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/contact-r1/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/contact-r1/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/contact-r1/contact-r1-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/contact-r1/kicad/cyber-drive-contact-r1.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/contact-r1/kicad/cyber-drive-contact-r1.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/contact-r1/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 PCBWay upload",
+          "url": "boards/contact-r1/contact-r1-PCBWAY-GERBERS.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Board BOM",
+          "url": "boards/contact-r1/documents/BOM.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/contact-r1/documents/drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/contact-r1/documents/erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/contact-r1/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/contact-r1/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
+    },
+    {
+      "id": "controller-r0",
+      "title": "Drive controller \u00b7 R0",
+      "status": "Unrouted \u00b7 do not fabricate",
+      "fabrication": "reference",
+      "note": "Placement study only: 128 unconnected pads. Do not submit its reference Gerbers for manufacture. Main-board isolation and connector fit remain unfinished.",
+      "model": "pcb/controller",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/controller-r0/schematic/cyber-drive-controller-r0.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/controller-r0/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/controller-r0/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/controller-r0/controller-r0-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/controller-r0/kicad/cyber-drive-controller-r0.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/controller-r0/kicad/cyber-drive-controller-r0.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/controller-r0/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
+          "url": "boards/controller-r0/controller-r0-REFERENCE-NOT-FOR-ORDER.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Candidate BOM",
+          "url": "boards/controller-r0/documents/BOM-candidates.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/controller-r0/documents/drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/controller-r0/documents/erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/controller-r0/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/controller-r0/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "68e5c9f1f414d515de2504d9c3d234c4d2d1243ed49fb9a0474bccd11c35306a"
+    },
+    {
+      "id": "single-r0",
+      "title": "Single-sided disk \u00b7 R0 archive",
+      "status": "Superseded archive",
+      "fabrication": "archive",
+      "note": "Historical disk mounting geometry; use R4 for current design work. Archive exports are reference-only.",
+      "model": "pcb/single-r0",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/single-r0/schematic/cyber-disk-single-r0.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/single-r0/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/single-r0/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/single-r0/single-r0-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/single-r0/kicad/cyber-disk-single-r0.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/single-r0/kicad/cyber-disk-single-r0.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/single-r0/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
+          "url": "boards/single-r0/single-r0-REFERENCE-NOT-FOR-ORDER.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Board BOM",
+          "url": "boards/single-r0/documents/cyber-disk-single-r0-bom.csv",
+          "type": "reference"
+        },
+        {
+          "label": "Placement CSV",
+          "url": "boards/single-r0/documents/cyber-disk-single-r0-placement.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/single-r0/documents/cyber-disk-single-r0-drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/single-r0/documents/cyber-disk-single-r0-erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/single-r0/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/single-r0/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "a56ea890791f17862a9c14b7a521bf4e7632efa6bdb5d67a2c0356150888af2e"
+    },
+    {
+      "id": "ab-r0",
+      "title": "A/B disk \u00b7 R0 archive",
+      "status": "Superseded archive",
+      "fabrication": "archive",
+      "note": "Historical disk mounting geometry; use R4 for current design work. Archive exports are reference-only.",
+      "model": "pcb/ab-r0",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/ab-r0/schematic/cyber-disk-ab-r0.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/ab-r0/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/ab-r0/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/ab-r0/ab-r0-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/ab-r0/kicad/cyber-disk-ab-r0.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/ab-r0/kicad/cyber-disk-ab-r0.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/ab-r0/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
+          "url": "boards/ab-r0/ab-r0-REFERENCE-NOT-FOR-ORDER.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Board BOM",
+          "url": "boards/ab-r0/documents/cyber-disk-ab-r0-bom.csv",
+          "type": "reference"
+        },
+        {
+          "label": "Placement CSV",
+          "url": "boards/ab-r0/documents/cyber-disk-ab-r0-placement.csv",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/ab-r0/documents/cyber-disk-ab-r0-drc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report",
+          "url": "boards/ab-r0/documents/cyber-disk-ab-r0-erc.txt",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/ab-r0/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/ab-r0/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "a520ed938ce6272acb13bfbb5a1457f614545281",
+      "sourceSha256": "c1eaa4d622709ea8545144b08b0dd740f838aa6b62ae0e513da503620f90971f"
+    }
+  ]
+}

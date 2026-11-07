@@ -1,0 +1,66 @@
+(footprint "PTC_MF-R050_P5.1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5951d7f7-e768-45ee-8654-39c5fc554881")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MF-R050"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3bd88f57-693c-4ec4-ae87-ff872eb976c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae8e4226-3c62-4307-9db8-047ef863f032")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26aa74d8-6d09-4f1c-b452-2a5a8e05f2a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ae44c950-6764-4bf7-ac02-18c4f94a3314")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "0c37064e-08be-41db-8853-081f41786793")
+	)
+	(embedded_fonts no)
+)
