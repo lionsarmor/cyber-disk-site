@@ -1,7 +1,7 @@
 Drive controller · R0
 Unrouted · do not fabricate
-Placement study only: 128 unconnected pads. Do not submit its reference Gerbers for manufacture. Main-board isolation and connector fit remain unfinished.
+Electrical R1: 1k reset/ARM defaults, buffered dock RX, 20 component positions. Still unrouted; contact isolation/interlock, power budget and firmware unfinished. Reference files only; do not manufacture.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
-PCB SHA256 68e5c9f1f414d515de2504d9c3d234c4d2d1243ed49fb9a0474bccd11c35306a
+Source commit a20239f2e25a1f29534a25ecbcd7e1e4af3bcc7d
+PCB SHA256 6add68c0985c42701c7ce6b39f055b023740ebd5bcd876f170098fd5c3c0395b

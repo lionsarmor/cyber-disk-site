@@ -1,8 +1,8 @@
 {
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
-  "intro": "Schematics, editable KiCad projects and fabrication files for each Cyber Disk board.",
-  "sourceCommit": "e6c0cfc63dfdee1e89afd8bf14ff5cc0208004ff",
+  "intro": "Schematics, editable KiCad projects and per-board files. Electrical review R1 identifies corrections and remaining sample-order blockers.",
+  "sourceCommit": "a20239f2e25a1f29534a25ecbcd7e1e4af3bcc7d",
   "boards": [
     {
       "id": "single-r4",
@@ -338,7 +338,7 @@
       "title": "Drive controller \u00b7 R0",
       "status": "Unrouted \u00b7 do not fabricate",
       "fabrication": "reference",
-      "note": "Placement study only: 128 unconnected pads. Do not submit its reference Gerbers for manufacture. Main-board isolation and connector fit remain unfinished.",
+      "note": "Electrical R1: 1k reset/ARM defaults, buffered dock RX, 20 component positions. Still unrouted; contact isolation/interlock, power budget and firmware unfinished. Reference files only; do not manufacture.",
       "model": "pcb/controller",
       "previews": [
         {
@@ -386,13 +386,23 @@
           "type": "reference"
         },
         {
-          "label": "DRC report",
-          "url": "boards/controller-r0/documents/drc.txt",
+          "label": "Electrical review R1",
+          "url": "boards/controller-r0/documents/ELECTRICAL-REVIEW-R1.md",
           "type": "reference"
         },
         {
-          "label": "ERC report",
-          "url": "boards/controller-r0/documents/erc.txt",
+          "label": "Fresh DRC report",
+          "url": "boards/controller-r0/documents/drc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Fresh ERC report (passive pin-map)",
+          "url": "boards/controller-r0/documents/erc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Cross-board verification",
+          "url": "boards/controller-r0/documents/verification.json",
           "type": "reference"
         },
         {
@@ -406,8 +416,8 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
-      "sourceSha256": "68e5c9f1f414d515de2504d9c3d234c4d2d1243ed49fb9a0474bccd11c35306a"
+      "sourceCommit": "a20239f2e25a1f29534a25ecbcd7e1e4af3bcc7d",
+      "sourceSha256": "6add68c0985c42701c7ce6b39f055b023740ebd5bcd876f170098fd5c3c0395b"
     },
     {
       "id": "single-r0",

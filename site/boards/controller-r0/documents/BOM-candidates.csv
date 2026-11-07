@@ -7,7 +7,7 @@ U2,SN74LVC245AN / 5V-TOL INPUT,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_
 U3,SN74LS06N / OPEN COLLECTOR,SN74LS06N,595-SN74LS06N,Package_DIP:DIP-14_W7.62mm,Mouser listing shows stock; R0 controller is unrouted and unqualified
 RN1,8x10k BUSSED / COMMON PIN1,4609X-101-103LF,652-4609X-1LF-10K,Resistor_THT:R_Array_SIP9,Mouser listing shows stock; R0 controller is unrouted and unqualified
 RN2,8x10k BUSSED / COMMON PIN1,4609X-101-103LF,652-4609X-1LF-10K,Resistor_THT:R_Array_SIP9,Mouser listing shows stock; R0 controller is unrouted and unqualified
-RN3,8x10k BUSSED / COMMON GND,4609X-101-103LF,652-4609X-1LF-10K,Resistor_THT:R_Array_SIP9,Mouser listing shows stock; R0 controller is unrouted and unqualified
+RN3,8x1k BUSSED / COMMON GND,4609X-101-102LF,652-4609X-1LF-1K,Resistor_THT:R_Array_SIP9,Mouser sourcing reviewed 2026-11-07; see hardware/sourcing; controller and connector fit unqualified
 F1,500mA RESETTABLE,MF-R050,652-MFR050,Drive:PTC_MF-R050_P5.1,Mouser listing shows stock; R0 controller is unrouted and unqualified
 D1,1N5819 / USB BACKFEED BLOCK,1N5819-E3/54,625-1N5819-E3,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Mouser listing shows stock; R0 controller is unrouted and unqualified
 C1,47uF 16V,EEU-FC1C470,667-EEU-FC1C470,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser listing shows stock; R0 controller is unrouted and unqualified; same 5mm body/2mm pitch; 1000h at 105C endurance; verify ripple and service life
@@ -19,5 +19,4 @@ J3,MEDIA CARRIER / NOT DIRECT CONTACTS,TSW-105-07-G-D,200-TSW10507GD,Connector_P
 J4,DOCK LINK 3V3 UART,TSW-105-07-G-D,200-TSW10507GD,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Mouser listing shows stock; R0 controller is unrouted and unqualified
 R1,10k SEATED PULLUP,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser listing shows stock; R0 controller is unrouted and unqualified
 R2,10k EJECT PULLUP,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser listing shows stock; R0 controller is unrouted and unqualified
-R3,100k ARM PULLDOWN,MFR-25FBF52-100K,603-MFR-25FBF52-100K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser listing shows stock; R0 controller is unrouted and unqualified
 A1 sockets (2),2 x 20-way socket strips,SSW-120-01-G-S,200-SSW12001GS,Fits Pico header rows; assembly item,Mouser listing shows stock; verify stack height against enclosure

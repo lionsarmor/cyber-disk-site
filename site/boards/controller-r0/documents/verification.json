@@ -1,0 +1,67 @@
+{
+  "revision": "electrical-r1",
+  "date": "2026-11-07",
+  "boards": {
+    "single": {
+      "connected_pin_parity": 22,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba"
+    },
+    "ab": {
+      "connected_pin_parity": 44,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552"
+    },
+    "contact": {
+      "connected_pin_parity": 14,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
+    },
+    "controller": {
+      "connected_pin_parity": 175,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 128,
+      "drc_warnings": {
+        "silk_edge_clearance": 5,
+        "silk_overlap": 3
+      },
+      "pcb_sha256": "6add68c0985c42701c7ce6b39f055b023740ebd5bcd876f170098fd5c3c0395b"
+    },
+    "dock": {
+      "connected_pin_parity": 238,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 177,
+      "drc_warnings": {
+        "silk_edge_clearance": 4,
+        "text_height": 1,
+        "silk_overlap": 14,
+        "silk_over_copper": 6
+      },
+      "pcb_sha256": "85f1fe8d25d8df1f192938d9962a2311f9a9836968210143288c114d81f12b27"
+    }
+  },
+  "static_invariants": "PASS",
+  "ls06_bias_only_volts": 0.20400000000000001,
+  "ls06_plus_typical_A2_leakage_volts": 0.3264,
+  "scope": "Saved-file checks only. Controller/dock ERC uses passive pin-map symbols. No powered testing or firmware validation.",
+  "fabrication_ready": false,
+  "blockers": [
+    "Unrouted controller and dock",
+    "Missing hardware media interlock/isolation",
+    "Supply tolerance/voltage-drop budget",
+    "Disconnected dock input bias and power sequencing",
+    "Connector footprint and harness qualification",
+    "Firmware, write durability and host compatibility"
+  ]
+}

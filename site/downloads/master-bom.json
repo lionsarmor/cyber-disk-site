@@ -1,5 +1,5 @@
 {
-  "revision": "external-r3-wiring2",
+  "revision": "electrical-r1",
   "checked": "2026-11-07",
   "scope": "R4 disks, R0 controller, R1 contact board and drive mechanism. External R3 case and R2 daughterboard with board-mounted THT rear ports. Daughterboard is unrouted; these are provisional sourcing candidates, not a released purchasing BOM.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
@@ -141,13 +141,13 @@
       "part": "8x10k BUSSED / COMMON PIN1",
       "mpn": "4609X-101-103LF",
       "quantity": {
-        "drive": 3
+        "drive": 2
       },
       "unit": "each",
       "assembly": "Controller PCB",
       "status": "Listed in stock",
       "url": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D",
-      "notes": "652-4609X-1LF-10K. References: RN1, RN2, RN3. Controller remains unrouted.",
+      "notes": "652-4609X-1LF-10K. References: RN1, RN2. Controller remains unrouted.",
       "alternative": "",
       "evidence": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D"
     },
@@ -250,18 +250,18 @@
     {
       "id": "E16",
       "supplier": "Mouser",
-      "part": "100k ARM PULLDOWN",
-      "mpn": "MFR-25FBF52-100K",
+      "part": "8 x 1k bussed reset/default pulldowns",
+      "mpn": "4609X-101-102LF",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Controller PCB",
       "status": "Listed in stock",
-      "url": "https://lv.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-100K?qs=sGAEpiMZZMsPqMdJzcrNwvki5I7GwxKebxN7cdCr7kk%3D",
-      "notes": "603-MFR-25FBF52-100K. References: R3. Controller remains unrouted.",
+      "url": "https://www.mouser.com/en/ProductDetail/Bourns/4609X-101-102LF?qs=nFt9sTYf7TAKYPPrg1sLvw%3D%3D",
+      "notes": "652-4609X-1LF-1K. RN3: five LS06 controls, DOCK_RX_RAW and MEDIA_ARM; one unused leg. Replaces RN3 10k and removes former discrete R3 100k. Core remains unrouted.",
       "alternative": "",
-      "evidence": "https://lv.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-100K?qs=sGAEpiMZZMsPqMdJzcrNwvki5I7GwxKebxN7cdCr7kk%3D"
+      "evidence": "Mouser product page reviewed 2026-11-07; availability not reserved."
     },
     {
       "id": "E17",
