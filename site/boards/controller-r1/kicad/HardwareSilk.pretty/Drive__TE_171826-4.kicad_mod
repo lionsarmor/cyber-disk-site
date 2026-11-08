@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "4dff043a-a39f-4a58-9c9a-b39e1e9df40d")
+		(uuid "f384c987-b7fe-4787-8f97-b6614f412543")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18,7 +18,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b893b53b-5d84-4865-9c00-bc06cb84541c")
+		(uuid "b6818966-7d31-49e1-9393-1486fae2aed9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a8693f1-d9f4-4ee1-bfbe-2f7ef91fca92")
+		(uuid "8d4e3f35-11cc-478f-a1b8-57a79d08907f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00b11720-7ae8-4a73-9424-bdcda410ae2a")
+		(uuid "dcbff3cf-a590-4983-a483-3f3464dc33e2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(at 0 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "2b6d7681-a9be-42c9-ae32-7b06fccd3f96")
@@ -61,7 +61,7 @@
 		(at 2.5 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "556b4124-d44b-4477-97de-281204d3d9a5")
 	)
@@ -69,7 +69,7 @@
 		(at 5 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "84b55d9e-fa03-41c4-9322-ce67bedd3a5b")
 	)
@@ -77,9 +77,20 @@
 		(at 7.5 0)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f76855b8-1c68-4ff0-ab8d-421a111c8b9d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/TE1718264-floppy-power.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

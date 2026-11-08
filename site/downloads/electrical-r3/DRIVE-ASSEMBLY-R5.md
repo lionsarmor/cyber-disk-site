@@ -8,12 +8,12 @@ Use the R5 STEP/STL set and current core R1/contact R1 boards together. Original
 
 1. Print the base, lid, bezel, bearing caps, guides, two eject sleds, latch bracket, latch, short button/cam, contact cassette and strain clamp. Start with PETG or another tough, dimensionally stable material; print fit/insert coupons before full parts. Orient guide sliding faces and cam working edges for clean surfaces. Remove burrs; do not force a rough sliding fit.
 2. Install the specified M3 IUB-M3-1 and M2 IUTB-M2 heat-set inserts with a controlled-depth tool. The CAD uses their actual lengths and recommended pilot-hole geometry. A generic insert of the same thread is not automatically interchangeable.
-3. Mount the guides and contact cassette. Fit the solderable leaf contacts, wire the seven pads 1:1, strain-clamp insulation with the silicone pad, and plug the seven-cavity M20-1060700 housing into J3. Test continuity before power. Trim board solder tails to the documented clearance.
+3. Mount the guides and contact cassette. Fit the solderable leaf contacts, fit Phoenix 1725708 screw terminals to contact J1 (underside) and controller J3 (top). Wire the seven positions 1:1 and strain-clamp insulation with the silicone pad. Test continuity before power. Trim contact-terminal solder tails to at most 0.5 mm above the contact PCB.
 4. Slide the two eject springs/sleds onto deburred 3 mm rods. Their shoulders, not the disk shell's snap tabs, carry eject load. The right sled contains the keeper that holds the latch withdrawn until the next insertion.
 5. Install the latch and its short compression spring. Its follower is a standard M2 ×20 screw with two smooth brass bushes and a captive nylon-lock nut. Install the short right-side button/cam and its return spring; confirm free movement through the full 6 mm stroke.
 6. Assemble the flap with a plain left pivot and the threaded metal right bearing spacer. The M3 screw/nut clamps the flap and rocker to the spacer; the spacer rotates inside the split bearing. Fit the torsion spring and screw down the removable bearing caps. Do not clamp the rotating spacer to the fixed bearing.
 7. Install both D2F-01-D switches and the three-wire interlock harness. Seat switch SW1 is above the eject-carriage path. Adjust SW2 to open NC by 1.25 mm of button travel, before latch withdrawal. Verify using a meter; the visual animation is not a switch adjustment gauge.
-8. Mount the socketed core board. Route the J3 pigtail and J5 switch wiring as shown in the Wiring view. Fit the lid only after the dry mechanism moves freely and the interlock states are correct.
+8. Mount the socketed core board. Route the J3 service harness and J5 switch wiring as shown in the Wiring view. Fit the lid only after the dry mechanism moves freely and the interlock states are correct.
 
 ## Purchased motion hardware
 
@@ -42,3 +42,29 @@ The D2F drawing identifies the terminals; do not infer NO/NC from an arbitrary v
 The disk slides on smooth guides and the sprung latch drops into the keyed slot. The button opens the flap first, then withdraws the latch; the carriage springs eject the disk28 mm. The keeper permits the button to return while the disk remains ejected. Button travel stops at6 mm, leaving2 mm exposed beyond the bezel.
 
 The generated `hardware-clearances.json` checks selected static and coupled swept pairs. This does not establish friction, printed shrinkage, spring handedness, shock strength or cycle life. Confirm the right-hand torsion spring winds tighter during opening, correct any print burrs, and cycle a dry sample before powering contacts. Do not order a batch based solely on the rendered animation.
+
+## Replaceable contact harness — terminal revision
+
+The standard TE 171826-4 floppy power receptacle J2 remains beside the 34-pin J1 ribbon connector at the rear of the controller. J2 uses +5V and ground; its legacy +12V position is deliberately unused. Neither connector is replaced by a screw terminal.
+
+The contact harness uses two identical Phoenix Contact MPT 0,5/7-2,54 (1725708, Mouser 651-1725708) seven-way terminals. Contact-board J1 is underneath; controller J3 is on top. Screwdriver access through the cassette underside and a side wire exit are modeled. Remove the screw-mounted cassette for service. Disconnect all power, including USB, before loosening terminals.
+
+| Position on BOTH blocks | Signal | Viewer color |
+|---|---|---|
+| 1 | GND | Black |
+| 2 | Switched media supply (nominal 3.1V) | Red |
+| 3 | CS_N | Orange |
+| 4 | SCK | Yellow |
+| 5 | MOSI | Green |
+| 6 | MISO | Blue |
+| 7 | Reserved; controller not connected | Purple |
+
+Use 26 AWG stranded Alpha 6821 wire (0.89 mm nominal / 0.94 mm maximum insulation diameter). Number each end; the BOM buys one black spool, not seven colors. Leave approximately 150 mm per conductor and trim to fit the shown service loop. Strip 4.5 mm, tighten to 0.12–0.15 Nm while supporting the terminal housing, and do not tin stranded ends under screw clamps. The connector accepts 26–20 AWG; earlier 28 AWG wire is not suitable for these blocks. Check continuity by terminal number, not apparent left-to-right orientation, because J1 is mounted underneath.
+
+The terminals are soldered to their boards; the seven wires release by loosening the screws. The leaf contacts stay soldered to the replaceable contact board. No desoldering is needed to remove the complete contact PCB/cassette from the drive.
+
+Terminal dimensions and wire preparation: [Phoenix Contact 1725708](https://www.phoenixcontact.com/en-de/products/pcb-terminal-block-mpt-05-7-254-1725708). Footprint and component geometry derive from KiCad's TerminalBlock_Phoenix library; the contact-board STEP has its solder tails trimmed to the specified installed length. Wire curves show routing envelopes, not preformed cable specifications. Printed fit, screw access and actual insertion wear still require sample testing.
+
+J2 now includes a simplified TE 171826-4 inspection model based on [TE drawing 171826](https://www.te.com/en/product-171826-4.html). Four pins at 2.5 mm pitch, 10 mm width and 6.7 mm installed height are represented; molding and locking details are simplified. The rear window has 0.35 mm top clearance to this body. Confirm the chosen plug and supplier drawing on a physical sample.
+
+The controller’s custom through-hole power and capacitor pads now explicitly open both solder-mask layers, exposing their annular rings for hand soldering. No power or signal nets changed.

@@ -24,7 +24,7 @@
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323"
+      "pcb_sha256": "5fe75f71e387e4f566aa72694145f2ccf35e675c4108753827b92e7822bc299f"
     },
     "controller": {
       "connected_pin_parity": 240,
@@ -32,7 +32,7 @@
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f"
+      "pcb_sha256": "637ebd17536cc6198ee31070b45cafa2e57195ac5a90b7326249f6c0c2337889"
     },
     "dock": {
       "connected_pin_parity": 254,

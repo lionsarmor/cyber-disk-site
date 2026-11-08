@@ -1,7 +1,7 @@
 (async()=>{'use strict';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={drive:'drive',single:'single disk',ab:'A/B disk',sleeve:'sleeve',dock:'external dock'};let shown=[];
-try{const response=await fetch('downloads/master-bom.json?v=hardware-r3');if(!response.ok)throw Error('BOM unavailable');const data=await response.json();
+try{const response=await fetch('downloads/master-bom.json?v=terminals-r1');if(!response.ok)throw Error('BOM unavailable');const data=await response.json();
 $('checked').textContent='Sourcing reviewed '+data.checked+' · '+data.revision;
 for(const s of [...new Set(data.rows.map(r=>r.status))]){const o=document.createElement('option');o.value=s;o.textContent=s;$('status').append(o)}
 const suppliers=[...new Set(data.rows.map(r=>r.supplier))];for(const s of suppliers){const o=document.createElement('option');o.value=s;o.textContent=s;$('supplier').append(o)}

@@ -18,7 +18,7 @@ C1,47uF 16V,EEU-FC1C470,667-EEU-FC1C470,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,M
 C2,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 C3,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 C5,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
-J3,ISOLATED CONTACTS / 1 TO 7,TSW-107-07-G-S,200-TSW10707GS,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J3,1725708 / CONTACT WIRES 1 TO 7,1725708,651-1725708,HardwareSilk:Terminal7_Phoenix1725708,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 J4,DOCK LINK 3V3 UART,TSW-105-07-G-D,200-TSW10507GD,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R1,10k SPI CS DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R2,10k MEDIA ERROR PULLUP,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase

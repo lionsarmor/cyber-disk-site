@@ -450,16 +450,16 @@
     {
       "id": "E19",
       "supplier": "Mouser",
-      "part": "28 AWG stranded contact/switch wire",
-      "mpn": "6820 BK005",
+      "part": "26 AWG stranded contact/switch wire",
+      "mpn": "6821 BK005",
       "quantity": {
         "drive": 2
       },
       "unit": "metres",
       "assembly": "Contact harness",
       "status": "Specified \u00b7 prototype validation required",
-      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/6820-BK005?qs=drU7yWi%252Bcho7Wm19G3og%252BA%3D%3D",
-      "notes": "0.79 mm nominal OD, seven strands. Cut seven150 mm contact leads; switch wires per harness table. Mark each end with numbered sleeves. 100 ft spool serves multiple drives; quantity below is cut length, not spools.",
+      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/6821-BK005",
+      "notes": "0.89 mm nominal OD (0.94 mm max), 7/34 strands, compatible with terminal 26\u201320 AWG range. Seven contact wires cut150 mm each; number both ends 1\u20137. Colours in preview identify signals; numbered black wire is sufficient. Do not tin ends clamped under screws. Quantity is cut length, not 100 ft spools.",
       "alternative": "",
       "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
@@ -1082,11 +1082,11 @@
       },
       "assembly": "Hardware R3",
       "alternative": "",
-      "part": "Contact pigtail plug housing",
-      "mpn": "M20-1060700",
+      "part": "Contact-board seven-way screw terminal",
+      "mpn": "1725708",
       "supplier": "Mouser",
-      "url": "https://www.mouser.com/c/?q=855-M20-1060700",
-      "notes": "Seven cavities, all seven wired; 17.98 mm body avoids the adjacent J4 plug. Mate to J3 pins1\u20137; pin1 stripe and fitted orientation photograph required during assembly.",
+      "url": "https://www.mouser.com/c/?q=651-1725708",
+      "notes": "Phoenix MPT0.5/7-2.54; 18.24\u00d76.2\u00d78.5 mm installed. Mounted underneath contact PCB; wire 1:1 to identical core J3. Core terminal is counted in CR1 BOM. Strip 4.5 mm, torque 0.12\u20130.15 Nm; support housing while tightening. Trim contact-board solder tails to <=0.5 mm above PCB.",
       "unit": "each",
       "status": "Specified \u00b7 prototype validation required",
       "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
@@ -1127,7 +1127,7 @@
     {
       "id": "HX04",
       "quantity": {
-        "drive": 9,
+        "drive": 2,
         "dock": 7
       },
       "assembly": "Hardware R3",
@@ -1233,6 +1233,22 @@
       "supplier": "Common hardware / McMaster",
       "url": "https://www.mcmaster.com/foam/",
       "notes": "Cut 12 mm OD / 8 mm ID ring; supports piezo above insulated solder joints.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "B05",
+      "quantity": {
+        "dock": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Routed external daughterboard PCB",
+      "mpn": "cyber-external-dock-r3",
+      "supplier": "PCBWay",
+      "url": "https://www.pcbway.com/",
+      "notes": "Current dock R3 board with RODDY silkscreen and board-mounted ports. Use external-r3 PCBWay Gerber package; no mains circuitry.",
       "unit": "each",
       "status": "Specified \u00b7 prototype validation required",
       "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
@@ -1416,18 +1432,18 @@
     {
       "id": "CR1-12",
       "supplier": "Mouser",
-      "part": "ISOLATED CONTACTS / 1 TO 7",
-      "mpn": "TSW-107-07-G-S",
+      "part": "1725708 / CONTACT WIRES 1 TO 7",
+      "mpn": "1725708",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
-      "url": "https://www.mouser.com/c/?q=200-TSW10707GS",
-      "notes": "J3; Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "url": "https://www.mouser.com/c/?q=651-1725708",
+      "notes": "J3; HardwareSilk:Terminal7_Phoenix1725708. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10707GS"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 651-1725708"
     },
     {
       "id": "CR1-13",
@@ -2100,22 +2116,6 @@
       "notes": "R11; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-1K"
-    },
-    {
-      "id": "B05",
-      "quantity": {
-        "dock": 1
-      },
-      "assembly": "Hardware R3",
-      "alternative": "",
-      "part": "Routed external daughterboard PCB",
-      "mpn": "cyber-external-dock-r3",
-      "supplier": "PCBWay",
-      "url": "https://www.pcbway.com/",
-      "notes": "Current dock R3 board with RODDY silkscreen and board-mounted ports. Use external-r3 PCBWay Gerber package; no mains circuitry.",
-      "unit": "each",
-      "status": "Specified \u00b7 prototype validation required",
-      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     }
   ]
 }

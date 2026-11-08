@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/contact-cartridge-r1/cyber-drive-contact-r1.kicad_sch</source>
-    <date>2026-11-07T21:45:42</date>
+    <date>2026-11-07T22:37:09</date>
     <tool>Eeschema 10.0.6+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,10 +25,10 @@
   </design>
   <components>
     <comp ref="J1">
-      <value>7-WIRE PIGTAIL</value>
-      <footprint>HardwareSilk:Contact__SolderWire_1x07_P2mm</footprint>
+      <value>1725708 SCREW TERMINAL</value>
+      <footprint>HardwareSilk:Terminal7_Phoenix1725708</footprint>
       <fields>
-        <field name="Footprint">HardwareSilk:Contact__SolderWire_1x07_P2mm</field>
+        <field name="Footprint">HardwareSilk:Terminal7_Phoenix1725708</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>

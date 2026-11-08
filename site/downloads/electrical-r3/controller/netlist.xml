@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/drive-controller-r1/cyber-drive-controller-r1.kicad_sch</source>
-    <date>2026-11-07T21:45:43</date>
+    <date>2026-11-07T22:37:09</date>
     <tool>Eeschema 10.0.6+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -361,7 +361,7 @@
       </units>
     </comp>
     <comp ref="J3">
-      <value>ISOLATED CONTACTS / 1 TO 7</value>
+      <value>1725708 / CONTACT WIRES 1 TO 7</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
       <fields>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
@@ -1424,7 +1424,7 @@
     <libpart lib="Drive" part="J3">
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">ISOLATED CONTACTS / 1 TO 7</field>
+        <field name="Value">1725708 / CONTACT WIRES 1 TO 7</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>

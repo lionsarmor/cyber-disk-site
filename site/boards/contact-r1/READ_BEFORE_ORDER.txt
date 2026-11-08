@@ -3,5 +3,5 @@ Hardware R3 · routed prototype
 Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 8545c317815bf29be1d4f8e1ede1812b0f4bdafb
-PCB SHA256 9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323
+Source commit 42ca2a1b88865adcc549f72e056ff30bacce19d4
+PCB SHA256 5fe75f71e387e4f566aa72694145f2ccf35e675c4108753827b92e7822bc299f

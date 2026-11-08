@@ -1,8 +1,8 @@
 {
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
-  "intro": "Hardware R3: five routed boards with RODDY silkscreen, current schematics, independent pin checks, and separate prototype fabrication packages. Physical sample and host qualification still required.",
-  "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+  "intro": "Service-terminal update: matching numbered seven-way screw blocks on contact/controller boards; five routed boards with RODDY silkscreen, current schematics, independent pin checks, and separate prototype fabrication packages. Physical sample and host qualification still required.",
+  "sourceCommit": "42ca2a1b88865adcc549f72e056ff30bacce19d4",
   "boards": [
     {
       "id": "single-r4",
@@ -269,8 +269,8 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
-      "sourceSha256": "9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323"
+      "sourceCommit": "42ca2a1b88865adcc549f72e056ff30bacce19d4",
+      "sourceSha256": "5fe75f71e387e4f566aa72694145f2ccf35e675c4108753827b92e7822bc299f"
     },
     {
       "id": "external-r3",
@@ -441,8 +441,8 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
-      "sourceSha256": "bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f"
+      "sourceCommit": "42ca2a1b88865adcc549f72e056ff30bacce19d4",
+      "sourceSha256": "637ebd17536cc6198ee31070b45cafa2e57195ac5a90b7326249f6c0c2337889"
     },
     {
       "id": "single-r0",
