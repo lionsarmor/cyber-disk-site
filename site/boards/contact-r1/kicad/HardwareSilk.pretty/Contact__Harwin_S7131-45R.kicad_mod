@@ -1,0 +1,151 @@
+(footprint "Contact__Harwin_S7131-45R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "SC6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59e3f526-0e83-4552-a76a-e44b87f67d1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "S7131-45R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5d90cf6-4653-452f-9989-63559edb21fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd8f69da-953d-4426-8d2a-1bfd028d5b68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d895bd-c834-47e9-b5db-4b320a7c714c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -1.9)
+		(end 1.65 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "19657d58-11d5-4e12-abb8-69fd52c96f5b")
+	)
+	(fp_line
+		(start -1.65 3.2)
+		(end -1.65 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "088338ca-be0f-405a-a3a2-b9ba62223ce6")
+	)
+	(fp_line
+		(start 1.65 -1.9)
+		(end 1.65 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "82c4b1ee-279b-48ca-bf87-9fb2b677b7fc")
+	)
+	(fp_line
+		(start 1.65 3.2)
+		(end -1.65 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c260506-5095-4816-81dd-dfd588fefa51")
+	)
+	(fp_line
+		(start -1.15 -1.65)
+		(end 1.15 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "40866232-e85e-4801-bb60-40305fe8e1cb")
+	)
+	(fp_line
+		(start -1.15 2.95)
+		(end -1.15 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "214b6ce0-1b33-4277-99ca-d6009ca1b9f3")
+	)
+	(fp_line
+		(start 1.15 -1.65)
+		(end 1.15 2.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9163f40e-51a4-4e04-a829-ee82973a8d66")
+	)
+	(fp_line
+		(start 1.15 2.95)
+		(end -1.15 2.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b56ce422-896e-48a8-8034-51d5376feba6")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.8 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4939d0bb-cb55-4323-bf1d-fc004a742237")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/S7131-45R-envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

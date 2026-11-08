@@ -1,0 +1,59 @@
+(footprint "BoardMount_H2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "H2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "985a73eb-c28d-4cab-be73-6e47dcbe5f1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "STRUCTURAL_POST_CLEARANCE_6.4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5d3cf80-35fd-4318-9e25-a84b031ec80a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb0ae4b-7866-42d5-a42d-256e25f0d62a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "775cb706-edd0-417c-b69f-53a227e72abd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.4 6.4)
+		(drill 6.4)
+		(layers "*.Cu")
+		(uuid "07096225-db12-42c8-90e3-e323724b5a28")
+	)
+	(embedded_fonts no)
+)

@@ -6,7 +6,7 @@
 	(property "Reference" "C"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "db70134a-f83f-4790-a371-23486f348162")
+		(uuid "48c76499-1e07-40c7-ba13-093d0922d690")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,7 +16,7 @@
 	(property "Value" "C330"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "26448256-fc31-44ae-9610-28d5a5c2d3cf")
+		(uuid "252bfb85-59f5-490f-aa8c-3f674e3eda77")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,7 +27,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98710384-f5f1-40c4-9113-78ff3f6604e4")
+		(uuid "68afcbd4-7780-4dfd-aaeb-9dfde6037634")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38,7 +38,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc44f035-1690-4d1b-bd04-5fd4492cfa0e")
+		(uuid "d4748604-5022-4594-87ec-1656d048efd0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "edc5b529-de25-4b02-9621-e4c4c4a54944")
+		(uuid "9eca90fe-dadb-4e86-af53-f5ecb3ee6b74")
 	)
 	(fp_line
 		(start -1.515 2.535)
@@ -64,7 +64,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "537685f7-0d12-49b8-b44a-486644164282")
+		(uuid "783639e0-595a-4659-b398-5e6c3b338b23")
 	)
 	(fp_line
 		(start 6.595 -2.535)
@@ -74,7 +74,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "e6f6882d-7fa5-420b-a3b2-b7d9123ff802")
+		(uuid "e42fc50d-77c4-4508-834a-a8e07b483e41")
 	)
 	(fp_line
 		(start 6.595 2.535)
@@ -84,7 +84,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "c347638d-f237-45f1-b86c-7f65ed98a727")
+		(uuid "3bfaf461-c0f8-480d-8ca2-b0cf99140a40")
 	)
 	(fp_line
 		(start -1.015 -2.035)
@@ -94,7 +94,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "734c607c-6be8-4c79-a0c9-e792246c685b")
+		(uuid "b18df640-da5f-4775-84a4-8de37d6520ca")
 	)
 	(fp_line
 		(start -1.015 2.035)
@@ -104,7 +104,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "9114138c-32e9-45ee-a419-778383af3583")
+		(uuid "2c1a2d3b-8fd9-4f37-a149-038df6048a51")
 	)
 	(fp_line
 		(start 6.095 -2.035)
@@ -114,7 +114,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "bfcced51-e839-4888-84ab-5dc6ea6704b6")
+		(uuid "1a6d1a77-90fe-4a12-af48-8c351b839fe9")
 	)
 	(fp_line
 		(start 6.095 2.035)
@@ -124,7 +124,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "062aa50f-7c5b-4f4e-b158-a4da0b754864")
+		(uuid "319ff8d1-aeac-4103-abac-dd2e8ac56bc1")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -132,7 +132,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "68a41a96-db23-4b56-bd7e-318f5e28091b")
+		(uuid "4a19ea09-3301-4e2f-a02e-6506464fffe6")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
@@ -140,7 +140,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fdc41308-1865-47e5-bab3-e89ecb8f157c")
+		(uuid "9c8cef96-44c4-4b5f-ba6a-abeccf8b21b4")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/C330-envelope.step"

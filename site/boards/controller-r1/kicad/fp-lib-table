@@ -1,1 +1,1 @@
-(fp_lib_table (version 7) (lib (name "Drive") (type "KiCad") (uri "${KIPRJMOD}/Drive.pretty") (options "") (descr "Provisional 2.50mm floppy power footprint")))
+(fp_lib_table (version 7) (lib (name "Drive") (type "KiCad") (uri "${KIPRJMOD}/Drive.pretty") (options "") (descr "Provisional 2.50mm floppy power footprint")) (lib (name "HardwareSilk") (type "KiCad") (uri "${KIPRJMOD}/HardwareSilk.pretty") (options "") (descr "Assembly silkscreen variants of original footprints")))

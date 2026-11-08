@@ -1,7 +1,7 @@
 Drive controller · R1
-Routed engineering prototype · bench validation pending
-Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.
+Hardware R3 · routed prototype
+Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 6202a72485b6f28f40c0ab631a0910edd554a2cf
-PCB SHA256 804471aa33f6384a9b34358c97842a2c714acae4f958fee6d23ff1b482cadbe9
+Source commit 8545c317815bf29be1d4f8e1ede1812b0f4bdafb
+PCB SHA256 bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f

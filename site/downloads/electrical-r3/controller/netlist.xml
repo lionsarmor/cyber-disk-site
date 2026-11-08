@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/drive-controller-r1/cyber-drive-controller-r1.kicad_sch</source>
+    <date>2026-11-07T21:45:43</date>
+    <tool>Eeschema 10.0.6+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RODDY CYBER DRIVE / CORE CONTROLLER</title>
+        <company/>
+        <rev>R1.1 hardware finish</rev>
+        <date/>
+        <source>cyber-drive-controller-r1.kicad_sch</source>
+        <comment number="1" value="PROTOTYPE / NOT RELEASED / electrical and mechanical bench tests required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>PICO 2 SC1632 SOCKETED</value>
+      <footprint>Module:RaspberryPi_Pico_Common_THT</footprint>
+      <fields>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="A1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee3b0430-2d72-47eb-ae26-439ed0a33a83</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="13"/>
+            <pin num="18"/>
+            <pin num="23"/>
+            <pin num="28"/>
+            <pin num="33"/>
+            <pin num="38"/>
+            <pin num="30"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="40"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>47uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeb37f68-28c2-44a4-b589-c1cb495536ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 50V</value>
+      <footprint>Drive:KEMET_C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Drive:KEMET_C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>795561fd-f958-40b8-9a29-1c881ba1d3bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF 50V</value>
+      <footprint>Drive:KEMET_C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Drive:KEMET_C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C3" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e45380c-5c94-4333-b75c-038e09222083</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF 50V</value>
+      <footprint>Drive:KEMET_C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Drive:KEMET_C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C5" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6146ff8d-0fae-4784-9301-c55323191025</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22uF 16V / OUTPUT</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C6" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dd9103c-a36c-427e-932a-1e02764dcb5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF 50V</value>
+      <footprint>Drive:KEMET_C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Drive:KEMET_C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C7" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b51e1516-a4e9-40b3-972b-649d69a10934</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1uF 50V X7R</value>
+      <footprint>Drive:KEMET_C340_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Drive:KEMET_C340_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="C9" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>962e7656-2a24-4239-99a8-28238def59de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819 / USB BACKFEED BLOCK</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="D1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>365b705c-00d4-4935-ba20-214d5296793e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2A FAST / LOW DROP</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="F1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960b720b-4e0e-400e-820d-f0109e52656d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>34-PIN PC FLOPPY</value>
+      <footprint>Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="J1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c536b5b2-8b44-4524-88c4-8672c036e82e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="2"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>FLOPPY POWER 5V GND GND 12V</value>
+      <footprint>Drive:TE_171826-4</footprint>
+      <fields>
+        <field name="Footprint">Drive:TE_171826-4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="J2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b8bd7cf-df08-4f5d-b672-1e3d2af40bcc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>ISOLATED CONTACTS / 1 TO 7</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="J3" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dc2ceba-5bc0-4c0a-98d3-8bafad1d748e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>DOCK LINK 3V3 UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="J4" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1f231c4-6853-4d90-b6b3-95d141f3d4eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>3V3 OUT / INTERLOCK RETURN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="J5" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf2d4666-caee-4910-ac81-6dbe4ac73bed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLZ44N / HARD DISCHARGE</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-220-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99d11575-bc4e-45f6-ab5d-2038b9090f7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>TN0702 / ARM PERMISSION</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1fcc987-696c-44bc-8d34-4e4c11598380</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>TN0702 / INTERLOCK PERMISSION</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q3" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f00c234-0406-4e0b-a62c-36b9f587822f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>TN0702 / FDD INDEX</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q4" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c7dddf4-bf2e-4602-83bc-7e23765c2498</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q5">
+      <value>TN0702 / FDD TRK0</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q5" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9551ba1-e1a0-4ec0-be6c-ff1cdc94f25d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q6">
+      <value>TN0702 / FDD WP</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q6" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c95f2551-eff9-4426-b612-e60265d31412</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q7">
+      <value>TN0702 / FDD RDATA</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q7" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b580c00b-8bb5-4504-988d-501178d351ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q8">
+      <value>TN0702 / FDD CHANGE</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q8" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2d3368d-fda2-4089-9d2c-51e2a5bb0e6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q9">
+      <value>SUP53P06 / MEDIA INPUT CUT</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-220-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q9" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>140fcffe-431d-4a1f-b18d-a75e5dbe51a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q10">
+      <value>TN0702 / OE ARM</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q10" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37885dd2-3a11-4adc-b0e4-9570b158e47f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q11">
+      <value>TN0702 / OE INTERLOCK</value>
+      <footprint>HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_TO_SOT_THT__TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="Q11" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfd1cee0-cb29-45fc-871a-af2c77400329</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k SPI CS DEFAULT</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb342554-72dd-4299-8eb7-c1a0fb5b8798</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k MEDIA ERROR PULLUP</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a1bc6f-16b0-4a71-a0ab-21f9d9f151f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>15k 1%</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R4" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99248dfc-2006-4c01-9d6f-f2f50c629e08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k 1%</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R5" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5c3d1a6-5bb4-4db7-ac0e-d0f501ac1b3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>68R FAILSAFE BLEED</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R6" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51137f29-6dc6-4846-80c4-4a15d0557ffc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>680R DEFAULT OFF</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R7" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>848ba7ac-be34-43b4-a936-02b5bf8ec782</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>2R2 DISCHARGE</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R8" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>323497ed-96e4-4cee-8ae9-c06e3d2c8f6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k MISO DEFAULT</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R9" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f62501a-c690-48e2-8112-fe22e89ecff9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>1 OHM CAP ESR</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R10" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e81839f9-3f60-4ba2-ade1-f935b391d84b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>2k2 ARM GATE</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R11" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eefae072-73fc-490f-b104-5e7f09f084b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>2k2 INTERLOCK GATE</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R12" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d096c6-6dcf-42fd-b179-e187205763a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k OE DEFAULT OFF</value>
+      <footprint>HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_THT__R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="R13" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7114d466-88ff-4287-bbaa-4636420dac32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN1">
+      <value>8x10k BUSSED / COMMON PIN1</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="RN1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1f24016-0e61-4a62-bb17-0b9afed4b945</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN2">
+      <value>8x10k BUSSED / COMMON PIN1</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="RN2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5948a9dd-9a29-4987-b6fc-304241ef58b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN3">
+      <value>8x1k BUSSED / COMMON GND</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="RN3" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff5be1a-f7fa-457a-b052-cbe01615820d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LVC245AN / 5V-TOL INPUT</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="U1" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6be8c5e-8b4a-4630-8344-bd7d19690132</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>SN74LVC245AN / 5V-TOL INPUT</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="U2" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>849369d6-29bc-4b7e-a6b7-0ab58e9ecc47</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC245AN / SWITCHED MEDIA ISOLATION</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="U4" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a1501f-07a1-4ef4-a939-c09aa613d3f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>LP2951ACN / SWITCHED 3V1 100mA</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Drive" part="U6" description=""/>
+      <property name="Sheetname" value="cyber-drive-controller-r1"/>
+      <property name="Sheetfile" value="cyber-drive-controller-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1b06c58-48e9-4a46-a80b-b388048352ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Drive" part="A1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PICO 2 SC1632 SOCKETED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DOCK_TX" type="passive"/>
+        <pin num="2" name="DOCK_RX" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="MCU_MOTOR_A_N" type="passive"/>
+        <pin num="5" name="MCU_DS_B_N" type="passive"/>
+        <pin num="6" name="MCU_DS_A_N" type="passive"/>
+        <pin num="7" name="MCU_MOTOR_B_N" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="MCU_DIR_N" type="passive"/>
+        <pin num="10" name="MCU_STEP_N" type="passive"/>
+        <pin num="11" name="MCU_WDATA_N" type="passive"/>
+        <pin num="12" name="MCU_WGATE_N" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="MCU_HEAD_N" type="passive"/>
+        <pin num="15" name="MCU_DENSEL" type="passive"/>
+        <pin num="16" name="ASSERT_INDEX" type="passive"/>
+        <pin num="17" name="ASSERT_TRK0" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="ASSERT_WP" type="passive"/>
+        <pin num="20" name="ASSERT_RDATA" type="passive"/>
+        <pin num="21" name="ASSERT_CHANGE" type="passive"/>
+        <pin num="22" name="SPI_CS_N" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="SPI_SCK" type="passive"/>
+        <pin num="25" name="SPI_MOSI" type="passive"/>
+        <pin num="26" name="SPI_MISO" type="passive"/>
+        <pin num="27" name="MEDIA_ARM" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="INTERLOCK_OK" type="passive"/>
+        <pin num="30" name="NC" type="passive"/>
+        <pin num="31" name="MEDIA_ERROR_N" type="passive"/>
+        <pin num="32" name="LED_DATA" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="DOCK_BUSY" type="passive"/>
+        <pin num="35" name="NC" type="passive"/>
+        <pin num="36" name="V3V3" type="passive"/>
+        <pin num="37" name="NC" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="VSYS" type="passive"/>
+        <pin num="40" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">47uF 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">22uF 16V / OUTPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="MEDIA_CAP_RETURN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="C9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1uF 50V X7R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="D1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1N5819 / USB BACKFEED BLOCK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VSYS" type="passive"/>
+        <pin num="2" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="F1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2A FAST / LOW DROP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_IN" type="passive"/>
+        <pin num="2" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="J1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">34-PIN PC FLOPPY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="FDD_DENSEL" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="FDD_INDEX_N" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="FDD_MOTOR_A_N" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="FDD_DS_B_N" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="FDD_DS_A_N" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="FDD_MOTOR_B_N" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="FDD_DIR_N" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="FDD_STEP_N" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="FDD_WDATA_N" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="FDD_WGATE_N" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="FDD_TRK0_N" type="passive"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="FDD_WP_N" type="passive"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="FDD_RDATA_N" type="passive"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="FDD_HEAD_N" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="FDD_CHANGE_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="J2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">FLOPPY POWER 5V GND GND 12V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="J3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ISOLATED CONTACTS / 1 TO 7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="MEDIA_3V3" type="passive"/>
+        <pin num="3" name="MEDIA_CS_N" type="passive"/>
+        <pin num="4" name="MEDIA_SCK" type="passive"/>
+        <pin num="5" name="MEDIA_MOSI" type="passive"/>
+        <pin num="6" name="MEDIA_MISO" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="J4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">DOCK LINK 3V3 UART</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V5" type="passive"/>
+        <pin num="3" name="DOCK_TX" type="passive"/>
+        <pin num="4" name="DOCK_RX_RAW" type="passive"/>
+        <pin num="5" name="DOCK_BUSY" type="passive"/>
+        <pin num="6" name="LED_DATA" type="passive"/>
+        <pin num="7" name="V3V3" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="J5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">3V3 OUT / INTERLOCK RETURN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="INTERLOCK_OK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">IRLZ44N / HARD DISCHARGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_OFF" type="passive"/>
+        <pin num="2" name="DISCHARGE_C" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / OE ARM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OE_MID" type="passive"/>
+        <pin num="2" name="ARM_BASE" type="passive"/>
+        <pin num="3" name="MEDIA_OE_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / OE INTERLOCK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="LOCK_BASE" type="passive"/>
+        <pin num="3" name="OE_MID" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / ARM PERMISSION</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PERMISSION_MID" type="passive"/>
+        <pin num="2" name="ARM_BASE" type="passive"/>
+        <pin num="3" name="MEDIA_OFF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / INTERLOCK PERMISSION</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="LOCK_BASE" type="passive"/>
+        <pin num="3" name="PERMISSION_MID" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / FDD INDEX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_INDEX" type="passive"/>
+        <pin num="3" name="FDD_INDEX_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / FDD TRK0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_TRK0" type="passive"/>
+        <pin num="3" name="FDD_TRK0_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / FDD WP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_WP" type="passive"/>
+        <pin num="3" name="FDD_WP_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / FDD RDATA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_RDATA" type="passive"/>
+        <pin num="3" name="FDD_RDATA_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / FDD CHANGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_CHANGE" type="passive"/>
+        <pin num="3" name="FDD_CHANGE_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="Q9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SUP53P06 / MEDIA INPUT CUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_OFF" type="passive"/>
+        <pin num="2" name="V5_MEDIA" type="passive"/>
+        <pin num="3" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k SPI CS DEFAULT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="SPI_CS_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1 OHM CAP ESR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_CAP_RETURN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2k2 ARM GATE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_ARM" type="passive"/>
+        <pin num="2" name="ARM_BASE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2k2 INTERLOCK GATE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="INTERLOCK_OK" type="passive"/>
+        <pin num="2" name="LOCK_BASE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R13">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k OE DEFAULT OFF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="MEDIA_OE_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k MEDIA ERROR PULLUP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="MEDIA_ERROR_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">15k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="MEDIA_FB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_FB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">68R FAILSAFE BLEED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">680R DEFAULT OFF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="MEDIA_OFF" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2R2 DISCHARGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="DISCHARGE_C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="R9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k MISO DEFAULT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SPI_MISO" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="RN1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">8x10k BUSSED / COMMON PIN1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="FDD_MOTOR_A_N" type="passive"/>
+        <pin num="3" name="FDD_DS_B_N" type="passive"/>
+        <pin num="4" name="FDD_DS_A_N" type="passive"/>
+        <pin num="5" name="FDD_MOTOR_B_N" type="passive"/>
+        <pin num="6" name="FDD_DIR_N" type="passive"/>
+        <pin num="7" name="FDD_STEP_N" type="passive"/>
+        <pin num="8" name="FDD_WDATA_N" type="passive"/>
+        <pin num="9" name="FDD_WGATE_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="RN2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">8x10k BUSSED / COMMON PIN1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="FDD_HEAD_N" type="passive"/>
+        <pin num="3" name="FDD_DENSEL" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="NC" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="NC" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="RN3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">8x1k BUSSED / COMMON GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_INDEX" type="passive"/>
+        <pin num="3" name="ASSERT_TRK0" type="passive"/>
+        <pin num="4" name="ASSERT_WP" type="passive"/>
+        <pin num="5" name="ASSERT_RDATA" type="passive"/>
+        <pin num="6" name="ASSERT_CHANGE" type="passive"/>
+        <pin num="7" name="DOCK_RX_RAW" type="passive"/>
+        <pin num="8" name="MEDIA_ARM" type="passive"/>
+        <pin num="9" name="INTERLOCK_OK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="U1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN / 5V-TOL INPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="FDD_MOTOR_A_N" type="passive"/>
+        <pin num="3" name="FDD_DS_B_N" type="passive"/>
+        <pin num="4" name="FDD_DS_A_N" type="passive"/>
+        <pin num="5" name="FDD_MOTOR_B_N" type="passive"/>
+        <pin num="6" name="FDD_DIR_N" type="passive"/>
+        <pin num="7" name="FDD_STEP_N" type="passive"/>
+        <pin num="8" name="FDD_WDATA_N" type="passive"/>
+        <pin num="9" name="FDD_WGATE_N" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="MCU_WGATE_N" type="passive"/>
+        <pin num="12" name="MCU_WDATA_N" type="passive"/>
+        <pin num="13" name="MCU_STEP_N" type="passive"/>
+        <pin num="14" name="MCU_DIR_N" type="passive"/>
+        <pin num="15" name="MCU_MOTOR_B_N" type="passive"/>
+        <pin num="16" name="MCU_DS_A_N" type="passive"/>
+        <pin num="17" name="MCU_DS_B_N" type="passive"/>
+        <pin num="18" name="MCU_MOTOR_A_N" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="U2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN / 5V-TOL INPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="FDD_HEAD_N" type="passive"/>
+        <pin num="3" name="FDD_DENSEL" type="passive"/>
+        <pin num="4" name="DOCK_RX_RAW" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="NC" type="passive"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="DOCK_RX" type="passive"/>
+        <pin num="17" name="MCU_DENSEL" type="passive"/>
+        <pin num="18" name="MCU_HEAD_N" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="U4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN / SWITCHED MEDIA ISOLATION</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="SPI_CS_N" type="passive"/>
+        <pin num="3" name="SPI_SCK" type="passive"/>
+        <pin num="4" name="SPI_MOSI" type="passive"/>
+        <pin num="5" name="MEDIA_MISO" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="NC" type="passive"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="SPI_MISO" type="passive"/>
+        <pin num="16" name="MEDIA_MOSI" type="passive"/>
+        <pin num="17" name="MEDIA_SCK" type="passive"/>
+        <pin num="18" name="MEDIA_CS_N" type="passive"/>
+        <pin num="19" name="MEDIA_OE_N" type="passive"/>
+        <pin num="20" name="MEDIA_3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Drive" part="U6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">LP2951ACN / SWITCHED 3V1 100mA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="MEDIA_3V3" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="MEDIA_OFF" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="MEDIA_ERROR_N" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="MEDIA_FB" type="passive"/>
+        <pin num="8" name="V5_MEDIA" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Drive">
+      <uri>${KIPRJMOD}/Drive.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ARM_BASE" class="Default">
+      <node ref="Q10" pin="2" pinfunction="ARM_BASE_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="ARM_BASE_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="ARM_BASE_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/ASSERT_CHANGE" class="Default">
+      <node ref="A1" pin="21" pinfunction="ASSERT_CHANGE_21" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="ASSERT_CHANGE_2" pintype="passive"/>
+      <node ref="RN3" pin="6" pinfunction="ASSERT_CHANGE_6" pintype="passive"/>
+    </net>
+    <net code="3" name="/ASSERT_INDEX" class="Default">
+      <node ref="A1" pin="16" pinfunction="ASSERT_INDEX_16" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="ASSERT_INDEX_2" pintype="passive"/>
+      <node ref="RN3" pin="2" pinfunction="ASSERT_INDEX_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/ASSERT_RDATA" class="Default">
+      <node ref="A1" pin="20" pinfunction="ASSERT_RDATA_20" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="ASSERT_RDATA_2" pintype="passive"/>
+      <node ref="RN3" pin="5" pinfunction="ASSERT_RDATA_5" pintype="passive"/>
+    </net>
+    <net code="5" name="/ASSERT_TRK0" class="Default">
+      <node ref="A1" pin="17" pinfunction="ASSERT_TRK0_17" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="ASSERT_TRK0_2" pintype="passive"/>
+      <node ref="RN3" pin="3" pinfunction="ASSERT_TRK0_3" pintype="passive"/>
+    </net>
+    <net code="6" name="/ASSERT_WP" class="Default">
+      <node ref="A1" pin="19" pinfunction="ASSERT_WP_19" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="ASSERT_WP_2" pintype="passive"/>
+      <node ref="RN3" pin="4" pinfunction="ASSERT_WP_4" pintype="passive"/>
+    </net>
+    <net code="7" name="/DISCHARGE_C" class="Default">
+      <node ref="Q1" pin="2" pinfunction="DISCHARGE_C_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="DISCHARGE_C_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/DOCK_BUSY" class="Default">
+      <node ref="A1" pin="34" pinfunction="DOCK_BUSY_34" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="DOCK_BUSY_5" pintype="passive"/>
+    </net>
+    <net code="9" name="/DOCK_RX" class="Default">
+      <node ref="A1" pin="2" pinfunction="DOCK_RX_2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="DOCK_RX_16" pintype="passive"/>
+    </net>
+    <net code="10" name="/DOCK_RX_RAW" class="Default">
+      <node ref="J4" pin="4" pinfunction="DOCK_RX_RAW_4" pintype="passive"/>
+      <node ref="RN3" pin="7" pinfunction="DOCK_RX_RAW_7" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DOCK_RX_RAW_4" pintype="passive"/>
+    </net>
+    <net code="11" name="/DOCK_TX" class="Default">
+      <node ref="A1" pin="1" pinfunction="DOCK_TX_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="DOCK_TX_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/FDD_CHANGE_N" class="Default">
+      <node ref="J1" pin="34" pinfunction="FDD_CHANGE_N_34" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="FDD_CHANGE_N_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/FDD_DENSEL" class="Default">
+      <node ref="J1" pin="2" pinfunction="FDD_DENSEL_2" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="FDD_DENSEL_3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="FDD_DENSEL_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/FDD_DIR_N" class="Default">
+      <node ref="J1" pin="18" pinfunction="FDD_DIR_N_18" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="FDD_DIR_N_6" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="FDD_DIR_N_6" pintype="passive"/>
+    </net>
+    <net code="15" name="/FDD_DS_A_N" class="Default">
+      <node ref="J1" pin="14" pinfunction="FDD_DS_A_N_14" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="FDD_DS_A_N_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FDD_DS_A_N_4" pintype="passive"/>
+    </net>
+    <net code="16" name="/FDD_DS_B_N" class="Default">
+      <node ref="J1" pin="12" pinfunction="FDD_DS_B_N_12" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="FDD_DS_B_N_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FDD_DS_B_N_3" pintype="passive"/>
+    </net>
+    <net code="17" name="/FDD_HEAD_N" class="Default">
+      <node ref="J1" pin="32" pinfunction="FDD_HEAD_N_32" pintype="passive"/>
+      <node ref="RN2" pin="2" pinfunction="FDD_HEAD_N_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="FDD_HEAD_N_2" pintype="passive"/>
+    </net>
+    <net code="18" name="/FDD_INDEX_N" class="Default">
+      <node ref="J1" pin="8" pinfunction="FDD_INDEX_N_8" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="FDD_INDEX_N_3" pintype="passive"/>
+    </net>
+    <net code="19" name="/FDD_MOTOR_A_N" class="Default">
+      <node ref="J1" pin="10" pinfunction="FDD_MOTOR_A_N_10" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="FDD_MOTOR_A_N_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="FDD_MOTOR_A_N_2" pintype="passive"/>
+    </net>
+    <net code="20" name="/FDD_MOTOR_B_N" class="Default">
+      <node ref="J1" pin="16" pinfunction="FDD_MOTOR_B_N_16" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="FDD_MOTOR_B_N_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FDD_MOTOR_B_N_5" pintype="passive"/>
+    </net>
+    <net code="21" name="/FDD_RDATA_N" class="Default">
+      <node ref="J1" pin="30" pinfunction="FDD_RDATA_N_30" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="FDD_RDATA_N_3" pintype="passive"/>
+    </net>
+    <net code="22" name="/FDD_STEP_N" class="Default">
+      <node ref="J1" pin="20" pinfunction="FDD_STEP_N_20" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="FDD_STEP_N_7" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FDD_STEP_N_7" pintype="passive"/>
+    </net>
+    <net code="23" name="/FDD_TRK0_N" class="Default">
+      <node ref="J1" pin="26" pinfunction="FDD_TRK0_N_26" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="FDD_TRK0_N_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/FDD_WDATA_N" class="Default">
+      <node ref="J1" pin="22" pinfunction="FDD_WDATA_N_22" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="FDD_WDATA_N_8" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="FDD_WDATA_N_8" pintype="passive"/>
+    </net>
+    <net code="25" name="/FDD_WGATE_N" class="Default">
+      <node ref="J1" pin="24" pinfunction="FDD_WGATE_N_24" pintype="passive"/>
+      <node ref="RN1" pin="9" pinfunction="FDD_WGATE_N_9" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="FDD_WGATE_N_9" pintype="passive"/>
+    </net>
+    <net code="26" name="/FDD_WP_N" class="Default">
+      <node ref="J1" pin="28" pinfunction="FDD_WP_N_28" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="FDD_WP_N_3" pintype="passive"/>
+    </net>
+    <net code="27" name="/GND" class="Default">
+      <node ref="A1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="A1" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="A1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="A1" pin="28" pinfunction="GND_28" pintype="passive"/>
+      <node ref="A1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="A1" pin="33" pinfunction="GND_33" pintype="passive"/>
+      <node ref="A1" pin="38" pinfunction="GND_38" pintype="passive"/>
+      <node ref="A1" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="GND_11" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="GND_15" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="GND_17" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="GND_25" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="GND_27" pintype="passive"/>
+      <node ref="J1" pin="29" pinfunction="GND_29" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J1" pin="31" pinfunction="GND_31" pintype="passive"/>
+      <node ref="J1" pin="33" pinfunction="GND_33" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="RN3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="28" name="/INTERLOCK_OK" class="Default">
+      <node ref="A1" pin="29" pinfunction="INTERLOCK_OK_29" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="INTERLOCK_OK_2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="INTERLOCK_OK_1" pintype="passive"/>
+      <node ref="RN3" pin="9" pinfunction="INTERLOCK_OK_9" pintype="passive"/>
+    </net>
+    <net code="29" name="/LED_DATA" class="Default">
+      <node ref="A1" pin="32" pinfunction="LED_DATA_32" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="LED_DATA_6" pintype="passive"/>
+    </net>
+    <net code="30" name="/LOCK_BASE" class="Default">
+      <node ref="Q11" pin="2" pinfunction="LOCK_BASE_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="LOCK_BASE_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="LOCK_BASE_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/MCU_DENSEL" class="Default">
+      <node ref="A1" pin="15" pinfunction="MCU_DENSEL_15" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="MCU_DENSEL_17" pintype="passive"/>
+    </net>
+    <net code="32" name="/MCU_DIR_N" class="Default">
+      <node ref="A1" pin="9" pinfunction="MCU_DIR_N_9" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="MCU_DIR_N_14" pintype="passive"/>
+    </net>
+    <net code="33" name="/MCU_DS_A_N" class="Default">
+      <node ref="A1" pin="6" pinfunction="MCU_DS_A_N_6" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="MCU_DS_A_N_16" pintype="passive"/>
+    </net>
+    <net code="34" name="/MCU_DS_B_N" class="Default">
+      <node ref="A1" pin="5" pinfunction="MCU_DS_B_N_5" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="MCU_DS_B_N_17" pintype="passive"/>
+    </net>
+    <net code="35" name="/MCU_HEAD_N" class="Default">
+      <node ref="A1" pin="14" pinfunction="MCU_HEAD_N_14" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="MCU_HEAD_N_18" pintype="passive"/>
+    </net>
+    <net code="36" name="/MCU_MOTOR_A_N" class="Default">
+      <node ref="A1" pin="4" pinfunction="MCU_MOTOR_A_N_4" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="MCU_MOTOR_A_N_18" pintype="passive"/>
+    </net>
+    <net code="37" name="/MCU_MOTOR_B_N" class="Default">
+      <node ref="A1" pin="7" pinfunction="MCU_MOTOR_B_N_7" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="MCU_MOTOR_B_N_15" pintype="passive"/>
+    </net>
+    <net code="38" name="/MCU_STEP_N" class="Default">
+      <node ref="A1" pin="10" pinfunction="MCU_STEP_N_10" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="MCU_STEP_N_13" pintype="passive"/>
+    </net>
+    <net code="39" name="/MCU_WDATA_N" class="Default">
+      <node ref="A1" pin="11" pinfunction="MCU_WDATA_N_11" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="MCU_WDATA_N_12" pintype="passive"/>
+    </net>
+    <net code="40" name="/MCU_WGATE_N" class="Default">
+      <node ref="A1" pin="12" pinfunction="MCU_WGATE_N_12" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="MCU_WGATE_N_11" pintype="passive"/>
+    </net>
+    <net code="41" name="/MEDIA_3V3" class="Default">
+      <node ref="C6" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="MEDIA_3V3_2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="MEDIA_3V3_20" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="MEDIA_3V3_1" pintype="passive"/>
+    </net>
+    <net code="42" name="/MEDIA_ARM" class="Default">
+      <node ref="A1" pin="27" pinfunction="MEDIA_ARM_27" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="MEDIA_ARM_1" pintype="passive"/>
+      <node ref="RN3" pin="8" pinfunction="MEDIA_ARM_8" pintype="passive"/>
+    </net>
+    <net code="43" name="/MEDIA_CAP_RETURN" class="Default">
+      <node ref="C6" pin="2" pinfunction="MEDIA_CAP_RETURN_2" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="MEDIA_CAP_RETURN_1" pintype="passive"/>
+    </net>
+    <net code="44" name="/MEDIA_CS_N" class="Default">
+      <node ref="J3" pin="3" pinfunction="MEDIA_CS_N_3" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="MEDIA_CS_N_18" pintype="passive"/>
+    </net>
+    <net code="45" name="/MEDIA_ERROR_N" class="Default">
+      <node ref="A1" pin="31" pinfunction="MEDIA_ERROR_N_31" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="MEDIA_ERROR_N_2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="MEDIA_ERROR_N_5" pintype="passive"/>
+    </net>
+    <net code="46" name="/MEDIA_FB" class="Default">
+      <node ref="R4" pin="2" pinfunction="MEDIA_FB_2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="MEDIA_FB_1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="MEDIA_FB_7" pintype="passive"/>
+    </net>
+    <net code="47" name="/MEDIA_MISO" class="Default">
+      <node ref="J3" pin="6" pinfunction="MEDIA_MISO_6" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="MEDIA_MISO_5" pintype="passive"/>
+    </net>
+    <net code="48" name="/MEDIA_MOSI" class="Default">
+      <node ref="J3" pin="5" pinfunction="MEDIA_MOSI_5" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="MEDIA_MOSI_16" pintype="passive"/>
+    </net>
+    <net code="49" name="/MEDIA_OE_N" class="Default">
+      <node ref="Q10" pin="3" pinfunction="MEDIA_OE_N_3" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="MEDIA_OE_N_2" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="MEDIA_OE_N_19" pintype="passive"/>
+    </net>
+    <net code="50" name="/MEDIA_OFF" class="Default">
+      <node ref="Q1" pin="1" pinfunction="MEDIA_OFF_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="MEDIA_OFF_3" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="MEDIA_OFF_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="MEDIA_OFF_2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="MEDIA_OFF_3" pintype="passive"/>
+    </net>
+    <net code="51" name="/MEDIA_SCK" class="Default">
+      <node ref="J3" pin="4" pinfunction="MEDIA_SCK_4" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="MEDIA_SCK_17" pintype="passive"/>
+    </net>
+    <net code="52" name="/OE_MID" class="Default">
+      <node ref="Q10" pin="1" pinfunction="OE_MID_1" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="OE_MID_3" pintype="passive"/>
+    </net>
+    <net code="53" name="/PERMISSION_MID" class="Default">
+      <node ref="Q2" pin="1" pinfunction="PERMISSION_MID_1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="PERMISSION_MID_3" pintype="passive"/>
+    </net>
+    <net code="54" name="/SPI_CS_N" class="Default">
+      <node ref="A1" pin="22" pinfunction="SPI_CS_N_22" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="SPI_CS_N_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="SPI_CS_N_2" pintype="passive"/>
+    </net>
+    <net code="55" name="/SPI_MISO" class="Default">
+      <node ref="A1" pin="26" pinfunction="SPI_MISO_26" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="SPI_MISO_1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="SPI_MISO_15" pintype="passive"/>
+    </net>
+    <net code="56" name="/SPI_MOSI" class="Default">
+      <node ref="A1" pin="25" pinfunction="SPI_MOSI_25" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="SPI_MOSI_4" pintype="passive"/>
+    </net>
+    <net code="57" name="/SPI_SCK" class="Default">
+      <node ref="A1" pin="24" pinfunction="SPI_SCK_24" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SPI_SCK_3" pintype="passive"/>
+    </net>
+    <net code="58" name="/V3V3" class="Default">
+      <node ref="A1" pin="36" pinfunction="V3V3_36" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="V3V3_7" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="V3V3_20" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="V3V3_20" pintype="passive"/>
+    </net>
+    <net code="59" name="/V5" class="Default">
+      <node ref="C1" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="V5_2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="V5_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="V5_2" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="V5_3" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="V5_1" pintype="passive"/>
+    </net>
+    <net code="60" name="/V5_IN" class="Default">
+      <node ref="F1" pin="1" pinfunction="V5_IN_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="V5_IN_1" pintype="passive"/>
+    </net>
+    <net code="61" name="/V5_MEDIA" class="Default">
+      <node ref="Q9" pin="2" pinfunction="V5_MEDIA_2" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="V5_MEDIA_8" pintype="passive"/>
+    </net>
+    <net code="62" name="/VSYS" class="Default">
+      <node ref="A1" pin="39" pinfunction="VSYS_39" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VSYS_1" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(A1-NC-Pad30)" class="Default">
+      <node ref="A1" pin="30" pinfunction="NC_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(A1-NC-Pad35)" class="Default">
+      <node ref="A1" pin="35" pinfunction="NC_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(A1-NC-Pad37)" class="Default">
+      <node ref="A1" pin="37" pinfunction="NC_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(A1-NC-Pad40)" class="Default">
+      <node ref="A1" pin="40" pinfunction="NC_40" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J1-NC-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J1-NC-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-NC-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J3-NC-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J4-NC-Pad9)" class="Default">
+      <node ref="J4" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J4-NC-Pad10)" class="Default">
+      <node ref="J4" pin="10" pinfunction="NC_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(RN2-NC-Pad4)" class="Default">
+      <node ref="RN2" pin="4" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(RN2-NC-Pad5)" class="Default">
+      <node ref="RN2" pin="5" pinfunction="NC_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(RN2-NC-Pad6)" class="Default">
+      <node ref="RN2" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(RN2-NC-Pad7)" class="Default">
+      <node ref="RN2" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(RN2-NC-Pad8)" class="Default">
+      <node ref="RN2" pin="8" pinfunction="NC_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(RN2-NC-Pad9)" class="Default">
+      <node ref="RN2" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-NC-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-NC-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="NC_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2-NC-Pad13)" class="Default">
+      <node ref="U2" pin="13" pinfunction="NC_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-NC-Pad14)" class="Default">
+      <node ref="U2" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2-NC-Pad15)" class="Default">
+      <node ref="U2" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U4-NC-Pad11)" class="Default">
+      <node ref="U4" pin="11" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-NC-Pad12)" class="Default">
+      <node ref="U4" pin="12" pinfunction="NC_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-NC-Pad13)" class="Default">
+      <node ref="U4" pin="13" pinfunction="NC_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-NC-Pad14)" class="Default">
+      <node ref="U4" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U6-NC-Pad2)" class="Default">
+      <node ref="U6" pin="2" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U6-NC-Pad6)" class="Default">
+      <node ref="U6" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

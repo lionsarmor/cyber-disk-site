@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/service-r4/cyber-disk-single-r4.kicad_sch</source>
+    <date>2026-11-07T21:45:25</date>
+    <tool>Eeschema 10.0.6+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Cyber Disk service R4 — independent SPI media</title>
+        <company/>
+        <rev>R4</rev>
+        <date/>
+        <source>cyber-disk-single-r4.kicad_sch</source>
+        <comment number="1" value="NOT FOR PRODUCTION: contact geometry / interlock unqualified"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF 50V X7R</value>
+      <footprint>HardwareSilk:Capacitor_SMD__C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Capacitor_SMD__C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcac08b5-2815-4090-b23c-3e3b186b64e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Seven exposed pads — A</value>
+      <footprint>HardwareSilk:Roddy__Contact7_F</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Roddy__Contact7_F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Roddy" part="Contact7" description=""/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>894309e0-ae1a-4535-b489-e8085518d5de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>HardwareSilk:Resistor_SMD__R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_SMD__R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c22d5226-c33b-4f4c-b2b2-dd663817d8fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>HardwareSilk:Resistor_SMD__R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_SMD__R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fe531c2-76b9-46a5-bad7-bdf6d7d50f50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>HardwareSilk:Resistor_SMD__R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Resistor_SMD__R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3045edb2-8ce6-452a-8756-b9418fc8a8c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>MX25L3233FM2I-08G-TR</value>
+      <footprint>HardwareSilk:Package_SO__SOIC-8_5.3x5.3mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Package_SO__SOIC-8_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Roddy" part="MX25L3233FM2I_08G" description="32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.65-3.6V, SOP-8 (200 mil)"/>
+      <property name="Sheetname" value="cyber-disk-single-r4"/>
+      <property name="Sheetfile" value="cyber-disk-single-r4.kicad_sch"/>
+      <property name="ki_keywords" value="flash memory SPI"/>
+      <property name="ki_fp_filters" value="*SOIC*5.3x5.3mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d81f85a-6bd6-4402-86af-a29338caa5cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Roddy" part="Contact7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Contact7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="CS" type="passive"/>
+        <pin num="4" name="CLK" type="passive"/>
+        <pin num="5" name="MOSI" type="passive"/>
+        <pin num="6" name="MISO" type="passive"/>
+        <pin num="7" name="RESERVED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Roddy" part="MX25L3233FM2I_08G">
+      <description>32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.65-3.6V, SOP-8 (200 mil)</description>
+      <docs>https://www.macronix.com/Lists/Datasheet/Attachments/8933/MX25L3233F,%203V,%2032Mb,%20v1.7.pdf</docs>
+      <footprints>
+        <fp>*SOIC*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MX25L3233FM2I_08G</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.3x5.3mm_P1.27mm</field>
+        <field name="Datasheet">https://www.macronix.com/Lists/Datasheet/Attachments/8933/MX25L3233F,%203V,%2032Mb,%20v1.7.pdf</field>
+        <field name="Description">32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.65-3.6V, SOP-8 (200 mil)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO/IO_{1}" type="bidirectional"/>
+        <pin num="3" name="~{WP}/IO_{2}" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI/IO_{0}" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="~{HOLD}/~{RESET}/IO_{3}" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Roddy">
+      <uri>${KIPRJMOD}/Roddy.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A_CLK" class="Default">
+      <node ref="J1" pin="4" pinfunction="CLK_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CLK_6" pintype="input"/>
+    </net>
+    <net code="2" name="/A_CS" class="Default">
+      <node ref="J1" pin="3" pinfunction="CS_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{CS}_1" pintype="input"/>
+    </net>
+    <net code="3" name="/A_GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+    </net>
+    <net code="4" name="/A_HOLD" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="~{HOLD}/~{RESET}/IO_{3}_7" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/A_MISO" class="Default">
+      <node ref="J1" pin="6" pinfunction="MISO_6" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="DO/IO_{1}_2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/A_MOSI" class="Default">
+      <node ref="J1" pin="5" pinfunction="MOSI_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DI/IO_{0}_5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/A_VCC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+    <net code="8" name="/A_WP" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="~{WP}/IO_{2}_3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="unconnected-(J1-RESERVED-Pad7)" class="Default">
+      <node ref="J1" pin="7" pinfunction="RESERVED_7" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

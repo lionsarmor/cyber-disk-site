@@ -1,15 +1,13 @@
 # RODDY Cyber Disk inspector
 
-Website: https://disk.roddy.world/
+Website: http://disk.roddy.world/
 
-GitHub Pages address (redirects to the custom domain): https://lionsarmor.github.io/cyber-disk-site/
+GitHub Pages: https://lionsarmor.github.io/cyber-disk-site/ (redirects to the custom domain).
 
-Static 3D inspection website and downloadable prototype CAD. The development repository remains private.
+Hardware R3 publication: five routed PCBs with actual RODDY silkscreen, separate KiCad/schematic/Gerber downloads, supplier-grouped BOM, Drive R5 mechanism and External Case R4 with Daughterboard R3. The development repository remains private.
 
-GitHub Actions deploys `site/` to GitHub Pages on each push to main.
+Saved-file ERC, DRC and independent pin-map checks pass with zero unrouted connections. These are prototype files: printed/powered sample qualification and real-host emulation testing remain required. Firmware is unchanged in this hardware publication.
 
-DNS: Namecheap CNAME `disk` -> `lionsarmor.github.io`, Automatic TTL. GitHub Pages custom domain is `disk.roddy.world`. All asset URLs are relative so the inspector works at the domain root.
+GitHub Actions deploys `site/` to GitHub Pages on each push to main. DNS: CNAME `disk` points to `lionsarmor.github.io`. All asset URLs are relative. Obsolete generated geometry has been removed from the current deployment; historical revisions remain in Git.
 
-Contact PCB R1: `?model=pcb%2Fcontact&v=contact-pcb-r1` adds the routed passive leaf-spring board, with seven free-height contact envelopes, copper, silkscreen and STEP. Drive R4 previews include the matching board outline, adjusted cassette height, relocated M2 mounts and seven cable tails. Main-board isolation and sliding durability remain unfinished.
-
-External dock R3 / daughterboard R2: board-mounted through-hole USB-B, serial, IEC, accessory and 5V ports, with a purchased internal USB jumper. PCB remains unrouted; current drawings and reference downloads are under boards/external-r2. Superseded external model buffers were removed from the deployed site; historical revisions remain in Git.
+Start with `?model=pcb%2Fdock&view=b&v=hardware-r3` for the branded PCB underside, `?model=drive%2Fmotion&v=hardware-r3` for the mechanism, or `?model=external%2Fservice&v=hardware-r3` for internal wiring. Board files are at `boards.html`; verification details are at `electrical.html`.

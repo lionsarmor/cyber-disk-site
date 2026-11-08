@@ -1,15 +1,15 @@
 {
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
-  "intro": "Electrical R2: routed controller and dock, isolated sliding contacts and first compiled firmware. Bench and compatibility qualification remain open.",
-  "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
+  "intro": "Hardware R3: five routed boards with RODDY silkscreen, current schematics, independent pin checks, and separate prototype fabrication packages. Physical sample and host qualification still required.",
+  "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
   "boards": [
     {
       "id": "single-r4",
       "title": "Single-sided disk \u00b7 R4",
-      "status": "Routed prototype",
+      "status": "Hardware R3 \u00b7 routed prototype",
       "fabrication": "prototype",
-      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.",
+      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/single",
       "previews": [
         {
@@ -62,13 +62,23 @@
           "type": "reference"
         },
         {
-          "label": "DRC report",
-          "url": "boards/single-r4/documents/cyber-disk-single-r4-drc.txt",
+          "label": "Hardware engineering review",
+          "url": "boards/single-r4/documents/ELECTRICAL-REVIEW-R3.md",
           "type": "reference"
         },
         {
-          "label": "ERC report",
-          "url": "boards/single-r4/documents/cyber-disk-single-r4-erc.txt",
+          "label": "Saved DRC report",
+          "url": "boards/single-r4/documents/drc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Saved ERC report",
+          "url": "boards/single-r4/documents/erc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Five-board verification",
+          "url": "boards/single-r4/documents/verification.json",
           "type": "reference"
         },
         {
@@ -82,15 +92,15 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
-      "sourceSha256": "c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba"
+      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+      "sourceSha256": "7b64b26f0e18a21e3b641d0c803cda5410be29029b0e54233a852260f890ea8f"
     },
     {
       "id": "ab-r4",
       "title": "Reversible A/B disk \u00b7 R4",
-      "status": "Routed prototype",
+      "status": "Hardware R3 \u00b7 routed prototype",
       "fabrication": "prototype",
-      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.",
+      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/ab",
       "previews": [
         {
@@ -143,13 +153,23 @@
           "type": "reference"
         },
         {
-          "label": "DRC report",
-          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-drc.txt",
+          "label": "Hardware engineering review",
+          "url": "boards/ab-r4/documents/ELECTRICAL-REVIEW-R3.md",
           "type": "reference"
         },
         {
-          "label": "ERC report",
-          "url": "boards/ab-r4/documents/cyber-disk-ab-r4-erc.txt",
+          "label": "Saved DRC report",
+          "url": "boards/ab-r4/documents/drc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Saved ERC report",
+          "url": "boards/ab-r4/documents/erc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Five-board verification",
+          "url": "boards/ab-r4/documents/verification.json",
           "type": "reference"
         },
         {
@@ -163,15 +183,15 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
-      "sourceSha256": "4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552"
+      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+      "sourceSha256": "c89d61bafaa77b9a68e65b46279907db848f5a930bc4a2a33d5790efa2ddab83"
     },
     {
       "id": "contact-r1",
       "title": "Leaf-spring contact board \u00b7 R1",
-      "status": "Routed passive prototype",
+      "status": "Hardware R3 \u00b7 routed prototype",
       "fabrication": "prototype",
-      "note": "Seven soldered Harwin leaves; connect 1:1 to the new isolated seven-pin controller R1 J3. Physical sliding wear and interlock timing remain unvalidated.",
+      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/contact",
       "previews": [
         {
@@ -219,13 +239,23 @@
           "type": "reference"
         },
         {
-          "label": "DRC report",
-          "url": "boards/contact-r1/documents/drc.txt",
+          "label": "Hardware engineering review",
+          "url": "boards/contact-r1/documents/ELECTRICAL-REVIEW-R3.md",
           "type": "reference"
         },
         {
-          "label": "ERC report",
-          "url": "boards/contact-r1/documents/erc.txt",
+          "label": "Saved DRC report",
+          "url": "boards/contact-r1/documents/drc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Saved ERC report",
+          "url": "boards/contact-r1/documents/erc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Five-board verification",
+          "url": "boards/contact-r1/documents/verification.json",
           "type": "reference"
         },
         {
@@ -239,15 +269,15 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
-      "sourceSha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
+      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+      "sourceSha256": "9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323"
     },
     {
       "id": "external-r3",
       "title": "External daughterboard \u00b7 R3",
-      "status": "Routed engineering prototype \u00b7 bench validation pending",
-      "fabrication": "reference",
-      "note": "Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.",
+      "status": "Hardware R3 \u00b7 routed prototype",
+      "fabrication": "prototype",
+      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/dock",
       "previews": [
         {
@@ -285,8 +315,8 @@
           "type": "preview"
         },
         {
-          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
-          "url": "boards/external-r3/external-r3-REFERENCE-NOT-FOR-ORDER.zip",
+          "label": "Gerbers + drills \u00b7 PCBWay upload",
+          "url": "boards/external-r3/external-r3-PCBWAY-GERBERS.zip",
           "type": "fabrication"
         },
         {
@@ -295,22 +325,22 @@
           "type": "reference"
         },
         {
-          "label": "Electrical review R2",
-          "url": "boards/external-r3/documents/ELECTRICAL-REVIEW-R2.md",
+          "label": "Hardware engineering review",
+          "url": "boards/external-r3/documents/ELECTRICAL-REVIEW-R3.md",
           "type": "reference"
         },
         {
-          "label": "DRC report",
+          "label": "Saved DRC report",
           "url": "boards/external-r3/documents/drc.json",
           "type": "reference"
         },
         {
-          "label": "ERC report (passive symbols)",
+          "label": "Saved ERC report",
           "url": "boards/external-r3/documents/erc.json",
           "type": "reference"
         },
         {
-          "label": "Cross-board verification",
+          "label": "Five-board verification",
           "url": "boards/external-r3/documents/verification.json",
           "type": "reference"
         },
@@ -325,15 +355,15 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
-      "sourceSha256": "416dbd4cb11ea0c4ec6d6a6155c17341a07c5c388eae8b2399976b4fc5578d4e"
+      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+      "sourceSha256": "dd68e8a3e8a30052e0479f01c1f07012a16b14aaa1d79037cd4f0195b5e78409"
     },
     {
       "id": "controller-r1",
       "title": "Drive controller \u00b7 R1",
-      "status": "Routed engineering prototype \u00b7 bench validation pending",
-      "fabrication": "reference",
-      "note": "Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.",
+      "status": "Hardware R3 \u00b7 routed prototype",
+      "fabrication": "prototype",
+      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/controller",
       "previews": [
         {
@@ -371,8 +401,8 @@
           "type": "preview"
         },
         {
-          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
-          "url": "boards/controller-r1/controller-r1-REFERENCE-NOT-FOR-ORDER.zip",
+          "label": "Gerbers + drills \u00b7 PCBWay upload",
+          "url": "boards/controller-r1/controller-r1-PCBWAY-GERBERS.zip",
           "type": "fabrication"
         },
         {
@@ -381,22 +411,22 @@
           "type": "reference"
         },
         {
-          "label": "Electrical review R2",
-          "url": "boards/controller-r1/documents/ELECTRICAL-REVIEW-R2.md",
+          "label": "Hardware engineering review",
+          "url": "boards/controller-r1/documents/ELECTRICAL-REVIEW-R3.md",
           "type": "reference"
         },
         {
-          "label": "DRC report",
+          "label": "Saved DRC report",
           "url": "boards/controller-r1/documents/drc.json",
           "type": "reference"
         },
         {
-          "label": "ERC report (passive symbols)",
+          "label": "Saved ERC report",
           "url": "boards/controller-r1/documents/erc.json",
           "type": "reference"
         },
         {
-          "label": "Cross-board verification",
+          "label": "Five-board verification",
           "url": "boards/controller-r1/documents/verification.json",
           "type": "reference"
         },
@@ -411,8 +441,8 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
-      "sourceSha256": "804471aa33f6384a9b34358c97842a2c714acae4f958fee6d23ff1b482cadbe9"
+      "sourceCommit": "8545c317815bf29be1d4f8e1ede1812b0f4bdafb",
+      "sourceSha256": "bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f"
     },
     {
       "id": "single-r0",

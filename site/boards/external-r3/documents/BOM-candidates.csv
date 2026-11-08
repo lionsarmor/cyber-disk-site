@@ -19,7 +19,7 @@ F1,2A fast / input,0251002.MXL,576-0251002.MXL,Resistor_THT:R_Axial_DIN0309_L9.0
 Q1,SUP53P06-20-E3 / reverse polarity,SUP53P06-20-E3,781-SUP53P06-20-E3,Package_TO_SOT_THT:TO-220-3_Vertical,Provisional; exact supplier package and stock recheck required
 J6,CORE BERG 5V / 12V NC,TSW-102-07-G-S,200-TSW10207GS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
 J7,LED STRIP 5V / 0.2A MAX,TSW-103-07-G-S,200-TSW10307GS,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
-J8,AUDIO LOGIC / FUTURE AMP,TSW-102-07-G-S,200-TSW10207GS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
+J8,PIEZO / 1k LIMITED,TSW-102-07-G-S,200-TSW10207GS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Provisional; exact supplier package and stock recheck required
 D1,1N5819 / VSYS feed only,1N5819-E3/54,625-1N5819-E3,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Provisional; exact supplier package and stock recheck required
 C1,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
 C2,1uF 50V nonpolar,C330C105K5R5TA,80-C330C105K5R,Dock:C330_P5.08,Provisional; exact supplier package and stock recheck required
@@ -46,3 +46,4 @@ R7,4k7 MARK / DEASSERT,MFR-25FBF52-4K7,603-MFR-25FBF52-4K7,Resistor_THT:R_Axial_
 R8,4k7 MARK / DEASSERT,MFR-25FBF52-4K7,603-MFR-25FBF52-4K7,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
 R9,10k UNPOWERED SERIAL DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
 R10,10k UNPOWERED SERIAL DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required
+R11,1k PIEZO CURRENT LIMIT,MFR-25FBF52-1K,603-MFR-25FBF52-1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Provisional; exact supplier package and stock recheck required

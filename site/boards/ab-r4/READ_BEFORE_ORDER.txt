@@ -1,7 +1,7 @@
 Reversible A/B disk · R4
-Routed prototype
-Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.
+Hardware R3 · routed prototype
+Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
-PCB SHA256 4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552
+Source commit 8545c317815bf29be1d4f8e1ede1812b0f4bdafb
+PCB SHA256 c89d61bafaa77b9a68e65b46279907db848f5a930bc4a2a33d5790efa2ddab83

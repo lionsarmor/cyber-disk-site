@@ -1,0 +1,137 @@
+(footprint "Dock__USB_B_61729"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Drawing-derived provisional footprint; verify against sample. https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/61729.pdf")
+	(property "Reference" "J9"
+		(at 0 20 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d68f10e3-ce57-4c58-addc-44fad5306f68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-B / HOST INPUT"
+		(at 0 22 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fceed3fe-0cc0-4fb1-8269-2fd7c04cc67b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40fc0107-6431-4d78-accd-3efd087175fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acedea46-1244-471b-af66-b1e7c2d1f9a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.72 -0.5)
+		(end 7.72 16.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e92a8b8b-81bb-4596-93a3-433e10c8d03c")
+	)
+	(fp_rect
+		(start -7.72 0)
+		(end 7.72 16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "573df0f8-d9e2-46e8-9e7f-bbb559435439")
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 14.99)
+		(size 1.72 1.72)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "728c91b7-04d5-4620-a5cc-cdf1c623b6b7")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 14.99)
+		(size 1.72 1.72)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81d17634-6f3f-4d39-bc12-96f419963ee9")
+	)
+	(pad "3" thru_hole circle
+		(at -1.25 12.99)
+		(size 1.72 1.72)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4f57d6e-e05e-4642-85fa-00d588b6c5f3")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25 12.99)
+		(size 1.72 1.72)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c412309-4c68-48e8-ae71-09110130ff5a")
+	)
+	(pad "SH" thru_hole circle
+		(at -6.02 10.28)
+		(size 3.1 3.1)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6fec6c5-33dd-4a53-9bd7-dcfed156bfc4")
+	)
+	(pad "SH" thru_hole circle
+		(at 6.02 10.28)
+		(size 3.1 3.1)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4c3c0a22-a946-4427-adb9-326f3160b25a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/USB_B_61729.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

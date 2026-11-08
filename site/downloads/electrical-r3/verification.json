@@ -1,0 +1,54 @@
+{
+  "revision": "electrical-r3",
+  "date": "2026-11-07",
+  "boards": {
+    "single": {
+      "connected_pin_parity": 22,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "7b64b26f0e18a21e3b641d0c803cda5410be29029b0e54233a852260f890ea8f"
+    },
+    "ab": {
+      "connected_pin_parity": 44,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "c89d61bafaa77b9a68e65b46279907db848f5a930bc4a2a33d5790efa2ddab83"
+    },
+    "contact": {
+      "connected_pin_parity": 14,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323"
+    },
+    "controller": {
+      "connected_pin_parity": 240,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f"
+    },
+    "dock": {
+      "connected_pin_parity": 254,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "dd68e8a3e8a30052e0479f01c1f07012a16b14aaa1d79037cd4f0195b5e78409"
+    }
+  },
+  "static_invariants": "PASS",
+  "scope": "Saved-file checks and physical pin assertions. Controller/dock ERC uses passive pin-map symbols. Firmware host tests recorded separately. No powered hardware tests.",
+  "fabrication_ready": false,
+  "blockers": [
+    "Printed and powered sample qualification, including fastest eject, brownout and contact wear",
+    "Supply/load/temperature, MOSFET pulse, USB and real host qualification",
+    "Firmware work remains outside this hardware revision"
+  ]
+}

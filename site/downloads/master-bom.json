@@ -1,7 +1,7 @@
 {
-  "revision": "electrical-r2",
+  "revision": "hardware-r3",
   "checked": "2026-11-07",
-  "scope": "R4 disks, routed R1 controller, passive R1 contacts and routed R3 dock. Engineering candidates; not an approved sample order. Physical interlock integration and bench qualification pending.",
+  "scope": "Current five routed PCBs with RODDY silkscreen, R5 drive mechanism and R4 external enclosure. Purchasing specifications and digital checks; powered/printed sample qualification is still required.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
   "rows": [
     {
@@ -66,11 +66,11 @@
       },
       "unit": "each",
       "assembly": "Controller and dock assembly",
-      "status": "Fit pending",
-      "url": "https://www.mouser.com/ProductDetail/Samtec/SSW-120-01-G-S?qs=rU5fayqh%252BE3UumXrNKvvXQ%3D%3D",
-      "notes": "200-SSW12001GS. Listed in stock. Added missing assembly items; check actual socket/module stack height.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=200-SSW12001GS",
+      "notes": "Two per carrier. The actual 8.5 mm socket stack is modeled; Pico 2 H plugs into these strips.",
       "alternative": "",
-      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "E18",
@@ -91,370 +91,377 @@
     {
       "id": "H01",
       "supplier": "Mouser",
-      "part": "M3 \u00d7 4 mm brass heat-set inserts",
-      "mpn": "Adafruit 4255 / 485-4255",
+      "part": "M3 short tapered heat-set inserts",
+      "mpn": "IUB-M3-1",
       "quantity": {
-        "drive": 22
+        "drive": 22,
+        "dock": 2
       },
       "unit": "each",
       "assembly": "Drive structure",
-      "status": "Fit pending",
-      "url": "https://www.mouser.com/en/ProductDetail/Adafruit/4255?qs=PzGy0jfpSMsebOYs%252BPMJOg%3D%3D",
-      "notes": "14 internal insert allocations + 8 bay-mount bores; 50 per bag. Real OD 4.2mm; existing seats/envelopes are provisional and need print coupons before adopting. Not a validated drop-in.",
-      "alternative": "https://www.adafruit.com/product/4255",
-      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=IUB-M3-1",
+      "notes": "3.43 mm length, 4.37 mm maximum OD. Pockets follow PEM 3.89\u20134.04 mm tapered bore and 4.44 mm minimum depth. Print insertion coupons; do not substitute Adafruit 4255.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H02",
-      "supplier": "McMaster-Carr",
-      "part": "M3 screws \u00b7 cassette / guides",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "M3 \u00d7 8 countersunk cassette screws",
+      "mpn": "DIN 7991 M3x8",
       "quantity": {
-        "drive": 8
+        "drive": 4,
+        "dock": 6
       },
       "unit": "each",
       "assembly": "Drive structure",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "notes": "4 cassette + 4 guide countersunk screws. CAD shank lengths are envelopes; select standard overall lengths and check engagement.",
-      "alternative": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Four underside cassette screws. Overall length includes countersunk head; dock uses four bridge and two carrier screws.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H03",
-      "supplier": "McMaster-Carr",
-      "part": "M3 screws \u00b7 bezel / latch",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "M3 \u00d7 10 button-head screws",
+      "mpn": "ISO 7380-1 M3x10",
       "quantity": {
         "drive": 6
       },
       "unit": "each",
       "assembly": "Drive structure",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "notes": "4 bezel + 2 latch screws. Approximately 10mm modeled under-head lengths; check thread engagement and tool access.",
-      "alternative": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Four inside bezel screws and two latch-bracket screws; head \u00d85.7 \u00d71.65 mm.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H04",
-      "supplier": "Home Depot",
-      "part": "M3 \u00d7 6 mm controller screws",
-      "mpn": "Everbilt 837961 candidate",
+      "supplier": "Common hardware / McMaster",
+      "part": "M3 \u00d7 6 button-head PCB screws",
+      "mpn": "ISO 7380-1 M3x6",
       "quantity": {
-        "drive": 4
+        "drive": 4,
+        "dock": 6
       },
       "unit": "each",
       "assembly": "Controller mounting",
-      "status": "Fit pending",
-      "url": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
-      "notes": "Candidate under-head length 6mm, nominal head \u00d85.4 x 1.7mm. Check actual head dimensions. Everbilt model 837961 is a store candidate, not yet fit-qualified.",
-      "alternative": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Head \u00d85.7 \u00d71.65 mm; four captive M3 nuts under main PCB.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H05",
-      "supplier": "Home Depot",
+      "supplier": "Common hardware / McMaster",
       "part": "M3 hex nuts",
-      "mpn": "Everbilt 862798 candidate",
+      "mpn": "ISO 4032 M3",
       "quantity": {
-        "drive": 4
+        "drive": 4,
+        "dock": 12
       },
       "unit": "each",
       "assembly": "Controller mounting",
-      "status": "Fit pending",
-      "url": "https://www.homedepot.com/b/Hardware-Fasteners-Nuts/M3/Metric/N-5yc1vZc2elZ1z0sc32Z1z0sfzw",
-      "notes": "Nominal 5.5mm across flats and 2.4mm thick; CAD trap has 6.35mm circumscribed hex diameter. Check actual stock.",
-      "alternative": "https://www.mcmaster.com/products/nuts/",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/nuts/thread-size~m3/",
+      "notes": "5.5 mm AF, 2.4 mm thick; trap clearance in CAD.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H06",
-      "supplier": "Home Depot",
-      "part": "M3 tower mounting screws",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "M3 \u00d7 6 tower/carrier screws",
+      "mpn": "ISO 7380-1 M3x6",
       "quantity": {
         "drive": 4
       },
       "unit": "each",
       "assembly": "Tower installation",
-      "status": "Fit pending",
-      "url": "https://www.homedepot.com/b/Hardware-Fasteners/M3/N-5yc1vZc255Z1z0sfzw",
-      "notes": "Installation quantity assumes four screws; chassis has eight side-hole positions. Length depends on tower sheet and insert engagement. Do not use long screws that enter the mechanism.",
-      "alternative": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Four screws per installation; do not count twice when core is inside external case. Check tower sheet thickness and screw engagement.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H07",
-      "supplier": "McMaster-Carr",
-      "part": "M2 hinge-cap screws",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "M2 \u00d7 6 socket-head hinge-cap screws",
+      "mpn": "DIN 912 M2x6",
       "quantity": {
         "drive": 4
       },
       "unit": "each",
       "assembly": "Flap bearings",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "notes": "Approx. 6mm under-head length; modeled head \u00d83.6 x 1.3mm. Select actual standard part before printing.",
-      "alternative": "https://www.grainger.com/product/Machine-Screw-M2x0-40-Thread-6HU38",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "Four removable bearing-cap screws; \u00d83.8 \u00d72 mm head.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H08",
-      "supplier": "McMaster-Carr",
+      "supplier": "Common hardware / McMaster",
       "part": "M2 hex nuts",
-      "mpn": "Select exact size",
+      "mpn": "ISO 4032 M2",
       "quantity": {
-        "drive": 4
+        "drive": 8,
+        "dock": 4
       },
       "unit": "each",
       "assembly": "Flap bearings",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/nuts/",
-      "notes": "Nominal 4mm across flats and 1.6mm thick. Exact SKU and pocket clearance pending.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/nuts/thread-size~m2/",
+      "notes": "4 mm AF \u00d71.6 mm thick. Four bearing caps plus four switch mounting nuts.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H09",
-      "supplier": "McMaster-Carr",
-      "part": "M2 countersunk lid / clamp screws",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "M2 \u00d7 8 countersunk lid / clamp screws",
+      "mpn": "DIN 7991 M2x8",
       "quantity": {
-        "drive": 6
+        "drive": 6,
+        "dock": 6
       },
       "unit": "each",
       "assembly": "Lid and cable clamp",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/metric-machine-screws/",
-      "notes": "4 lid + 2 harness clamp. Modeled around 8mm overall; countersink/head and engagement must be checked.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "Four core lid screws and two contact-harness clamp screws. Overall length 8 mm.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H10",
-      "supplier": "McMaster-Carr",
-      "part": "M2 ultra-low-head contact-board screws",
-      "mpn": "Select exact size",
+      "supplier": "MISUMI",
+      "part": "M2 \u00d7 5 ultra-low-head contact PCB screws",
+      "mpn": "CBSTSR2-5",
       "quantity": {
         "drive": 2
       },
       "unit": "each",
       "assembly": "Contact cartridge",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/socket-head-screws/thread-size~m2/",
-      "notes": "Critical: head at most \u00d83.8mm and 1.0mm high. Modeled under-head length 4.6mm is not a purchase size. Select 4/5mm stock part and adjust insert depth as needed; no selected SKU yet.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://my.misumi-ec.com/vona2/detail/110302280540/?HissuCode=CBSTSR2-5",
+      "notes": "Use the ultra-low-head part only: specified head \u00d84 \u00d70.5 mm. Do not substitute a tall socket head in the disk path.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H11",
-      "supplier": "McMaster-Carr",
-      "part": "M2 heat-set inserts \u00b7 4mm allocation",
-      "mpn": "Select exact size",
+      "supplier": "Mouser",
+      "part": "M2 heat-set inserts",
+      "mpn": "IUTB-M2",
       "quantity": {
-        "drive": 6
+        "drive": 6,
+        "dock": 6
       },
       "unit": "each",
       "assembly": "Lid and contact PCB",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/heat-set-inserts/",
-      "notes": "4 lid + 2 contact PCB. CAD OD2.8mm x4mm is provisional, not a known supplier dimension. Match bosses to an actual insert.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=IUTB-M2",
+      "notes": "4 mm long, 3.73 mm maximum OD; \u00d83.23 mm hole, \u22654.76 mm depth. Lid and cartridge mounts.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H12",
-      "supplier": "McMaster-Carr",
-      "part": "M2 heat-set inserts \u00b7 3mm allocation",
-      "mpn": "Select exact size",
+      "supplier": "Mouser",
+      "part": "M2 harness clamp heat-set inserts",
+      "mpn": "IUTB-M2",
       "quantity": {
         "drive": 2
       },
       "unit": "each",
       "assembly": "Cable clamp",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/heat-set-inserts/",
-      "notes": "CAD OD2.8mm x3mm; exact supplier part and thermal insertion holes need qualification.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=IUTB-M2",
+      "notes": "Same 4 mm insert as H11; clamp bosses deepened accordingly.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H13",
-      "supplier": "McMaster-Carr",
-      "part": "Smooth \u00d83mm steel guide rods",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "Smooth \u00d83 mm steel rod, cut to length",
+      "mpn": "3 mm precision steel rod",
       "quantity": {
-        "drive": 2
+        "drive": 1
       },
-      "unit": "each",
+      "unit": "cutting stock",
       "assembly": "Eject carriage",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/rods/diameter~3-mm/",
-      "notes": "71mm modeled length. Buy precision rod, cut and deburr; verify straightness and sliding clearance. Not threaded rod.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/rods/diameter~3-mm/",
+      "notes": "Cut two 71 mm eject rods and one 11.9 mm left flap pivot. Deburr and polish ends. No grooves, D-flats or threaded sliding surfaces.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H14",
-      "supplier": "McMaster-Carr",
+      "supplier": "Lee Spring",
       "part": "Matched eject compression springs",
-      "mpn": "Select exact size",
+      "mpn": "LC022D14M",
       "quantity": {
         "drive": 2
       },
       "unit": "each",
       "assembly": "Eject carriage",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/compression-springs/",
-      "notes": "Illustrative OD\u22484.98mm, ID\u22484.22mm; installed lengths 27.6\u201355.6mm over 28mm travel. Rate, free length, preload and solid height are NOT selected. Do not order solely by these dimensions.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.leespring.in/sites/default/files/2019-09/lee-spring-catalog-in.pdf",
+      "notes": "Two springs: free 63.5 mm, OD7.62, wire0.5588, solid9.93; rate1.10 lbf/in (0.193 N/mm). Installed27.6\u201355.6 mm; combined nominal preload3.0\u201313.8 N. Catalog specified; confirm current availability with Lee.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H15",
-      "supplier": "McMaster-Carr",
-      "part": "Button return compression spring",
-      "mpn": "Select exact size",
+      "supplier": "Lee Spring",
+      "part": "Eject-button return spring",
+      "mpn": "LC018C09M",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Eject button",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/compression-springs/",
-      "notes": "Illustrative OD6.7mm, installed lengths 9mm to 3mm. Solid height and force need selection; current helix is not a purchasing specification.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.leespring.in/sites/default/files/2019-09/lee-spring-catalog-in.pdf",
+      "notes": "Free19.05 mm, OD6.096, wire.4572, solid3.35, rate2.80 lbf/in. Installed8.3\u201314.3 mm; avoids coil bind at full 6 mm button stroke.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H16",
-      "supplier": "McMaster-Carr",
-      "part": "Latch bias compression spring",
-      "mpn": "Select exact size",
+      "supplier": "Lee Spring",
+      "part": "Latch bias spring",
+      "mpn": "CI008BC03M",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Latch",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/compression-springs/",
-      "notes": "Model is an envelope. Select load, travel, preload and solid height after mechanism coupon test.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.leespring.in/sites/default/files/2019-09/lee-spring-catalog-in.pdf",
+      "notes": "Free6.35 mm, OD2.3876, wire.2032, solid1.53; rate2.14 lbf/in. Installed2.7\u20135.5 mm.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H17",
-      "supplier": "McMaster-Carr",
+      "supplier": "Lee Spring",
       "part": "Flap torsion spring",
-      "mpn": "Select exact size",
+      "mpn": "LTR014A04M",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Flap hinge",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/torsion-springs/",
-      "notes": "Modeled 0.5mm wire, 3.7mm coil ID, 3.25mm axial coil envelope. Leg angle, winding hand, preload and torque NOT selected. Three CAD pieces represent ONE spring.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.leespring.in/sites/default/files/2019-09/lee-spring-catalog-in.pdf",
+      "notes": "Right-hand, 180\u00b0 free legs; OD4.93 mm, wire.3556, body1.91. Trim straight legs to6 mm; closed preload65\u00b0, full-open deflection155\u00b0. Rated torque.075 in-lb at180\u00b0. Physical torque/friction test required.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H18",
-      "supplier": "McMaster-Carr",
-      "part": "Flap pivot shafts",
-      "mpn": "Unselected / custom CAD",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Flap hinge",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/rods/diameter~3-mm/",
-      "notes": "\u00d83mm headed pivots; one has D-flat and retainer groove. Current CAD requires custom features: no confirmed off-the-shelf match. Revise retention around stock pins/rod before manufacture.",
-      "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
-    },
-    {
-      "id": "H19",
-      "supplier": "McMaster-Carr",
-      "part": "\u00d82mm latch / flap follower pins",
-      "mpn": "Unselected / custom CAD",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Actuator and latch",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/rods/diameter~2-mm/",
-      "notes": "1 latch + 1 flap follower, with different lengths and groove/head details. Plain dowel pins are NOT drop-in substitutes for current retained geometry.",
-      "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
-    },
-    {
-      "id": "H20",
-      "supplier": "McMaster-Carr",
-      "part": "Metal retaining clips",
-      "mpn": "Select exact size",
-      "quantity": {
-        "drive": 4
-      },
-      "unit": "each",
-      "assembly": "Actuator and latch",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/retaining-rings/",
-      "notes": "2 latch + 1 flap shaft + 1 actuator clip. Exact groove/ring combinations must be selected as matched pairs.",
-      "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
-    },
-    {
-      "id": "H21",
-      "supplier": "McMaster-Carr",
-      "part": "\u00d83mm OD wear sleeve",
-      "mpn": "Unselected / custom CAD",
+      "supplier": "Mouser / common hardware",
+      "part": "Flap right pivot screw and metal bearing spacer",
+      "mpn": "R30-5001002 + DIN7991 M3x25 + DIN985 M3",
       "quantity": {
         "drive": 1
       },
-      "unit": "each",
-      "assembly": "Flap actuator",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/tubing/",
-      "notes": "Modeled ID2.1mm, length4.3mm. Exact stock tubing or bushing not selected; verify strength and end retention.",
+      "unit": "set",
+      "assembly": "Flap hinge",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.harwin.com/products/R30-5001002",
+      "notes": "Spacer is10 mm long, \u00d84.76, M3 through-threaded. One countersunk M3x25 and one M3 nylon-lock nut clamp flap and rocker to spacer; round bearing runs freely in split housing.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H19",
+      "supplier": "Common hardware / McMaster",
+      "part": "Standard metal follower screws",
+      "mpn": "DIN912 M2x20 + DIN912 M2x10",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "set",
+      "assembly": "Actuator and latch",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "One M2x20 latch follower and one M2x10 flap follower; replaceable smooth brass sleeves carry cam wear.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H20",
+      "supplier": "Common hardware / McMaster",
+      "part": "Follower locking nuts",
+      "mpn": "DIN985 M2",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Actuator and latch",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/nuts/thread-size~m2/",
+      "notes": "Two M2 nylon-lock nuts, 4 mm AF \u00d72.8 mm maximum height. Replaces all small follower retaining clips.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H21",
+      "supplier": "Hobby / K&S",
+      "part": "Brass wear-sleeve stock",
+      "mpn": "K&S 9821",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "cutting stock",
+      "assembly": "Flap actuator",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://ksmetals.com/collections/all-products-1?page=10",
+      "notes": "\u00d83 mm OD \u00d70.45 wall (2.1 mm ID). Cut sleeves3.3 mm,4.4 mm and5.0 mm; square/deburr ends. No retaining grooves required.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "H22",
-      "supplier": "McMaster-Carr",
-      "part": "Compliant cable-grip pad",
-      "mpn": "Select exact size",
+      "supplier": "Common hardware / McMaster",
+      "part": "Compliant contact-harness grip pad",
+      "mpn": "Silicone sheet 2 mm, Shore A40",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Cable clamp",
-      "status": "Fit pending",
-      "url": "https://www.mcmaster.com/products/silicone-rubber-sheets/",
-      "notes": "Cut nonconductive silicone/rubber sheet to fit. Thickness and hardness require pull testing; TPU printing is an alternative only after validation.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/silicone-sheets/",
+      "notes": "Cut4\u00d75\u00d72 mm. Clamp on insulation only; check grip without crushing conductors.",
       "alternative": "",
-      "evidence": "Supplier category/product confirmed; exact CAD match and order code are not approved"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "E19",
       "supplier": "Mouser",
-      "part": "Seven-wire contact pigtail",
-      "mpn": "Wire and plug not yet selected",
+      "part": "28 AWG stranded contact/switch wire",
+      "mpn": "6820 BK005",
       "quantity": {
-        "drive": 1
+        "drive": 2
       },
-      "unit": "set",
+      "unit": "metres",
       "assembly": "Contact harness",
-      "status": "Unselected",
-      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/2841-7-BK001",
-      "notes": "Supplier example only: 30AWG stranded PTFE, not a buy recommendation (1000ft spool). Select practical spool/gauge, insulation OD, power drop and mating plug together. 0.8mm PCB holes; no direct connection to R0 J3.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/6820-BK005?qs=drU7yWi%252Bcho7Wm19G3og%252BA%3D%3D",
+      "notes": "0.79 mm nominal OD, seven strands. Cut seven150 mm contact leads; switch wires per harness table. Mark each end with numbered sleeves. 100 ft spool serves multiple drives; quantity below is cut length, not spools.",
       "alternative": "",
-      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "B01",
@@ -507,18 +514,18 @@
     {
       "id": "B04",
       "supplier": "PCBWay",
-      "part": "Controller PCB",
-      "mpn": "Custom project PCB",
+      "part": "Routed drive-controller PCB",
+      "mpn": "cyber-drive-controller-r1",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Controller PCB",
-      "status": "Unselected",
-      "url": "https://www.pcbway.com/pcb-assembly.html",
-      "notes": "136 x65 x1.6mm rounded R0; UNROUTED, no production order files. Isolation and sensors unfinished. Turnkey assembly is a quote option; components are not included automatically with bare boards.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.pcbway.com/",
+      "notes": "136\u00d765\u00d71.6 mm; rounded corners; current R3 hardware changes, silkscreen/logo, isolated media rails and interlock. Use current per-board Gerbers, not R0.",
       "alternative": "",
-      "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "P01",
@@ -856,43 +863,43 @@
     },
     {
       "id": "A02",
-      "supplier": "Not specified yet",
-      "part": "Safe-insertion isolation and seating/eject sensors",
-      "mpn": "Circuit design pending",
+      "supplier": "Included",
+      "part": "Media isolation and interlock hardware",
+      "mpn": "Included in controller + CR1-SW",
       "quantity": {},
-      "unit": "TBD",
-      "assembly": "Future controller revision",
-      "status": "Unselected",
-      "url": "",
-      "notes": "Needed before powering sliding contacts. No complete circuit or purchasable BOM exists yet.",
+      "unit": "each",
+      "assembly": "Controller and interlock",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "http://disk.roddy.world/electrical.html",
+      "notes": "No extra unselected isolation board: switched rail, signal isolation, active discharge and physical switches are in current hardware. Avoid double-counting components.",
       "alternative": "",
-      "evidence": "Controller R0 design limitation"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "A03",
-      "supplier": "Not specified yet",
-      "part": "Sound, LEDs, USB-C / IEC dock and platform adapters",
-      "mpn": "Circuit design pending",
+      "supplier": "Included",
+      "part": "Sound / lighting / external ports",
+      "mpn": "Included in dock and DX86/DX90",
       "quantity": {},
-      "unit": "TBD",
-      "assembly": "Future dock / features",
-      "status": "Unselected",
-      "url": "",
-      "notes": "Requested product features are not fully designed in the present controller. Ports, audio parts, LEDs and related protection cannot be counted as sourced.",
+      "unit": "each",
+      "assembly": "External dock features",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "http://disk.roddy.world/?model=pcb%2Fdock",
+      "notes": "USB-B, RS232, Commodore IEC and custom3.3V accessory connector. ESP32/Next protocol adapters and emulation software are separate from this board; connector presence is not firmware support.",
       "alternative": "",
-      "evidence": "Project roadmap; outside present PCB BOM"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "A04",
       "supplier": "Not specified yet",
-      "part": "External cables, power supply and optional Sega case",
-      "mpn": "Platform / enclosure choice pending",
+      "part": "External host cables and optional Sega case",
+      "mpn": "Choose for host / packaging",
       "quantity": {},
       "unit": "As required",
       "assembly": "Optional accessories",
       "status": "Unselected",
       "url": "",
-      "notes": "Computer floppy power/ribbon cables may already exist. External power/cables, artwork booklet and Sega case are separate purchases dependent on chosen build.",
+      "notes": "Optional host-side cables and retail packaging depend on the chosen computer. The regulated 5V supply is already specified separately as DX80; do not count another supply here.",
       "alternative": "",
       "evidence": "Not yet specified"
     },
@@ -929,18 +936,18 @@
     {
       "id": "DX86",
       "supplier": "Mouser",
-      "part": "5V addressable LED strip",
-      "mpn": "UNSELECTED",
+      "part": "Through-hole diffused addressable RGB LEDs",
+      "mpn": "Adafruit 1938",
       "quantity": {
         "dock": 1
       },
-      "unit": "each",
+      "unit": "five-pack",
       "assembly": "External dock R3",
-      "status": "Unselected",
-      "url": "",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=485-1938",
       "alternative": "",
-      "notes": "134 mm strip envelope behind front diffuser; 0.6 A allocation. Exact strip and connector remain unselected.",
-      "evidence": "R0 mechanical allocation; not production qualified."
+      "notes": "Three fitted LEDs from one five-pack, max60mA each, total180mA within200mA light allocation. Three local100nF caps required. Screw-retained lightwell; programmable effects are firmware work.",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "DX80",
@@ -960,67 +967,275 @@
     },
     {
       "id": "DX88",
-      "supplier": "Hardware store / Mouser where stocked",
-      "part": "M2 lid inserts/screws, M3 carrier and chassis screws, nuts, feet",
-      "mpn": "LENGTHS / INSERT SKU PENDING",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "hardware set",
+      "supplier": "Common hardware / Mouser",
+      "part": "External-case fasteners and feet",
+      "mpn": "See hardware cut/fastener table",
+      "quantity": {},
+      "unit": "reference only",
       "assembly": "External dock R3",
-      "status": "Mechanical prototype allocation",
-      "url": "",
-      "notes": "Six M2 countersunk lid screws + inserts; four M3x8 countersunk chassis screws + four M3 nuts; four M3 side mounting screws plus carrier/tray retention hardware and four feet. Verify fit and lengths before buying. Six PCB mounting screws, including two added rear supports. Insert/pilot holes need print testing.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mcmaster.com/",
+      "notes": "SixM2x8 lid screws+IUTB-M2 inserts; fourM3x8 chassis screws+M3 nuts; sixM3x6 board screws; twoM2x10 lightwell screws+M2 nuts; fourM3x6 core side screws shared with H06. Four10\u00d710\u00d72 mm rubber feet. See assembly drawing for retention hardware.",
       "alternative": "",
-      "evidence": "R1 CAD nominal geometry"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "DX89",
-      "supplier": "Home FDM / PCBWay",
-      "part": "Basic rounded shell, slide carriers and wraparound opal diffuser",
-      "mpn": "External dock R3",
+      "supplier": "3D print",
+      "part": "Rounded enclosure, carriers and opal diffuser",
+      "mpn": "External dock R4",
       "quantity": {
         "dock": 1
       },
-      "unit": "print set",
+      "unit": "printed set",
       "assembly": "External dock R3",
-      "status": "CAD fit study; physical test pending",
-      "url": "http://disk.roddy.world/index.html?model=external%2Fclosed&v=external-r3-board-ports",
-      "notes": "168 x 280 x 54 mm with feet. Nine printed parts; full side walls, 4 mm roof fillet, recessed shell-matched adhesive label. No separate shoulder parts. Physical fit and light uniformity pending. Rear tray now follows board-mounted ports.",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "http://disk.roddy.world/?model=external%2Fclosed",
+      "notes": "168\u00d7280\u00d757 mm including feet; shallow roof recess, shell-matched RODDY artwork and wraparound diffuser. Core raised for solid TH-LED retention bridge; same bay-standard core.",
       "alternative": "",
-      "evidence": "Actual parametric CAD; no photoreal mockup"
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "DX27",
       "supplier": "Mouser",
-      "part": "10-way internal drive-to-dock signal harness",
-      "mpn": "UNSELECTED",
+      "part": "10-way 1:1 internal signal ribbon",
+      "mpn": "1658621-1 + 3365/10-100SF",
       "quantity": {
         "dock": 1
       },
       "unit": "harness",
       "assembly": "External dock R3",
-      "status": "Mating parts and cable specification pending",
-      "url": "",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=571-1658621-1",
       "alternative": "",
-      "notes": "Drive controller J4 to daughterboard J4; 1:1 10 positions, 2.54mm 2x5 mating sockets and 1.27mm ribbon. Dock pins 2/7 NC. Housing, polarity and ribbon bend radius need qualification.",
-      "evidence": "CAD endpoint/route study; not a qualified purchased cable"
+      "notes": "Two TE10-way IDC sockets,220 mm of 3M1.27 mm pitch28AWG ribbon. Straight1:1, no PC floppy twist. Pin1 stripe matched at both ends; dock pins2/7 remain NC.",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "DX28",
       "supplier": "Mouser",
-      "part": "5V internal drive power harness",
-      "mpn": "UNSELECTED",
+      "part": "5V internal power harness",
+      "mpn": "171822-4 + 170204-2 + 3051 BK005",
       "quantity": {
         "dock": 1
       },
       "unit": "harness",
       "assembly": "External dock R3",
-      "status": "Mating parts and cable specification pending",
-      "url": "",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=571-1718224",
       "alternative": "",
-      "notes": "Daughterboard J6 to four-position floppy-power J2. +5V and GND only; 12V position unused. Select wire gauge, keyed mating housings and crimps before assembly.",
-      "evidence": "CAD endpoint/route study; not a qualified purchased cable"
+      "notes": "TE4-way housing, two170204-2 sockets.22AWG stranded Alpha3051 wire,150 mm each red-marked5V and blackGND. Other end Harwin2-way J6. Berg cavity4(12V) remains empty; verify continuity before connection.",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "CR1-SW",
+      "supplier": "Mouser",
+      "part": "Seat NO and pre-eject NC switches",
+      "mpn": "D2F-01-D",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Drive mechanism",
+      "status": "Specified \u00b7 prototype validation required",
+      "url": "https://www.mouser.com/c/?q=653-D2F-01-D",
+      "notes": "Compact solder-lug plunger version. SW1 NO and SW2 NC in series to J5. R5 includes screw mounts, cams and lug wiring. Adjust to manufacturer operating position before powered tests.",
+      "alternative": "",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H02G",
+      "quantity": {
+        "drive": 4
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "M3 \u00d7 6 countersunk guide screws",
+      "mpn": "DIN 7991 M3x6",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Four guide screws; 6 mm overall, head diameter 6 mm.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H23",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Switch mounting screws",
+      "mpn": "DIN912 M2x12 + DIN7991 M2x12",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "Two socket-head screws for seat switch, two countersunk screws through base for eject switch.",
+      "unit": "set",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "HX01",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Contact pigtail plug housing",
+      "mpn": "M20-1060700",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=855-M20-1060700",
+      "notes": "Seven cavities, all seven wired; 17.98 mm body avoids the adjacent J4 plug. Mate to J3 pins1\u20137; pin1 stripe and fitted orientation photograph required during assembly.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "HX02",
+      "quantity": {
+        "drive": 1,
+        "dock": 2
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "2-way removable header housings",
+      "mpn": "M20-1060200",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=855-M20-1060200",
+      "notes": "Drive J5 interlock; dock J6 power and J8 passive piezo.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "HX03",
+      "quantity": {
+        "dock": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "3-way lighting header housing",
+      "mpn": "M20-1060300",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=855-M20-1060300",
+      "notes": "Dock J7: verify 5V/data/GND order against silkscreen.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "HX04",
+      "quantity": {
+        "drive": 9,
+        "dock": 7
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Loose crimp sockets,22\u201330 AWG",
+      "mpn": "M20-1180042",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=855-M20-1180042",
+      "notes": "Harwin M20 socket contacts; one per populated housing cavity. Crimp with proper die, pull-test each wire.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "DX90",
+      "quantity": {
+        "dock": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Passive piezo sounder",
+      "mpn": "PS1240P02CT3",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=810-PS1240P02CT3",
+      "notes": "12.2\u00d73.5 mm TDK piezo; existing GPIO26 feeds J8 through added R11=1k. Maximum pin current3.3mA; intended for chirps/tones.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "DX91",
+      "quantity": {
+        "dock": 3
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "LED local decoupling capacitors",
+      "mpn": "C315C104M5U5TA",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
+      "notes": "One100nF across each TH pixel supply, short leads; insulate hand-wired connections.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H24",
+      "quantity": {
+        "dock": 4
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "M2 \u00d7 10 countersunk lightwell / piezo screws",
+      "mpn": "DIN7991 M2x10",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "Two lightwell and two piezo-cap screws; nuts counted in H08.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H25",
+      "quantity": {
+        "dock": 2
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "M3 \u00d7 10 countersunk rear-tray screws",
+      "mpn": "DIN7991 M3x10",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/screws/thread-size~m3/",
+      "notes": "Two rear panel screws; inserts counted in H01.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H26",
+      "quantity": {
+        "dock": 4
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Self-adhesive rubber feet",
+      "mpn": "10 \u00d7 10 \u00d7 2 mm",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/rubber-feet/",
+      "notes": "Four feet; use at least 2 mm height for underfloor joint bridge clearance.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "H27",
+      "quantity": {
+        "dock": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Piezo isolation washer",
+      "mpn": "2 mm closed-cell foam",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/foam/",
+      "notes": "Cut 12 mm OD / 8 mm ID ring; supports piezo above insulated solder joints.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
     {
       "id": "CR1-01",
@@ -1032,11 +1247,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=571-5103310-7",
-      "notes": "J1; Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J1; Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 571-5103310-7"
     },
     {
       "id": "CR1-02",
@@ -1048,11 +1263,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=571-1718264",
-      "notes": "J2; Drive:TE_171826-4. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J2; Drive:TE_171826-4. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 571-1718264"
     },
     {
       "id": "CR1-03",
@@ -1064,11 +1279,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=358-SC1632",
-      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 358-SC1632"
     },
     {
       "id": "CR1-04",
@@ -1080,11 +1295,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=595-SN74LVC245AN",
-      "notes": "U1, U2, U4; Package_DIP:DIP-20_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "U1, U2, U4; Package_DIP:DIP-20_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 595-SN74LVC245AN"
     },
     {
       "id": "CR1-05",
@@ -1092,15 +1307,15 @@
       "part": "TN0702 / FDD INDEX",
       "mpn": "TN0702N3-G",
       "quantity": {
-        "drive": 8
+        "drive": 9
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=689-TN0702N3-G",
-      "notes": "Q4, Q5, Q6, Q7, Q8, Q1, Q2, Q3; Package_TO_SOT_THT:TO-92_Inline. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "Q4, Q5, Q6, Q7, Q8, Q2, Q3, Q10, Q11; Package_TO_SOT_THT:TO-92_Inline. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 689-TN0702N3-G"
     },
     {
       "id": "CR1-06",
@@ -1112,11 +1327,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=652-4609X-1LF-10K",
-      "notes": "RN1, RN2; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "RN1, RN2; Resistor_THT:R_Array_SIP9. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 652-4609X-1LF-10K"
     },
     {
       "id": "CR1-07",
@@ -1128,11 +1343,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=652-4609X-1LF-1K",
-      "notes": "RN3; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "RN3; Resistor_THT:R_Array_SIP9. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 652-4609X-1LF-1K"
     },
     {
       "id": "CR1-08",
@@ -1144,11 +1359,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=576-0251002.MXL",
-      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 576-0251002.MXL"
     },
     {
       "id": "CR1-09",
@@ -1160,11 +1375,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=625-1N5819-E3",
-      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 625-1N5819-E3"
     },
     {
       "id": "CR1-10",
@@ -1176,11 +1391,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FC1C470",
-      "notes": "C1; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C1; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FC1C470"
     },
     {
       "id": "CR1-11",
@@ -1192,11 +1407,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
-      "notes": "C2, C3, C5, C7; Drive:KEMET_C315_P2.54. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C2, C3, C5, C7; Drive:KEMET_C315_P2.54. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C315C104M5U"
     },
     {
       "id": "CR1-12",
@@ -1208,11 +1423,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10707GS",
-      "notes": "J3; Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J3; Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10707GS"
     },
     {
       "id": "CR1-13",
@@ -1224,11 +1439,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10507GD",
-      "notes": "J4; Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J4; Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10507GD"
     },
     {
       "id": "CR1-14",
@@ -1236,15 +1451,15 @@
       "part": "10k SPI CS DEFAULT",
       "mpn": "MFR-25FBF52-10K",
       "quantity": {
-        "drive": 4
+        "drive": 5
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-10K",
-      "notes": "R1, R2, R5, R9; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R1, R2, R5, R9, R13; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-10K"
     },
     {
       "id": "CR1-15",
@@ -1256,11 +1471,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10207GS",
-      "notes": "J5; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J5; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10207GS"
     },
     {
       "id": "CR1-16",
@@ -1272,11 +1487,11 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=926-LP2951ACN/NOPB",
-      "notes": "U6; Package_DIP:DIP-8_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "U6; Package_DIP:DIP-8_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 926-LP2951ACN/NOPB"
     },
     {
       "id": "CR1-17",
@@ -1288,46 +1503,62 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-15K",
-      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-15K"
     },
     {
       "id": "CR1-18",
       "supplier": "Mouser",
-      "part": "1k BLEED",
-      "mpn": "MFR-25FBF52-1K",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
-      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-1K",
-      "notes": "R6, R7; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
-      "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
-    },
-    {
-      "id": "CR1-19",
-      "supplier": "Mouser",
-      "part": "47 DISCHARGE",
-      "mpn": "MFR-25FBF52-47R",
+      "part": "68R FAILSAFE BLEED",
+      "mpn": "MF1/4DC68R0F",
       "quantity": {
         "drive": 1
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
-      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-47R",
-      "notes": "R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=660-MF1/4DC68R0F",
+      "notes": "R6; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 660-MF1/4DC68R0F"
+    },
+    {
+      "id": "CR1-19",
+      "supplier": "Mouser",
+      "part": "680R DEFAULT OFF",
+      "mpn": "MFR-25FBF52-680R",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-680R",
+      "notes": "R7; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-680R"
     },
     {
       "id": "CR1-20",
+      "supplier": "Mouser",
+      "part": "2R2 DISCHARGE",
+      "mpn": "MFR-25FBF52-2R2",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-2R2",
+      "notes": "R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-2R2"
+    },
+    {
+      "id": "CR1-21",
       "supplier": "Mouser",
       "part": "1 OHM CAP ESR",
       "mpn": "MFR-25FBF52-1R",
@@ -1336,14 +1567,14 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-1R",
-      "notes": "R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-1R"
     },
     {
-      "id": "CR1-21",
+      "id": "CR1-22",
       "supplier": "Mouser",
       "part": "2k2 ARM GATE",
       "mpn": "MFR-25FBF52-2K2",
@@ -1352,14 +1583,30 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-2K2",
-      "notes": "R11, R12; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R11, R12; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-2K2"
     },
     {
-      "id": "CR1-22",
+      "id": "CR1-23",
+      "supplier": "Mouser",
+      "part": "IRLZ44N / HARD DISCHARGE",
+      "mpn": "IRLZ44NPBF",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=942-IRLZ44NPBF",
+      "notes": "Q1; Package_TO_SOT_THT:TO-220-3_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 942-IRLZ44NPBF"
+    },
+    {
+      "id": "CR1-24",
       "supplier": "Mouser",
       "part": "22uF 16V / OUTPUT",
       "mpn": "EEU-FC1C220",
@@ -1368,14 +1615,14 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FC1C220",
-      "notes": "C6; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C6; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FC1C220"
     },
     {
-      "id": "CR1-23",
+      "id": "CR1-25",
       "supplier": "Mouser",
       "part": "1uF 50V X7R",
       "mpn": "C330C105K5R5TA",
@@ -1384,11 +1631,27 @@
       },
       "unit": "each",
       "assembly": "Controller R1",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=80-C330C105K5R",
-      "notes": "C9; Drive:KEMET_C340_P5.08. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C9; Drive:KEMET_C340_P5.08. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C330C105K5R"
+    },
+    {
+      "id": "CR1-26",
+      "supplier": "Mouser",
+      "part": "SUP53P06 / MEDIA INPUT CUT",
+      "mpn": "SUP53P06-20-E3",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=781-SUP53P06-20-E3",
+      "notes": "Q9; Package_TO_SOT_THT:TO-220-3_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 781-SUP53P06-20-E3"
     },
     {
       "id": "DR3-01",
@@ -1400,11 +1663,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=358-SC1632",
-      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 358-SC1632"
     },
     {
       "id": "DR3-02",
@@ -1416,11 +1679,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=595-SN74LVC245AN",
-      "notes": "U1, U4, U5; Package_DIP:DIP-20_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "U1, U4, U5; Package_DIP:DIP-20_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 595-SN74LVC245AN"
     },
     {
       "id": "DR3-03",
@@ -1432,11 +1695,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=689-TN0702N3-G",
-      "notes": "Q2, Q3, Q4; Package_TO_SOT_THT:TO-92_Inline. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "Q2, Q3, Q4; Package_TO_SOT_THT:TO-92_Inline. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 689-TN0702N3-G"
     },
     {
       "id": "DR3-04",
@@ -1448,11 +1711,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=595-MAX232N",
-      "notes": "U3; Package_DIP:DIP-16_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "U3; Package_DIP:DIP-16_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 595-MAX232N"
     },
     {
       "id": "DR3-05",
@@ -1464,11 +1727,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=595-SN74AHCT125N",
-      "notes": "U6; Package_DIP:DIP-14_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "U6; Package_DIP:DIP-14_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 595-SN74AHCT125N"
     },
     {
       "id": "DR3-06",
@@ -1480,11 +1743,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=502-61PC6F",
-      "notes": "J1; Dock:DIN_61PC6F. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J1; Dock:DIN_61PC6F. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 502-61PC6F"
     },
     {
       "id": "DR3-07",
@@ -1496,11 +1759,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=617-09-66-152-7612",
-      "notes": "J2; Dock:DE9_09661527612. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J2; Dock:DE9_09661527612. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 617-09-66-152-7612"
     },
     {
       "id": "DR3-08",
@@ -1512,11 +1775,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=710-61202021721",
-      "notes": "J3; Dock:WR_BHD_61202021721. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J3; Dock:WR_BHD_61202021721. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 710-61202021721"
     },
     {
       "id": "DR3-09",
@@ -1528,11 +1791,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=649-61729-0010BLF",
-      "notes": "J9; Dock:USB_B_61729. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J9; Dock:USB_B_61729. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 649-61729-0010BLF"
     },
     {
       "id": "DR3-10",
@@ -1544,11 +1807,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=538-67643-0910",
-      "notes": "J10; Connector_USB:USB_A_Molex_67643_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J10; Connector_USB:USB_A_Molex_67643_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 538-67643-0910"
     },
     {
       "id": "DR3-11",
@@ -1560,11 +1823,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=710-61201021621",
-      "notes": "J4; Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J4; Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 710-61201021621"
     },
     {
       "id": "DR3-12",
@@ -1576,11 +1839,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=490-PJ-102AH",
-      "notes": "J5; Dock:BarrelJack_PJ102AH_2024. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J5; Dock:BarrelJack_PJ102AH_2024. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 490-PJ-102AH"
     },
     {
       "id": "DR3-13",
@@ -1592,11 +1855,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=576-0251002.MXL",
-      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 576-0251002.MXL"
     },
     {
       "id": "DR3-14",
@@ -1608,11 +1871,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=781-SUP53P06-20-E3",
-      "notes": "Q1; Package_TO_SOT_THT:TO-220-3_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "Q1; Package_TO_SOT_THT:TO-220-3_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 781-SUP53P06-20-E3"
     },
     {
       "id": "DR3-15",
@@ -1624,11 +1887,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10207GS",
-      "notes": "J6, J8; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J6, J8; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10207GS"
     },
     {
       "id": "DR3-16",
@@ -1640,11 +1903,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10307GS",
-      "notes": "J7; Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "J7; Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10307GS"
     },
     {
       "id": "DR3-17",
@@ -1656,11 +1919,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=625-1N5819-E3",
-      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 625-1N5819-E3"
     },
     {
       "id": "DR3-18",
@@ -1672,11 +1935,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=80-C330C105K5R",
-      "notes": "C1, C2, C3, C4; Dock:C330_P5.08. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C1, C2, C3, C4; Dock:C330_P5.08. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C330C105K5R"
     },
     {
       "id": "DR3-19",
@@ -1688,11 +1951,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
-      "notes": "C5, C7, C8, C9, C10, C11; Dock:C315_P2.54. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C5, C7, C8, C9, C10, C11; Dock:C315_P2.54. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C315C104M5U"
     },
     {
       "id": "DR3-20",
@@ -1704,11 +1967,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FR1C101",
-      "notes": "C12; Capacitor_THT:CP_Radial_D6.3mm_P2.50mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C12; Capacitor_THT:CP_Radial_D6.3mm_P2.50mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FR1C101"
     },
     {
       "id": "DR3-21",
@@ -1720,11 +1983,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FR1A102",
-      "notes": "C13; Capacitor_THT:CP_Radial_D10.0mm_P5.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "C13; Capacitor_THT:CP_Radial_D10.0mm_P5.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FR1A102"
     },
     {
       "id": "DR3-22",
@@ -1736,11 +1999,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=652-4606X-1LF-47K",
-      "notes": "RN1; Resistor_THT:R_Array_SIP6. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "RN1; Resistor_THT:R_Array_SIP6. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 652-4606X-1LF-47K"
     },
     {
       "id": "DR3-23",
@@ -1752,11 +2015,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=652-4604X-1LF-1K",
-      "notes": "RN2; Resistor_THT:R_Array_SIP4. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "RN2; Resistor_THT:R_Array_SIP4. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 652-4604X-1LF-1K"
     },
     {
       "id": "DR3-24",
@@ -1768,11 +2031,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-10K",
-      "notes": "R1, R2, R3, R5, R6, R9, R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R1, R2, R3, R5, R6, R9, R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-10K"
     },
     {
       "id": "DR3-25",
@@ -1784,11 +2047,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-330R",
-      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-330R"
     },
     {
       "id": "DR3-26",
@@ -1800,11 +2063,11 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=652-4609X-1LF-4.7K",
-      "notes": "RN3; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "RN3; Resistor_THT:R_Array_SIP9. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 652-4609X-1LF-4.7K"
     },
     {
       "id": "DR3-27",
@@ -1816,27 +2079,43 @@
       },
       "unit": "each",
       "assembly": "Daughterboard R3",
-      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-4K7",
-      "notes": "R7, R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "notes": "R7, R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-4K7"
     },
     {
-      "id": "CR1-SW",
+      "id": "DR3-28",
       "supplier": "Mouser",
-      "part": "Seat and pre-eject interlock switches",
-      "mpn": "D2F-01L",
+      "part": "1k PIEZO CURRENT LIMIT",
+      "mpn": "MFR-25FBF52-1K",
       "quantity": {
-        "drive": 2
+        "dock": 1
       },
       "unit": "each",
-      "assembly": "Drive mechanism",
-      "status": "Candidate \u00b7 cam/bracket design pending",
-      "url": "https://www.mouser.com/c/?q=653-D2F-01L",
-      "notes": "Wire seat NO and eject NC in series to controller J5. Must open before latch release; not yet represented by qualified mechanical CAD.",
+      "assembly": "Daughterboard R3",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-1K",
+      "notes": "R11; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
-      "evidence": "Provisional Omron part; footprint, force and timing to qualify"
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-1K"
+    },
+    {
+      "id": "B05",
+      "quantity": {
+        "dock": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Routed external daughterboard PCB",
+      "mpn": "cyber-external-dock-r3",
+      "supplier": "PCBWay",
+      "url": "https://www.pcbway.com/",
+      "notes": "Current dock R3 board with RODDY silkscreen and board-mounted ports. Use external-r3 PCBWay Gerber package; no mains circuitry.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     }
   ]
 }

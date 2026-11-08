@@ -27,17 +27,21 @@ U4,SN74LVC245AN / SWITCHED MEDIA ISOLATION,SN74LVC245AN,595-SN74LVC245AN,Package
 U6,LP2951ACN / SWITCHED 3V1 100mA,LP2951ACN/NOPB,926-LP2951ACN/NOPB,Package_DIP:DIP-8_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R4,15k 1%,MFR-25FBF52-15K,603-MFR-25FBF52-15K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R5,10k 1%,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
-R6,1k BLEED,MFR-25FBF52-1K,603-MFR-25FBF52-1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
-R7,1k DEFAULT OFF,MFR-25FBF52-1K,603-MFR-25FBF52-1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
-R8,47 DISCHARGE,MFR-25FBF52-47R,603-MFR-25FBF52-47R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R6,68R FAILSAFE BLEED,MF1/4DC68R0F,660-MF1/4DC68R0F,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R7,680R DEFAULT OFF,MFR-25FBF52-680R,603-MFR-25FBF52-680R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R8,2R2 DISCHARGE,MFR-25FBF52-2R2,603-MFR-25FBF52-2R2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R9,10k MISO DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R10,1 OHM CAP ESR,MFR-25FBF52-1R,603-MFR-25FBF52-1R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R11,2k2 ARM GATE,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R12,2k2 INTERLOCK GATE,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
-Q1,TN0702 / ACTIVE DISCHARGE,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q1,IRLZ44N / HARD DISCHARGE,IRLZ44NPBF,942-IRLZ44NPBF,Package_TO_SOT_THT:TO-220-3_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 Q2,TN0702 / ARM PERMISSION,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 Q3,TN0702 / INTERLOCK PERMISSION,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 C6,22uF 16V / OUTPUT,EEU-FC1C220,667-EEU-FC1C220,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 C7,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 C9,1uF 50V X7R,C330C105K5R5TA,80-C330C105K5R,Drive:KEMET_C340_P5.08,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q9,SUP53P06 / MEDIA INPUT CUT,SUP53P06-20-E3,781-SUP53P06-20-E3,Package_TO_SOT_THT:TO-220-3_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q10,TN0702 / OE ARM,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q11,TN0702 / OE INTERLOCK,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R13,10k OE DEFAULT OFF,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 A1 sockets (2),2 x 20-way socket strips,SSW-120-01-G-S,200-SSW12001GS,Fits Pico header rows; assembly item,Listed in stock; verify module stack height

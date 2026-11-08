@@ -1,7 +1,7 @@
 Single-sided disk · R4
-Routed prototype
-Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release.
+Hardware R3 · routed prototype
+Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
-PCB SHA256 c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba
+Source commit 8545c317815bf29be1d4f8e1ede1812b0f4bdafb
+PCB SHA256 7b64b26f0e18a21e3b641d0c803cda5410be29029b0e54233a852260f890ea8f

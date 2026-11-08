@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/contact-cartridge-r1/cyber-drive-contact-r1.kicad_sch</source>
+    <date>2026-11-07T21:45:42</date>
+    <tool>Eeschema 10.0.6+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RODDY / passive contact cartridge</title>
+        <company/>
+        <rev>R1 / prototype</rev>
+        <date/>
+        <source>cyber-drive-contact-r1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>7-WIRE PIGTAIL</value>
+      <footprint>HardwareSilk:Contact__SolderWire_1x07_P2mm</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__SolderWire_1x07_P2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Wire7" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e909673-baae-4916-9d07-1e827f055aa4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC1">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0532c7b6-8c8a-4c6d-a7d1-ebe453a406af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC2">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71b98830-9eb8-4c67-a709-9998a02aca32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC3">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b27dfb5-0f32-4f5d-92d5-a8c39bcdf6bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC4">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc41a41d-3d7b-4933-bd05-b0e35447bc15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC5">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7e3778a-9f21-453c-9087-b60fd34025a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC6">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8dbcdd-a6d8-45c9-b38b-1f2eb841e03a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SC7">
+      <value>S7131-45R</value>
+      <footprint>HardwareSilk:Contact__Harwin_S7131-45R</footprint>
+      <fields>
+        <field name="Footprint">HardwareSilk:Contact__Harwin_S7131-45R</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Contact" part="Spring" description=""/>
+      <property name="Sheetname" value="cyber-drive-contact-r1"/>
+      <property name="Sheetfile" value="cyber-drive-contact-r1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>251c4a91-c9a4-4649-9392-a393d524ace1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Contact" part="Spring">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Spring</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Contact" part="Wire7">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Wire7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Contact">
+      <uri>${KIPRJMOD}/Contact.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CS_N" class="Default">
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="SC3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SC1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/MEDIA_3V3" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SC2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/MISO" class="Default">
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="SC6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/MOSI" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="SC5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/RESERVED" class="Default">
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="SC7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/SCK" class="Default">
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="SC4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,1 +1,1 @@
-(fp_lib_table (version 7) (lib (name "Contact") (type "KiCad") (uri "${KIPRJMOD}/Contact.pretty") (options "") (descr "Contact cartridge footprints")))
+(fp_lib_table (version 7) (lib (name "Contact") (type "KiCad") (uri "${KIPRJMOD}/Contact.pretty") (options "") (descr "Contact cartridge footprints")) (lib (name "HardwareSilk") (type "KiCad") (uri "${KIPRJMOD}/HardwareSilk.pretty") (options "") (descr "Assembly silkscreen variants of original footprints")))

@@ -1,5 +1,5 @@
 {
-  "revision": "electrical-r2",
+  "revision": "electrical-r3",
   "date": "2026-11-07",
   "boards": {
     "single": {
@@ -8,7 +8,7 @@
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba"
+      "pcb_sha256": "7b64b26f0e18a21e3b641d0c803cda5410be29029b0e54233a852260f890ea8f"
     },
     "ab": {
       "connected_pin_parity": 44,
@@ -16,7 +16,7 @@
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552"
+      "pcb_sha256": "c89d61bafaa77b9a68e65b46279907db848f5a930bc4a2a33d5790efa2ddab83"
     },
     "contact": {
       "connected_pin_parity": 14,
@@ -24,41 +24,31 @@
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
+      "pcb_sha256": "9a117d7f9166b62eb953a9b56f5c6c0ae049f43e2f23851e23affaf59bc81323"
     },
     "controller": {
-      "connected_pin_parity": 229,
+      "connected_pin_parity": 240,
       "erc_violations": 0,
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
-      "drc_warnings": {
-        "silk_edge_clearance": 6,
-        "silk_overlap": 11,
-        "silk_over_copper": 1
-      },
-      "pcb_sha256": "804471aa33f6384a9b34358c97842a2c714acae4f958fee6d23ff1b482cadbe9"
+      "drc_warnings": {},
+      "pcb_sha256": "bafa719598e293479a1cace7f60d268dc6f2335884f874a5a0fc4e42622cd09f"
     },
     "dock": {
-      "connected_pin_parity": 252,
+      "connected_pin_parity": 254,
       "erc_violations": 0,
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
-      "drc_warnings": {
-        "silk_edge_clearance": 4,
-        "text_height": 1,
-        "silk_overlap": 15,
-        "silk_over_copper": 3
-      },
-      "pcb_sha256": "416dbd4cb11ea0c4ec6d6a6155c17341a07c5c388eae8b2399976b4fc5578d4e"
+      "drc_warnings": {},
+      "pcb_sha256": "dd68e8a3e8a30052e0479f01c1f07012a16b14aaa1d79037cd4f0195b5e78409"
     }
   },
   "static_invariants": "PASS",
   "scope": "Saved-file checks and physical pin assertions. Controller/dock ERC uses passive pin-map symbols. Firmware host tests recorded separately. No powered hardware tests.",
   "fabrication_ready": false,
   "blockers": [
-    "Physical interlock brackets, cam timing and discharge measurement",
-    "Supply/load/temperature, MOSFET pulse and USB signal qualification",
-    "Connector footprint, harness and moved internal USB fit qualification",
-    "34-pin write capture, IEC emulation and actual host testing"
+    "Printed and powered sample qualification, including fastest eject, brownout and contact wear",
+    "Supply/load/temperature, MOSFET pulse, USB and real host qualification",
+    "Firmware work remains outside this hardware revision"
   ]
 }
