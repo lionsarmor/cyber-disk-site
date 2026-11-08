@@ -1,8 +1,8 @@
 {
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
-  "intro": "Service-terminal update: matching numbered seven-way screw blocks on contact/controller boards; five routed boards with RODDY silkscreen, current schematics, independent pin checks, and separate prototype fabrication packages. Physical sample and host qualification still required.",
-  "sourceCommit": "42ca2a1b88865adcc549f72e056ff30bacce19d4",
+  "intro": "Drive audio update: through-hole LM386 amplifier, J6 speaker output, replaceable 20 mm speaker, plus numbered contact terminals. Five routed prototype boards; physical qualification and audio firmware still required.",
+  "sourceCommit": "6aa8da5d3b4f68ce047f3269cee6ab1ada03a126",
   "boards": [
     {
       "id": "single-r4",
@@ -361,9 +361,9 @@
     {
       "id": "controller-r1",
       "title": "Drive controller \u00b7 R1",
-      "status": "Hardware R3 \u00b7 routed prototype",
+      "status": "Audio R1 \u00b7 routed prototype",
       "fabrication": "prototype",
-      "note": "Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
+      "note": "Main board includes GP27 filtered PWM audio, LM386 and J6 speaker output. J4 pin6 reserved. Playback firmware and powered tests remain outstanding. Current hardware layout and assembly silkscreen. Static checks pass with zero unrouted connections. Gerbers are for prototype fabrication; powered and printed sample qualification is not yet complete. Firmware is unchanged and experimental.",
       "model": "pcb/controller",
       "previews": [
         {
@@ -431,6 +431,11 @@
           "type": "reference"
         },
         {
+          "label": "Speaker circuit and assembly notes",
+          "url": "boards/controller-r1/documents/DRIVE-AUDIO-R1.md",
+          "type": "reference"
+        },
+        {
           "label": "Read before ordering",
           "url": "boards/controller-r1/READ_BEFORE_ORDER.txt",
           "type": "reference"
@@ -441,8 +446,8 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "42ca2a1b88865adcc549f72e056ff30bacce19d4",
-      "sourceSha256": "637ebd17536cc6198ee31070b45cafa2e57195ac5a90b7326249f6c0c2337889"
+      "sourceCommit": "6aa8da5d3b4f68ce047f3269cee6ab1ada03a126",
+      "sourceSha256": "d241955f942fde7b65e0d3dcb7b5b6f4355cdfbe41e1222cc3d9f77006061fe5"
     },
     {
       "id": "single-r0",

@@ -27,12 +27,12 @@
       "pcb_sha256": "5fe75f71e387e4f566aa72694145f2ccf35e675c4108753827b92e7822bc299f"
     },
     "controller": {
-      "connected_pin_parity": 240,
+      "connected_pin_parity": 271,
       "erc_violations": 0,
       "drc_geometry_errors": 0,
       "unrouted_items": 0,
       "drc_warnings": {},
-      "pcb_sha256": "637ebd17536cc6198ee31070b45cafa2e57195ac5a90b7326249f6c0c2337889"
+      "pcb_sha256": "d241955f942fde7b65e0d3dcb7b5b6f4355cdfbe41e1222cc3d9f77006061fe5"
     },
     "dock": {
       "connected_pin_parity": 254,

@@ -68,3 +68,8 @@ Terminal dimensions and wire preparation: [Phoenix Contact 1725708](https://www.
 J2 now includes a simplified TE 171826-4 inspection model based on [TE drawing 171826](https://www.te.com/en/product-171826-4.html). Four pins at 2.5 mm pitch, 10 mm width and 6.7 mm installed height are represented; molding and locking details are simplified. The rear window has 0.35 mm top clearance to this body. Confirm the chosen plug and supplier drawing on a physical sample.
 
 The controller’s custom through-hole power and capacitor pads now explicitly open both solder-mask layers, exposing their annular rings for hand soldering. No power or signal nets changed.
+
+
+## Drive-local speaker update
+
+The core now has GP27 PWM → LM386 → J6 → replaceable20mm8ohm speaker. J4 pin6 is reserved; lighting remains on the dock. See [Drive audio R1](../docs/DRIVE-AUDIO-R1.md) for circuit, wiring, mounting and firmware requirements. Playback is not yet implemented or bench-tested.

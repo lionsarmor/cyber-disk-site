@@ -66,3 +66,8 @@ No new firmware is delivered with Hardware R3. Previous firmware remains experim
 - [Vishay SUP53P06](https://www.vishay.com/docs/68633/sup53p06-20.pdf)
 - [Infineon IRLZ44N](https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlz44n-datasheet-en.pdf)
 - [Omron D2F](https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf)
+
+
+## Drive-local speaker update
+
+The core now has GP27 PWM → LM386 → J6 → replaceable20mm8ohm speaker. J4 pin6 is reserved; lighting remains on the dock. See [Drive audio R1](../docs/DRIVE-AUDIO-R1.md) for circuit, wiring, mounting and firmware requirements. Playback is not yet implemented or bench-tested.

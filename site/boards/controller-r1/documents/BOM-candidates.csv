@@ -44,4 +44,18 @@ Q9,SUP53P06 / MEDIA INPUT CUT,SUP53P06-20-E3,781-SUP53P06-20-E3,Package_TO_SOT_T
 Q10,TN0702 / OE ARM,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 Q11,TN0702 / OE INTERLOCK,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 R13,10k OE DEFAULT OFF,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+U7,LM386N-1 / SAMPLE AUDIO,LM386N-1/NOPB,926-LM386N-1/NOPB,Package_DIP:DIP-8_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J6,SPEAKER 8 OHM / + GND,TSW-102-07-G-S,200-TSW10207GS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R14,47k AUDIO ATTENUATOR,MFR-25FBF52-47K,603-MFR-25FBF52-47K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R15,2k2 AUDIO BIAS,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R16,2k2 AUDIO FILTER,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R17,10R AUDIO STABILITY,MFR-25FBF52-10R,603-MFR-25FBF52-10R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C10,22nF AUDIO LP1,C315C223K5R5TA,80-C315C223K5R,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C11,22nF AUDIO LP2,C315C223K5R5TA,80-C315C223K5R,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C12,100nF AUDIO COUPLING,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C15,100nF AMP DECOUPLING,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C16,100nF AUDIO STABILITY,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C13,100uF 16V / SPEAKER DC BLOCK,EEU-FC1C101,667-EEU-FC1C101,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C14,47uF 16V / AMP RESERVOIR,EEU-FC1C470,667-EEU-FC1C470,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C17,22uF 16V / AMP BYPASS,EEU-FC1C220,667-EEU-FC1C220,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
 A1 sockets (2),2 x 20-way socket strips,SSW-120-01-G-S,200-SSW12001GS,Fits Pico header rows; assembly item,Listed in stock; verify module stack height

@@ -1,0 +1,216 @@
+(footprint "Controller_RN3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "9-pin Resistor SIP pack")
+	(tags "R")
+	(property "Reference" "RN3"
+		(at 11.43 -2.31 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29b3b5f0-e79d-491b-b40d-d9098e694ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "8x1k BUSSED / COMMON GND"
+		(at 11.43 2.31 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "904d84fa-17f5-426a-b9a1-e4b6420e9356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "327e03fa-7d02-42bb-b699-194079a5c9fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1087c1a9-bfdc-4961-983c-cf37c5d4f888")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "resistor/array_SIP_THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9741fb3-9dcd-440d-820b-583dec225712")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.6 -1.56)
+		(end 21.92 1.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2712eddb-8cd9-43cd-9f1c-f27f4a352652")
+	)
+	(fp_line
+		(start 1.27 -1.31)
+		(end 1.27 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7258213-5a30-418b-9aa2-29c8b28003b8")
+	)
+	(fp_line
+		(start 1.27 -1.25)
+		(end 1.27 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bd55366-58fe-43fa-b9b4-7af54c56aeab")
+	)
+	(fp_rect
+		(start -1.35 -1.31)
+		(end 21.67 1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61e43a32-30bf-4a2f-9d3f-40dfc365c399")
+	)
+	(fp_rect
+		(start -1.29 -1.25)
+		(end 21.61 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2097a0f2-867c-4fa3-a01e-6fa840f66822")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11.43 0 0)
+		(layer "F.Fab")
+		(uuid "249246c4-4723-495d-8978-00498dee3e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "527dea2f-a454-4009-8538-eb257e1c32ba")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74916994-ea73-44fb-ae1f-731e543caac3")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "814523ca-8ff8-4daa-b4fc-b226a5817b39")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4dd573a-c21e-4a1f-bc72-76aa0fa4c77b")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea31ad60-3750-4212-a70f-f13ce49a1382")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7b4537f-d3de-4a1d-b2ac-063cf02590e4")
+	)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a537b9f1-9384-45f9-9911-528659f267f5")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2b6ca64-0ee0-46f6-a999-1d35999dcd0d")
+	)
+	(pad "9" thru_hole circle
+		(at 20.32 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "855d2566-7e21-4db3-9f16-3afe3ddab306")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Array_SIP9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

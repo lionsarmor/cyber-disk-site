@@ -1,0 +1,162 @@
+(footprint "Controller_C16"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "KEMET C315; 2.54mm nominal lead pitch; body max 3.81 x 2.54mm; manufacturer sheet linked in sourcing. No supplier 3D model.")
+	(property "Reference" "C16"
+		(at 1.27 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b6af4eb-35fc-4830-974d-9e65007a9a35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100nF AUDIO STABILITY"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2d71958-0658-432e-bc2e-61c28cb48d29")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93277a6c-74c3-4e47-9776-aa52f29d1a43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72373ea3-0a40-4ef0-84f0-94c6d21b4c6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.885 -1.52)
+		(end 3.425 -1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "85385fa8-6832-45e4-9862-3e361b96dae7")
+	)
+	(fp_line
+		(start -0.885 1.52)
+		(end -0.885 -1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5cfbe8f-a336-4abb-b0f0-3fbe1a220ee7")
+	)
+	(fp_line
+		(start 3.425 -1.52)
+		(end 3.425 1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f41576d-57ea-4109-b102-36b6813956cc")
+	)
+	(fp_line
+		(start 3.425 1.52)
+		(end -0.885 1.52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc47dc95-2999-4126-a49e-98571ee1225c")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 3.175 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "259be83f-9eb1-457c-a31e-ebc85bfda2b8")
+	)
+	(fp_line
+		(start -0.635 1.27)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "64f5f173-5f39-4aeb-9386-2f1d56177f71")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end 3.175 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "01c35e90-44ff-4b78-ba9c-a94a3e57634e")
+	)
+	(fp_line
+		(start 3.175 1.27)
+		(end -0.635 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5ef5d28b-8acc-4507-b28b-207d1a267513")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa0ad692-e41e-4c93-92b6-89bda09615e7")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cda88b3-2b0f-4ccb-b59b-c03a3e8e003a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/KEMET-C315-envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

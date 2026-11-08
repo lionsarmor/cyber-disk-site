@@ -1094,7 +1094,7 @@
     {
       "id": "HX02",
       "quantity": {
-        "drive": 1,
+        "drive": 2,
         "dock": 2
       },
       "assembly": "Hardware R3",
@@ -1103,7 +1103,7 @@
       "mpn": "M20-1060200",
       "supplier": "Mouser",
       "url": "https://www.mouser.com/c/?q=855-M20-1060200",
-      "notes": "Drive J5 interlock; dock J6 power and J8 passive piezo.",
+      "notes": "Drive J5 interlock and J6 speaker; dock J6 power and J8 passive piezo.",
       "unit": "each",
       "status": "Specified \u00b7 prototype validation required",
       "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
@@ -1127,7 +1127,7 @@
     {
       "id": "HX04",
       "quantity": {
-        "drive": 2,
+        "drive": 4,
         "dock": 7
       },
       "assembly": "Hardware R3",
@@ -1250,6 +1250,70 @@
       "url": "https://www.pcbway.com/",
       "notes": "Current dock R3 board with RODDY silkscreen and board-mounted ports. Use external-r3 PCBWay Gerber package; no mains circuitry.",
       "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "SP01",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Drive dynamic speaker, 20 mm \u00d7 3 mm, 8 ohm 0.5 W",
+      "mpn": "AS02008MR-R",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/en/ProductDetail/PUI-Audio/AS02008MR-R?qs=e16JbV5WBEsk5k09rzRy6w%3D%3D",
+      "notes": "Main-board LM386 drives this speaker through J6. Solder two 26 AWG leads to pads (<=3 seconds per PUI); terminate in removable 2-way housing. Rear-wall printed cradle and screw ring, no diaphragm loading. Mouser 665-AS02008MRR listed in stock at review; not reserved.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "SP02",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Speaker retention hardware",
+      "mpn": "M2x8 + M2x10 countersunk + M2 nuts",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/screws/thread-size~m2/",
+      "notes": "Two M2x8 ring screws, two M2x10 rear cradle screws and four M2 nuts; keep separate from existing mechanism fastener counts.",
+      "unit": "set",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "SP03",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Speaker rim isolation foam",
+      "mpn": "0.6 mm closed-cell foam",
+      "supplier": "Common hardware / McMaster",
+      "url": "https://www.mcmaster.com/foam/",
+      "notes": "Cut 20.4 mm OD / 19.2 mm ID ring, compressed to approximately0.4 mm. Frame only: never cover or press diaphragm. Verify supplied speaker rim on physical sample.",
+      "unit": "each",
+      "status": "Specified \u00b7 prototype validation required",
+      "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
+    },
+    {
+      "id": "SP04",
+      "quantity": {
+        "drive": 1
+      },
+      "assembly": "Hardware R3",
+      "alternative": "",
+      "part": "Speaker wiring pair",
+      "mpn": "Alpha 6821 BK005",
+      "supplier": "Mouser",
+      "url": "https://www.mouser.com/ProductDetail/Alpha-Wire/6821-BK005",
+      "notes": "Two 100 mm lengths of26AWG stranded wire, red-mark positive; 2 Harwin M20 crimp contacts for J6 housing (same family as interlock). Measure final loom before cutting.",
+      "unit": "pair",
       "status": "Specified \u00b7 prototype validation required",
       "evidence": "Manufacturer/supplier dimensions reviewed 2026-11-07; inventory not reserved"
     },
@@ -1403,13 +1467,13 @@
       "part": "47uF 16V",
       "mpn": "EEU-FC1C470",
       "quantity": {
-        "drive": 1
+        "drive": 2
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FC1C470",
-      "notes": "C1; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "notes": "C1, C14; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FC1C470"
     },
@@ -1419,13 +1483,13 @@
       "part": "100nF 50V",
       "mpn": "C315C104M5U5TA",
       "quantity": {
-        "drive": 4
+        "drive": 7
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
-      "notes": "C2, C3, C5, C7; Drive:KEMET_C315_P2.54. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "notes": "C2, C3, C5, C7, C12, C15, C16; Drive:KEMET_C315_P2.54. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C315C104M5U"
     },
@@ -1483,13 +1547,13 @@
       "part": "3V3 OUT / INTERLOCK RETURN",
       "mpn": "TSW-102-07-G-S",
       "quantity": {
-        "drive": 1
+        "drive": 2
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=200-TSW10207GS",
-      "notes": "J5; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "notes": "J5, J6; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 200-TSW10207GS"
     },
@@ -1595,13 +1659,13 @@
       "part": "2k2 ARM GATE",
       "mpn": "MFR-25FBF52-2K2",
       "quantity": {
-        "drive": 2
+        "drive": 4
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-2K2",
-      "notes": "R11, R12; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "notes": "R11, R12, R15, R16; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-2K2"
     },
@@ -1627,13 +1691,13 @@
       "part": "22uF 16V / OUTPUT",
       "mpn": "EEU-FC1C220",
       "quantity": {
-        "drive": 1
+        "drive": 2
       },
       "unit": "each",
       "assembly": "Controller R1",
       "status": "Specified \u00b7 listed by supplier",
       "url": "https://www.mouser.com/c/?q=667-EEU-FC1C220",
-      "notes": "C6; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "notes": "C6, C17; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FC1C220"
     },
@@ -1668,6 +1732,86 @@
       "notes": "Q9; Package_TO_SOT_THT:TO-220-3_Vertical. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
       "alternative": "",
       "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 781-SUP53P06-20-E3"
+    },
+    {
+      "id": "CR1-27",
+      "supplier": "Mouser",
+      "part": "LM386N-1 / SAMPLE AUDIO",
+      "mpn": "LM386N-1/NOPB",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=926-LM386N-1/NOPB",
+      "notes": "U7; Package_DIP:DIP-8_W7.62mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 926-LM386N-1/NOPB"
+    },
+    {
+      "id": "CR1-28",
+      "supplier": "Mouser",
+      "part": "47k AUDIO ATTENUATOR",
+      "mpn": "MFR-25FBF52-47K",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-47K",
+      "notes": "R14; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-47K"
+    },
+    {
+      "id": "CR1-29",
+      "supplier": "Mouser",
+      "part": "10R AUDIO STABILITY",
+      "mpn": "MFR-25FBF52-10R",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-10R",
+      "notes": "R17; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 603-MFR-25FBF52-10R"
+    },
+    {
+      "id": "CR1-30",
+      "supplier": "Mouser",
+      "part": "22nF AUDIO LP1",
+      "mpn": "C315C223K5R5TA",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=80-C315C223K5R",
+      "notes": "C10, C11; Drive:KEMET_C315_P2.54. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 80-C315C223K5R"
+    },
+    {
+      "id": "CR1-31",
+      "supplier": "Mouser",
+      "part": "100uF 16V / SPEAKER DC BLOCK",
+      "mpn": "EEU-FC1C101",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Specified \u00b7 listed by supplier",
+      "url": "https://www.mouser.com/c/?q=667-EEU-FC1C101",
+      "notes": "C13; Capacitor_THT:CP_Radial_D6.3mm_P2.50mm. Builder assembly through-hole; Pico is a factory-assembled module. Check stock when ordering.",
+      "alternative": "",
+      "evidence": "Saved-board BOM reconciled 2026-11-07; exact Mouser SKU 667-EEU-FC1C101"
     },
     {
       "id": "DR3-01",
