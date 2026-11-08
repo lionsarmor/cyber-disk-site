@@ -1,0 +1,43 @@
+Reference,Value,Manufacturer part,Mouser stock,Footprint,Status
+J1,34-PIN PC FLOPPY,5103310-7,571-5103310-7,Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J2,FLOPPY POWER 5V GND GND 12V,171826-4,571-1718264,Drive:TE_171826-4,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+A1,PICO 2 SC1632 SOCKETED,SC1632,358-SC1632,Module:RaspberryPi_Pico_Common_THT,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+U1,SN74LVC245AN / 5V-TOL INPUT,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+U2,SN74LVC245AN / 5V-TOL INPUT,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q4,TN0702 / FDD INDEX,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q5,TN0702 / FDD TRK0,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q6,TN0702 / FDD WP,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q7,TN0702 / FDD RDATA,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q8,TN0702 / FDD CHANGE,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+RN1,8x10k BUSSED / COMMON PIN1,4609X-101-103LF,652-4609X-1LF-10K,Resistor_THT:R_Array_SIP9,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+RN2,8x10k BUSSED / COMMON PIN1,4609X-101-103LF,652-4609X-1LF-10K,Resistor_THT:R_Array_SIP9,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+RN3,8x1k BUSSED / COMMON GND,4609X-101-102LF,652-4609X-1LF-1K,Resistor_THT:R_Array_SIP9,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+F1,2A FAST / LOW DROP,0251002.MXL,576-0251002.MXL,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+D1,1N5819 / USB BACKFEED BLOCK,1N5819-E3/54,625-1N5819-E3,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C1,47uF 16V,EEU-FC1C470,667-EEU-FC1C470,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C2,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C3,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C5,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J3,ISOLATED CONTACTS / 1 TO 7,TSW-107-07-G-S,200-TSW10707GS,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J4,DOCK LINK 3V3 UART,TSW-105-07-G-D,200-TSW10507GD,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R1,10k SPI CS DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R2,10k MEDIA ERROR PULLUP,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+J5,3V3 OUT / INTERLOCK RETURN,TSW-102-07-G-S,200-TSW10207GS,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+U4,SN74LVC245AN / SWITCHED MEDIA ISOLATION,SN74LVC245AN,595-SN74LVC245AN,Package_DIP:DIP-20_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+U6,LP2951ACN / SWITCHED 3V1 100mA,LP2951ACN/NOPB,926-LP2951ACN/NOPB,Package_DIP:DIP-8_W7.62mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R4,15k 1%,MFR-25FBF52-15K,603-MFR-25FBF52-15K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R5,10k 1%,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R6,1k BLEED,MFR-25FBF52-1K,603-MFR-25FBF52-1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R7,1k DEFAULT OFF,MFR-25FBF52-1K,603-MFR-25FBF52-1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R8,47 DISCHARGE,MFR-25FBF52-47R,603-MFR-25FBF52-47R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R9,10k MISO DEFAULT,MFR-25FBF52-10K,603-MFR-25FBF52-10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R10,1 OHM CAP ESR,MFR-25FBF52-1R,603-MFR-25FBF52-1R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R11,2k2 ARM GATE,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+R12,2k2 INTERLOCK GATE,MFR-25FBF52-2K2,603-MFR-25FBF52-2K2,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q1,TN0702 / ACTIVE DISCHARGE,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q2,TN0702 / ARM PERMISSION,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+Q3,TN0702 / INTERLOCK PERMISSION,TN0702N3-G,689-TN0702N3-G,Package_TO_SOT_THT:TO-92_Inline,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C6,22uF 16V / OUTPUT,EEU-FC1C220,667-EEU-FC1C220,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C7,100nF 50V,C315C104M5U5TA,80-C315C104M5U,Drive:KEMET_C315_P2.54,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+C9,1uF 50V X7R,C330C105K5R5TA,80-C330C105K5R,Drive:KEMET_C340_P5.08,Mouser candidate; prototype not qualified; verify exact orderable MPN before purchase
+A1 sockets (2),2 x 20-way socket strips,SSW-120-01-G-S,200-SSW12001GS,Fits Pico header rows; assembly item,Listed in stock; verify module stack height

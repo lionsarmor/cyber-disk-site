@@ -1,0 +1,43 @@
+{
+  "revision": "electrical-r2",
+  "board_pair": [
+    "controller-r1",
+    "dock-r3"
+  ],
+  "hardware_tested": false,
+  "sdk": "2.2.0 a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+  "toolchain": "Arm GNU 14.3.Rel1",
+  "source_sha256": {
+    "firmware/CMakeLists.txt": "db357af7a453acfa3ca169750681d36147987cdcde97d3cd42b5f9f86a3b5e68",
+    "firmware/README.md": "b2c9ca5c5cea9bdafbcd002e91f971f4037336d4b623c777dcd84938c9b3c2fd",
+    "firmware/include/journal.h": "de33f9271f6e9c90df8fadefdd2bccd43c53a7122675445d8bc2721a83ca40cc",
+    "firmware/include/mfm.h": "9f937cb77d3726e14680896884488225548e6946e573ee1282f0d3137a980c8f",
+    "firmware/include/wire.h": "b3ae1b87fbb8b59ac18a16d30ebc11b3af08de7c6338ce45a4cec1e93f68e964",
+    "firmware/pico/CMakeLists.txt": "b74045cdcdf7bcf06f3e4062508013efb6720c420d0e996734190dd47406f4a2",
+    "firmware/pico/core.c": "788493eeb1afc7599232019e13e0cfe39f92233ee73627086a922ebd77bbc2b5",
+    "firmware/pico/dock.c": "2743e86229439e1ea2dc563f4931ed3c89708cfae2d5d44609863d1787e13593",
+    "firmware/pico/fdd_read.c": "ca63a52116fa672371e5390bfcbf8f1d37a49b607f0e8da4cd21059eae34539f",
+    "firmware/pico/fdd_read.h": "338f5faf2878ff5b55a44fb94cdc9681900bbea58fa928add852b7a9aa4e0bad",
+    "firmware/pico/nor.c": "263422785306a367eebe18e73d922c881f5a74a6bce80ef2b8317ddb9bc5cc20",
+    "firmware/pico/nor.h": "d6255c8a697a43a432b4b342ef69b6966f7e2d9cd87e4e6b6784d0bfeb7e189e",
+    "firmware/pico/read_flux.pio": "2b72c39f2c6ba3b9278f1ac293a77e63b963dade50e35e3cb804557e34b2ccd6",
+    "firmware/pico/tusb_config.h": "ac5d8ee1995b2d5bee22ab4f1ba6ab003e820c3bb7b7e229a759858a967358cf",
+    "firmware/pico/usb_descriptors.c": "312528545d6812a1f173e51e225dc4196e21bbf24838f4d3753d70a1f4b48f2d",
+    "firmware/src/journal.c": "eb6a304cf2847f8c4c724683302fef0138b443bcb84854671e4f9519d32c9509",
+    "firmware/src/mfm.c": "5af9e3902c27d7a18fdd2b4710248acd5e6456cb15ec3ea339eb3726cda2bd4e",
+    "firmware/src/wire.c": "b86e2e753bb9fe4a43b40f4e1290ce1e2b5a1f03f97b277041d2f0feeff991cc",
+    "firmware/tests/test_journal.c": "7568111993081ce00056fe4ad8a2c6ae88992154d89c672b57c4173acbb50af6",
+    "firmware/tests/test_mfm.c": "8fd9b143463a9ae474794ed4fa4dfe298b011d3b9751906078c06ce9d2acfd6e",
+    "firmware/tests/test_wire.c": "2af633ccad7de0e7c42ecf254a17d0fd969658ea405915dc04e35d3c2c1298fc"
+  },
+  "binaries": {
+    "cyber_core.uf2": "59ac96941b1f9b1af4f7cb2d8723795d42357f580a137aaf0306a70b75d847a4",
+    "cyber_dock.uf2": "bd4eadb7d5f2929e48f00ea60a5b7eca3d05a98158725c91422e4568245a724a"
+  },
+  "limitations": [
+    "PC FDD read-only; always write-protected",
+    "USB MSC, not UFI floppy",
+    "IEC/Next/ESP32/RS232 clients unfinished",
+    "Prototype hardware and interlock mechanics not qualified"
+  ]
+}

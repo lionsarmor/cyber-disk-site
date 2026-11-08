@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/roddy/Desktop/lionsarmor/Cyber disk/hardware/external-dock-r3/cyber-external-dock-r3.kicad_sch</source>
+    <date>2026-11-07T19:31:35</date>
+    <tool>Eeschema 10.0.6+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RODDY EXTERNAL DOCK / LOW VOLTAGE INTERFACE</title>
+        <company/>
+        <rev>R3 MOSFET OUTPUTS / PROTOTYPE</rev>
+        <date/>
+        <source>cyber-external-dock-r3.kicad_sch</source>
+        <comment number="1" value="NOT FOR FABRICATION / 5V barrel input / NO MAINS / NOT 12V"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Pico 2 / internal USB jumper</value>
+      <footprint>Module:RaspberryPi_Pico_Common_THT</footprint>
+      <fields>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="A1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a921b23-8960-4e53-ae7c-9ca3b65e77ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="13"/>
+            <pin num="18"/>
+            <pin num="23"/>
+            <pin num="28"/>
+            <pin num="33"/>
+            <pin num="38"/>
+            <pin num="30"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="40"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>1uF 50V nonpolar</value>
+      <footprint>Dock:C330_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Dock:C330_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b95ee7f3-43e8-41b1-8df9-7c88932358d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF 50V nonpolar</value>
+      <footprint>Dock:C330_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Dock:C330_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C2" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d156a9c9-86ac-4ef5-8c24-b4ba76040c7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF 50V nonpolar</value>
+      <footprint>Dock:C330_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Dock:C330_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc373dc7-a485-4a5b-bd84-17fa972b4d40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1uF 50V nonpolar</value>
+      <footprint>Dock:C330_P5.08</footprint>
+      <fields>
+        <field name="Footprint">Dock:C330_P5.08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C4" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d96ec650-a2b3-41c3-81dc-897f4ea668d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C5" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9b780a1-1a35-4468-b299-c9218f44249f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C7" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25a43dc9-9320-4bf8-8c34-7fc62a2fe353</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C8" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ff72cca-506a-4cdd-9e1f-15a6f6264cf1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C9" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45a99ab4-8c9c-4dec-8f65-76d2b085fd1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C10" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fca4c8d-a074-41ea-aaa8-45e48b97620d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF 50V</value>
+      <footprint>Dock:C315_P2.54</footprint>
+      <fields>
+        <field name="Footprint">Dock:C315_P2.54</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C11" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6d02c14-42ac-40d5-824e-40f1c2c6c2da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C12" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>496a788e-ca2f-4cfe-bb9f-01da006ca42c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>1000uF 10V LED bulk</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="C13" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2151165-7f29-4bad-9b32-b63fca30b013</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819 / VSYS feed only</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="D1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba8cea35-affa-4f58-b97a-094b82957ad2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2A fast / input</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="F1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee977645-288a-4c5b-ae23-0268b263f285</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>IEC / Switchcraft sequential pin numbers</value>
+      <footprint>Dock:DIN_61PC6F</footprint>
+      <fields>
+        <field name="Footprint">Dock:DIN_61PC6F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9afd30b2-9807-4e8f-9ddd-44bdfdcb9e51</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>DE9 female DCE</value>
+      <footprint>Dock:DE9_09661527612</footprint>
+      <fields>
+        <field name="Footprint">Dock:DE9_09661527612</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J2" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0ff78f8-bc7f-4203-a1a8-0e5aefc4bd0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>ACCESSORY SPI / 3V3 SIGNALS / NO POWER</value>
+      <footprint>Dock:WR_BHD_61202021721</footprint>
+      <fields>
+        <field name="Footprint">Dock:WR_BHD_61202021721</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>253389f5-7e59-4e4e-90cc-270f795aaf9d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>CORE J4 / SIGNALS ONLY</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J4" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d83cab8d-0d6c-456d-99e1-f06e8c8ad30d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>5V ONLY / CENTRE +</value>
+      <footprint>Dock:BarrelJack_PJ102AH_2024</footprint>
+      <fields>
+        <field name="Footprint">Dock:BarrelJack_PJ102AH_2024</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J5" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f7dedfc-f908-417a-a373-2ae3faf192bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>CORE BERG 5V / 12V NC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J6" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fcfe820-600d-4663-9d85-a3fc2d0ec6d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>LED STRIP 5V / 0.2A MAX</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J7" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b87b8fdb-2ed3-4757-93b4-c96c330ce2a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>AUDIO LOGIC / FUTURE AMP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J8" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f77811fe-780c-4e29-a5b3-bcc76a5596c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>USB-B / HOST INPUT</value>
+      <footprint>Dock:USB_B_61729</footprint>
+      <fields>
+        <field name="Footprint">Dock:USB_B_61729</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J9" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f80d2e8-b322-4e6d-93cf-2e1fbdd221d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>INTERNAL ONLY / TO PICO</value>
+      <footprint>Connector_USB:USB_A_Molex_67643_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_USB:USB_A_Molex_67643_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="J10" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29649f05-cd23-4c1b-92d5-09dc21b6e9cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>SUP53P06-20-E3 / reverse polarity</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Q1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ccfa8c0-33d6-4b93-9d0a-a51fc1de1dc6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>TN0702 / IEC CLK</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Q2" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4396a6d-719c-466e-8725-1733aefb573a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>TN0702 / IEC DATA</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Q3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eec075b8-3e8b-4beb-a174-30830456ce9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>TN0702 / IEC SRQ</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Q4" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d60d7cd-1037-44da-aada-662a43027ebf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>757008e1-c696-44dc-83f9-0b6485d02914</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R2" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39e44640-5ed4-47c7-9e8b-5b5613b6bbbd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d527327-fbeb-4c41-953f-23b1bd0ce75d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R4" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f756bba8-3b46-4e61-81f9-91363a096826</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R5" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2df2a009-7f53-47f0-8015-faf645c1601a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R6" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c636471-d9f9-468e-987f-c5bbf5f4b1ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4k7 MARK / DEASSERT</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R7" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64786c66-ab98-4a53-b4c1-b75adc1f3b71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4k7 MARK / DEASSERT</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R8" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08eb6cc0-c8b6-4748-a85b-95c1cf16a227</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k UNPOWERED SERIAL DEFAULT</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R9" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59ef6f16-b755-48fb-8ba6-0d34ad45b85d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k UNPOWERED SERIAL DEFAULT</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="R10" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ea05b6e-355f-466a-b79f-d3df4b447d95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN1">
+      <value>5 x 47k IEC DISCONNECTED LOW</value>
+      <footprint>Resistor_THT:R_Array_SIP6</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="RN1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a39e318-79c5-4744-becd-73e8d64a0b35</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN2">
+      <value>3 x 1k GATE boot pulldown</value>
+      <footprint>Resistor_THT:R_Array_SIP4</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="RN2" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8033d316-505a-451f-82d0-b68498cb3ea2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN3">
+      <value>8 x 4k7 INPUT DEFAULTS</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="RN3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c25ef000-5c52-4403-b5c6-8621f8fedf4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LVC245AN</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="U1" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a1533c1-ff6d-48bd-8ed3-85ad624ae5c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>MAX232N / 5V RS232</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="U3" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59074f8-5b48-46ed-97af-f6d0e7c2b754</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC245AN</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="U4" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f6a0393-feda-4341-b987-0197024505d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC245AN</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="U5" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc41554f-ac5e-4c5e-a05d-ce051354efff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74AHCT125N / LED + serial TX</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="U6" description=""/>
+      <property name="Sheetname" value="cyber-external-dock-r3"/>
+      <property name="Sheetfile" value="cyber-external-dock-r3.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05460349-e4fa-4b41-8e68-dfeba78f462e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Dock" part="A1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pico 2 / internal USB jumper</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CORE_TX" type="passive"/>
+        <pin num="2" name="CORE_RX" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IEC_ATN_S" type="passive"/>
+        <pin num="5" name="IEC_CLK_S" type="passive"/>
+        <pin num="6" name="IEC_DATA_S" type="passive"/>
+        <pin num="7" name="IEC_SRQ_S" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="IEC_RESET_S" type="passive"/>
+        <pin num="10" name="ASSERT_CLK" type="passive"/>
+        <pin num="11" name="SERIAL_TX" type="passive"/>
+        <pin num="12" name="SERIAL_RX" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="SERIAL_CTS" type="passive"/>
+        <pin num="15" name="SERIAL_RTS" type="passive"/>
+        <pin num="16" name="ASSERT_DATA" type="passive"/>
+        <pin num="17" name="ASSERT_SRQ" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="CORE_BUSY" type="passive"/>
+        <pin num="20" name="ACC_DETECT_S" type="passive"/>
+        <pin num="21" name="ACC_MOSI_S" type="passive"/>
+        <pin num="22" name="ACC_CS_S" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="ACC_SCK_S" type="passive"/>
+        <pin num="25" name="ACC_MISO_DRV" type="passive"/>
+        <pin num="26" name="ACC_READY_DRV" type="passive"/>
+        <pin num="27" name="ACC_OE_N" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="LED_DATA" type="passive"/>
+        <pin num="30" name="NC" type="passive"/>
+        <pin num="31" name="AUDIO_PWM" type="passive"/>
+        <pin num="32" name="CORE_LED_S" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="POWER_PRESENT" type="passive"/>
+        <pin num="35" name="NC" type="passive"/>
+        <pin num="36" name="V3V3" type="passive"/>
+        <pin num="37" name="NC" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="VSYS" type="passive"/>
+        <pin num="40" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1uF 50V nonpolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CP1P" type="passive"/>
+        <pin num="2" name="CP1N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100uF 16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C13">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1000uF 10V LED bulk</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1uF 50V nonpolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CP2P" type="passive"/>
+        <pin num="2" name="CP2N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1uF 50V nonpolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RS_VPLUS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1uF 50V nonpolar</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RS_VMINUS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="C9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF 50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="D1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1N5819 / VSYS feed only</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VSYS" type="passive"/>
+        <pin num="2" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="F1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2A fast / input</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_RAW" type="passive"/>
+        <pin num="2" name="V5_FUSED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">IEC / Switchcraft sequential pin numbers</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IEC_SRQ" type="passive"/>
+        <pin num="2" name="IEC_CLK" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IEC_DATA" type="passive"/>
+        <pin num="5" name="IEC_ATN" type="passive"/>
+        <pin num="6" name="IEC_RESET" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">INTERNAL ONLY / TO PICO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_VBUS" type="passive"/>
+        <pin num="2" name="USB_DM" type="passive"/>
+        <pin num="3" name="USB_DP" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">DE9 female DCE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="RS_TX_OUT" type="passive"/>
+        <pin num="3" name="RS_RX_IN" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="RS_RTS_IN" type="passive"/>
+        <pin num="8" name="RS_CTS_OUT" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ACCESSORY SPI / 3V3 SIGNALS / NO POWER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="ACC_SCK" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="ACC_MOSI" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="ACC_MISO" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="ACC_CS_N" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="ACC_READY" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="ACC_DETECT_N" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="NC" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CORE J4 / SIGNALS ONLY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="CORE_RX_RAW" type="passive"/>
+        <pin num="4" name="CORE_TX" type="passive"/>
+        <pin num="5" name="CORE_BUSY_RAW" type="passive"/>
+        <pin num="6" name="CORE_LED_RAW" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5V ONLY / CENTRE +</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_RAW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CORE BERG 5V / 12V NC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">LED STRIP 5V / 0.2A MAX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="LED_OUT" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">AUDIO LOGIC / FUTURE AMP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="AUDIO_PWM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="J9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">USB-B / HOST INPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_VBUS" type="passive"/>
+        <pin num="2" name="USB_DM" type="passive"/>
+        <pin num="3" name="USB_DP" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Q1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SUP53P06-20-E3 / reverse polarity</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V5_FUSED" type="passive"/>
+        <pin num="3" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Q2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / IEC CLK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_CLK" type="passive"/>
+        <pin num="3" name="IEC_CLK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Q3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / IEC DATA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_DATA" type="passive"/>
+        <pin num="3" name="IEC_DATA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Q4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TN0702 / IEC SRQ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_SRQ" type="passive"/>
+        <pin num="3" name="IEC_SRQ" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ACC_OE_N" type="passive"/>
+        <pin num="2" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k UNPOWERED SERIAL DEFAULT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RS_CTS_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ACC_CS_N" type="passive"/>
+        <pin num="2" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ACC_DETECT_N" type="passive"/>
+        <pin num="2" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">330</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LED_OUT_RAW" type="passive"/>
+        <pin num="2" name="LED_OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5" type="passive"/>
+        <pin num="2" name="POWER_SENSE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="POWER_SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">4k7 MARK / DEASSERT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="SERIAL_TX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">4k7 MARK / DEASSERT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="SERIAL_RTS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="R9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k UNPOWERED SERIAL DEFAULT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RS_RX_5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="RN1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5 x 47k IEC DISCONNECTED LOW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IEC_ATN" type="passive"/>
+        <pin num="3" name="IEC_CLK" type="passive"/>
+        <pin num="4" name="IEC_DATA" type="passive"/>
+        <pin num="5" name="IEC_SRQ" type="passive"/>
+        <pin num="6" name="IEC_RESET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="RN2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">3 x 1k GATE boot pulldown</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ASSERT_CLK" type="passive"/>
+        <pin num="3" name="ASSERT_DATA" type="passive"/>
+        <pin num="4" name="ASSERT_SRQ" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="RN3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">8 x 4k7 INPUT DEFAULTS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="ACC_SCK" type="passive"/>
+        <pin num="3" name="ACC_MOSI" type="passive"/>
+        <pin num="4" name="CORE_RX_RAW" type="passive"/>
+        <pin num="5" name="CORE_BUSY_RAW" type="passive"/>
+        <pin num="6" name="CORE_LED_RAW" type="passive"/>
+        <pin num="7" name="ACC_MISO_DRV" type="passive"/>
+        <pin num="8" name="ACC_READY_DRV" type="passive"/>
+        <pin num="9" name="LED_DATA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="U1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="IEC_ATN" type="passive"/>
+        <pin num="3" name="IEC_CLK" type="passive"/>
+        <pin num="4" name="IEC_DATA" type="passive"/>
+        <pin num="5" name="IEC_SRQ" type="passive"/>
+        <pin num="6" name="IEC_RESET" type="passive"/>
+        <pin num="7" name="RS_RX_5V" type="passive"/>
+        <pin num="8" name="RS_CTS_5V" type="passive"/>
+        <pin num="9" name="POWER_SENSE" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="POWER_PRESENT" type="passive"/>
+        <pin num="12" name="SERIAL_CTS" type="passive"/>
+        <pin num="13" name="SERIAL_RX" type="passive"/>
+        <pin num="14" name="IEC_RESET_S" type="passive"/>
+        <pin num="15" name="IEC_SRQ_S" type="passive"/>
+        <pin num="16" name="IEC_DATA_S" type="passive"/>
+        <pin num="17" name="IEC_CLK_S" type="passive"/>
+        <pin num="18" name="IEC_ATN_S" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="U3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MAX232N / 5V RS232</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CP1P" type="passive"/>
+        <pin num="2" name="RS_VPLUS" type="passive"/>
+        <pin num="3" name="CP1N" type="passive"/>
+        <pin num="4" name="CP2P" type="passive"/>
+        <pin num="5" name="CP2N" type="passive"/>
+        <pin num="6" name="RS_VMINUS" type="passive"/>
+        <pin num="7" name="RS_CTS_OUT" type="passive"/>
+        <pin num="8" name="RS_RTS_IN" type="passive"/>
+        <pin num="9" name="RS_CTS_5V" type="passive"/>
+        <pin num="10" name="SERIAL_RTS_5V" type="passive"/>
+        <pin num="11" name="SERIAL_TX_5V" type="passive"/>
+        <pin num="12" name="RS_RX_5V" type="passive"/>
+        <pin num="13" name="RS_RX_IN" type="passive"/>
+        <pin num="14" name="RS_TX_OUT" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="U4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="ACC_SCK" type="passive"/>
+        <pin num="3" name="ACC_MOSI" type="passive"/>
+        <pin num="4" name="ACC_CS_N" type="passive"/>
+        <pin num="5" name="ACC_DETECT_N" type="passive"/>
+        <pin num="6" name="CORE_RX_RAW" type="passive"/>
+        <pin num="7" name="CORE_BUSY_RAW" type="passive"/>
+        <pin num="8" name="CORE_LED_RAW" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="CORE_LED_S" type="passive"/>
+        <pin num="13" name="CORE_BUSY" type="passive"/>
+        <pin num="14" name="CORE_RX" type="passive"/>
+        <pin num="15" name="ACC_DETECT_S" type="passive"/>
+        <pin num="16" name="ACC_CS_S" type="passive"/>
+        <pin num="17" name="ACC_MOSI_S" type="passive"/>
+        <pin num="18" name="ACC_SCK_S" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="U5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74LVC245AN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V3V3" type="passive"/>
+        <pin num="2" name="ACC_MISO_DRV" type="passive"/>
+        <pin num="3" name="ACC_READY_DRV" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="NC" type="passive"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="NC" type="passive"/>
+        <pin num="17" name="ACC_READY" type="passive"/>
+        <pin num="18" name="ACC_MISO" type="passive"/>
+        <pin num="19" name="ACC_OE_N" type="passive"/>
+        <pin num="20" name="V3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="U6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SN74AHCT125N / LED + serial TX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="LED_DATA" type="passive"/>
+        <pin num="3" name="LED_OUT_RAW" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SERIAL_TX" type="passive"/>
+        <pin num="6" name="SERIAL_TX_5V" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="SERIAL_RTS_5V" type="passive"/>
+        <pin num="9" name="SERIAL_RTS" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="V5" type="passive"/>
+        <pin num="14" name="V5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Dock">
+      <uri>${KIPRJMOD}/Dock.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ACC_CS_N" class="Default">
+      <node ref="J3" pin="9" pinfunction="ACC_CS_N_9" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="ACC_CS_N_1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="ACC_CS_N_4" pintype="passive"/>
+    </net>
+    <net code="2" name="/ACC_CS_S" class="Default">
+      <node ref="A1" pin="22" pinfunction="ACC_CS_S_22" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="ACC_CS_S_16" pintype="passive"/>
+    </net>
+    <net code="3" name="/ACC_DETECT_N" class="Default">
+      <node ref="J3" pin="13" pinfunction="ACC_DETECT_N_13" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="ACC_DETECT_N_1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="ACC_DETECT_N_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/ACC_DETECT_S" class="Default">
+      <node ref="A1" pin="20" pinfunction="ACC_DETECT_S_20" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="ACC_DETECT_S_15" pintype="passive"/>
+    </net>
+    <net code="5" name="/ACC_MISO" class="Default">
+      <node ref="J3" pin="7" pinfunction="ACC_MISO_7" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="ACC_MISO_18" pintype="passive"/>
+    </net>
+    <net code="6" name="/ACC_MISO_DRV" class="Default">
+      <node ref="A1" pin="25" pinfunction="ACC_MISO_DRV_25" pintype="passive"/>
+      <node ref="RN3" pin="7" pinfunction="ACC_MISO_DRV_7" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="ACC_MISO_DRV_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/ACC_MOSI" class="Default">
+      <node ref="J3" pin="5" pinfunction="ACC_MOSI_5" pintype="passive"/>
+      <node ref="RN3" pin="3" pinfunction="ACC_MOSI_3" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="ACC_MOSI_3" pintype="passive"/>
+    </net>
+    <net code="8" name="/ACC_MOSI_S" class="Default">
+      <node ref="A1" pin="21" pinfunction="ACC_MOSI_S_21" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="ACC_MOSI_S_17" pintype="passive"/>
+    </net>
+    <net code="9" name="/ACC_OE_N" class="Default">
+      <node ref="A1" pin="27" pinfunction="ACC_OE_N_27" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="ACC_OE_N_1" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="ACC_OE_N_19" pintype="passive"/>
+    </net>
+    <net code="10" name="/ACC_READY" class="Default">
+      <node ref="J3" pin="11" pinfunction="ACC_READY_11" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="ACC_READY_17" pintype="passive"/>
+    </net>
+    <net code="11" name="/ACC_READY_DRV" class="Default">
+      <node ref="A1" pin="26" pinfunction="ACC_READY_DRV_26" pintype="passive"/>
+      <node ref="RN3" pin="8" pinfunction="ACC_READY_DRV_8" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="ACC_READY_DRV_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/ACC_SCK" class="Default">
+      <node ref="J3" pin="3" pinfunction="ACC_SCK_3" pintype="passive"/>
+      <node ref="RN3" pin="2" pinfunction="ACC_SCK_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="ACC_SCK_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/ACC_SCK_S" class="Default">
+      <node ref="A1" pin="24" pinfunction="ACC_SCK_S_24" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="ACC_SCK_S_18" pintype="passive"/>
+    </net>
+    <net code="14" name="/ASSERT_CLK" class="Default">
+      <node ref="A1" pin="10" pinfunction="ASSERT_CLK_10" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="ASSERT_CLK_2" pintype="passive"/>
+      <node ref="RN2" pin="2" pinfunction="ASSERT_CLK_2" pintype="passive"/>
+    </net>
+    <net code="15" name="/ASSERT_DATA" class="Default">
+      <node ref="A1" pin="16" pinfunction="ASSERT_DATA_16" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="ASSERT_DATA_2" pintype="passive"/>
+      <node ref="RN2" pin="3" pinfunction="ASSERT_DATA_3" pintype="passive"/>
+    </net>
+    <net code="16" name="/ASSERT_SRQ" class="Default">
+      <node ref="A1" pin="17" pinfunction="ASSERT_SRQ_17" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="ASSERT_SRQ_2" pintype="passive"/>
+      <node ref="RN2" pin="4" pinfunction="ASSERT_SRQ_4" pintype="passive"/>
+    </net>
+    <net code="17" name="/AUDIO_PWM" class="Default">
+      <node ref="A1" pin="31" pinfunction="AUDIO_PWM_31" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="AUDIO_PWM_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/CORE_BUSY" class="Default">
+      <node ref="A1" pin="19" pinfunction="CORE_BUSY_19" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="CORE_BUSY_13" pintype="passive"/>
+    </net>
+    <net code="19" name="/CORE_BUSY_RAW" class="Default">
+      <node ref="J4" pin="5" pinfunction="CORE_BUSY_RAW_5" pintype="passive"/>
+      <node ref="RN3" pin="5" pinfunction="CORE_BUSY_RAW_5" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="CORE_BUSY_RAW_7" pintype="passive"/>
+    </net>
+    <net code="20" name="/CORE_LED_RAW" class="Default">
+      <node ref="J4" pin="6" pinfunction="CORE_LED_RAW_6" pintype="passive"/>
+      <node ref="RN3" pin="6" pinfunction="CORE_LED_RAW_6" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="CORE_LED_RAW_8" pintype="passive"/>
+    </net>
+    <net code="21" name="/CORE_LED_S" class="Default">
+      <node ref="A1" pin="32" pinfunction="CORE_LED_S_32" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="CORE_LED_S_12" pintype="passive"/>
+    </net>
+    <net code="22" name="/CORE_RX" class="Default">
+      <node ref="A1" pin="2" pinfunction="CORE_RX_2" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="CORE_RX_14" pintype="passive"/>
+    </net>
+    <net code="23" name="/CORE_RX_RAW" class="Default">
+      <node ref="J4" pin="3" pinfunction="CORE_RX_RAW_3" pintype="passive"/>
+      <node ref="RN3" pin="4" pinfunction="CORE_RX_RAW_4" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="CORE_RX_RAW_6" pintype="passive"/>
+    </net>
+    <net code="24" name="/CORE_TX" class="Default">
+      <node ref="A1" pin="1" pinfunction="CORE_TX_1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="CORE_TX_4" pintype="passive"/>
+    </net>
+    <net code="25" name="/CP1N" class="Default">
+      <node ref="C1" pin="2" pinfunction="CP1N_2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="CP1N_3" pintype="passive"/>
+    </net>
+    <net code="26" name="/CP1P" class="Default">
+      <node ref="C1" pin="1" pinfunction="CP1P_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="CP1P_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/CP2N" class="Default">
+      <node ref="C2" pin="2" pinfunction="CP2N_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="CP2N_5" pintype="passive"/>
+    </net>
+    <net code="28" name="/CP2P" class="Default">
+      <node ref="C2" pin="1" pinfunction="CP2P_1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="CP2P_4" pintype="passive"/>
+    </net>
+    <net code="29" name="/GND" class="Default">
+      <node ref="A1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="A1" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="A1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="A1" pin="28" pinfunction="GND_28" pintype="passive"/>
+      <node ref="A1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="A1" pin="33" pinfunction="GND_33" pintype="passive"/>
+      <node ref="A1" pin="38" pinfunction="GND_38" pintype="passive"/>
+      <node ref="A1" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J10" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J2" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="GND_12" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="GND_14" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="GND_16" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J3" pin="20" pinfunction="GND_20" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J9" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="RN1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="RN2" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="RN3" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="GND_15" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="GND_7" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="GND_9" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="GND_10" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="GND_12" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="GND_7" pintype="passive"/>
+    </net>
+    <net code="30" name="/IEC_ATN" class="Default">
+      <node ref="J1" pin="5" pinfunction="IEC_ATN_5" pintype="passive"/>
+      <node ref="RN1" pin="2" pinfunction="IEC_ATN_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IEC_ATN_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/IEC_ATN_S" class="Default">
+      <node ref="A1" pin="4" pinfunction="IEC_ATN_S_4" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="IEC_ATN_S_18" pintype="passive"/>
+    </net>
+    <net code="32" name="/IEC_CLK" class="Default">
+      <node ref="J1" pin="2" pinfunction="IEC_CLK_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="IEC_CLK_3" pintype="passive"/>
+      <node ref="RN1" pin="3" pinfunction="IEC_CLK_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IEC_CLK_3" pintype="passive"/>
+    </net>
+    <net code="33" name="/IEC_CLK_S" class="Default">
+      <node ref="A1" pin="5" pinfunction="IEC_CLK_S_5" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="IEC_CLK_S_17" pintype="passive"/>
+    </net>
+    <net code="34" name="/IEC_DATA" class="Default">
+      <node ref="J1" pin="4" pinfunction="IEC_DATA_4" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="IEC_DATA_3" pintype="passive"/>
+      <node ref="RN1" pin="4" pinfunction="IEC_DATA_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IEC_DATA_4" pintype="passive"/>
+    </net>
+    <net code="35" name="/IEC_DATA_S" class="Default">
+      <node ref="A1" pin="6" pinfunction="IEC_DATA_S_6" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IEC_DATA_S_16" pintype="passive"/>
+    </net>
+    <net code="36" name="/IEC_RESET" class="Default">
+      <node ref="J1" pin="6" pinfunction="IEC_RESET_6" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="IEC_RESET_6" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IEC_RESET_6" pintype="passive"/>
+    </net>
+    <net code="37" name="/IEC_RESET_S" class="Default">
+      <node ref="A1" pin="9" pinfunction="IEC_RESET_S_9" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IEC_RESET_S_14" pintype="passive"/>
+    </net>
+    <net code="38" name="/IEC_SRQ" class="Default">
+      <node ref="J1" pin="1" pinfunction="IEC_SRQ_1" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="IEC_SRQ_3" pintype="passive"/>
+      <node ref="RN1" pin="5" pinfunction="IEC_SRQ_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IEC_SRQ_5" pintype="passive"/>
+    </net>
+    <net code="39" name="/IEC_SRQ_S" class="Default">
+      <node ref="A1" pin="7" pinfunction="IEC_SRQ_S_7" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IEC_SRQ_S_15" pintype="passive"/>
+    </net>
+    <net code="40" name="/LED_DATA" class="Default">
+      <node ref="A1" pin="29" pinfunction="LED_DATA_29" pintype="passive"/>
+      <node ref="RN3" pin="9" pinfunction="LED_DATA_9" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="LED_DATA_2" pintype="passive"/>
+    </net>
+    <net code="41" name="/LED_OUT" class="Default">
+      <node ref="J7" pin="2" pinfunction="LED_OUT_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="LED_OUT_2" pintype="passive"/>
+    </net>
+    <net code="42" name="/LED_OUT_RAW" class="Default">
+      <node ref="R4" pin="1" pinfunction="LED_OUT_RAW_1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="LED_OUT_RAW_3" pintype="passive"/>
+    </net>
+    <net code="43" name="/POWER_PRESENT" class="Default">
+      <node ref="A1" pin="34" pinfunction="POWER_PRESENT_34" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="POWER_PRESENT_11" pintype="passive"/>
+    </net>
+    <net code="44" name="/POWER_SENSE" class="Default">
+      <node ref="R5" pin="2" pinfunction="POWER_SENSE_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="POWER_SENSE_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="POWER_SENSE_9" pintype="passive"/>
+    </net>
+    <net code="45" name="/RS_CTS_5V" class="Default">
+      <node ref="R10" pin="1" pinfunction="RS_CTS_5V_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="RS_CTS_5V_8" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="RS_CTS_5V_9" pintype="passive"/>
+    </net>
+    <net code="46" name="/RS_CTS_OUT" class="Default">
+      <node ref="J2" pin="8" pinfunction="RS_CTS_OUT_8" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="RS_CTS_OUT_7" pintype="passive"/>
+    </net>
+    <net code="47" name="/RS_RTS_IN" class="Default">
+      <node ref="J2" pin="7" pinfunction="RS_RTS_IN_7" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="RS_RTS_IN_8" pintype="passive"/>
+    </net>
+    <net code="48" name="/RS_RX_5V" class="Default">
+      <node ref="R9" pin="1" pinfunction="RS_RX_5V_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="RS_RX_5V_7" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="RS_RX_5V_12" pintype="passive"/>
+    </net>
+    <net code="49" name="/RS_RX_IN" class="Default">
+      <node ref="J2" pin="3" pinfunction="RS_RX_IN_3" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="RS_RX_IN_13" pintype="passive"/>
+    </net>
+    <net code="50" name="/RS_TX_OUT" class="Default">
+      <node ref="J2" pin="2" pinfunction="RS_TX_OUT_2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="RS_TX_OUT_14" pintype="passive"/>
+    </net>
+    <net code="51" name="/RS_VMINUS" class="Default">
+      <node ref="C4" pin="2" pinfunction="RS_VMINUS_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="RS_VMINUS_6" pintype="passive"/>
+    </net>
+    <net code="52" name="/RS_VPLUS" class="Default">
+      <node ref="C3" pin="1" pinfunction="RS_VPLUS_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="RS_VPLUS_2" pintype="passive"/>
+    </net>
+    <net code="53" name="/SERIAL_CTS" class="Default">
+      <node ref="A1" pin="14" pinfunction="SERIAL_CTS_14" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SERIAL_CTS_12" pintype="passive"/>
+    </net>
+    <net code="54" name="/SERIAL_RTS" class="Default">
+      <node ref="A1" pin="15" pinfunction="SERIAL_RTS_15" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="SERIAL_RTS_2" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="SERIAL_RTS_9" pintype="passive"/>
+    </net>
+    <net code="55" name="/SERIAL_RTS_5V" class="Default">
+      <node ref="U3" pin="10" pinfunction="SERIAL_RTS_5V_10" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="SERIAL_RTS_5V_8" pintype="passive"/>
+    </net>
+    <net code="56" name="/SERIAL_RX" class="Default">
+      <node ref="A1" pin="12" pinfunction="SERIAL_RX_12" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SERIAL_RX_13" pintype="passive"/>
+    </net>
+    <net code="57" name="/SERIAL_TX" class="Default">
+      <node ref="A1" pin="11" pinfunction="SERIAL_TX_11" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="SERIAL_TX_2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SERIAL_TX_5" pintype="passive"/>
+    </net>
+    <net code="58" name="/SERIAL_TX_5V" class="Default">
+      <node ref="U3" pin="11" pinfunction="SERIAL_TX_5V_11" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="SERIAL_TX_5V_6" pintype="passive"/>
+    </net>
+    <net code="59" name="/USB_DM" class="Default">
+      <node ref="J10" pin="2" pinfunction="USB_DM_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="USB_DM_2" pintype="passive"/>
+    </net>
+    <net code="60" name="/USB_DP" class="Default">
+      <node ref="J10" pin="3" pinfunction="USB_DP_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="USB_DP_3" pintype="passive"/>
+    </net>
+    <net code="61" name="/USB_VBUS" class="Default">
+      <node ref="J10" pin="1" pinfunction="USB_VBUS_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="USB_VBUS_1" pintype="passive"/>
+    </net>
+    <net code="62" name="/V3V3" class="Default">
+      <node ref="A1" pin="36" pinfunction="V3V3_36" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="V3V3_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="V3V3_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="V3V3_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="V3V3_20" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="V3V3_20" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="V3V3_1" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="V3V3_20" pintype="passive"/>
+    </net>
+    <net code="63" name="/V5" class="Default">
+      <node ref="C10" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="V5_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="V5_3" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="V5_1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="V5_16" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="V5_13" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="V5_14" pintype="passive"/>
+    </net>
+    <net code="64" name="/V5_FUSED" class="Default">
+      <node ref="F1" pin="2" pinfunction="V5_FUSED_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="V5_FUSED_2" pintype="passive"/>
+    </net>
+    <net code="65" name="/V5_RAW" class="Default">
+      <node ref="F1" pin="1" pinfunction="V5_RAW_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="V5_RAW_1" pintype="passive"/>
+    </net>
+    <net code="66" name="/VSYS" class="Default">
+      <node ref="A1" pin="39" pinfunction="VSYS_39" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VSYS_1" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(A1-NC-Pad30)" class="Default">
+      <node ref="A1" pin="30" pinfunction="NC_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(A1-NC-Pad35)" class="Default">
+      <node ref="A1" pin="35" pinfunction="NC_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(A1-NC-Pad37)" class="Default">
+      <node ref="A1" pin="37" pinfunction="NC_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(A1-NC-Pad40)" class="Default">
+      <node ref="A1" pin="40" pinfunction="NC_40" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-NC-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-NC-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J2-NC-Pad6)" class="Default">
+      <node ref="J2" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J2-NC-Pad9)" class="Default">
+      <node ref="J2" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J3-NC-Pad15)" class="Default">
+      <node ref="J3" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J3-NC-Pad17)" class="Default">
+      <node ref="J3" pin="17" pinfunction="NC_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J3-NC-Pad19)" class="Default">
+      <node ref="J3" pin="19" pinfunction="NC_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J4-NC-Pad2)" class="Default">
+      <node ref="J4" pin="2" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J4-NC-Pad7)" class="Default">
+      <node ref="J4" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J4-NC-Pad9)" class="Default">
+      <node ref="J4" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J4-NC-Pad10)" class="Default">
+      <node ref="J4" pin="10" pinfunction="NC_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J5-NC-Pad3)" class="Default">
+      <node ref="J5" pin="3" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U4-NC-Pad11)" class="Default">
+      <node ref="U4" pin="11" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U5-NC-Pad11)" class="Default">
+      <node ref="U5" pin="11" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-NC-Pad12)" class="Default">
+      <node ref="U5" pin="12" pinfunction="NC_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U5-NC-Pad13)" class="Default">
+      <node ref="U5" pin="13" pinfunction="NC_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U5-NC-Pad14)" class="Default">
+      <node ref="U5" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U5-NC-Pad15)" class="Default">
+      <node ref="U5" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U5-NC-Pad16)" class="Default">
+      <node ref="U5" pin="16" pinfunction="NC_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U6-NC-Pad11)" class="Default">
+      <node ref="U6" pin="11" pinfunction="NC_11" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

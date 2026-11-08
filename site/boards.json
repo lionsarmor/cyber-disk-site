@@ -1,8 +1,8 @@
 {
   "project": "Cyber Disk",
   "domain": "disk.roddy.world",
-  "intro": "Schematics, editable KiCad projects and per-board files. Electrical review R1 identifies corrections and remaining sample-order blockers.",
-  "sourceCommit": "a20239f2e25a1f29534a25ecbcd7e1e4af3bcc7d",
+  "intro": "Electrical R2: routed controller and dock, isolated sliding contacts and first compiled firmware. Bench and compatibility qualification remain open.",
+  "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
   "boards": [
     {
       "id": "single-r4",
@@ -171,7 +171,7 @@
       "title": "Leaf-spring contact board \u00b7 R1",
       "status": "Routed passive prototype",
       "fabrication": "prototype",
-      "note": "Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release. Seven soldered Harwin leaves; the controller connection still requires switched/isolation circuitry.",
+      "note": "Seven soldered Harwin leaves; connect 1:1 to the new isolated seven-pin controller R1 J3. Physical sliding wear and interlock timing remain unvalidated.",
       "model": "pcb/contact",
       "previews": [
         {
@@ -239,185 +239,180 @@
           "type": "reference"
         }
       ],
-      "sourceCommit": "93d772dcdf9dfdc306812d42f95f2caf6b549db0",
+      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
       "sourceSha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
     },
     {
-      "id": "external-r2",
-      "title": "External daughterboard \u00b7 R2",
-      "status": "Board-mounted ports \u00b7 unrouted",
+      "id": "external-r3",
+      "title": "External daughterboard \u00b7 R3",
+      "status": "Routed engineering prototype \u00b7 bench validation pending",
       "fabrication": "reference",
-      "note": "Board-mounted through-hole rear ports, USB-B and internal USB jumper. Zero routed tracks, 177 unconnected items. Reference files only; NOT FOR MANUFACTURE. Passive-symbol ERC is not functional validation.",
+      "note": "Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.",
       "model": "pcb/dock",
       "previews": [
         {
           "label": "Schematic",
-          "url": "boards/external-r2/schematic/cyber-external-dock-r2.svg"
+          "url": "boards/external-r3/schematic/cyber-external-dock-r3.svg"
         },
         {
           "label": "PCB front",
-          "url": "boards/external-r2/front.svg"
+          "url": "boards/external-r3/front.svg"
         },
         {
           "label": "PCB back",
-          "url": "boards/external-r2/back.svg"
+          "url": "boards/external-r3/back.svg"
         }
       ],
       "files": [
         {
           "label": "Complete KiCad project + local libraries",
-          "url": "boards/external-r2/external-r2-KICAD.zip",
+          "url": "boards/external-r3/external-r3-KICAD.zip",
           "type": "source"
         },
         {
           "label": "KiCad PCB",
-          "url": "boards/external-r2/kicad/cyber-external-dock-r2.kicad_pcb",
+          "url": "boards/external-r3/kicad/cyber-external-dock-r3.kicad_pcb",
           "type": "source"
         },
         {
           "label": "KiCad schematic",
-          "url": "boards/external-r2/kicad/cyber-external-dock-r2.kicad_sch",
+          "url": "boards/external-r3/kicad/cyber-external-dock-r3.kicad_sch",
           "type": "source"
         },
         {
           "label": "Schematic PDF",
-          "url": "boards/external-r2/schematic.pdf",
+          "url": "boards/external-r3/schematic.pdf",
           "type": "preview"
         },
         {
           "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
-          "url": "boards/external-r2/external-r2-REFERENCE-NOT-FOR-ORDER.zip",
-          "type": "fabrication"
-        },
-        {
-          "label": "Candidate board BOM",
-          "url": "boards/external-r2/documents/BOM-candidates.csv",
-          "type": "reference"
-        },
-        {
-          "label": "Physical pin map",
-          "url": "boards/external-r2/documents/pin-map.json",
-          "type": "reference"
-        },
-        {
-          "label": "Validation boundary",
-          "url": "boards/external-r2/documents/validation.json",
-          "type": "reference"
-        },
-        {
-          "label": "Power and assembly review",
-          "url": "boards/external-r2/documents/EXTERNAL-DOCK-R3.md",
-          "type": "reference"
-        },
-        {
-          "label": "DRC report",
-          "url": "boards/external-r2/documents/drc.json",
-          "type": "reference"
-        },
-        {
-          "label": "ERC report (passive pin-map only)",
-          "url": "boards/external-r2/documents/erc.json",
-          "type": "reference"
-        },
-        {
-          "label": "Read before ordering",
-          "url": "boards/external-r2/READ_BEFORE_ORDER.txt",
-          "type": "reference"
-        },
-        {
-          "label": "File checksums",
-          "url": "boards/external-r2/SHA256SUMS.txt",
-          "type": "reference"
-        }
-      ],
-      "sourceCommit": "e6c0cfc63dfdee1e89afd8bf14ff5cc0208004ff",
-      "sourceSha256": "85f1fe8d25d8df1f192938d9962a2311f9a9836968210143288c114d81f12b27"
-    },
-    {
-      "id": "controller-r0",
-      "title": "Drive controller \u00b7 R0",
-      "status": "Unrouted \u00b7 do not fabricate",
-      "fabrication": "reference",
-      "note": "Electrical R1: 1k reset/ARM defaults, buffered dock RX, 20 component positions. Still unrouted; contact isolation/interlock, power budget and firmware unfinished. Reference files only; do not manufacture.",
-      "model": "pcb/controller",
-      "previews": [
-        {
-          "label": "Schematic",
-          "url": "boards/controller-r0/schematic/cyber-drive-controller-r0.svg"
-        },
-        {
-          "label": "PCB front",
-          "url": "boards/controller-r0/front.svg"
-        },
-        {
-          "label": "PCB back",
-          "url": "boards/controller-r0/back.svg"
-        }
-      ],
-      "files": [
-        {
-          "label": "Complete KiCad project + local libraries",
-          "url": "boards/controller-r0/controller-r0-KICAD.zip",
-          "type": "source"
-        },
-        {
-          "label": "KiCad PCB",
-          "url": "boards/controller-r0/kicad/cyber-drive-controller-r0.kicad_pcb",
-          "type": "source"
-        },
-        {
-          "label": "KiCad schematic",
-          "url": "boards/controller-r0/kicad/cyber-drive-controller-r0.kicad_sch",
-          "type": "source"
-        },
-        {
-          "label": "Schematic PDF",
-          "url": "boards/controller-r0/schematic.pdf",
-          "type": "preview"
-        },
-        {
-          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
-          "url": "boards/controller-r0/controller-r0-REFERENCE-NOT-FOR-ORDER.zip",
+          "url": "boards/external-r3/external-r3-REFERENCE-NOT-FOR-ORDER.zip",
           "type": "fabrication"
         },
         {
           "label": "Candidate BOM",
-          "url": "boards/controller-r0/documents/BOM-candidates.csv",
+          "url": "boards/external-r3/documents/BOM-candidates.csv",
           "type": "reference"
         },
         {
-          "label": "Electrical review R1",
-          "url": "boards/controller-r0/documents/ELECTRICAL-REVIEW-R1.md",
+          "label": "Electrical review R2",
+          "url": "boards/external-r3/documents/ELECTRICAL-REVIEW-R2.md",
           "type": "reference"
         },
         {
-          "label": "Fresh DRC report",
-          "url": "boards/controller-r0/documents/drc.json",
+          "label": "DRC report",
+          "url": "boards/external-r3/documents/drc.json",
           "type": "reference"
         },
         {
-          "label": "Fresh ERC report (passive pin-map)",
-          "url": "boards/controller-r0/documents/erc.json",
+          "label": "ERC report (passive symbols)",
+          "url": "boards/external-r3/documents/erc.json",
           "type": "reference"
         },
         {
           "label": "Cross-board verification",
-          "url": "boards/controller-r0/documents/verification.json",
+          "url": "boards/external-r3/documents/verification.json",
           "type": "reference"
         },
         {
           "label": "Read before ordering",
-          "url": "boards/controller-r0/READ_BEFORE_ORDER.txt",
+          "url": "boards/external-r3/READ_BEFORE_ORDER.txt",
           "type": "reference"
         },
         {
           "label": "File checksums",
-          "url": "boards/controller-r0/SHA256SUMS.txt",
+          "url": "boards/external-r3/SHA256SUMS.txt",
           "type": "reference"
         }
       ],
-      "sourceCommit": "a20239f2e25a1f29534a25ecbcd7e1e4af3bcc7d",
-      "sourceSha256": "6add68c0985c42701c7ce6b39f055b023740ebd5bcd876f170098fd5c3c0395b"
+      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
+      "sourceSha256": "416dbd4cb11ea0c4ec6d6a6155c17341a07c5c388eae8b2399976b4fc5578d4e"
+    },
+    {
+      "id": "controller-r1",
+      "title": "Drive controller \u00b7 R1",
+      "status": "Routed engineering prototype \u00b7 bench validation pending",
+      "fabrication": "reference",
+      "note": "Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.",
+      "model": "pcb/controller",
+      "previews": [
+        {
+          "label": "Schematic",
+          "url": "boards/controller-r1/schematic/cyber-drive-controller-r1.svg"
+        },
+        {
+          "label": "PCB front",
+          "url": "boards/controller-r1/front.svg"
+        },
+        {
+          "label": "PCB back",
+          "url": "boards/controller-r1/back.svg"
+        }
+      ],
+      "files": [
+        {
+          "label": "Complete KiCad project + local libraries",
+          "url": "boards/controller-r1/controller-r1-KICAD.zip",
+          "type": "source"
+        },
+        {
+          "label": "KiCad PCB",
+          "url": "boards/controller-r1/kicad/cyber-drive-controller-r1.kicad_pcb",
+          "type": "source"
+        },
+        {
+          "label": "KiCad schematic",
+          "url": "boards/controller-r1/kicad/cyber-drive-controller-r1.kicad_sch",
+          "type": "source"
+        },
+        {
+          "label": "Schematic PDF",
+          "url": "boards/controller-r1/schematic.pdf",
+          "type": "preview"
+        },
+        {
+          "label": "Gerbers + drills \u00b7 REFERENCE ONLY",
+          "url": "boards/controller-r1/controller-r1-REFERENCE-NOT-FOR-ORDER.zip",
+          "type": "fabrication"
+        },
+        {
+          "label": "Candidate BOM",
+          "url": "boards/controller-r1/documents/BOM-candidates.csv",
+          "type": "reference"
+        },
+        {
+          "label": "Electrical review R2",
+          "url": "boards/controller-r1/documents/ELECTRICAL-REVIEW-R2.md",
+          "type": "reference"
+        },
+        {
+          "label": "DRC report",
+          "url": "boards/controller-r1/documents/drc.json",
+          "type": "reference"
+        },
+        {
+          "label": "ERC report (passive symbols)",
+          "url": "boards/controller-r1/documents/erc.json",
+          "type": "reference"
+        },
+        {
+          "label": "Cross-board verification",
+          "url": "boards/controller-r1/documents/verification.json",
+          "type": "reference"
+        },
+        {
+          "label": "Read before ordering",
+          "url": "boards/controller-r1/READ_BEFORE_ORDER.txt",
+          "type": "reference"
+        },
+        {
+          "label": "File checksums",
+          "url": "boards/controller-r1/SHA256SUMS.txt",
+          "type": "reference"
+        }
+      ],
+      "sourceCommit": "6202a72485b6f28f40c0ab631a0910edd554a2cf",
+      "sourceSha256": "804471aa33f6384a9b34358c97842a2c714acae4f958fee6d23ff1b482cadbe9"
     },
     {
       "id": "single-r0",

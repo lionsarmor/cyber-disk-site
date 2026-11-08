@@ -1,7 +1,7 @@
 {
-  "revision": "electrical-r1",
+  "revision": "electrical-r2",
   "checked": "2026-11-07",
-  "scope": "R4 disks, R0 controller, R1 contact board and drive mechanism. External R3 case and R2 daughterboard with board-mounted THT rear ports. Daughterboard is unrouted; these are provisional sourcing candidates, not a released purchasing BOM.",
+  "scope": "R4 disks, routed R1 controller, passive R1 contacts and routed R3 dock. Engineering candidates; not an approved sample order. Physical interlock integration and bench qualification pending.",
   "availability": "Supplier pages and indexed listings reviewed; stock is not reserved or guaranteed. Regional listings can differ. Category links do not establish exact fit.",
   "rows": [
     {
@@ -17,7 +17,7 @@
       "assembly": "Disk PCB",
       "status": "Listed in stock",
       "url": "https://www.mouser.com/en/ProductDetail/Macronix/MX25L3233FM2I-08G-TR?qs=mELouGlnn3cWHP7slfWMaw%3D%3D",
-      "notes": "95-25L3233FM2I08TR. Replaces EOL W25Q32JVSSIQ. Wide M2 SOP8 only; pinout/land pattern match. Firmware JEDEC/protection handling remains to implement. No larger-capacity alternate qualified.",
+      "notes": "95-25L3233FM2I08TR. Replaces EOL W25Q32JVSSIQ. Wide M2 SOP8 only; pinout/land pattern match. Firmware now checks C2 20 16 JEDEC and rejects protected media; hardware testing pending. No larger-capacity alternate qualified.",
       "alternative": "",
       "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
     },
@@ -56,223 +56,16 @@
       "evidence": "Supplier listing reviewed 2026-11-07; stock must be rechecked at order time"
     },
     {
-      "id": "E04",
-      "supplier": "Mouser",
-      "part": "34-PIN PC FLOPPY",
-      "mpn": "5103310-7",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Fit pending",
-      "url": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/5103310-7?qs=84A%2FDAdkstIwgKqzuSUKzw%3D%3D",
-      "notes": "571-5103310-7. References: J1. Controller remains unrouted. Replaces D2534-5002-AR whose Mouser stock was not confirmed. Same 34-way 2.54mm right-angle interface; generic footprint and rear housing alignment NOT supplier-qualified.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/5103310-7?qs=84A%2FDAdkstIwgKqzuSUKzw%3D%3D"
-    },
-    {
-      "id": "E05",
-      "supplier": "Mouser",
-      "part": "FLOPPY POWER 5V GND GND 12V",
-      "mpn": "171826-4",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Fit pending",
-      "url": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/171826-4?qs=4hg9R9g9MDt3qYFe2l2pbA%3D%3D",
-      "notes": "571-1718264. References: J2. Controller remains unrouted. Small floppy power connector; 2.50mm pitch. Exact housing/drill/polarity qualification pending.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/TE-Connectivity/171826-4?qs=4hg9R9g9MDt3qYFe2l2pbA%3D%3D"
-    },
-    {
-      "id": "E06",
-      "supplier": "Mouser",
-      "part": "PICO 2 SC1632 SOCKETED",
-      "mpn": "SC1632",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/ProductDetail/Raspberry-Pi/SC1632",
-      "notes": "358-SC1632. References: A1. Controller remains unrouted. Factory-assembled Pico 2 H with headers. Carrier can be hand soldered; module itself contains SMD parts.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/c/embedded-solutions/?m=Raspberry+Pi&series=Pico+2"
-    },
-    {
-      "id": "E07",
-      "supplier": "Mouser",
-      "part": "SN74LVC245AN / 5V-TOL INPUT",
-      "mpn": "SN74LVC245AN",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC245AN?qs=N6WZOzgtpqVHY3EQAIUFKw%3D%3D",
-      "notes": "595-SN74LVC245AN. References: U1, U2. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC245AN?qs=N6WZOzgtpqVHY3EQAIUFKw%3D%3D"
-    },
-    {
-      "id": "E08",
-      "supplier": "Mouser",
-      "part": "SN74LS06N / OPEN COLLECTOR",
-      "mpn": "SN74LS06N",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LS06N?qs=SL3LIuy2dWxveuP53QjSSQ%3D%3D",
-      "notes": "595-SN74LS06N. References: U3. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LS06N?qs=SL3LIuy2dWxveuP53QjSSQ%3D%3D"
-    },
-    {
-      "id": "E09",
-      "supplier": "Mouser",
-      "part": "8x10k BUSSED / COMMON PIN1",
-      "mpn": "4609X-101-103LF",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D",
-      "notes": "652-4609X-1LF-10K. References: RN1, RN2. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/es/ProductDetail/Bourns/4609X-101-103LF?qs=1dK%2Fvx87kV0Ren26sFot6A%3D%3D"
-    },
-    {
-      "id": "E10",
-      "supplier": "Mouser",
-      "part": "500mA RESETTABLE",
-      "mpn": "MF-R050",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://eu.mouser.com/en/ProductDetail/Bourns/MF-R050?qs=sGAEpiMZZMt8Ji9PfVTQzPdc3ZvXXp64deBzu%2FHMu5c%3D",
-      "notes": "652-MFR050. References: F1. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://eu.mouser.com/en/ProductDetail/Bourns/MF-R050?qs=sGAEpiMZZMt8Ji9PfVTQzPdc3ZvXXp64deBzu%2FHMu5c%3D"
-    },
-    {
-      "id": "E11",
-      "supplier": "Mouser",
-      "part": "1N5819 / USB BACKFEED BLOCK",
-      "mpn": "1N5819-E3/54",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/Vishay-Semiconductors/1N5819-E3-54?qs=7w0fSgRKp93guDuu%252B5hJ0Q%3D%3D",
-      "notes": "625-1N5819-E3. References: D1. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/Vishay-Semiconductors/1N5819-E3-54?qs=7w0fSgRKp93guDuu%252B5hJ0Q%3D%3D"
-    },
-    {
-      "id": "E12",
-      "supplier": "Mouser",
-      "part": "47uF 16V",
-      "mpn": "EEU-FC1C470",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FC1C470?qs=Z88QC5Cy1kxTpxWH9aPmRw%3D%3D",
-      "notes": "667-EEU-FC1C470. References: C1. Controller remains unrouted. Replaces EOL UPW1C470MDD. 5mm diameter, 11mm body, 2mm pitch; 1000h at 105\u00b0C endurance versus old 2000h. Verify ripple/temperature against target service life.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FC1C470?qs=Z88QC5Cy1kxTpxWH9aPmRw%3D%3D"
-    },
-    {
-      "id": "E13",
-      "supplier": "Mouser",
-      "part": "100nF 50V",
-      "mpn": "C315C104M5U5TA",
-      "quantity": {
-        "drive": 4
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D",
-      "notes": "80-C315C104M5U. References: C2, C3, C4, C5. Controller remains unrouted. Retained stocked Z5U decoupler; corrected four footprints from 5.00mm to nominal 2.54mm. Body/lead dimensions from KEMET sheet.",
-      "alternative": "",
-      "evidence": "https://www.mouser.com/en/ProductDetail/KEMET/C315C104M5U5TA?qs=yPUL72EuMSdlpklLgkTxlg%3D%3D"
-    },
-    {
-      "id": "E14",
-      "supplier": "Mouser",
-      "part": "MEDIA CARRIER / NOT DIRECT CONTACTS",
-      "mpn": "TSW-105-07-G-D",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/ProductDetail/Samtec/TSW-105-07-G-D",
-      "notes": "200-TSW10507GD. References: J3, J4. Controller remains unrouted. Listing evidence from Mouser category. Exact unsuffixed part only. J3 is NOT wired for direct sliding contacts.",
-      "alternative": "",
-      "evidence": "https://hu.mouser.com/c/connectors/headers-wire-housings/?number+of+positions=10+Position&number+of+rows=2+Row&product=Headers&termination+style=Solder+Pin&type=Pin+Strip"
-    },
-    {
-      "id": "E15",
-      "supplier": "Mouser",
-      "part": "10k SEATED PULLUP",
-      "mpn": "MFR-25FBF52-10K",
-      "quantity": {
-        "drive": 2
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://eu.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D",
-      "notes": "603-MFR-25FBF52-10K. References: R1, R2. Controller remains unrouted.",
-      "alternative": "",
-      "evidence": "https://eu.mouser.com/en/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
-    },
-    {
-      "id": "E16",
-      "supplier": "Mouser",
-      "part": "8 x 1k bussed reset/default pulldowns",
-      "mpn": "4609X-101-102LF",
-      "quantity": {
-        "drive": 1
-      },
-      "unit": "each",
-      "assembly": "Controller PCB",
-      "status": "Listed in stock",
-      "url": "https://www.mouser.com/en/ProductDetail/Bourns/4609X-101-102LF?qs=nFt9sTYf7TAKYPPrg1sLvw%3D%3D",
-      "notes": "652-4609X-1LF-1K. RN3: five LS06 controls, DOCK_RX_RAW and MEDIA_ARM; one unused leg. Replaces RN3 10k and removes former discrete R3 100k. Core remains unrouted.",
-      "alternative": "",
-      "evidence": "Mouser product page reviewed 2026-11-07; availability not reserved."
-    },
-    {
       "id": "E17",
       "supplier": "Mouser",
       "part": "20-way Pico socket strips",
       "mpn": "SSW-120-01-G-S",
       "quantity": {
-        "drive": 2
+        "drive": 2,
+        "dock": 2
       },
       "unit": "each",
-      "assembly": "Controller assembly",
+      "assembly": "Controller and dock assembly",
       "status": "Fit pending",
       "url": "https://www.mouser.com/ProductDetail/Samtec/SSW-120-01-G-S?qs=rU5fayqh%252BE3UumXrNKvvXQ%3D%3D",
       "notes": "200-SSW12001GS. Listed in stock. Added missing assembly items; check actual socket/module stack height.",
@@ -1118,390 +911,6 @@
       "evidence": "Assembly requirement; not a sourced SKU"
     },
     {
-      "id": "DX01",
-      "supplier": "Mouser",
-      "part": "Pico 2 / internal USB jumper",
-      "mpn": "SC1632",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=SC1632",
-      "notes": "Ref A1; Mouser 358-SC1632. THT board mount. See EXTERNAL-DOCK-R3.md.",
-      "alternative": "",
-      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
-    },
-    {
-      "id": "DX02",
-      "supplier": "Mouser",
-      "part": "SN74LVC245AN",
-      "mpn": "SN74LVC245AN",
-      "quantity": {
-        "dock": 3
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=SN74LVC245AN",
-      "notes": "Refs U1, U4, U5. 595-SN74LVC245AN. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX03",
-      "supplier": "Mouser",
-      "part": "SN74LS06N / IEC sink only",
-      "mpn": "SN74LS06N",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=SN74LS06N",
-      "notes": "Refs U2. 595-SN74LS06N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX04",
-      "supplier": "Mouser",
-      "part": "MAX232N / 5V RS232",
-      "mpn": "MAX232N",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=MAX232N",
-      "notes": "Refs U3. 595-MAX232N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX05",
-      "supplier": "Mouser",
-      "part": "SN74AHCT125N / LED + serial TX",
-      "mpn": "SN74AHCT125N",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=SN74AHCT125N",
-      "notes": "Refs U6. 595-SN74AHCT125N. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX06",
-      "supplier": "Mouser",
-      "part": "IEC / Switchcraft sequential pin numbers",
-      "mpn": "61PC6F",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=61PC6F",
-      "notes": "Ref J1; Mouser 502-61PC6F. THT board mount. See EXTERNAL-DOCK-R3.md.",
-      "alternative": "",
-      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
-    },
-    {
-      "id": "DX07",
-      "supplier": "Mouser",
-      "part": "DE9 female DCE",
-      "mpn": "09661527612",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=09661527612",
-      "notes": "Ref J2; Mouser 617-09-66-152-7612. THT board mount. See EXTERNAL-DOCK-R3.md.",
-      "alternative": "",
-      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
-    },
-    {
-      "id": "DX08",
-      "supplier": "Mouser",
-      "part": "ACCESSORY SPI / 3V3 SIGNALS / NO POWER",
-      "mpn": "61202021721",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=61202021721",
-      "notes": "Ref J3; Mouser 710-61202021721. THT board mount. See EXTERNAL-DOCK-R3.md.",
-      "alternative": "",
-      "evidence": "Supplier listing and manufacturer drawing reviewed 2026-11-07; physical sample validation pending"
-    },
-    {
-      "id": "DX09",
-      "supplier": "Mouser",
-      "part": "CORE J4 / SIGNALS ONLY",
-      "mpn": "61201021621",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=61201021621",
-      "notes": "Refs J4. 710-61201021621. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 710-61201021621",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX10",
-      "supplier": "Mouser",
-      "part": "5V ONLY / CENTRE +",
-      "mpn": "PJ-102AH",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=PJ-102AH",
-      "notes": "Refs J5. 490-PJ-102AH. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX11",
-      "supplier": "Mouser",
-      "part": "2A fast / input",
-      "mpn": "0251002.MXL",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=0251002.MXL",
-      "notes": "Refs F1. 576-0251002.MXL. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX12",
-      "supplier": "Mouser",
-      "part": "SUP53P06-20-E3 / reverse polarity",
-      "mpn": "SUP53P06-20-E3",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=SUP53P06-20-E3",
-      "notes": "Refs Q1. 781-SUP53P06-20-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX13",
-      "supplier": "Mouser",
-      "part": "CORE BERG 5V / 12V NC",
-      "mpn": "TSW-102-07-G-S",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=TSW-102-07-G-S",
-      "notes": "Refs J6. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX14",
-      "supplier": "Mouser",
-      "part": "LED STRIP 5V / 0.6A MAX",
-      "mpn": "TSW-103-07-G-S",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=TSW-103-07-G-S",
-      "notes": "Refs J7. 200-TSW10307GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX15",
-      "supplier": "Mouser",
-      "part": "AUDIO LOGIC / FUTURE AMP",
-      "mpn": "TSW-102-07-G-S",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=TSW-102-07-G-S",
-      "notes": "Refs J8. 200-TSW10207GS. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX16",
-      "supplier": "Mouser",
-      "part": "1N5819 / VSYS feed only",
-      "mpn": "1N5819-E3/54",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=1N5819-E3/54",
-      "notes": "Refs D1. 625-1N5819-E3. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX17",
-      "supplier": "Mouser",
-      "part": "1uF 50V nonpolar",
-      "mpn": "C330C105K5R5TA",
-      "quantity": {
-        "dock": 4
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=C330C105K5R5TA",
-      "notes": "Refs C1, C2, C3, C4. 80-C330C105K5R. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX18",
-      "supplier": "Mouser",
-      "part": "100nF 50V",
-      "mpn": "C315C104M5U5TA",
-      "quantity": {
-        "dock": 7
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=C315C104M5U5TA",
-      "notes": "Refs C5, C6, C7, C8, C9, C10, C11. 80-C315C104M5U. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX19",
-      "supplier": "Mouser",
-      "part": "100uF 16V",
-      "mpn": "EEU-FR1C101",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=EEU-FR1C101",
-      "notes": "Refs C12. 667-EEU-FR1C101. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX20",
-      "supplier": "Mouser",
-      "part": "1000uF 10V LED bulk",
-      "mpn": "EEU-FR1A102",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=EEU-FR1A102",
-      "notes": "Refs C13. 667-EEU-FR1A102. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX21",
-      "supplier": "Mouser",
-      "part": "5 x 4k7 IEC pullups",
-      "mpn": "4606X-101-472LF",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=4606X-101-472LF",
-      "notes": "Refs RN1. 652-4606X-1LF-4.7K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX22",
-      "supplier": "Mouser",
-      "part": "3 x 1k LS06 boot pulldown",
-      "mpn": "4604X-101-102LF",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=4604X-101-102LF",
-      "notes": "Refs RN2. 652-4604X-1LF-1K. Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase.",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX23",
-      "supplier": "Mouser",
-      "part": "10k",
-      "mpn": "MFR-25FBF52-10K",
-      "quantity": {
-        "dock": 5
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=MFR-25FBF52-10K",
-      "notes": "Refs R1, R2, R3, R5, R6. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 603-MFR-25FBF52-10K",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
-      "id": "DX24",
-      "supplier": "Mouser",
-      "part": "330",
-      "mpn": "MFR-25FBF52-330R",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Candidate; board not order-ready",
-      "url": "https://www.mouser.com/c/?q=MFR-25FBF52-330R",
-      "notes": "Refs R4. . Through-hole carrier assembly. Review docs/EXTERNAL-DOCK-R3.md before purchase. 603-MFR-25FBF52-330R",
-      "alternative": "",
-      "evidence": "R1 physical pin map 2026-11-07; inherited candidates still need exact package and stock verification"
-    },
-    {
       "id": "DX81",
       "supplier": "Mouser",
       "part": "Internal USB-A to micro-B jumper, 6.5 inch",
@@ -1582,38 +991,6 @@
       "evidence": "Actual parametric CAD; no photoreal mockup"
     },
     {
-      "id": "DX25",
-      "supplier": "Mouser",
-      "part": "USB-B / HOST INPUT",
-      "mpn": "61729-0010BLF",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Selected footprint; prototype validation pending",
-      "url": "https://www.mouser.com/c/?q=61729-0010BLF",
-      "alternative": "",
-      "notes": "Ref J9; Mouser 649-61729-0010BLF. Through-hole. J10 is INTERNAL ONLY, not a host port.",
-      "evidence": "Manufacturer drawing and Mouser listing reviewed 2026-11-07"
-    },
-    {
-      "id": "DX26",
-      "supplier": "Mouser",
-      "part": "INTERNAL ONLY / TO PICO",
-      "mpn": "67643-0910",
-      "quantity": {
-        "dock": 1
-      },
-      "unit": "each",
-      "assembly": "External daughterboard R2",
-      "status": "Selected footprint; prototype validation pending",
-      "url": "https://www.mouser.com/c/?q=67643-0910",
-      "alternative": "",
-      "notes": "Ref J10; Mouser 538-67643-0910. Through-hole. J10 is INTERNAL ONLY, not a host port.",
-      "evidence": "Manufacturer drawing and Mouser listing reviewed 2026-11-07"
-    },
-    {
       "id": "DX27",
       "supplier": "Mouser",
       "part": "10-way internal drive-to-dock signal harness",
@@ -1644,6 +1021,822 @@
       "alternative": "",
       "notes": "Daughterboard J6 to four-position floppy-power J2. +5V and GND only; 12V position unused. Select wire gauge, keyed mating housings and crimps before assembly.",
       "evidence": "CAD endpoint/route study; not a qualified purchased cable"
+    },
+    {
+      "id": "CR1-01",
+      "supplier": "Mouser",
+      "part": "34-PIN PC FLOPPY",
+      "mpn": "5103310-7",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=571-5103310-7",
+      "notes": "J1; Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-02",
+      "supplier": "Mouser",
+      "part": "FLOPPY POWER 5V GND GND 12V",
+      "mpn": "171826-4",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=571-1718264",
+      "notes": "J2; Drive:TE_171826-4. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-03",
+      "supplier": "Mouser",
+      "part": "PICO 2 SC1632 SOCKETED",
+      "mpn": "SC1632",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=358-SC1632",
+      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-04",
+      "supplier": "Mouser",
+      "part": "SN74LVC245AN / 5V-TOL INPUT",
+      "mpn": "SN74LVC245AN",
+      "quantity": {
+        "drive": 3
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=595-SN74LVC245AN",
+      "notes": "U1, U2, U4; Package_DIP:DIP-20_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-05",
+      "supplier": "Mouser",
+      "part": "TN0702 / FDD INDEX",
+      "mpn": "TN0702N3-G",
+      "quantity": {
+        "drive": 8
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=689-TN0702N3-G",
+      "notes": "Q4, Q5, Q6, Q7, Q8, Q1, Q2, Q3; Package_TO_SOT_THT:TO-92_Inline. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-06",
+      "supplier": "Mouser",
+      "part": "8x10k BUSSED / COMMON PIN1",
+      "mpn": "4609X-101-103LF",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=652-4609X-1LF-10K",
+      "notes": "RN1, RN2; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-07",
+      "supplier": "Mouser",
+      "part": "8x1k BUSSED / COMMON GND",
+      "mpn": "4609X-101-102LF",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=652-4609X-1LF-1K",
+      "notes": "RN3; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-08",
+      "supplier": "Mouser",
+      "part": "2A FAST / LOW DROP",
+      "mpn": "0251002.MXL",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=576-0251002.MXL",
+      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-09",
+      "supplier": "Mouser",
+      "part": "1N5819 / USB BACKFEED BLOCK",
+      "mpn": "1N5819-E3/54",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=625-1N5819-E3",
+      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-10",
+      "supplier": "Mouser",
+      "part": "47uF 16V",
+      "mpn": "EEU-FC1C470",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=667-EEU-FC1C470",
+      "notes": "C1; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-11",
+      "supplier": "Mouser",
+      "part": "100nF 50V",
+      "mpn": "C315C104M5U5TA",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
+      "notes": "C2, C3, C5, C7; Drive:KEMET_C315_P2.54. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-12",
+      "supplier": "Mouser",
+      "part": "ISOLATED CONTACTS / 1 TO 7",
+      "mpn": "TSW-107-07-G-S",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=200-TSW10707GS",
+      "notes": "J3; Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-13",
+      "supplier": "Mouser",
+      "part": "DOCK LINK 3V3 UART",
+      "mpn": "TSW-105-07-G-D",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=200-TSW10507GD",
+      "notes": "J4; Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-14",
+      "supplier": "Mouser",
+      "part": "10k SPI CS DEFAULT",
+      "mpn": "MFR-25FBF52-10K",
+      "quantity": {
+        "drive": 4
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-10K",
+      "notes": "R1, R2, R5, R9; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-15",
+      "supplier": "Mouser",
+      "part": "3V3 OUT / INTERLOCK RETURN",
+      "mpn": "TSW-102-07-G-S",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=200-TSW10207GS",
+      "notes": "J5; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-16",
+      "supplier": "Mouser",
+      "part": "LP2951ACN / SWITCHED 3V1 100mA",
+      "mpn": "LP2951ACN/NOPB",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=926-LP2951ACN/NOPB",
+      "notes": "U6; Package_DIP:DIP-8_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-17",
+      "supplier": "Mouser",
+      "part": "15k 1%",
+      "mpn": "MFR-25FBF52-15K",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-15K",
+      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-18",
+      "supplier": "Mouser",
+      "part": "1k BLEED",
+      "mpn": "MFR-25FBF52-1K",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-1K",
+      "notes": "R6, R7; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-19",
+      "supplier": "Mouser",
+      "part": "47 DISCHARGE",
+      "mpn": "MFR-25FBF52-47R",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-47R",
+      "notes": "R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-20",
+      "supplier": "Mouser",
+      "part": "1 OHM CAP ESR",
+      "mpn": "MFR-25FBF52-1R",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-1R",
+      "notes": "R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-21",
+      "supplier": "Mouser",
+      "part": "2k2 ARM GATE",
+      "mpn": "MFR-25FBF52-2K2",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-2K2",
+      "notes": "R11, R12; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-22",
+      "supplier": "Mouser",
+      "part": "22uF 16V / OUTPUT",
+      "mpn": "EEU-FC1C220",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=667-EEU-FC1C220",
+      "notes": "C6; Capacitor_THT:CP_Radial_D5.0mm_P2.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-23",
+      "supplier": "Mouser",
+      "part": "1uF 50V X7R",
+      "mpn": "C330C105K5R5TA",
+      "quantity": {
+        "drive": 1
+      },
+      "unit": "each",
+      "assembly": "Controller R1",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=80-C330C105K5R",
+      "notes": "C9; Drive:KEMET_C340_P5.08. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-01",
+      "supplier": "Mouser",
+      "part": "Pico 2 / internal USB jumper",
+      "mpn": "SC1632",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=358-SC1632",
+      "notes": "A1; Module:RaspberryPi_Pico_Common_THT. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-02",
+      "supplier": "Mouser",
+      "part": "SN74LVC245AN",
+      "mpn": "SN74LVC245AN",
+      "quantity": {
+        "dock": 3
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=595-SN74LVC245AN",
+      "notes": "U1, U4, U5; Package_DIP:DIP-20_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-03",
+      "supplier": "Mouser",
+      "part": "TN0702 / IEC CLK",
+      "mpn": "TN0702N3-G",
+      "quantity": {
+        "dock": 3
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=689-TN0702N3-G",
+      "notes": "Q2, Q3, Q4; Package_TO_SOT_THT:TO-92_Inline. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-04",
+      "supplier": "Mouser",
+      "part": "MAX232N / 5V RS232",
+      "mpn": "MAX232N",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=595-MAX232N",
+      "notes": "U3; Package_DIP:DIP-16_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-05",
+      "supplier": "Mouser",
+      "part": "SN74AHCT125N / LED + serial TX",
+      "mpn": "SN74AHCT125N",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=595-SN74AHCT125N",
+      "notes": "U6; Package_DIP:DIP-14_W7.62mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-06",
+      "supplier": "Mouser",
+      "part": "IEC / Switchcraft sequential pin numbers",
+      "mpn": "61PC6F",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=502-61PC6F",
+      "notes": "J1; Dock:DIN_61PC6F. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-07",
+      "supplier": "Mouser",
+      "part": "DE9 female DCE",
+      "mpn": "09661527612",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=617-09-66-152-7612",
+      "notes": "J2; Dock:DE9_09661527612. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-08",
+      "supplier": "Mouser",
+      "part": "ACCESSORY SPI / 3V3 SIGNALS / NO POWER",
+      "mpn": "61202021721",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=710-61202021721",
+      "notes": "J3; Dock:WR_BHD_61202021721. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-09",
+      "supplier": "Mouser",
+      "part": "USB-B / HOST INPUT",
+      "mpn": "61729-0010BLF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=649-61729-0010BLF",
+      "notes": "J9; Dock:USB_B_61729. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-10",
+      "supplier": "Mouser",
+      "part": "INTERNAL ONLY / TO PICO",
+      "mpn": "67643-0910",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=538-67643-0910",
+      "notes": "J10; Connector_USB:USB_A_Molex_67643_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-11",
+      "supplier": "Mouser",
+      "part": "CORE J4 / SIGNALS ONLY",
+      "mpn": "61201021621",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=710-61201021621",
+      "notes": "J4; Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-12",
+      "supplier": "Mouser",
+      "part": "5V ONLY / CENTRE +",
+      "mpn": "PJ-102AH",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=490-PJ-102AH",
+      "notes": "J5; Dock:BarrelJack_PJ102AH_2024. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-13",
+      "supplier": "Mouser",
+      "part": "2A fast / input",
+      "mpn": "0251002.MXL",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=576-0251002.MXL",
+      "notes": "F1; Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-14",
+      "supplier": "Mouser",
+      "part": "SUP53P06-20-E3 / reverse polarity",
+      "mpn": "SUP53P06-20-E3",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=781-SUP53P06-20-E3",
+      "notes": "Q1; Package_TO_SOT_THT:TO-220-3_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-15",
+      "supplier": "Mouser",
+      "part": "CORE BERG 5V / 12V NC",
+      "mpn": "TSW-102-07-G-S",
+      "quantity": {
+        "dock": 2
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=200-TSW10207GS",
+      "notes": "J6, J8; Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-16",
+      "supplier": "Mouser",
+      "part": "LED STRIP 5V / 0.2A MAX",
+      "mpn": "TSW-103-07-G-S",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=200-TSW10307GS",
+      "notes": "J7; Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-17",
+      "supplier": "Mouser",
+      "part": "1N5819 / VSYS feed only",
+      "mpn": "1N5819-E3/54",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=625-1N5819-E3",
+      "notes": "D1; Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-18",
+      "supplier": "Mouser",
+      "part": "1uF 50V nonpolar",
+      "mpn": "C330C105K5R5TA",
+      "quantity": {
+        "dock": 4
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=80-C330C105K5R",
+      "notes": "C1, C2, C3, C4; Dock:C330_P5.08. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-19",
+      "supplier": "Mouser",
+      "part": "100nF 50V",
+      "mpn": "C315C104M5U5TA",
+      "quantity": {
+        "dock": 6
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=80-C315C104M5U",
+      "notes": "C5, C7, C8, C9, C10, C11; Dock:C315_P2.54. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-20",
+      "supplier": "Mouser",
+      "part": "100uF 16V",
+      "mpn": "EEU-FR1C101",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=667-EEU-FR1C101",
+      "notes": "C12; Capacitor_THT:CP_Radial_D6.3mm_P2.50mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-21",
+      "supplier": "Mouser",
+      "part": "1000uF 10V LED bulk",
+      "mpn": "EEU-FR1A102",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=667-EEU-FR1A102",
+      "notes": "C13; Capacitor_THT:CP_Radial_D10.0mm_P5.00mm. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-22",
+      "supplier": "Mouser",
+      "part": "5 x 47k IEC DISCONNECTED LOW",
+      "mpn": "4606X-101-473LF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=652-4606X-1LF-47K",
+      "notes": "RN1; Resistor_THT:R_Array_SIP6. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-23",
+      "supplier": "Mouser",
+      "part": "3 x 1k GATE boot pulldown",
+      "mpn": "4604X-101-102LF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=652-4604X-1LF-1K",
+      "notes": "RN2; Resistor_THT:R_Array_SIP4. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-24",
+      "supplier": "Mouser",
+      "part": "10k",
+      "mpn": "MFR-25FBF52-10K",
+      "quantity": {
+        "dock": 7
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-10K",
+      "notes": "R1, R2, R3, R5, R6, R9, R10; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-25",
+      "supplier": "Mouser",
+      "part": "330",
+      "mpn": "MFR-25FBF52-330R",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-330R",
+      "notes": "R4; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-26",
+      "supplier": "Mouser",
+      "part": "8 x 4k7 INPUT DEFAULTS",
+      "mpn": "4609X-101-472LF",
+      "quantity": {
+        "dock": 1
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=652-4609X-1LF-4.7K",
+      "notes": "RN3; Resistor_THT:R_Array_SIP9. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "DR3-27",
+      "supplier": "Mouser",
+      "part": "4k7 MARK / DEASSERT",
+      "mpn": "MFR-25FBF52-4K7",
+      "quantity": {
+        "dock": 2
+      },
+      "unit": "each",
+      "assembly": "Daughterboard R3",
+      "status": "Catalog candidate \u00b7 verify orderable SKU",
+      "url": "https://www.mouser.com/c/?q=603-MFR-25FBF52-4K7",
+      "notes": "R7, R8; Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal. Through-hole builder assembly. Exact package and stock require final purchasing check.",
+      "alternative": "",
+      "evidence": "Datasheet/pin-map candidate; current inventory not guaranteed"
+    },
+    {
+      "id": "CR1-SW",
+      "supplier": "Mouser",
+      "part": "Seat and pre-eject interlock switches",
+      "mpn": "D2F-01L",
+      "quantity": {
+        "drive": 2
+      },
+      "unit": "each",
+      "assembly": "Drive mechanism",
+      "status": "Candidate \u00b7 cam/bracket design pending",
+      "url": "https://www.mouser.com/c/?q=653-D2F-01L",
+      "notes": "Wire seat NO and eject NC in series to controller J5. Must open before latch release; not yet represented by qualified mechanical CAD.",
+      "alternative": "",
+      "evidence": "Provisional Omron part; footprint, force and timing to qualify"
     }
   ]
 }

@@ -1,7 +1,7 @@
 Leaf-spring contact board · R1
 Routed passive prototype
-Physical fit, wear and firmware remain unvalidated. Prototype exports are not a production release. Seven soldered Harwin leaves; the controller connection still requires switched/isolation circuitry.
+Seven soldered Harwin leaves; connect 1:1 to the new isolated seven-pin controller R1 J3. Physical sliding wear and interlock timing remain unvalidated.
 
 KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
-Source commit 93d772dcdf9dfdc306812d42f95f2caf6b549db0
+Source commit 6202a72485b6f28f40c0ab631a0910edd554a2cf
 PCB SHA256 c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7

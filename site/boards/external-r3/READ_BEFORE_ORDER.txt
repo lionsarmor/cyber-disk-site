@@ -1,0 +1,7 @@
+External daughterboard · R3
+Routed engineering prototype · bench validation pending
+Complete routing; no powered qualification. Use matching R1 core/R3 dock firmware. Interlock mechanics, connector fit, supply margins and host tests remain open. Reference files only, not an approved sample order.
+
+KiCad 10 required. Stock KiCad libraries are needed in addition to bundled local libraries. ZIP contains this board only. No order is placed by downloading.
+Source commit 6202a72485b6f28f40c0ab631a0910edd554a2cf
+PCB SHA256 416dbd4cb11ea0c4ec6d6a6155c17341a07c5c388eae8b2399976b4fc5578d4e

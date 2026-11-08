@@ -1,0 +1,64 @@
+{
+  "revision": "electrical-r2",
+  "date": "2026-11-07",
+  "boards": {
+    "single": {
+      "connected_pin_parity": 22,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "c9cdb6119f4474e181062b96e3e65d0239f8e599976785aced61b59822a60bba"
+    },
+    "ab": {
+      "connected_pin_parity": 44,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "4ccbafffd5bb99c0f1346f4f134fe0fb9351d65343b0e4c20b042f0a1fb3e552"
+    },
+    "contact": {
+      "connected_pin_parity": 14,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {},
+      "pcb_sha256": "c8600e14fb3ece62a5bdbb94c90d245d4e0c2865a877ec8b6bf73d796095eaf7"
+    },
+    "controller": {
+      "connected_pin_parity": 229,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {
+        "silk_edge_clearance": 6,
+        "silk_overlap": 11,
+        "silk_over_copper": 1
+      },
+      "pcb_sha256": "804471aa33f6384a9b34358c97842a2c714acae4f958fee6d23ff1b482cadbe9"
+    },
+    "dock": {
+      "connected_pin_parity": 252,
+      "erc_violations": 0,
+      "drc_geometry_errors": 0,
+      "unrouted_items": 0,
+      "drc_warnings": {
+        "silk_edge_clearance": 4,
+        "text_height": 1,
+        "silk_overlap": 15,
+        "silk_over_copper": 3
+      },
+      "pcb_sha256": "416dbd4cb11ea0c4ec6d6a6155c17341a07c5c388eae8b2399976b4fc5578d4e"
+    }
+  },
+  "static_invariants": "PASS",
+  "scope": "Saved-file checks and physical pin assertions. Controller/dock ERC uses passive pin-map symbols. Firmware host tests recorded separately. No powered hardware tests.",
+  "fabrication_ready": false,
+  "blockers": [
+    "Physical interlock brackets, cam timing and discharge measurement",
+    "Supply/load/temperature, MOSFET pulse and USB signal qualification",
+    "Connector footprint, harness and moved internal USB fit qualification",
+    "34-pin write capture, IEC emulation and actual host testing"
+  ]
+}
