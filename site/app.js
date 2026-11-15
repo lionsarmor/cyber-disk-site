@@ -41,7 +41,9 @@ function colorGroup(d){
  if(id.includes('body-'))return 'body';
  return null;
 }
+function isCopper(d){return d.id.endsWith('_copper')}
 function effectiveColor(d){
+ if(isCopper(d)&&$('show-copper').checked)return new T.Color(0xf6b756);
  const k=colorGroup(d),shell=model?.style==='drive'?'sleeve':'body';
  if(k==='labelBacking'&&$('match-label').checked){
   const body=model.parts.find(p=>colorGroup(p)==='body');
@@ -52,10 +54,11 @@ function effectiveColor(d){
 }
 function restoreGlow(m){if(m.material.emissive){m.material.emissive.setHex(0);if(m.userData.glow)m.material.emissive.copy(m.material.color).multiplyScalar(.35)}}
 function applyColors(){
- for(const m of meshes){const d=m.userData;if(colorGroup(d)&&m.material.color)m.material.color.copy(effectiveColor(d).convertSRGBToLinear());restoreGlow(m);if(m===selected&&m.material.emissive)m.material.emissive.setHex(0x512505)}
+ for(const m of meshes){const d=m.userData;if((colorGroup(d)||isCopper(d))&&m.material.color)m.material.color.copy(effectiveColor(d).convertSRGBToLinear());restoreGlow(m);if(m===selected&&m.material.emissive)m.material.emissive.setHex(0x512505)}
  for(const row of $('parts').children){const m=meshes.find(m=>m.userData.id===row.dataset.id);if(m)row.querySelector('.swatch').style.background='#'+effectiveColor(m.userData).getHexString()}
 }
 function syncColorInputs(){
+ $('show-copper-row').hidden=!model.parts.some(isCopper);
  for(const [k,text] of Object.entries({body:model.style==='drive'?'Disk plastic ':'Main shell ',accent:model.style==='drive'?'Moving parts ':'Armor / accents ',inlay:model.style==='drive'?'Guides / carrier ':'Carriers / inlays ',sleeve:model.style==='external'?'Light diffuser ':model.style==='drive'?'Drive housing ':'Sleeve plastic '}))$('color-'+k).parentElement.firstChild.textContent=text;
  for(const k of colorKeys){const d=model.parts.find(p=>colorGroup(p)===k),input=$('color-'+k);input.closest('label').hidden=!d;input.disabled=!d||(k==='labelBacking'&&$('match-label').checked);if(d)input.value='#'+effectiveColor(d).getHexString()}
  $('match-label-row').hidden=!model.parts.some(p=>colorGroup(p)==='labelBacking');
@@ -105,6 +108,7 @@ function cyclePose(){
 }
 $('cycle').oninput=()=>{playing=false;$('play-cycle').textContent='Play';clearMeasure();cyclePose()};$('play-cycle').onclick=()=>{playing=!playing;$('play-cycle').textContent=playing?'Pause':'Play';clearMeasure()};$('open-motion').onclick=()=>{$('media').value='motion';loadModel()};
 for(const b of document.querySelectorAll('[data-cycle]'))b.onclick=()=>{playing=false;$('play-cycle').textContent='Play';$('cycle').value=b.dataset.cycle;cyclePose()};
+$('show-copper').onchange=applyColors;
 for(const k of colorKeys)$('color-'+k).oninput=e=>{customColors[k]=e.target.value;syncColorInputs();applyColors()};$('match-label').onchange=()=>{syncColorInputs();applyColors()};$('reset-colors').onclick=()=>{for(const k of Object.keys(customColors))delete customColors[k];$('match-label').checked=true;syncColorInputs();applyColors()};await RoddyLabels.ready;const response=await fetch('models/catalog.json?v=audio-r1');if(!response.ok)throw Error('Model catalog unavailable.');catalog=await response.json();mediaOptions($('media').value);const initial=new URL(location.href).searchParams.get('model');if(initial&&catalog.models[initial]){const p=initial.split('/');$('style').value=p[0];mediaOptions(p[1])}await loadModel();const initialView=new URL(location.href).searchParams.get('view');if(['drive','pcb','external'].includes(model.style)&&['contact','hinge','rear','latch','upper','lower','eject','wiring','audio','b','spine','a'].includes(initialView))preset(initialView);
 }catch(e){$('error').textContent='3D viewer unavailable: '+e.message;$('error').hidden=false;$('loading').hidden=true;console.error(e)}
 })();
