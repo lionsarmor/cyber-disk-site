@@ -20,7 +20,7 @@
 </style>
 <script defer src="vendor/three.min.js"></script>
 <script defer src="vendor/OrbitControls.js"></script>
-<script defer src="wedge-r01.js"></script>
+<script defer src="wedge-r02.js"></script>
 </head>
 <body>
 <header>
@@ -41,8 +41,8 @@
       </select>
     </label>
     <div class="specs">
-      <span><b>480 × 420 mm</b> footprint</span>
-      <span><b>22–62 mm</b> front-to-rear height, excluding feet</span>
+      <span><b id="wedge-size">464 × 410 mm</b> footprint</span>
+      <span><b>22–64 mm</b> front-to-rear height, excluding feet</span>
       <span><b>5 / 3 mm</b> acrylic main / side panels</span>
     </div>
     <section>
@@ -50,15 +50,16 @@
       <div class="view-grid">
         <button type="button" data-camera="assembled">Assembled</button>
         <button type="button" data-camera="inside">Lid off</button>
-        <button type="button" data-camera="side">Right side</button>
+        <button type="button" data-camera="side">Right cartridge</button>
+        <button type="button" data-camera="disk">Left drive bay</button>
         <button type="button" data-camera="rear">Rear I/O</button>
       </div>
-      <div class="checks"><label><input id="wedge-lid" type="checkbox"> Hide rear lid</label></div>
+      <div class="checks"><label><input id="wedge-lid" type="checkbox"> Hide rear lid</label><label><input id="wedge-cartridge" type="checkbox" checked> Show seated cartridge</label></div>
     </section>
     <section>
-      <h2>First-pass fit model</h2>
-      <p>The X16 mounting pattern, rear I/O and 90° riser geometry are provisional. The FreeCAD file includes the fit notes and dimensions.</p>
-      <a class="download" id="wedge-file" href="downloads/wedge-r01/Commander-X16-Wedge-R01.FCStd" download>Download FreeCAD model</a>
+      <h2>R02 fit review</h2>
+      <p>EXP1 serves the right-side cartridge. The optional Cyber Disk loads from the left. Exact slot and rear port positions, the installed low-profile Wi-Fi stack and antenna clearance are provisional.</p>
+      <a class="download" id="wedge-file" href="downloads/wedge-r02/Commander-X16-Wedge-R02.FCStd" download>Download FreeCAD model</a>
     </section>
   </aside>
   <div id="wedge-viewport" aria-label="Interactive 3D view of the wedge case">
