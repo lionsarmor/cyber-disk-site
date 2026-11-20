@@ -19,7 +19,7 @@
 
   try {
     const variants = await Promise.all(['drive', 'plain'].map(async name => {
-      const response = await fetch(`models/wedge-r08-${name}.json`);
+      const response = await fetch(`models/wedge-r08-${name}.json?rev=trim`);
       if (!response.ok) throw new Error(`Model request failed: ${response.status}`);
       const parts = await response.json();
       return parts.map(part => ({ ...part, variant: name }));
