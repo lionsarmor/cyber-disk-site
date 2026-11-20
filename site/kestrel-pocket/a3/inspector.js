@@ -1,11 +1,67 @@
 (() => {
   const views = {
-    front: {title:"Compute side", caption:"Through-hole sockets for the removable boards.", alt:"Three-quarter view of the Kestrel Pocket A3 through-hole carrier, showing socket openings, pin labels and mounting holes."},
-    rear: {title:"USB side", caption:"Two full-size USB-A host sockets for gamepads, keyboards and mice.", alt:"Three-quarter view of the rear circuit board with the two metal USB-A housings along its left edge and the Pico socket strips."},
-    pico: {title:"Pico sockets", caption:"The Pico plugs into two 20-pin female headers.", alt:"Detail of the two open through-hole socket strips for the removable Raspberry Pi Pico."},
-    contacts: {title:"Reader socket", caption:"The removable Cyber Disk spring reader plugs into this right-angle socket.", alt:"Detail of the through-hole socket and board cutout for the Cyber Disk spring reader."}
-  };
-  const legacyViews = {back:"rear",mars:"front",tang:"front"};
+  "stack": {
+    "title": "Exploded assembly",
+    "caption": "Front to back, follow the numbered layers in the assembly key below. Rotate the model to see the gaps between boards.",
+    "alt": "Exploded view of the front shell, display, buttons, keyboard, optional modules, carrier, service cards and rear controls."
+  },
+  "controls": {
+    "title": "Front controls",
+    "caption": "A 2.8-inch, 320 × 240 display sits above the D-pad and X/Y/A/B diamond. Start and Select sit above the keyboard. TYPE / LOCK sits below the controls.",
+    "alt": "The assembled handheld from the front, with its screen, D-pad, four labelled game buttons and membrane keyboard."
+  },
+  "input": {
+    "title": "Under the controls",
+    "caption": "The caps are lifted to expose ten proposed through-hole switch positions. The keyboard is a separate plug-in assembly.",
+    "alt": "Display and keyboard with switch board beneath the lifted D-pad, four action buttons and Start and Select caps."
+  },
+  "both": {
+    "title": "Both compute boards",
+    "caption": "The white Mars CM sits on its removable adapter at left. The Tang Nano 20K plugs directly into the two rows at right.",
+    "alt": "Installed Mars CM on its adapter and Tang Nano 20K FPGA on the through-hole Kestrel carrier."
+  },
+  "mars": {
+    "title": "Milk-V Mars CM",
+    "caption": "The 55 \u00d7 40 mm module mates to two Hirose connectors on the adapter. The adapter plugs into JA1 and JB1.",
+    "alt": "Close view of the white Mars CM, memory, processor and socketed green adapter."
+  },
+  "tang": {
+    "title": "Tang Nano 20K",
+    "caption": "Two 20-pin rows plug into J2. The Nano carries its own USB-C programming port and HDMI at opposite ends.",
+    "alt": "Close view of the Nano FPGA module and both rows of through-hole carrier sockets."
+  },
+  "bumpers": {
+    "title": "Rear paddles",
+    "caption": "The two textured paddles sit under the fingers. The orange disk releases sit higher up, alongside the guide rails.",
+    "alt": "Rear of the handheld with a half-exposed disk, separate side releases and two ribbed game paddles."
+  },
+  "service": {
+    "title": "Rear service bay",
+    "caption": "The USB hub card plugs into J18/J19 beside the full-size USB-A sockets. The removable Pico occupies the lower pair of sockets.",
+    "alt": "Open rear service bay with USB hub card and approximate socketed Pico model."
+  },
+  "front": {
+    "title": "Empty compute sockets",
+    "caption": "Bare through-hole carrier with the compute boards removed.",
+    "alt": "Bare A3 carrier showing the sockets for both compute boards."
+  },
+  "rear": {
+    "title": "USB side",
+    "caption": "Two full-size USB-A host sockets for gamepads, keyboards and mice.",
+    "alt": "Rear PCB with the two metal USB-A housings."
+  },
+  "pico": {
+    "title": "Pico sockets",
+    "caption": "The Pico plugs into two 20-pin female headers.",
+    "alt": "Close view of the two Pico socket strips."
+  },
+  "contacts": {
+    "title": "Reader socket",
+    "caption": "The removable Cyber Disk spring reader plugs into this right-angle socket.",
+    "alt": "Close view of the Cyber Disk reader socket."
+  }
+};
+  const legacyViews = {back:"rear"};
   const el = id => document.getElementById(id);
   const modeButtons = [...document.querySelectorAll('[data-mode]')];
   const viewLinks = [...document.querySelectorAll('[data-view]')];
@@ -14,7 +70,7 @@
   function selected() {
     const key = location.hash.slice(1);
     if (Object.hasOwn(views,key)) return key;
-    return Object.hasOwn(legacyViews,key) ? legacyViews[key] : "rear";
+    return Object.hasOwn(legacyViews,key) ? legacyViews[key] : "stack";
   }
   function refresh() {
     const key = selected();

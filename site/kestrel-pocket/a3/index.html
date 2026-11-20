@@ -6,11 +6,11 @@
   <meta name="theme-color" content="#ded1bf">
   <meta name="description" content="Rotate the Kestrel Pocket Carrier A3 PCB and inspect its module sockets and Cyber Reader socket in high-resolution 3D renders.">
   <meta property="og:title" content="Kestrel Pocket · Carrier A3 PCB">
-  <meta property="og:image" content="https://disk.roddy.world/kestrel-pocket/a3/assets/pcb-rear.webp">
+  <meta property="og:image" content="https://disk.roddy.world/kestrel-pocket/a3/assets/pcb-stack.webp">
   <link rel="canonical" href="https://disk.roddy.world/kestrel-pocket/a3/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <title>Kestrel Pocket · Carrier A3 PCB · RODDY</title>
-  <link rel="preload" as="image" href="assets/pcb-rear.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/pcb-stack.webp" fetchpriority="high">
   <link rel="stylesheet" href="inspector.css">
   <script defer src="inspector.js"></script>
 </head>
@@ -25,31 +25,52 @@
 </div></header>
 <main class="inner">
   <section class="title-row" aria-labelledby="page-title">
-    <div><p class="kicker">Carrier A3 <span aria-hidden="true">/</span> Through-hole PCB</p><h1 id="page-title">Kestrel Pocket</h1></div>
+    <div><p class="kicker">Carrier A3 <span aria-hidden="true">/</span> Assembly fit study</p><h1 id="page-title">Kestrel Pocket</h1></div>
     <div class="mode-controls" role="group" aria-label="Presentation">
       <button type="button" data-mode="render" aria-pressed="true">Studio renders</button>
-      <button type="button" data-mode="orbit" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m10 2 7.5 4.4v7.3L10 18l-7.5-4.3V6.4L10 2Z M2.8 6.5 10 11l7.2-4.5 M10 11v6.5"/></svg>Rotate PCB</button>
+      <button type="button" data-mode="orbit" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m10 2 7.5 4.4v7.3L10 18l-7.5-4.3V6.4L10 2Z M2.8 6.5 10 11l7.2-4.5 M10 11v6.5"/></svg>Rotate assembly</button>
     </div>
   </section>
   <section class="gallery" aria-label="PCB viewer">
     <figure class="plate">
       <div class="stage" id="stage">
-        <a id="render-link" href="assets/pcb-rear.webp" target="_blank" rel="noopener" aria-label="Open the USB side PCB render at full resolution">
-          <img id="render" src="assets/pcb-rear.webp" width="2560" height="1664" alt="Three-quarter view of the two full-size USB-A sockets and the Pico socket strips on the Kestrel Pocket carrier." fetchpriority="high">
+        <a id="render-link" href="assets/pcb-stack.webp" target="_blank" rel="noopener" aria-label="Open the exploded assembly render at full resolution">
+          <img id="render" src="assets/pcb-stack.webp" width="2560" height="1664" alt="Exploded view of the front shell, display, buttons, keyboard, optional modules, carrier, service cards and rear controls." fetchpriority="high">
         </a>
         <div id="orbit" hidden></div>
       </div>
       <figcaption>
-        <div class="caption" aria-live="polite" aria-atomic="true"><strong id="view-name">USB side</strong><span id="view-caption">Two full-size USB-A host sockets for gamepads, keyboards and mice.</span></div>
-        <div class="photo-links"><a id="ports-link" href="assets/ports.webp" target="_blank" rel="noopener">USB-A detail ↗</a><a id="large-link" href="assets/pcb-rear.webp" target="_blank" rel="noopener" aria-label="Open full resolution in a new tab">Full resolution <span aria-hidden="true">↗</span></a></div>
+        <div class="caption" aria-live="polite" aria-atomic="true"><strong id="view-name">Exploded assembly</strong><span id="view-caption">Follow the numbered assembly layers from the front shell to the rear paddles.</span></div>
+        <div class="photo-links"><a id="ports-link" href="assets/ports.webp" target="_blank" rel="noopener">USB-A detail ↗</a><a id="large-link" href="assets/pcb-stack.webp" target="_blank" rel="noopener" aria-label="Open full resolution in a new tab">Full resolution <span aria-hidden="true">↗</span></a></div>
       </figcaption>
     </figure>
-    <nav class="views" aria-label="PCB views">
-      <a href="#rear" data-view="rear" aria-current="true"><img src="assets/thumb-rear.webp" width="280" height="150" alt=""><span>USB side</span></a>
-      <a href="#front" data-view="front"><img src="assets/thumb-front.webp" width="280" height="150" alt=""><span>Compute side</span></a>
+    <nav class="views" aria-label="Assembly views">
+      <a href="#stack" data-view="stack"><img src="assets/thumb-stack.webp" width="280" height="150" alt=""><span>Exploded assembly</span></a>
+      <a href="#controls" data-view="controls"><img src="assets/thumb-controls.webp" width="280" height="150" alt=""><span>Front controls</span></a>
+      <a href="#input" data-view="input"><img src="assets/thumb-input.webp" width="280" height="150" alt=""><span>Under the controls</span></a>
+      <a href="#both" data-view="both"><img src="assets/thumb-both.webp" width="280" height="150" alt=""><span>Both compute boards</span></a>
+      <a href="#mars" data-view="mars"><img src="assets/thumb-mars.webp" width="280" height="150" alt=""><span>Milk-V Mars CM</span></a>
+      <a href="#tang" data-view="tang"><img src="assets/thumb-tang.webp" width="280" height="150" alt=""><span>Tang Nano 20K</span></a>
+      <a href="#bumpers" data-view="bumpers"><img src="assets/thumb-bumpers.webp" width="280" height="150" alt=""><span>Rear paddles</span></a>
+      <a href="#service" data-view="service"><img src="assets/thumb-service.webp" width="280" height="150" alt=""><span>Rear service bay</span></a>
+      <a href="#front" data-view="front"><img src="assets/thumb-front.webp" width="280" height="150" alt=""><span>Empty compute sockets</span></a>
+      <a href="#rear" data-view="rear"><img src="assets/thumb-rear.webp" width="280" height="150" alt=""><span>USB side</span></a>
       <a href="#pico" data-view="pico"><img src="assets/thumb-pico.webp" width="280" height="150" alt=""><span>Pico sockets</span></a>
       <a href="#contacts" data-view="contacts"><img src="assets/thumb-contacts.webp" width="280" height="150" alt=""><span>Reader socket</span></a>
     </nav>
+  </section>
+  <section class="fitnotes" aria-label="Assembly key and fit findings">
+    <div><h2>How the boards stack</h2><ol class="stack-key">
+      <li><b>Front shell.</b> The faceplate retains the controls and the removable keyboard insert.</li>
+      <li><b>Display and inputs.</b> The 2.8-inch landscape LCD connects at J7. Its active area is 57.6 × 43.2 mm at 320 × 240 pixels. The CardKB and proposed game-switch board use J8, with a dedicated Start connection at J9. The two rear switches return to the game board’s MCP23017 input expander. Their mounts and wiring are proposed.</li>
+      <li><b>Compute boards.</b> The Mars CM and its adapter occupy the left bay. The Nano occupies the right. The gray plate below them reserves space for the management PCB.</li>
+      <li><b>Through-hole carrier.</b> Four corner mounts locate it in the shell. The spring-reader card extends toward the Cyber Disk.</li>
+      <li><b>Rear service cards.</b> The USB hub and Pico plug into the opposite face of the carrier.</li>
+      <li><b>Rear shell.</b> Two game paddles flank the service cover. The separate side buttons release the Cyber Disk.</li>
+    </ol></div>
+    <div><h2>Does it close?</h2><p>The two compute boards have <strong>about 4.4 mm</strong> between their PCB edges. The existing keyboard sits above both. Its underside is 19.0 mm from the carrier’s rear datum. With the illustrated 3 mm CM mating height, the bare CM reaches 18.84 mm, leaving just <strong>0.16 mm</strong> before its components. The Nano’s HDMI housing reaches 20.82 mm, overlapping the keyboard by about 1.8 mm. Both bays need more keyboard clearance.</p>
+    <p>The faceplate, keyboard and paddles use the 104 × 215 mm A1 shell as a reference. A3 needs revised USB-A openings. The Tang uses Sipeed’s v3920 STEP model. The CM component heights are estimates from product imagery. The switch board, paddle actuation, wiring paths and management card still need mechanical or PCB design. The exploded spacing is illustrative. Physical fit and switch travel remain untested.</p>
+    <p><a href="assets/assembly-sheet.webp">Open the labelled assembly sheet ↗</a></p><p class="references"><a href="https://www.adafruit.com/product/1770">Adafruit 2.8-inch LCD</a> · Module references · <a href="https://milkv.io/mars-cm">Milk-V Mars CM</a> · <a href="https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html">Sipeed Tang Nano 20K</a> · <a href="https://docs.m5stack.com/en/unit/cardkb_1.1">M5Stack CardKB</a></p></div>
   </section>
   <div class="details"><p class="assembly-note">Every part soldered to the carrier is through-hole. The Pico lifts out of its sockets. Both full-size USB-A sockets feed a plug-in hub. The Pico has separate serial links to the Tang and Mars for keyboard, mouse and gamepad events. HID firmware and hardware tests are pending.</p><a class="module-link" href="assets/reader-card.webp" target="_blank" rel="noopener"><img src="assets/thumb-reader-card.webp" width="76" height="49" loading="lazy" alt=""><span>See the plug-in spring reader ↗</span></a></div>
   <noscript><p><a href="pcb/">Open interactive 3D PCB</a> · <a href="assets/pcb-front.webp">Compute side</a> · <a href="assets/pcb-pico.webp">Pico sockets</a> · <a href="assets/pcb-contacts.webp">Reader socket</a></p></noscript>

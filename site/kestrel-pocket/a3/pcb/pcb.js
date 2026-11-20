@@ -7,9 +7,16 @@ function assembly(){
  return {root:new THREE.Group(),hardware:new THREE.Group(),board:new THREE.Group(),outline:[],bounds:{}};
 }
 const carrier=assembly(), reader=assembly(), rig=new THREE.Group();
+const adapter=assembly(),hub=assembly(),nano=assembly();
+let parts;
+const addedViews = {
+ both:{dir:[-.38,-.72,1.30]},mars:{dir:[-.42,-.68,1.38]},tang:{dir:[.42,-.54,1.3]},
+ controls:{dir:[.22,-.34,1.35]},bumpers:{dir:[-.32,-.37,-1.28]},
+ stack:{dir:[1.30,-.49,.98]},input:{dir:[.25,-.46,1.38]},service:{dir:[.28,-.54,-1.24]}
+};
 const point=(x,y,z)=>new THREE.Vector3(x,y,z);
 const state={view:'front',frame:0};
-const poses={
+const poses={...addedViews,
  front:{dir:[-.30,-.72,1]}, rear:{dir:[.28,-.66,-1]},
  pico:{dir:[-.34,-.68,-1],ref:'A1'},
  ports:{dir:[-1.05,-.41,-.66],refs:['J3','J4']},
@@ -29,8 +36,10 @@ function draw(){
  fill.position.copy(ray).multiplyScalar(100).addScaledVector(right,100).addScaledVector(up,-67);
  rim.position.copy(ray).multiplyScalar(-180).addScaledVector(up,75);
  const distance=camera.position.distanceTo(controls.target);
- camera.near=Math.max(.3,distance*.045);camera.far=distance+350;camera.updateProjectionMatrix();
+ camera.near=Math.max(.3,distance*.045);camera.far=distance+650;camera.updateProjectionMatrix();
  renderer.render(scene,camera);
+ if(parts)positionMarkers();
+
 }
 function makeStudio(){
  const environment=new THREE.Scene();
@@ -98,6 +107,53 @@ function size(){
  const rect=stage.getBoundingClientRect();renderer.setSize(Math.max(1,rect.width),Math.max(1,rect.height),false);
  camera.aspect=rect.width/Math.max(rect.height,1);camera.updateProjectionMatrix();
 }
+const markers=[];
+const markerData=[
+ ['1','Front shell',5,52,24.8,195],['2','Display and inputs',17,84,21,122],
+ ['3','Compute modules',33,147,20,48],['4','Through-hole carrier',92,201,1.6,0],
+ ['5','Pico and USB hub',29,148,-13,-54],['6','Rear shell and paddles',92,130,-19.6,-147]
+];
+function prepareMarkers(){
+ for(const [n,desc,x,y,z,dz] of markerData){
+   const el=document.createElement('span');el.className='marker';el.textContent=n;el.title=desc;el.hidden=true;stage.appendChild(el);
+   markers.push([el,point(x-52,158.1-y,z+dz)]);
+ }
+}
+function positionMarkers(){
+ for(const [el,anchor] of markers){
+   el.hidden=state.view!=='stack';if(el.hidden)continue;
+   const pos=anchor.clone().applyMatrix4(rig.matrixWorld).project(camera);
+   el.style.left=(50+50*pos.x)+'%';el.style.top=(50-50*pos.y)+'%';
+ }
+}
+function showAssembly(view){
+ const fitted=Object.hasOwn(addedViews,view), stack=view==='stack',closed=view==='controls'||view==='bumpers';
+ const l=parts.layers;
+ const show=(g,visible,offset=0)=>{g.visible=visible;g.position.z=offset;};
+ show(l.face,closed||stack,stack?195:0);
+ show(l.keys,closed||stack||view==='input',stack?122:0);
+ show(l.panel,closed||stack||view==='input',stack?122:view==='input'?15:0);
+ show(l.input,closed||stack||view==='input',stack?122:0);
+ show(l.rear,closed||stack,stack?-147:0);show(l.disk,closed||stack,stack?-147:0);
+ show(l.battery,stack,stack?87:0);
+ const cm=fitted&&!['tang','service','input'].includes(view), tang=fitted&&!['mars','service','input'].includes(view);
+ show(l.cm,cm,stack?48:0);show(nano.root,tang,stack?48:0);show(l.nano,tang,stack?48:0);
+ adapter.root.visible=cm;adapter.root.position.set(0,-2,12.64+(stack?48:0));
+ const rearParts=closed||stack||view==='service';
+ show(l.paddleSwitches,rearParts,stack?-54:0);show(l.pico,rearParts,stack?-54:0);show(hub.root,rearParts,-12.73+(stack?-54:0));
+ show(l.management,closed||stack,stack?48:0);
+ carrier.root.visible=view!=='input';reader.root.visible=closed||stack||view==='contacts';
+ $('reader-module').checked=reader.root.visible;
+}
+function fittedBounds(view){
+ const l=parts.layers;
+ if(view==='mars')return corners([-50,-18,0],[11,43,23]);
+ if(view==='tang')return corners([10,-13,0],[40,51,22]);
+ if(view==='both')return corners([-51,-55,-6],[49,56,23]);
+ if(view==='service')return corners([-51,-54,-18],[49,55,3]);
+ const groups=view==='input'?[l.panel,l.keys,l.input]:view==='stack'?[l.face,l.panel,l.rear,l.disk,l.keys,carrier.root,hub.root]:[l.face,l.rear,l.disk,l.panel,l.keys];
+ return groups.flatMap(g=>{const b=new THREE.Box3().setFromObject(g);return corners(b.min.toArray(),b.max.toArray());});
+}
 function select(view,record){
  const pose=poses[view]||poses.front;state.view=poses[view]?view:'front';
  options.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===state.view)));
@@ -105,11 +161,16 @@ function select(view,record){
  let roll=wide?(state.view==='contacts'?-.97:detail?-.18:.22):(state.view==='pico'?.55:-.14);
  if(state.view==='rear')roll=-roll;
  if(state.view==='ports')roll=wide?-.96:-.20;
+ const fitted=Object.hasOwn(addedViews,view);
+ renderer.toneMappingExposure=fitted?.83:1;
+ if(fitted)roll=view==='stack'?-.20:view==='tang'?-.09:view==='both'?-.11:0;
+ rig.rotation.z=0;rig.updateMatrixWorld(true);
+ const fittedPoints=fitted?fittedBounds(view):null;
  rig.rotation.z=roll;rig.updateMatrixWorld(true);
  const rot=rig.quaternion,aim=point(...pose.dir).applyQuaternion(rot).normalize();
  const vertical=point(0,1,0),right=vertical.clone().cross(aim).normalize(), up=aim.clone().cross(right);
  let pts;
- if(pose.ref||pose.refs){
+ if(fitted){pts=fittedPoints;} else if(pose.ref||pose.refs){
    pts=(pose.refs||[pose.ref]).flatMap(ref=>{const [lo,hi]=carrier.bounds[ref];return corners(lo.map(n=>n-2),hi.map(n=>n+2));});
  } else if(pose.reader && reader.root.visible){
    pts=reader.outline;
@@ -164,9 +225,10 @@ async function loadAssembly(group,name){
  build(group,meta,bytes);
 }
 function pickView(view,record){
+ view=view==='reader'?'contacts':poses[view]?view:'stack';
+ showAssembly(view);
  const readerView=view==='contacts'||view==='reader';
- reader.root.visible=readerView;
- $('reader-module').checked=readerView;
+
  select(readerView?'contacts':view,record);
 }
 async function start(){
@@ -176,15 +238,16 @@ async function start(){
  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
  scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(32,1,.5,650);
  camera.position.set(0,0,300);controls=new THREE.OrbitControls(camera,canvas);
- controls.enablePan=true;controls.enableDamping=false;controls.minDistance=7;controls.maxDistance=550;controls.zoomSpeed=.86;controls.rotateSpeed=.85;
+ controls.enablePan=true;controls.enableDamping=false;controls.minDistance=7;controls.maxDistance=1400;controls.zoomSpeed=.86;controls.rotateSpeed=.85;
  lighting();controls.addEventListener('change',invalidate);size();
- await Promise.all([loadAssembly(carrier,'geometry'),loadAssembly(reader,'reader')]);
+ const results=await Promise.all([pocketParts(rig),loadAssembly(carrier,'geometry'),loadAssembly(reader,'reader'),loadAssembly(adapter,'adapter'),loadAssembly(hub,'hub'),loadAssembly(nano,'nano')]);
+ parts=results[0];prepareMarkers();
  scene.add(rig);pickView(location.hash.slice(1),false);status.hidden=true;
  new ResizeObserver(()=>{size();select(state.view,false);}).observe(stage);
  options.forEach(b=>b.addEventListener('click',()=>pickView(b.dataset.view,true)));
  window.addEventListener('hashchange',()=>pickView(location.hash.slice(1),false));
  $('plus').onclick=()=>zoom(.78);$('minus').onclick=()=>zoom(1.28);$('reset').onclick=()=>select(state.view,false);
- $('components').onchange=(e)=>{carrier.hardware.visible=reader.hardware.visible=e.target.checked;invalidate();};
+ $('components').onchange=(e)=>{for(const a of [carrier,reader])a.hardware.visible=e.target.checked;invalidate();};
  $('reader-module').onchange=e=>{
    reader.root.visible=e.target.checked;
    select(state.view,false);
