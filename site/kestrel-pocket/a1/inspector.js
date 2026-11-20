@@ -57,7 +57,7 @@ function showPart(key) {
     factSlots[index][0].textContent = label;
     factSlots[index][1].textContent = value;
   });
-  partModel.href = key === "pico" ? "./model/#pico" : "./model/";
+  partModel.href = key === "pico" ? "./assembly/#pico" : "./assembly/";
   partModel.textContent = key === "pico" ? "Locate Pico H in 3D" : "Rotate the 3D assembly";
 }
 

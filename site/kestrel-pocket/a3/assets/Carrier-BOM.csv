@@ -1,0 +1,37 @@
+Reference,Quantity,Value,Orderable part or mechanical specification,KiCad footprint,Component side,Process
+A1,2,Pico H supervisor,SSW-120-01-G-S,Pico_H_Sockets,B.Cu,THT
+C1,1,100 uF / 10 V,EEU-FR1A101,CP_Radial_D5.0mm_P2.00mm,B.Cu,THT
+C2,1,100 nF / 50 V,K104K15X7RF5TH5,C_Disc_D5.0mm_W2.5mm_P5.00mm,F.Cu,THT
+D2,1,Green supply indicator,WP710A10SGC,LED_D3.0mm,F.Cu,THT
+F1,1,3 A hold resettable fuse,MF-RG300,Fuse_Bourns_MF-RG300,B.Cu,THT
+J10,1,I2S stereo amplifier,TSW-106-07-G-S,PinHeader_1x06_P2.54mm_Vertical,B.Cu,THT
+J11,1,EXP-8 / 3.3 V,S8B-XH-A(LF)(SN),JST_XH_S8B-XH-A-1_1x08_P2.50mm_Horizontal,F.Cu,THT
+J12,1,Disk seat / release loop,TSW-102-07-G-S,PinHeader_1x02_P2.54mm_Vertical,F.Cu,THT
+J13,1,Mars Lite SDIO,TSW-108-07-G-S,PinHeader_1x08_P2.54mm_Vertical,B.Cu,THT
+J14,1,Cyber Disk reader,"1x07 right-angle socket, 2.54 mm",PinSocket_1x07_P2.54mm_Horizontal,F.Cu,THT
+J15,1,Management bank 15,SSW-125-01-G-D,PinSocket_2x25_P2.54mm_Vertical,F.Cu,THT
+J16,1,Management bank 16,SSW-125-01-G-D,PinSocket_2x25_P2.54mm_Vertical,F.Cu,THT
+J17,1,External 5V input / fuse,TSW-102-07-G-S,PinHeader_1x02_P2.54mm_Vertical,B.Cu,THT
+J18,1,HID hub / downstream A,SSW-108-01-G-S,PinSocket_1x08_P2.54mm_Vertical,B.Cu,THT
+J19,1,HID hub / upstream B,SSW-108-01-G-S,PinSocket_1x08_P2.54mm_Vertical,B.Cu,THT
+J2,2,Tang Nano 20K,SSW-120-01-G-S,Tang_Nano_20K_Sockets,F.Cu,THT
+J20,1,Mars USB2 service,TSW-104-07-G-S,PinHeader_1x04_P2.54mm_Vertical,B.Cu,THT
+J3,1,USB-A 1 / HID host,67643-3910,USB_A_Molex_67643_Horizontal,B.Cu,THT
+J4,1,USB-A 2 / HID host,67643-3910,USB_A_Molex_67643_Horizontal,B.Cu,THT
+J5,1,5V input select,TSW-103-07-G-S,PinHeader_1x03_P2.54mm_Vertical,B.Cu,THT
+J6,1,Regulated battery 5V,TSW-102-07-G-S,PinHeader_1x02_P2.54mm_Vertical,B.Cu,THT
+J7,1,LCD and shared microSD,TSW-109-07-G-S,PinHeader_1x09_P2.54mm_Vertical,F.Cu,THT
+J8,1,Keyboard and game pad,TSW-106-07-G-S,PinHeader_1x06_P2.54mm_Vertical,F.Cu,THT
+J9,1,Start button,TSW-102-07-G-S,PinHeader_1x02_P2.54mm_Vertical,F.Cu,THT
+JA1,1,Mars adapter / bank A,SSW-120-01-G-S,PinSocket_1x20_P2.54mm_Vertical,F.Cu,THT
+JB1,1,Mars adapter / bank B,SSW-120-01-G-S,PinSocket_1x20_P2.54mm_Vertical,F.Cu,THT
+R1,1,1 k / 0.25 W,CFR-25JB-52-1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R53,1,4.7 k / 0.25 W,CFR-25JB-52-4K7,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R54,1,4.7 k / 0.25 W,CFR-25JB-52-4K7,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R55,1,10 k / 0.25 W,CFR-25JB-52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R56,1,10 k / 0.25 W,CFR-25JB-52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R57,1,10 k / 0.25 W,CFR-25JB-52-10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,F.Cu,THT
+R60,1,22 ohm,MFR-12FBF52-22R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B.Cu,THT
+R61,1,22 ohm,MFR-12FBF52-22R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B.Cu,THT
+R62,1,15 k,MFR-12FBF52-15K,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B.Cu,THT
+R63,1,15 k,MFR-12FBF52-15K,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B.Cu,THT

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ded1bf"><title>Carrier A3 through-hole PCB in 3D · Roddy.world</title>
+<script>if(new URLSearchParams(location.search).get("embed")==="1")document.documentElement.classList.add("embed");</script>
+<link rel="stylesheet" href="pcb.css">
+<script defer src="../../../vendor/three.min.js"></script><script defer src="../../../vendor/OrbitControls.js"></script><script defer src="pcb.js"></script></head>
+<body><header><a href="../"><img src="../assets/roddy.svg" alt="Roddy.world"> <span>Kestrel Pocket A3</span></a></header>
+<main><h1>Carrier A3 through-hole PCB</h1>
+<div class="viewer" aria-label="Interactive 3D circuit board">
+<div class="stage"><canvas id="scene" tabindex="0" aria-label="Rotate the circuit board with the arrow keys. Use plus and minus to zoom."></canvas>
+<div id="status" role="status">Loading PCB…</div>
+<div class="layers"><label><input id="components" type="checkbox" checked> Components</label><label><input id="reader-module" type="checkbox"> Reader module</label></div>
+<div class="tools"><button id="minus" title="Zoom out" aria-label="Zoom out">−</button><button id="plus" title="Zoom in" aria-label="Zoom in">+</button><button id="reset" title="Restore selected view" aria-label="Restore selected view"><svg viewBox="0 0 20 20" role="presentation"><path d="M7 3H3v4M13 3h4v4M17 13v4h-4M7 17H3v-4"/></svg></button></div>
+</div>
+<nav class="presets" aria-label="PCB views"><button data-view="front" aria-pressed="true">Front</button><button data-view="rear" aria-pressed="false">Rear</button><button data-view="ports" aria-pressed="false">USB-A ports</button><button data-view="pico" aria-pressed="false">Pico sockets</button><button data-view="contacts" aria-pressed="false">Cyber Disk reader</button></nav></div>
+<p class="hint">Drag to rotate. Scroll or pinch to zoom.</p></main>
+</body></html>
