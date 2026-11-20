@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Inspect the Commander X16 wedge, including the keyboard seam, diagonal rail joint, lift-off magnetic cover and side-loading Cyber Disk.">
+<meta name="description" content="Inspect the Commander X16 wedge, including the tight F87 opening, faceted rails, compact rear panel and lift-off magnetic cover.">
 <title>Commander X16 Wedge · RODDY</title>
 <link rel="stylesheet" href="style.css">
 <style>
@@ -22,7 +22,7 @@
 </style>
 <script defer src="vendor/three.min.js"></script>
 <script defer src="vendor/OrbitControls.js"></script>
-<script defer src="wedge-r08.js?rev=trim"></script>
+<script defer src="wedge-r09.js"></script>
 </head>
 <body>
 <header>
@@ -36,15 +36,9 @@
 <main id="wedge-main">
   <aside>
     <h1>Commander X16 Wedge</h1>
-    <label>Case variant
-      <select id="wedge-variant">
-        <option value="drive">With Cyber Disk</option>
-        <option value="plain">No drive</option>
-      </select>
-    </label>
     <div class="specs">
-      <span><b id="wedge-size">462 × 374 mm</b> footprint</span>
-      <span><b id="wedge-height">28–74 mm</b> front to maximum shell height, excluding feet</span>
+      <span><b id="wedge-size" data-width="384" data-depth="361">384 × 361 mm</b> footprint</span>
+      <span><b>26–70 mm</b> front to maximum shell height, excluding feet</span>
       <span><b>5 / 3 mm</b> acrylic main / side panels</span>
     </div>
     <section>
@@ -57,10 +51,10 @@
         <button type="button" data-camera="inside" aria-pressed="false">Lid off</button>
         <button type="button" data-camera="cover" aria-pressed="false">Magnetic cover</button>
         <button type="button" data-camera="side" aria-pressed="false">Left cartridge</button>
-        <button type="button" data-camera="disk" aria-pressed="false">Right side</button>
         <button type="button" data-camera="rear" aria-pressed="false">Rear I/O</button>
+        <button type="button" data-camera="rearProfile" aria-pressed="false">Rear profile</button>
         <button type="button" data-camera="riser" aria-pressed="false">Riser close-up</button>
-        <button type="button" data-camera="rail" aria-pressed="false">Diagonal rail joint</button>
+        <button type="button" data-camera="rail" aria-pressed="false">Diagonal edges</button>
         <button type="button" data-camera="packaging" aria-pressed="false">Mounts and packaging</button>
       </div>
       <p class="view-note" id="wedge-view-note" aria-live="polite">Drag to rotate. Scroll or pinch to zoom.</p>
@@ -72,11 +66,11 @@
       </div>
     </section>
     <section>
-      <h2>R08 fit review</h2>
-      <p>The modeled F87 housing sits flush with the deck and drops straight onto three padded stands. A matching rear trim lifts with the keyboard. The front lip has a finger scallop for removal. The keyboard seam and diagonal rail joint have dedicated close-up views.</p>
-      <p>The Cyber Disk loads from the right and sits aft of the keyboard for clearance. The cartridge loads from the left. <b>Magnetic cover</b> lifts the cover clear of the case for inspection.</p>
-      <p>The board outline, holes and EXP1 registration follow the v1.1 iBOM. Check the F87 contour and folded feet, magnet retention, connector fit, and Wi-Fi stack on the hardware before cutting. The flat Wi-Fi card sits over EXP2 and EXP3.</p>
-      <a class="download" id="wedge-file" href="downloads/wedge-r08/Commander-X16-Wedge-R08.FCStd" download>Download FreeCAD model</a>
+      <h2>R09 fit review</h2>
+      <p>The F87 has a nominal 0.6 mm gap per edge. The opening is cut into the deck. Lift the keyboard along the deck normal, about 14° forward of vertical.</p>
+      <p>The Cyber Disk stays external. Use <b>Rear I/O</b> to read the cutouts head-on and <b>Diagonal edges</b> to inspect the faceted rail. The <b>Magnetic cover</b> view lifts the cover clear of the case.</p>
+      <p>The onboard ports follow the v1.1 board layout. The rounded openings, separate expansion window and power placement use the short <a href="https://lazer3d.com/product/x16-p-v2-upgrade-kit/">X16-P V2</a> as a reference. Check the F87 contour and folded feet, magnet retention, connector fit, and Wi-Fi stack on the hardware before cutting. The flat Wi-Fi card sits over EXP2 and EXP3.</p>
+      <a class="download" id="wedge-file" href="downloads/wedge-r09/Commander-X16-Wedge-R09.FCStd" download>Download FreeCAD model</a>
     </section>
   </aside>
   <div id="wedge-viewport" aria-label="Interactive 3D view of the wedge case">
