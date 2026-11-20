@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4eb">
+  <meta name="description" content="Inspect the Kestrel Pocket A1 circuit board, its removable Raspberry Pi Pico H and the slide-in Cyber Disk reader. Download the editable KiCad design.">
+  <title>Kestrel Pocket A1 · Roddy.world</title>
+  <link rel="stylesheet" href="inspector.css">
+  <script src="inspector.js" defer></script>
+</head>
+<body>
+  <header><div class="wrap topline">
+    <a class="workshop" href="../../"><span class="stripes" aria-hidden="true"><i></i><i></i><i></i></span>Disk workshop</a>
+    <nav aria-label="Project navigation"><a href="../">Kestrel Pocket</a><a href="#assembly">Shell</a><a href="#files">Downloads</a></nav>
+  </div></header>
+  <main class="wrap">
+    <section class="mast" aria-labelledby="project-title">
+      <div><h1 id="project-title">Kestrel Pocket <span>A1</span></h1>
+      <p>A handheld BASIC computer and games console with a slide-in Cyber Disk reader.</p></div>
+      <div class="hero-actions"><a class="primary" href="./model/">Rotate 3D assembly</a><a class="download-link" href="https://github.com/lionsarmor/cyber-disk-site/releases/download/kestrel-pocket-carrier-a1/Kestrel-Pocket-Carrier-A1.zip">Download KiCad project</a></div>
+    </section>
+    <section class="board" id="pcb" aria-labelledby="board-title">
+      <div class="board-toolbar"><h2 id="board-title">Board inspector</h2>
+        <div class="switches" role="group" aria-label="PCB side"><button type="button" data-side="back" aria-pressed="true">Rear</button><button type="button" data-side="front" aria-pressed="false">Front</button></div>
+      </div>
+      <div class="instrument">
+        <div class="visual">
+          <div class="board-drawing" id="board-drawing">
+            <img id="board-image" src="assets/Kestrel-A1-PCB-back.png" width="1176" height="1488" alt="Rear of Carrier A1. Two parallel Pico H socket strips sit near the lower edge.">
+            <span id="outlines" class="outlines pico" aria-hidden="true"><i></i><i></i></span>
+          </div>
+        </div>
+        <aside>
+          <div class="area-choices" aria-label="Component to highlight" role="group">
+            <button type="button" data-part="pico" aria-pressed="true">Pico H</button>
+            <button type="button" data-part="contacts" aria-pressed="false">Disk contacts</button>
+            <button type="button" data-part="mars" aria-pressed="false" hidden>Mars CM</button>
+            <button type="button" data-part="tang" aria-pressed="false" hidden>Tang Nano 20K</button>
+          </div>
+          <div class="annotation" aria-live="polite" aria-atomic="true">
+            <h3 id="part-title">Socketed Pico H</h3>
+            <p id="part-description">The Raspberry Pi Pico H plugs into the two highlighted 20-pin female headers. Power down and remove the lower rear service cover to lift it out.</p>
+            <dl>
+              <dt id="spec-one-label">Base hardware</dt><dd id="spec-one">Pico H and both socket strips included</dd>
+              <dt id="spec-two-label">Function</dt><dd id="spec-two">Scans the controls and switches the screen and disk between modules.</dd>
+            </dl>
+          </div>
+          <a id="part-model" class="model-link" href="./model/#pico">Locate Pico H in 3D</a>
+          <a id="original-render" class="render-link" href="assets/Kestrel-A1-PCB-back.png">Open full-size board render</a>
+        </aside>
+      </div>
+      <noscript><p>Open the <a href="assets/Kestrel-A1-PCB-front.png">front PCB render</a> to see the Mars CM connectors and Tang Nano 20K headers.</p></noscript>
+    </section>
+    <section class="assembly" id="assembly" aria-labelledby="assembly-title">
+      <div class="section-heading"><h2 id="assembly-title">Shell &amp; Cyber Disk</h2><a href="./model/">Rotate the 3D assembly</a></div>
+      <figure><a href="assets/Kestrel-A1-assembly.png" aria-label="Open the full-size shell and Cyber Disk assembly drawing"><img loading="lazy" src="assets/Kestrel-A1-assembly.png" width="2400" height="1280" alt="Four CAD views show the front shell, a seated Cyber Disk, its withdrawal and the two computing modules."></a></figure>
+      <div class="geometry"><p><strong>104 mm</strong>Shell width</p><p><strong>92 × 96 mm</strong>Cyber Disk</p><p><strong>48 mm</strong>Disk inside the receiver</p></div>
+      <p class="bodycopy">The disk slides down the rear rails until both side latches engage. Squeeze the release buttons and slide it back up by hand. The label stays visible above the receiver.</p>
+    </section>
+    <section id="files" class="files" aria-labelledby="files-title">
+      <div class="section-heading"><h2 id="files-title">Design files</h2></div>
+      <div class="downloads">
+        <a href="assets/Kestrel-A1-schematic.pdf"><strong>Carrier schematic</strong><span>Ten sheets · PDF</span></a>
+        <a href="assets/Kestrel-A1-contact-overlay.pdf"><strong>Disk contact overlay</strong><span>1:1 print drawing · PDF</span></a>
+        <a href="assets/Kestrel-A1-seated-section.pdf"><strong>Seated disk section</strong><span>Receiver and spring travel · PDF</span></a>
+      </div>
+      <div class="extra-downloads"><a href="assets/Kestrel-A1-assembly.step" download>Download STEP assembly</a><a href="https://github.com/lionsarmor/cyber-disk-site/releases/download/kestrel-pocket-carrier-a1/linux-6.19.tar.xz">Linux 6.19 kernel source</a></div>
+      <details><summary>Prototype cost and test results</summary>
+        <p>Estimated single-unit base materials are <strong>$159.29</strong>, including the screen, controls and socketed Pico H. The Mars CM, Tang Nano 20K and battery are separate.</p>
+        <p>KiCad reported zero electrical rule violations, zero design rule violations and zero unrouted connections. The firmware and games have host test results. An assembled A1 still needs power, contact, display and gameplay tests.</p>
+        <p>The current display interface has a full-screen transfer ceiling of about 10 updates per second from Tang and 13 from Mars before overhead. The Tang launcher and Glide game have a flashable image. The A1 SNESTang port is available as source.</p>
+      </details>
+    </section>
+  </main>
+  <footer class="wrap"><span>Roddy.world</span><a href="../">Kestrel Pocket project</a></footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#202824"><title>3D assembly · Kestrel Pocket A1</title>
+<link rel="stylesheet" href="viewer.css">
+<script defer src="../../../vendor/three.min.js"></script><script defer src="../../../vendor/OrbitControls.js"></script><script defer src="viewer.js"></script>
+</head>
+<body>
+<header><div class="top"><nav aria-label="Breadcrumb"><a href="../../../">Disk workshop</a><span>/</span><a href="../">Kestrel Pocket A1</a></nav><span class="stripes" aria-hidden="true"></span></div></header>
+<main>
+<h1>Handheld assembly</h1>
+<div class="workspace">
+<div class="stage">
+    <canvas id="scene" aria-label="3D handheld assembly. Use the arrow keys to rotate and plus or minus to zoom." tabindex="0"></canvas>
+    <div class="view-tag" id="view-tag" aria-hidden="true">Rear</div>
+    <div class="zoom"><button id="out" type="button" aria-label="Zoom out">−</button><button id="in" type="button" aria-label="Zoom in">+</button><button id="reset" type="button">Reset view</button></div>
+    <div id="status" role="status">Loading assembly…</div>
+</div>
+<aside><h2>Inspect the assembly</h2>
+<div class="presets" role="group" aria-label="Assembly views">
+<button type="button" data-view="rear" aria-pressed="true">Rear</button>
+<button type="button" data-view="front" aria-pressed="false">Front</button>
+<button type="button" data-view="modules" aria-pressed="false">Module bay</button>
+<button type="button" data-view="pico" aria-pressed="false">Pico sockets</button>
+</div>
+<p id="detail" aria-live="polite">The receiver covers 48 mm of the seated Cyber Disk. Its upper half remains visible between the guides.</p>
+<div id="travel"><label for="slide">Disk withdrawal <output id="travel-value" for="slide">0 mm</output></label><input id="slide" type="range" min="0" max="48" step="1" value="0"></div>
+<div id="service" hidden><label for="lift">Pico lift <output id="lift-value" for="lift">14 mm</output></label><input id="lift" type="range" min="0" max="22" step="1" value="14"></div>
+<p class="hint">Drag to rotate. Scroll or pinch to zoom.</p>
+<a href="../assets/Kestrel-A1-assembly.step" download>Download assembly STEP</a>
+</aside>
+</div>
+<p class="source">Geometry from the Carrier A1 mechanical STEP. Module bodies and keyboard keys show their design envelopes.</p>
+<noscript><p>Use the <a href="../assets/Kestrel-A1-assembly.png">assembly drawing</a> to inspect the handheld.</p></noscript>
+</main></body></html>
