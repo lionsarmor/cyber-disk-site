@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Inspect the Commander X16 wedge, including the full-width front brace, keyboard supports and side-loading Cyber Disk.">
+<meta name="description" content="Inspect the Commander X16 wedge, including the keyboard seam, diagonal rail joint, lift-off magnetic cover and side-loading Cyber Disk.">
 <title>Commander X16 Wedge · RODDY</title>
 <link rel="stylesheet" href="style.css">
 <style>
@@ -22,7 +22,7 @@
 </style>
 <script defer src="vendor/three.min.js"></script>
 <script defer src="vendor/OrbitControls.js"></script>
-<script defer src="wedge-r07.js"></script>
+<script defer src="wedge-r08.js"></script>
 </head>
 <body>
 <header>
@@ -53,10 +53,14 @@
         <button type="button" data-camera="assembled" aria-pressed="true">Assembled</button>
         <button type="button" data-camera="front" aria-pressed="false">Front brace</button>
         <button type="button" data-camera="keywell" aria-pressed="false">Keyboard removed</button>
+        <button type="button" data-camera="seam" aria-pressed="false">Keyboard seam</button>
         <button type="button" data-camera="inside" aria-pressed="false">Lid off</button>
+        <button type="button" data-camera="cover" aria-pressed="false">Magnetic cover</button>
         <button type="button" data-camera="side" aria-pressed="false">Left cartridge</button>
         <button type="button" data-camera="disk" aria-pressed="false">Right side</button>
         <button type="button" data-camera="rear" aria-pressed="false">Rear I/O</button>
+        <button type="button" data-camera="riser" aria-pressed="false">Riser close-up</button>
+        <button type="button" data-camera="rail" aria-pressed="false">Diagonal rail joint</button>
         <button type="button" data-camera="packaging" aria-pressed="false">Mounts and packaging</button>
       </div>
       <p class="view-note" id="wedge-view-note" aria-live="polite">Drag to rotate. Scroll or pinch to zoom.</p>
@@ -68,11 +72,11 @@
       </div>
     </section>
     <section>
-      <h2>R07 fit review</h2>
-      <p>The F87 drops straight onto three padded stands. The lip has a finger scallop for removal. Choose <b>Keyboard removed</b> to see the opening and <b>Front brace</b> to inspect the completed face.</p>
-      <p>The Cyber Disk loads from the right. The cartridge loads from the left. Use <b>Mounts and packaging</b> with clearance zones enabled to inspect the fit.</p>
-      <p>The board outline, holes and EXP1 registration follow the v1.1 iBOM. Check the F87 corner contour and folded feet, connector fit, and Wi-Fi stack on the hardware before cutting. The flat Wi-Fi card sits over EXP2 and EXP3.</p>
-      <a class="download" id="wedge-file" href="downloads/wedge-r07/Commander-X16-Wedge-R07.FCStd" download>Download FreeCAD model</a>
+      <h2>R08 fit review</h2>
+      <p>The modeled F87 housing sits flush with the deck and drops straight onto three padded stands. The lip has a finger scallop for removal. The keyboard seam and diagonal rail joint have dedicated close-up views.</p>
+      <p>The Cyber Disk loads from the right and sits aft of the keyboard for clearance. The cartridge loads from the left. <b>Magnetic cover</b> lifts the cover clear of the case for inspection.</p>
+      <p>The board outline, holes and EXP1 registration follow the v1.1 iBOM. Check the F87 contour and folded feet, magnet retention, connector fit, and Wi-Fi stack on the hardware before cutting. The flat Wi-Fi card sits over EXP2 and EXP3.</p>
+      <a class="download" id="wedge-file" href="downloads/wedge-r08/Commander-X16-Wedge-R08.FCStd" download>Download FreeCAD model</a>
     </section>
   </aside>
   <div id="wedge-viewport" aria-label="Interactive 3D view of the wedge case">
