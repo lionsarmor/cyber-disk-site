@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="style.css">
 <style>
   #wedge-main { min-height: 570px; }
-  #wedge-viewport { position: relative; min-height: 380px; overflow: hidden; }
+  #wedge-viewport { position: relative; min-height: 380px; overflow: hidden; background: radial-gradient(ellipse at 48% 34%, #f8f6ef, #e6e0d5 92%); }
   #wedge-viewport canvas { display: block; width: 100%; height: 100%; touch-action: none; }
   #wedge-status { position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem; pointer-events: none; }
   #wedge-status[hidden] { display: none; }
@@ -22,7 +22,7 @@
 </style>
 <script defer src="vendor/three.min.js"></script>
 <script defer src="vendor/OrbitControls.js"></script>
-<script defer src="wedge-r04.js"></script>
+<script defer src="wedge-r05.js"></script>
 </head>
 <body>
 <header>
@@ -44,13 +44,14 @@
     </label>
     <div class="specs">
       <span><b id="wedge-size">462 × 374 mm</b> footprint</span>
-      <span><b id="wedge-height">22–84 mm</b> front-to-rear height, excluding feet</span>
+      <span><b id="wedge-height">28–74 mm</b> front to maximum shell height, excluding feet</span>
       <span><b>5 / 3 mm</b> acrylic main / side panels</span>
     </div>
     <section>
       <div class="section-title"><h2>Inspection views</h2></div>
       <div class="view-grid">
         <button type="button" data-camera="assembled" aria-pressed="true">Assembled</button>
+        <button type="button" data-camera="front" aria-pressed="false">Front detail</button>
         <button type="button" data-camera="inside" aria-pressed="false">Lid off</button>
         <button type="button" data-camera="side" aria-pressed="false">Left cartridge</button>
         <button type="button" data-camera="disk" aria-pressed="false">Right side</button>
@@ -66,10 +67,10 @@
       </div>
     </section>
     <section>
-      <h2>R04 fit review</h2>
-      <p>The Cyber Disk loads from the right and sits behind the F87 to keep the typing edge low. The cartridge loads from the left. The TexElec v1.1 motherboard extends about 22 mm beneath the keyboard tray.</p>
+      <h2>R05 fit review</h2>
+      <p>The Cyber Disk loads from the right, behind the F87. The cartridge loads from the left. In Mounts and packaging, turn on the clearance zones to inspect the hardware fit.</p>
       <p>The board outline, holes and EXP1 registration follow the v1.1 iBOM. Connector heights and Wi-Fi fit still need a physical check. The flat Wi-Fi card sits over EXP2 and EXP3.</p>
-      <a class="download" id="wedge-file" href="downloads/wedge-r04/Commander-X16-Wedge-R04.FCStd" download>Download FreeCAD model</a>
+      <a class="download" id="wedge-file" href="downloads/wedge-r05/Commander-X16-Wedge-R05.FCStd" download>Download FreeCAD model</a>
     </section>
   </aside>
   <div id="wedge-viewport" aria-label="Interactive 3D view of the wedge case">
