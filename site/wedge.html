@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspect both Commander X16 wedge case variants in 3D.">
+<title>Commander X16 Wedge · RODDY</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  #wedge-main { min-height: 570px; }
+  #wedge-viewport { position: relative; min-height: 380px; overflow: hidden; }
+  #wedge-viewport canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+  #wedge-status { position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem; pointer-events: none; }
+  #wedge-status[hidden] { display: none; }
+  #wedge-main .download { display: inline-block; margin-top: 10px; color: var(--blue); }
+  @media (max-width: 760px) {
+    #wedge-main { height: auto; min-height: 0; }
+    #wedge-viewport { height: 55dvh; grid-row: 1; }
+  }
+</style>
+<script defer src="vendor/three.min.js"></script>
+<script defer src="vendor/OrbitControls.js"></script>
+<script defer src="wedge-r01.js"></script>
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><img src="branding/roddy.svg" alt="RODDY" class="brand-logo"> <span class="divider">/</span> CYBER DISK</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">3D inspector</a>
+    <a href="wedge.html" aria-current="page">X16 wedge</a>
+    <a href="boards.html">Boards &amp; files</a>
+  </nav>
+</header>
+<main id="wedge-main">
+  <aside>
+    <h1>Commander X16 Wedge</h1>
+    <label>Case variant
+      <select id="wedge-variant">
+        <option value="drive">With Cyber Disk</option>
+        <option value="plain">No drive</option>
+      </select>
+    </label>
+    <div class="specs">
+      <span><b>480 × 420 mm</b> footprint</span>
+      <span><b>22–62 mm</b> front-to-rear height, excluding feet</span>
+      <span><b>5 / 3 mm</b> acrylic main / side panels</span>
+    </div>
+    <section>
+      <div class="section-title"><h2>Inspection views</h2></div>
+      <div class="view-grid">
+        <button type="button" data-camera="assembled">Assembled</button>
+        <button type="button" data-camera="inside">Lid off</button>
+        <button type="button" data-camera="side">Right side</button>
+        <button type="button" data-camera="rear">Rear I/O</button>
+      </div>
+      <div class="checks"><label><input id="wedge-lid" type="checkbox"> Hide rear lid</label></div>
+    </section>
+    <section>
+      <h2>First-pass fit model</h2>
+      <p>The X16 mounting pattern, rear I/O and 90° riser geometry are provisional. The FreeCAD file includes the fit notes and dimensions.</p>
+      <a class="download" id="wedge-file" href="downloads/wedge-r01/Commander-X16-Wedge-R01.FCStd" download>Download FreeCAD model</a>
+    </section>
+  </aside>
+  <div id="wedge-viewport" aria-label="Interactive 3D view of the wedge case">
+    <div id="wedge-status" role="status">Loading 3D model…</div>
+  </div>
+</main>
+</body>
+</html>
